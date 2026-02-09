@@ -1,0 +1,398 @@
+{
+  "election_year": 1993,
+  "polls": [
+    {
+      "date": "1990-10-27",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 35.14,
+        "National": 47.82,
+        "NewLabour": 5.16
+      }
+    },
+    {
+      "date": "1990-12-08",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 32.0,
+        "National": 50.0,
+        "NewLabour": 5.0
+      }
+    },
+    {
+      "date": "1991-02-02",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 38.0,
+        "National": 46.0,
+        "NewLabour": 4.0
+      }
+    },
+    {
+      "date": "1991-03-09",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 40.0,
+        "National": 43.0,
+        "NewLabour": 6.0
+      }
+    },
+    {
+      "date": "1991-04-06",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 42.0,
+        "National": 36.0,
+        "NewLabour": 6.0
+      }
+    },
+    {
+      "date": "1991-05-06",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 43.0,
+        "National": 39.0,
+        "NewLabour": 7.0
+      }
+    },
+    {
+      "date": "1991-06-08",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 42.0,
+        "National": 35.0,
+        "NewLabour": 7.0
+      }
+    },
+    {
+      "date": "1991-07-06",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 45.0,
+        "National": 37.0,
+        "NewLabour": 6.0
+      }
+    },
+    {
+      "date": "1991-08-03",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 43.0,
+        "National": 34.0,
+        "NewLabour": 9.0
+      }
+    },
+    {
+      "date": "1991-08-31",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 47.0,
+        "National": 27.0,
+        "NewLabour": 9.0
+      }
+    },
+    {
+      "date": "1991-09-21",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 42.0,
+        "National": 22.0,
+        "NewLabour": 11.0
+      }
+    },
+    {
+      "date": "1991-10-19",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 43.0,
+        "National": 30.0,
+        "NewLabour": 8.0
+      }
+    },
+    {
+      "date": "1991-11-23",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 41.0,
+        "National": 24.0,
+        "Alliance": 10.0,
+        "NewLabour": 9.0
+      }
+    },
+    {
+      "date": "1991-12-07",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 36.0,
+        "National": 26.0,
+        "Alliance": 21.0,
+        "NewLabour": 6.0
+      }
+    },
+    {
+      "date": "1992-02-01",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 38.0,
+        "National": 26.0,
+        "Alliance": 18.0,
+        "NewLabour": 5.0
+      }
+    },
+    {
+      "date": "1992-03-07",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 36.0,
+        "National": 32.0,
+        "Alliance": 16.0,
+        "NewLabour": 4.0
+      }
+    },
+    {
+      "date": "1992-04-04",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 39.0,
+        "National": 31.0,
+        "Alliance": 10.0,
+        "NewLabour": 4.0
+      }
+    },
+    {
+      "date": "1992-04-29",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 42.0,
+        "National": 34.0,
+        "Alliance": 10.0,
+        "NewLabour": 3.0
+      }
+    },
+    {
+      "date": "1992-06-06",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 42.0,
+        "National": 33.0,
+        "Alliance": 21.0
+      }
+    },
+    {
+      "date": "1992-07-03",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 37.0,
+        "National": 37.0,
+        "Alliance": 24.0
+      }
+    },
+    {
+      "date": "1992-08-08",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 41.0,
+        "National": 36.0,
+        "Alliance": 20.0
+      }
+    },
+    {
+      "date": "1992-09-05",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 39.0,
+        "National": 34.0,
+        "Alliance": 26.0
+      }
+    },
+    {
+      "date": "1992-10-03",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 42.0,
+        "National": 30.0,
+        "Alliance": 27.0
+      }
+    },
+    {
+      "date": "1992-11-07",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 40.0,
+        "National": 30.0,
+        "Alliance": 28.0
+      }
+    },
+    {
+      "date": "1992-12-05",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 36.0,
+        "National": 29.0,
+        "Alliance": 33.0
+      }
+    },
+    {
+      "date": "1993-02-06",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 43.0,
+        "National": 33.0,
+        "Alliance": 22.0
+      }
+    },
+    {
+      "date": "1993-03-06",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 46.0,
+        "National": 28.0,
+        "Alliance": 22.0
+      }
+    },
+    {
+      "date": "1993-04-03",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 48.0,
+        "National": 30.0,
+        "Alliance": 19.0
+      }
+    },
+    {
+      "date": "1993-05-01",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 45.0,
+        "National": 29.0,
+        "Alliance": 21.0
+      }
+    },
+    {
+      "date": "1993-05-29",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 40.0,
+        "National": 29.0,
+        "Alliance": 26.0
+      }
+    },
+    {
+      "date": "1993-07-03",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 35.0,
+        "National": 37.0,
+        "Alliance": 21.0
+      }
+    },
+    {
+      "date": "1993-07-19",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 33.0,
+        "National": 40.0,
+        "Alliance": 11.0,
+        "NZ First": 12.0
+      }
+    },
+    {
+      "date": "1993-08-08",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 33.0,
+        "National": 41.0,
+        "Alliance": 10.0,
+        "NZ First": 15.0
+      }
+    },
+    {
+      "date": "1993-09-04",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 36.0,
+        "National": 39.0,
+        "Alliance": 11.0,
+        "NZ First": 11.0
+      }
+    },
+    {
+      "date": "1993-10-02",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 37.0,
+        "National": 37.0,
+        "Alliance": 13.0,
+        "NZ First": 12.0
+      }
+    },
+    {
+      "date": "1993-10-17",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 34.0,
+        "National": 38.0,
+        "Alliance": 16.0,
+        "NZ First": 10.0
+      }
+    },
+    {
+      "date": "1993-10-31",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 32.0,
+        "National": 39.0,
+        "Alliance": 17.0,
+        "NZ First": 9.0
+      }
+    },
+    {
+      "date": "1993-11-06",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 34.68,
+        "National": 35.05,
+        "Alliance": 18.21,
+        "NZ First": 8.4
+      }
+    }
+  ]
+}

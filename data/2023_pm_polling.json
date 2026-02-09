@@ -1,0 +1,747 @@
+{
+  "election_year": 2023,
+  "polls": [
+    {
+      "date": "2023-10-10",
+      "pollster": "1 News–Verian",
+      "candidates": {
+        "Hipkins": 25.0,
+        "Luxon": 25.0,
+        "Seymour": 4.0,
+        "Peters": 5.0,
+        "Ardern": 0.5,
+        "Collins": 0.2
+      }
+    },
+    {
+      "date": "2023-10-10",
+      "pollster": "Newshub–Reid Research",
+      "candidates": {
+        "Hipkins": 22.2,
+        "Luxon": 23.6,
+        "Seymour": 4.2,
+        "Peters": 5.0,
+        "Ardern": 3.4
+      }
+    },
+    {
+      "date": "2023-10-04",
+      "pollster": "Taxpayers’ Union–Curia",
+      "candidates": {
+        "Hipkins": 27.0,
+        "Luxon": 29.0,
+        "Seymour": 4.0,
+        "Peters": 4.3,
+        "Ardern": 4.5
+      }
+    },
+    {
+      "date": "2023-10-03",
+      "pollster": "1 News–Verian",
+      "candidates": {
+        "Hipkins": 25.0,
+        "Luxon": 26.0,
+        "Seymour": 3.0,
+        "Peters": 4.0,
+        "Ardern": 0.4
+      }
+    },
+    {
+      "date": "2023-09-26",
+      "pollster": "1 News–Verian",
+      "candidates": {
+        "Hipkins": 23.0,
+        "Luxon": 23.0,
+        "Seymour": 5.0,
+        "Peters": 4.0,
+        "Ardern": 1.0
+      }
+    },
+    {
+      "date": "2023-09-23",
+      "pollster": "Newshub–Reid Research",
+      "candidates": {
+        "Hipkins": 19.1,
+        "Luxon": 24.0,
+        "Seymour": 6.1,
+        "Peters": 6.0,
+        "Ardern": 4.1
+      }
+    },
+    {
+      "date": "2023-09-19",
+      "pollster": "1 News–Verian",
+      "candidates": {
+        "Hipkins": 23.0,
+        "Luxon": 23.0,
+        "Seymour": 5.0,
+        "Peters": 4.0,
+        "Ardern": 1.0,
+        "Collins": 0.2
+      }
+    },
+    {
+      "date": "2023-09-12",
+      "pollster": "1 News–Verian",
+      "candidates": {
+        "Hipkins": 23.0,
+        "Luxon": 23.0,
+        "Seymour": 5.0,
+        "Peters": 4.0,
+        "Ardern": 1.0,
+        "Collins": 0.1
+      }
+    },
+    {
+      "date": "2023-09-09",
+      "pollster": "Newshub–Reid Research",
+      "candidates": {
+        "Hipkins": 22.5,
+        "Luxon": 22.5,
+        "Seymour": 7.0,
+        "Peters": 4.6
+      }
+    },
+    {
+      "date": "2023-08-30",
+      "pollster": "The Post–Freshwater Strategy",
+      "candidates": {
+        "Hipkins": 45.0,
+        "Luxon": 43.0
+      }
+    },
+    {
+      "date": "2023-08-30",
+      "pollster": "Talbot Mills",
+      "candidates": {
+        "Hipkins": 28.0,
+        "Luxon": 26.0,
+        "Seymour": 11.0
+      }
+    },
+    {
+      "date": "2023-08-16",
+      "pollster": "1 News–Verian",
+      "candidates": {
+        "Hipkins": 21.0,
+        "Luxon": 20.0,
+        "Seymour": 6.0,
+        "Peters": 3.0,
+        "Ardern": 2.0,
+        "Collins": 0.2
+      }
+    },
+    {
+      "date": "2023-08-08",
+      "pollster": "Taxpayers' Union–Curia",
+      "candidates": {
+        "Hipkins": 25.0,
+        "Luxon": 25.0,
+        "Seymour": 7.0,
+        "Peters": 7.0
+      }
+    },
+    {
+      "date": "2023-08-07",
+      "pollster": "Talbot Mills",
+      "candidates": {
+        "Hipkins": 34.0,
+        "Luxon": 24.0
+      }
+    },
+    {
+      "date": "2023-07-31",
+      "pollster": "Newshub–Reid Research",
+      "candidates": {
+        "Hipkins": 24.0,
+        "Luxon": 15.9,
+        "Seymour": 10.9,
+        "Peters": 4.3
+      }
+    },
+    {
+      "date": "2023-07-12",
+      "pollster": "1 News–Verian",
+      "candidates": {
+        "Hipkins": 24.0,
+        "Luxon": 20.0,
+        "Seymour": 7.0,
+        "Peters": 2.0,
+        "Ardern": 1.0
+      }
+    },
+    {
+      "date": "2023-07-10",
+      "pollster": "Taxpayers' Union–Curia",
+      "candidates": {
+        "Hipkins": 23.0,
+        "Luxon": 20.0,
+        "Seymour": 6.0,
+        "Peters": 3.6,
+        "Ardern": 8.0
+      }
+    },
+    {
+      "date": "2023-07-02",
+      "pollster": "Talbot Mills",
+      "candidates": {
+        "Hipkins": 32.0,
+        "Luxon": 21.0
+      }
+    },
+    {
+      "date": "2023-06-06",
+      "pollster": "Taxpayers' Union Curia",
+      "candidates": {
+        "Hipkins": 29.0,
+        "Luxon": 23.0,
+        "Seymour": 7.0,
+        "Peters": 2.8,
+        "Ardern": 9.0
+      }
+    },
+    {
+      "date": "2023-05-24",
+      "pollster": "1 News–Kantar Public",
+      "candidates": {
+        "Hipkins": 25.0,
+        "Luxon": 18.0,
+        "Seymour": 7.0,
+        "Peters": 2.0,
+        "Ardern": 1.0,
+        "Collins": 0.1
+      }
+    },
+    {
+      "date": "2023-05-11",
+      "pollster": "Newshub–Reid Research",
+      "candidates": {
+        "Hipkins": 23.4,
+        "Luxon": 16.4,
+        "Seymour": 7.5,
+        "Peters": 3.6,
+        "Ardern": 8.5
+      }
+    },
+    {
+      "date": "2023-05-03",
+      "pollster": "Talbot Mills",
+      "candidates": {
+        "Hipkins": 32.0,
+        "Luxon": 25.0
+      }
+    },
+    {
+      "date": "2023-04-05",
+      "pollster": "Talbot Mills",
+      "candidates": {
+        "Hipkins": 36.0,
+        "Luxon": 24.0,
+        "Seymour": 11.0
+      }
+    },
+    {
+      "date": "2023-03-09",
+      "pollster": "Talbot Mills",
+      "candidates": {
+        "Hipkins": 39.0,
+        "Luxon": 23.0
+      }
+    },
+    {
+      "date": "2023-03-08",
+      "pollster": "1 News–Kantar Public",
+      "candidates": {
+        "Hipkins": 27.0,
+        "Luxon": 17.0,
+        "Seymour": 6.0,
+        "Peters": 3.0,
+        "Ardern": 2.0,
+        "Collins": 0.2
+      }
+    },
+    {
+      "date": "2023-03-07",
+      "pollster": "Taxpayers' Union–Curia",
+      "candidates": {
+        "Hipkins": 30.0,
+        "Luxon": 21.0,
+        "Seymour": 8.0,
+        "Ardern": 7.0
+      }
+    },
+    {
+      "date": "2023-02-09",
+      "pollster": "Taxpayers' Union–Curia",
+      "candidates": {
+        "Hipkins": 30.0,
+        "Luxon": 26.0,
+        "Seymour": 8.0,
+        "Peters": 3.5,
+        "Ardern": 9.0
+      }
+    },
+    {
+      "date": "2023-01-31",
+      "pollster": "Talbot Mills",
+      "candidates": {
+        "Hipkins": 35.0,
+        "Luxon": 27.0,
+        "Seymour": 9.0
+      }
+    },
+    {
+      "date": "2023-01-29",
+      "pollster": "1 News–Kantar Public",
+      "candidates": {
+        "Hipkins": 23.0,
+        "Luxon": 22.0,
+        "Seymour": 6.0,
+        "Peters": 2.0,
+        "Ardern": 5.0,
+        "Collins": 0.3
+      }
+    },
+    {
+      "date": "2023-01-27",
+      "pollster": "Newshub–Reid Research",
+      "candidates": {
+        "Hipkins": 19.6,
+        "Luxon": 18.8,
+        "Seymour": 8.0,
+        "Peters": 2.9,
+        "Ardern": 12.4
+      }
+    },
+    {
+      "date": "2022-12-06",
+      "pollster": "Taxpayers' Union–Curia",
+      "candidates": {
+        "Luxon": 26.3,
+        "Seymour": 7.1,
+        "Peters": 3.4,
+        "Ardern": 35.3
+      }
+    },
+    {
+      "date": "2022-11-30",
+      "pollster": "1 News–Kantar Public",
+      "candidates": {
+        "Hipkins": 0.2,
+        "Luxon": 23.0,
+        "Seymour": 6.0,
+        "Peters": 2.0,
+        "Ardern": 29.0,
+        "Collins": 0.1
+      }
+    },
+    {
+      "date": "2022-11-08",
+      "pollster": "Taxpayers' Union–Curia",
+      "candidates": {
+        "Luxon": 21.1,
+        "Seymour": 6.1,
+        "Peters": 2.5,
+        "Ardern": 35.0
+      }
+    },
+    {
+      "date": "2022-11-07",
+      "pollster": "Talbot Mills",
+      "candidates": {
+        "Luxon": 24.0,
+        "Ardern": 40.0
+      }
+    },
+    {
+      "date": "2022-11-03",
+      "pollster": "Newshub–Reid Research",
+      "candidates": {
+        "Luxon": 21.5,
+        "Seymour": 7.3,
+        "Peters": 4.2,
+        "Ardern": 29.9
+      }
+    },
+    {
+      "date": "2022-10-11",
+      "pollster": "Taxpayers' Union–Curia",
+      "candidates": {
+        "Luxon": 22.5,
+        "Seymour": 7.3,
+        "Peters": 3.6,
+        "Ardern": 32.9
+      }
+    },
+    {
+      "date": "2022-09-21",
+      "pollster": "1 News–Kantar Public",
+      "candidates": {
+        "Hipkins": 0.2,
+        "Luxon": 21.0,
+        "Seymour": 4.0,
+        "Peters": 2.0,
+        "Ardern": 30.0,
+        "Collins": 0.1
+      }
+    },
+    {
+      "date": "2022-09-09",
+      "pollster": "Taxpayers' Union–Curia",
+      "candidates": {
+        "Luxon": 25.9,
+        "Seymour": 6.6,
+        "Peters": 2.6,
+        "Ardern": 36.5
+      }
+    },
+    {
+      "date": "2022-09-07",
+      "pollster": "Talbot Mills",
+      "candidates": {
+        "Luxon": 26.0,
+        "Ardern": 38.0
+      }
+    },
+    {
+      "date": "2022-08-11",
+      "pollster": "Taxpayers' Union–Curia",
+      "candidates": {
+        "Luxon": 19.5,
+        "Seymour": 7.7,
+        "Peters": 4.2,
+        "Ardern": 39.5
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "pollster": "Talbot Mills",
+      "candidates": {
+        "Luxon": 26.0,
+        "Seymour": 9.0,
+        "Ardern": 39.0
+      }
+    },
+    {
+      "date": "2022-08-03",
+      "pollster": "1 News–Kantar Public",
+      "candidates": {
+        "Hipkins": 0.2,
+        "Luxon": 22.0,
+        "Seymour": 5.0,
+        "Peters": 2.0,
+        "Ardern": 30.0,
+        "Collins": 0.2
+      }
+    },
+    {
+      "date": "2022-07-10",
+      "pollster": "Taxpayers' Union–Curia",
+      "candidates": {
+        "Luxon": 22.4,
+        "Seymour": 6.1,
+        "Peters": 2.3,
+        "Ardern": 41.2
+      }
+    },
+    {
+      "date": "2022-06-12",
+      "pollster": "Taxpayers' Union–Curia",
+      "candidates": {
+        "Luxon": 28.0,
+        "Seymour": 5.6,
+        "Peters": 3.8,
+        "Ardern": 39.7
+      }
+    },
+    {
+      "date": "2022-06-10",
+      "pollster": "Talbot Mills",
+      "candidates": {
+        "Luxon": 29.0,
+        "Seymour": 8.0,
+        "Ardern": 42.0
+      }
+    },
+    {
+      "date": "2022-05-25",
+      "pollster": "1 News–Kantar Public",
+      "candidates": {
+        "Luxon": 25.0,
+        "Seymour": 3.0,
+        "Peters": 1.0,
+        "Ardern": 33.0,
+        "Collins": 0.1
+      }
+    },
+    {
+      "date": "2022-05-11",
+      "pollster": "Taxpayers' Union–Curia",
+      "candidates": {
+        "Luxon": 27.9,
+        "Ardern": 35.1
+      }
+    },
+    {
+      "date": "2022-04-27",
+      "pollster": "Newshub–Reid Research",
+      "candidates": {
+        "Luxon": 23.9,
+        "Seymour": 5.1,
+        "Ardern": 36.3
+      }
+    },
+    {
+      "date": "2022-04-13",
+      "pollster": "Taxpayers' Union–Curia",
+      "candidates": {
+        "Luxon": 28.6,
+        "Seymour": 4.8,
+        "Peters": 2.6,
+        "Ardern": 36.3
+      }
+    },
+    {
+      "date": "2022-03-15",
+      "pollster": "Taxpayers' Union–Curia",
+      "candidates": {
+        "Luxon": 26.6,
+        "Seymour": 4.4,
+        "Peters": 5.5,
+        "Ardern": 38.7
+      }
+    },
+    {
+      "date": "2022-03-08",
+      "pollster": "1 News–Kantar Public",
+      "candidates": {
+        "Hipkins": 0.3,
+        "Luxon": 25.0,
+        "Seymour": 5.0,
+        "Peters": 2.0,
+        "Ardern": 34.0,
+        "Collins": 0.3
+      }
+    },
+    {
+      "date": "2022-02-10",
+      "pollster": "Taxpayers' Union–Curia",
+      "candidates": {
+        "Luxon": 28.5,
+        "Seymour": 2.4,
+        "Peters": 1.8,
+        "Ardern": 38.9,
+        "Collins": 1.5
+      }
+    },
+    {
+      "date": "2022-02-04",
+      "pollster": "Newshub–Reid Research",
+      "candidates": {
+        "Luxon": 17.8,
+        "Seymour": 7.9,
+        "Ardern": 43.3
+      }
+    },
+    {
+      "date": "2022-01-26",
+      "pollster": "1 News–Kantar Public",
+      "candidates": {
+        "Hipkins": 0.1,
+        "Luxon": 17.0,
+        "Seymour": 6.0,
+        "Peters": 1.0,
+        "Ardern": 35.0,
+        "Collins": 0.2
+      }
+    },
+    {
+      "date": "2022-01-17",
+      "pollster": "Taxpayers' Union–Curia",
+      "candidates": {
+        "Luxon": 18.4,
+        "Seymour": 8.4,
+        "Peters": 0.9,
+        "Ardern": 37.5,
+        "Collins": 3.8
+      }
+    },
+    {
+      "date": "2021-12-08",
+      "pollster": "Taxpayers' Union–Curia",
+      "candidates": {
+        "Luxon": 20.4,
+        "Seymour": 5.6,
+        "Peters": 2.4,
+        "Ardern": 39.1,
+        "Collins": 0.8
+      }
+    },
+    {
+      "date": "2021-11-17",
+      "pollster": "Newshub–Reid Research",
+      "candidates": {
+        "Luxon": 2.5,
+        "Seymour": 11.9,
+        "Ardern": 41.7,
+        "Collins": 6.1
+      }
+    },
+    {
+      "date": "2021-11-10",
+      "pollster": "1 News–Kantar Public",
+      "candidates": {
+        "Luxon": 4.0,
+        "Seymour": 11.0,
+        "Peters": 1.0,
+        "Ardern": 39.0,
+        "Collins": 5.0
+      }
+    },
+    {
+      "date": "2021-11-08",
+      "pollster": "Taxpayers' Union–Curia",
+      "candidates": {
+        "Luxon": 4.1,
+        "Seymour": 10.5,
+        "Peters": 1.5,
+        "Ardern": 34.0,
+        "Collins": 6.3
+      }
+    },
+    {
+      "date": "2021-11-03",
+      "pollster": "Talbot Mills",
+      "candidates": {
+        "Luxon": 2.0,
+        "Seymour": 15.0,
+        "Ardern": 47.0,
+        "Collins": 10.0
+      }
+    },
+    {
+      "date": "2021-10-11",
+      "pollster": "Taxpayers' Union–Curia",
+      "candidates": {
+        "Luxon": 2.3,
+        "Seymour": 12.3,
+        "Peters": 1.3,
+        "Ardern": 47.2,
+        "Collins": 5.2
+      }
+    },
+    {
+      "date": "2021-10-05",
+      "pollster": "Talbot Mills",
+      "candidates": {
+        "Seymour": 16.0,
+        "Ardern": 51.0,
+        "Collins": 9.0
+      }
+    },
+    {
+      "date": "2021-09-26",
+      "pollster": "1 News–Kantar Public",
+      "candidates": {
+        "Hipkins": 0.1,
+        "Luxon": 3.0,
+        "Seymour": 11.0,
+        "Peters": 0.7,
+        "Ardern": 44.0,
+        "Collins": 5.0
+      }
+    },
+    {
+      "date": "2021-09-09",
+      "pollster": "Taxpayers' Union–Curia",
+      "candidates": {
+        "Luxon": 3.3,
+        "Seymour": 9.3,
+        "Peters": 1.5,
+        "Ardern": 50.8,
+        "Collins": 4.4
+      }
+    },
+    {
+      "date": "2021-09-06",
+      "pollster": "Talbot Mills",
+      "candidates": {
+        "Luxon": 1.3,
+        "Seymour": 14.0,
+        "Ardern": 55.0,
+        "Collins": 13.0
+      }
+    },
+    {
+      "date": "2021-08-01",
+      "pollster": "Talbot Mills",
+      "candidates": {
+        "Luxon": 2.1,
+        "Seymour": 14.0,
+        "Ardern": 50.0,
+        "Collins": 11.0
+      }
+    },
+    {
+      "date": "2021-07-29",
+      "pollster": "Newshub–Reid Research",
+      "candidates": {
+        "Seymour": 8.6,
+        "Ardern": 45.5,
+        "Collins": 8.2
+      }
+    },
+    {
+      "date": "2021-07-01",
+      "pollster": "Talbot Mills",
+      "candidates": {
+        "Seymour": 12.0,
+        "Ardern": 55.0,
+        "Collins": 10.0
+      }
+    },
+    {
+      "date": "2021-05-26",
+      "pollster": "1 News–Kantar Public",
+      "candidates": {
+        "Luxon": 3.0,
+        "Seymour": 6.0,
+        "Peters": 1.0,
+        "Ardern": 48.0,
+        "Collins": 9.0
+      }
+    },
+    {
+      "date": "2021-05-13",
+      "pollster": "Newshub–Reid Research",
+      "candidates": {
+        "Luxon": 2.4,
+        "Ardern": 48.1,
+        "Collins": 5.6
+      }
+    },
+    {
+      "date": "2021-03-13",
+      "pollster": "1 News–Kantar Public",
+      "candidates": {
+        "Luxon": 2.0,
+        "Seymour": 4.0,
+        "Peters": 0.7,
+        "Ardern": 43.0,
+        "Collins": 8.0
+      }
+    },
+    {
+      "date": "2020-12-02",
+      "pollster": "1 News–Kantar Public",
+      "candidates": {
+        "Hipkins": 0.3,
+        "Luxon": 2.0,
+        "Seymour": 4.0,
+        "Peters": 1.0,
+        "Ardern": 58.0,
+        "Collins": 12.0
+      }
+    }
+  ]
+}

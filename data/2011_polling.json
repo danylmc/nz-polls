@@ -1,0 +1,1887 @@
+{
+  "election_year": 2011,
+  "polls": [
+    {
+      "date": "2008-11-08",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 44.93,
+        "Labour": 33.99,
+        "Green": 6.72,
+        "ACT": 3.65,
+        "Te Pāti Māori": 2.39,
+        "Progressive": 0.91,
+        "United Future": 0.87,
+        "NZ First": 4.07
+      }
+    },
+    {
+      "date": "2008-11-30",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 44.0,
+        "Labour": 32.5,
+        "Green": 9.5,
+        "ACT": 4.0,
+        "Te Pāti Māori": 3.5,
+        "Progressive": 0.5,
+        "United Future": 1.0,
+        "NZ First": 3.5
+      }
+    },
+    {
+      "date": "2008-12-14",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 47.0,
+        "Labour": 31.5,
+        "Green": 9.5,
+        "ACT": 4.0,
+        "Te Pāti Māori": 2.0,
+        "Progressive": 0.5,
+        "United Future": 1.0,
+        "NZ First": 3.0
+      }
+    },
+    {
+      "date": "2009-01-18",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 48.0,
+        "Labour": 33.0,
+        "Green": 8.0,
+        "ACT": 3.0,
+        "Te Pāti Māori": 3.5,
+        "Progressive": 0.5,
+        "United Future": 1.0,
+        "NZ First": 2.5
+      }
+    },
+    {
+      "date": "2009-02-01",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 48.0,
+        "Labour": 31.0,
+        "Green": 9.0,
+        "ACT": 3.5,
+        "Te Pāti Māori": 3.5,
+        "Progressive": 0.5,
+        "United Future": 1.0,
+        "NZ First": 3.0
+      }
+    },
+    {
+      "date": "2009-02-15",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 48.5,
+        "Labour": 32.0,
+        "Green": 8.5,
+        "ACT": 2.5,
+        "Te Pāti Māori": 3.5,
+        "Progressive": 0.5,
+        "United Future": 1.0,
+        "NZ First": 1.5
+      }
+    },
+    {
+      "date": "2009-02-19",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 57.0,
+        "Labour": 31.0,
+        "Green": 7.0,
+        "ACT": 2.0,
+        "Te Pāti Māori": 2.0,
+        "NZ First": 1.0
+      }
+    },
+    {
+      "date": "2009-02-18",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 60.0,
+        "Labour": 27.0,
+        "Green": 7.0,
+        "ACT": 1.2,
+        "Te Pāti Māori": 2.1,
+        "United Future": 0.2,
+        "NZ First": 1.6
+      }
+    },
+    {
+      "date": "2009-03-01",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 56.0,
+        "Labour": 26.0,
+        "Green": 8.5,
+        "ACT": 1.5,
+        "Te Pāti Māori": 3.5,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 2.5
+      }
+    },
+    {
+      "date": "2009-03-15",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 54.5,
+        "Labour": 29.0,
+        "Green": 8.0,
+        "ACT": 2.5,
+        "Te Pāti Māori": 2.0,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 2.0
+      }
+    },
+    {
+      "date": "2009-04-01",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 56.0,
+        "Labour": 28.0,
+        "Green": 6.0,
+        "ACT": 3.0,
+        "Te Pāti Māori": 3.0,
+        "NZ First": 1.0
+      }
+    },
+    {
+      "date": "2009-04-05",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 50.5,
+        "Labour": 28.0,
+        "Green": 9.5,
+        "ACT": 4.0,
+        "Te Pāti Māori": 3.5,
+        "Progressive": 1.0,
+        "United Future": 0.5,
+        "NZ First": 2.5
+      }
+    },
+    {
+      "date": "2009-04-05",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 57.0,
+        "Labour": 31.0,
+        "Green": 7.0,
+        "ACT": 2.0,
+        "Te Pāti Māori": 2.0
+      }
+    },
+    {
+      "date": "2009-04-19",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 50.0,
+        "Labour": 32.5,
+        "Green": 8.5,
+        "ACT": 2.5,
+        "Te Pāti Māori": 3.5,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 2.0
+      }
+    },
+    {
+      "date": "2009-05-03",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 55.0,
+        "Labour": 30.5,
+        "Green": 7.0,
+        "ACT": 2.0,
+        "Te Pāti Māori": 2.0,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 2.0
+      }
+    },
+    {
+      "date": "2009-05-17",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 52.0,
+        "Labour": 31.5,
+        "Green": 9.5,
+        "ACT": 2.0,
+        "Te Pāti Māori": 2.5,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 1.0
+      }
+    },
+    {
+      "date": "2009-05-31",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 52.0,
+        "Labour": 31.0,
+        "Green": 8.5,
+        "ACT": 2.0,
+        "Te Pāti Māori": 2.0,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 1.0
+      }
+    },
+    {
+      "date": "2009-06-14",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 52.0,
+        "Labour": 33.0,
+        "Green": 7.5,
+        "ACT": 2.5,
+        "Te Pāti Māori": 2.5,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 1.0
+      }
+    },
+    {
+      "date": "2009-07-05",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 54.0,
+        "Labour": 31.5,
+        "Green": 8.0,
+        "ACT": 1.0,
+        "Te Pāti Māori": 3.0,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 1.0
+      }
+    },
+    {
+      "date": "2009-07-19",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 52.0,
+        "Labour": 30.0,
+        "Green": 10.0,
+        "ACT": 1.0,
+        "Te Pāti Māori": 3.5,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 2.0
+      }
+    },
+    {
+      "date": "2009-07-29",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 56.0,
+        "Labour": 31.0,
+        "Green": 7.0,
+        "ACT": 1.0,
+        "Te Pāti Māori": 3.1
+      }
+    },
+    {
+      "date": "2009-08-02",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 53.5,
+        "Labour": 34.0,
+        "Green": 7.0,
+        "ACT": 2.5,
+        "Te Pāti Māori": 1.5,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 1.0
+      }
+    },
+    {
+      "date": "2009-08-16",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 53.5,
+        "Labour": 32.5,
+        "Green": 8.5,
+        "ACT": 1.0,
+        "Te Pāti Māori": 2.0,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 2.0
+      }
+    },
+    {
+      "date": "2009-08-30",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 56.5,
+        "Labour": 29.5,
+        "Green": 8.0,
+        "ACT": 1.5,
+        "Te Pāti Māori": 1.5,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 1.5
+      }
+    },
+    {
+      "date": "2009-09-13",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 51.5,
+        "Labour": 33.0,
+        "Green": 7.5,
+        "ACT": 2.0,
+        "Te Pāti Māori": 2.5,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 2.5
+      }
+    },
+    {
+      "date": "2009-09-24",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 54.0,
+        "Labour": 33.0,
+        "Green": 4.0,
+        "ACT": 3.0,
+        "Te Pāti Māori": 3.0,
+        "NZ First": 2.0
+      }
+    },
+    {
+      "date": "2009-10-04",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 57.5,
+        "Labour": 28.0,
+        "Green": 6.5,
+        "ACT": 1.5,
+        "Te Pāti Māori": 2.5,
+        "Progressive": 1.0,
+        "United Future": 0.5,
+        "NZ First": 2.0
+      }
+    },
+    {
+      "date": "2009-10-18",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 59.9,
+        "Labour": 27.2,
+        "Green": 6.9,
+        "ACT": 1.7,
+        "Te Pāti Māori": 2.4,
+        "NZ First": 1.0
+      }
+    },
+    {
+      "date": "2009-10-18",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 53.0,
+        "Labour": 30.0,
+        "Green": 7.5,
+        "ACT": 2.5,
+        "Te Pāti Māori": 3.0,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 2.5
+      }
+    },
+    {
+      "date": "2009-11-01",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 55.5,
+        "Labour": 29.0,
+        "Green": 7.5,
+        "ACT": 1.0,
+        "Te Pāti Māori": 3.5,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 1.5
+      }
+    },
+    {
+      "date": "2009-11-15",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 51.5,
+        "Labour": 33.0,
+        "Green": 6.5,
+        "ACT": 2.5,
+        "Te Pāti Māori": 2.0,
+        "Progressive": 1.0,
+        "United Future": 0.5,
+        "NZ First": 2.5
+      }
+    },
+    {
+      "date": "2009-11-25",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 53.0,
+        "Labour": 31.0,
+        "Green": 7.0,
+        "ACT": 2.0,
+        "Te Pāti Māori": 3.0,
+        "NZ First": 1.0
+      }
+    },
+    {
+      "date": "2009-11-29",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 53.5,
+        "Labour": 30.5,
+        "Green": 7.0,
+        "ACT": 1.5,
+        "Te Pāti Māori": 3.5,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 2.5
+      }
+    },
+    {
+      "date": "2009-12-13",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 55.2,
+        "Labour": 30.8,
+        "Green": 7.8,
+        "ACT": 1.8,
+        "Te Pāti Māori": 1.7,
+        "United Future": 0.1,
+        "NZ First": 1.5
+      }
+    },
+    {
+      "date": "2009-12-13",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 54.0,
+        "Labour": 27.5,
+        "Green": 9.5,
+        "ACT": 1.5,
+        "Te Pāti Māori": 1.5,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 4.0
+      }
+    },
+    {
+      "date": "2010-01-17",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 53.0,
+        "Labour": 30.0,
+        "Green": 8.0,
+        "ACT": 2.0,
+        "Te Pāti Māori": 2.5,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 2.5
+      }
+    },
+    {
+      "date": "2010-01-31",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 52.0,
+        "Labour": 32.0,
+        "Green": 6.0,
+        "ACT": 2.0,
+        "Te Pāti Māori": 3.0,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 3.5
+      }
+    },
+    {
+      "date": "2010-02-10",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 56.0,
+        "Labour": 34.0,
+        "Green": 4.6,
+        "ACT": 1.0,
+        "Te Pāti Māori": 2.8,
+        "Progressive": 1.0,
+        "United Future": 1.0,
+        "NZ First": 1.7
+      }
+    },
+    {
+      "date": "2010-02-14",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 52.0,
+        "Labour": 33.0,
+        "Green": 8.0,
+        "ACT": 1.5,
+        "Te Pāti Māori": 2.5,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 2.0
+      }
+    },
+    {
+      "date": "2010-02-16",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 56.3,
+        "Labour": 29.6,
+        "Green": 7.3,
+        "ACT": 1.6,
+        "Te Pāti Māori": 2.4,
+        "Progressive": 0.2,
+        "United Future": 0.2,
+        "NZ First": 1.5
+      }
+    },
+    {
+      "date": "2010-02-17",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 54.0,
+        "Labour": 34.0,
+        "Green": 5.0,
+        "ACT": 2.0,
+        "Te Pāti Māori": 2.0,
+        "NZ First": 2.0
+      }
+    },
+    {
+      "date": "2010-02-28",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 53.5,
+        "Labour": 31.5,
+        "Green": 8.0,
+        "ACT": 1.5,
+        "Te Pāti Māori": 2.5,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 2.0
+      }
+    },
+    {
+      "date": "2010-03-14",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 51.5,
+        "Labour": 33.5,
+        "Green": 6.5,
+        "ACT": 2.5,
+        "Te Pāti Māori": 2.0,
+        "Progressive": 1.0,
+        "United Future": 0.5,
+        "NZ First": 2.0
+      }
+    },
+    {
+      "date": "2010-04-04",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 49.0,
+        "Labour": 33.0,
+        "Green": 7.5,
+        "ACT": 2.0,
+        "Te Pāti Māori": 3.0,
+        "Progressive": 0.5,
+        "United Future": 1.0,
+        "NZ First": 3.0
+      }
+    },
+    {
+      "date": "2010-04-14",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 54.0,
+        "Labour": 33.0,
+        "Green": 5.0,
+        "ACT": 2.0,
+        "Te Pāti Māori": 2.0
+      }
+    },
+    {
+      "date": "2010-04-25",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 52.1,
+        "Labour": 33.8,
+        "Green": 8.2,
+        "ACT": 1.6,
+        "Te Pāti Māori": 1.9,
+        "United Future": 0.5,
+        "NZ First": 1.5
+      }
+    },
+    {
+      "date": "2010-04-18",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 49.5,
+        "Labour": 34.0,
+        "Green": 7.5,
+        "ACT": 1.0,
+        "Te Pāti Māori": 4.0,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 2.5
+      }
+    },
+    {
+      "date": "2010-05-16",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 48.5,
+        "Labour": 33.5,
+        "Green": 9.0,
+        "ACT": 2.5,
+        "Te Pāti Māori": 2.5,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 3.0
+      }
+    },
+    {
+      "date": "2010-05-30",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 52.5,
+        "Labour": 30.0,
+        "Green": 9.5,
+        "ACT": 1.0,
+        "Te Pāti Māori": 3.5,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 2.5
+      }
+    },
+    {
+      "date": "2010-05-30",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 49.0,
+        "Labour": 33.0,
+        "Green": 7.0,
+        "ACT": 1.6,
+        "Te Pāti Māori": 3.6
+      }
+    },
+    {
+      "date": "2010-06-13",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 50.5,
+        "Labour": 33.0,
+        "Green": 9.5,
+        "ACT": 1.0,
+        "Te Pāti Māori": 3.0,
+        "Progressive": 0.5,
+        "United Future": 1.0,
+        "NZ First": 1.5
+      }
+    },
+    {
+      "date": "2010-07-04",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 53.0,
+        "Labour": 29.0,
+        "Green": 8.5,
+        "ACT": 2.0,
+        "Te Pāti Māori": 3.0,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 3.0
+      }
+    },
+    {
+      "date": "2010-07-18",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 49.0,
+        "Labour": 31.5,
+        "Green": 9.0,
+        "ACT": 2.0,
+        "Te Pāti Māori": 3.0,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 4.5
+      }
+    },
+    {
+      "date": "2010-08-01",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 51.0,
+        "Labour": 33.5,
+        "Green": 6.5,
+        "ACT": 2.0,
+        "Te Pāti Māori": 3.5,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 2.0
+      }
+    },
+    {
+      "date": "2010-08-08",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 49.0,
+        "Labour": 35.0,
+        "Green": 7.0,
+        "ACT": 2.7,
+        "Te Pāti Māori": 2.3,
+        "NZ First": 2.3
+      }
+    },
+    {
+      "date": "2010-08-08",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 54.5,
+        "Labour": 30.6,
+        "Green": 8.5,
+        "ACT": 2.2,
+        "Te Pāti Māori": 1.5,
+        "United Future": 0.2,
+        "NZ First": 1.5
+      }
+    },
+    {
+      "date": "2010-08-15",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 50.0,
+        "Labour": 33.5,
+        "Green": 7.5,
+        "ACT": 1.5,
+        "Te Pāti Māori": 3.0,
+        "United Future": 0.5,
+        "NZ First": 3.5
+      }
+    },
+    {
+      "date": "2010-08-29",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 49.5,
+        "Labour": 32.5,
+        "Green": 8.5,
+        "ACT": 1.0,
+        "Te Pāti Māori": 3.0,
+        "United Future": 1.0,
+        "NZ First": 3.5
+      }
+    },
+    {
+      "date": "2010-09-12",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 48.5,
+        "Labour": 34.0,
+        "Green": 8.0,
+        "ACT": 2.0,
+        "Te Pāti Māori": 1.5,
+        "Progressive": 0.5,
+        "United Future": 1.0,
+        "NZ First": 4.5
+      }
+    },
+    {
+      "date": "2010-10-03",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 49.5,
+        "Labour": 36.5,
+        "Green": 8.0,
+        "ACT": 0.5,
+        "Te Pāti Māori": 2.5,
+        "NZ First": 2.5
+      }
+    },
+    {
+      "date": "2010-09-26",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 54.0,
+        "Labour": 32.0,
+        "Green": 8.0,
+        "ACT": 1.1,
+        "Te Pāti Māori": 2.3,
+        "NZ First": 2.4
+      }
+    },
+    {
+      "date": "2010-10-17",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 52.5,
+        "Labour": 33.0,
+        "Green": 8.5,
+        "ACT": 0.5,
+        "Te Pāti Māori": 1.5,
+        "United Future": 0.5,
+        "NZ First": 2.5
+      }
+    },
+    {
+      "date": "2010-10-11",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 53.8,
+        "Labour": 32.6,
+        "Green": 7.6,
+        "ACT": 0.9,
+        "Te Pāti Māori": 2.4,
+        "United Future": 0.3,
+        "NZ First": 1.2
+      }
+    },
+    {
+      "date": "2010-10-31",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 50.5,
+        "Labour": 33.0,
+        "Green": 8.5,
+        "ACT": 1.5,
+        "Te Pāti Māori": 3.0,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 2.5
+      }
+    },
+    {
+      "date": "2010-11-14",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 50.0,
+        "Labour": 32.5,
+        "Green": 9.0,
+        "ACT": 1.0,
+        "Te Pāti Māori": 2.5,
+        "United Future": 0.5,
+        "NZ First": 3.0
+      }
+    },
+    {
+      "date": "2010-11-28",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 51.0,
+        "Labour": 33.0,
+        "Green": 7.0,
+        "ACT": 1.0,
+        "Te Pāti Māori": 3.0,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 3.0
+      }
+    },
+    {
+      "date": "2010-12-12",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 48.5,
+        "Labour": 35.0,
+        "Green": 7.0,
+        "ACT": 1.5,
+        "Te Pāti Māori": 2.5,
+        "Progressive": 0.5,
+        "United Future": 1.0,
+        "NZ First": 3.0
+      }
+    },
+    {
+      "date": "2010-12-13",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 55.5,
+        "Labour": 31.2,
+        "Green": 7.3,
+        "ACT": 1.3,
+        "Te Pāti Māori": 1.7,
+        "United Future": 0.1,
+        "NZ First": 1.9
+      }
+    },
+    {
+      "date": "2010-12-19",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 55.0,
+        "Labour": 33.0,
+        "Green": 4.5,
+        "ACT": 0.9,
+        "Te Pāti Māori": 2.2,
+        "NZ First": 3.1
+      }
+    },
+    {
+      "date": "2010-12-30",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 52.4,
+        "Labour": 37.2,
+        "Green": 5.3,
+        "ACT": 0.9,
+        "Te Pāti Māori": 1.2,
+        "NZ First": 2.5
+      }
+    },
+    {
+      "date": "2011-01-16",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 55.0,
+        "Labour": 29.0,
+        "Green": 7.0,
+        "ACT": 1.5,
+        "Te Pāti Māori": 2.5,
+        "United Future": 0.5,
+        "NZ First": 4.5
+      }
+    },
+    {
+      "date": "2011-01-30",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 49.0,
+        "Labour": 34.5,
+        "Green": 6.5,
+        "ACT": 1.0,
+        "Te Pāti Māori": 3.0,
+        "NZ First": 5.5
+      }
+    },
+    {
+      "date": "2011-02-13",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 52.5,
+        "Labour": 33.5,
+        "Green": 8.5,
+        "ACT": 0.5,
+        "Te Pāti Māori": 1.5,
+        "United Future": 0.5,
+        "NZ First": 2.5
+      }
+    },
+    {
+      "date": "2011-02-20",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 51.0,
+        "Labour": 33.0,
+        "Green": 8.0,
+        "ACT": 1.3,
+        "Te Pāti Māori": 2.3,
+        "NZ First": 3.6
+      }
+    },
+    {
+      "date": "2011-02-20",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 54.6,
+        "Labour": 30.9,
+        "Green": 8.2,
+        "ACT": 0.6,
+        "Te Pāti Māori": 2.3,
+        "NZ First": 3.3
+      }
+    },
+    {
+      "date": "2011-02-27",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 49.0,
+        "Labour": 35.0,
+        "Green": 8.0,
+        "ACT": 1.5,
+        "Te Pāti Māori": 3.0,
+        "NZ First": 3.0
+      }
+    },
+    {
+      "date": "2011-03-13",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 52.5,
+        "Labour": 32.5,
+        "Green": 8.0,
+        "ACT": 0.5,
+        "Te Pāti Māori": 1.5,
+        "Progressive": 0.5,
+        "NZ First": 4.0
+      }
+    },
+    {
+      "date": "2011-04-03",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 51.0,
+        "Labour": 31.5,
+        "Green": 8.0,
+        "ACT": 2.0,
+        "Te Pāti Māori": 1.5,
+        "United Future": 0.5,
+        "NZ First": 5.0
+      }
+    },
+    {
+      "date": "2011-04-10",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 54.0,
+        "Labour": 34.0,
+        "Green": 6.0,
+        "ACT": 1.1,
+        "Te Pāti Māori": 1.4,
+        "NZ First": 2.7
+      }
+    },
+    {
+      "date": "2011-04-17",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 57.5,
+        "Labour": 27.1,
+        "Green": 7.7,
+        "ACT": 1.7,
+        "Te Pāti Māori": 2.5,
+        "United Future": 0.2,
+        "NZ First": 2.8
+      }
+    },
+    {
+      "date": "2011-04-17",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 51.0,
+        "Labour": 32.0,
+        "Green": 8.0,
+        "ACT": 1.0,
+        "Te Pāti Māori": 3.5,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 3.0
+      }
+    },
+    {
+      "date": "2011-05-01",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 52.5,
+        "Labour": 31.0,
+        "Green": 7.5,
+        "ACT": 1.0,
+        "Te Pāti Māori": 2.0,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 4.5
+      }
+    },
+    {
+      "date": "2011-05-15",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 53.0,
+        "Labour": 28.0,
+        "Green": 10.0,
+        "ACT": 2.0,
+        "Te Pāti Māori": 2.0,
+        "Progressive": 0.5,
+        "United Future": 0.5,
+        "NZ First": 3.0
+      }
+    },
+    {
+      "date": "2011-05-25",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 54.4,
+        "Labour": 33.7,
+        "Green": 5.5,
+        "ACT": 1.7,
+        "Te Pāti Māori": 1.5,
+        "Progressive": 0.0,
+        "United Future": 0.0,
+        "NZ First": 2.7
+      }
+    },
+    {
+      "date": "2011-05-29",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 52.0,
+        "Labour": 34.0,
+        "Green": 6.0,
+        "ACT": 2.5,
+        "Te Pāti Māori": 1.4,
+        "NZ First": 1.6,
+        "Mana": 0.9
+      }
+    },
+    {
+      "date": "2011-05-29",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 53.0,
+        "Labour": 32.8,
+        "Green": 6.5,
+        "ACT": 2.2,
+        "Te Pāti Māori": 1.6,
+        "United Future": 0.2,
+        "NZ First": 2.4,
+        "Mana": 0.5
+      }
+    },
+    {
+      "date": "2011-05-29",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 49.0,
+        "Labour": 36.0,
+        "Green": 6.5,
+        "ACT": 1.5,
+        "Te Pāti Māori": 2.5,
+        "United Future": 0.5,
+        "NZ First": 2.5
+      }
+    },
+    {
+      "date": "2011-06-12",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 53.0,
+        "Labour": 30.0,
+        "Green": 7.0,
+        "ACT": 3.0,
+        "Te Pāti Māori": 3.0,
+        "United Future": 0.5,
+        "NZ First": 2.5
+      }
+    },
+    {
+      "date": "2011-06-26",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 54.0,
+        "Labour": 30.5,
+        "Green": 5.5,
+        "ACT": 2.5,
+        "Te Pāti Māori": 3.0,
+        "United Future": 0.5,
+        "NZ First": 3.5
+      }
+    },
+    {
+      "date": "2011-06-27",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 51.2,
+        "Labour": 36.1,
+        "Green": 6.6,
+        "ACT": 1.9,
+        "Te Pāti Māori": 1.7,
+        "NZ First": 1.2,
+        "Mana": 0.5
+      }
+    },
+    {
+      "date": "2011-07-10",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 49.0,
+        "Labour": 33.5,
+        "Green": 7.5,
+        "ACT": 3.0,
+        "Te Pāti Māori": 2.5,
+        "United Future": 0.5,
+        "NZ First": 3.0
+      }
+    },
+    {
+      "date": "2011-07-10",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 55.1,
+        "Labour": 29.9,
+        "Green": 9.1,
+        "ACT": 1.7,
+        "Te Pāti Māori": 0.8,
+        "United Future": 0.0,
+        "NZ First": 2.2,
+        "Mana": 0.7
+      }
+    },
+    {
+      "date": "2011-07-17",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 53.0,
+        "Labour": 27.0,
+        "Green": 10.0,
+        "ACT": 3.1,
+        "Te Pāti Māori": 3.0,
+        "United Future": 0.3,
+        "NZ First": 2.4,
+        "Mana": 0.5
+      }
+    },
+    {
+      "date": "2011-07-24",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 52.0,
+        "Labour": 31.5,
+        "Green": 7.5,
+        "ACT": 2.0,
+        "Te Pāti Māori": 3.0,
+        "United Future": 0.5,
+        "NZ First": 2.5,
+        "Mana": 0.5
+      }
+    },
+    {
+      "date": "2011-07-25",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 56.0,
+        "Labour": 29.0,
+        "Green": 6.4,
+        "ACT": 2.2,
+        "Te Pāti Māori": 1.2,
+        "Progressive": 0.2,
+        "NZ First": 2.0,
+        "Mana": 0.2
+      }
+    },
+    {
+      "date": "2011-07-30",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 52.3,
+        "Labour": 33.1,
+        "Green": 8.3,
+        "ACT": 1.4,
+        "Te Pāti Māori": 2.0,
+        "NZ First": 0.9,
+        "Mana": 0.6
+      }
+    },
+    {
+      "date": "2011-08-07",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 51.5,
+        "Labour": 32.0,
+        "Green": 7.0,
+        "ACT": 2.0,
+        "Te Pāti Māori": 1.5,
+        "United Future": 0.5,
+        "NZ First": 4.0,
+        "Mana": 0.5
+      }
+    },
+    {
+      "date": "2011-08-21",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 56.0,
+        "Labour": 30.0,
+        "Green": 6.0,
+        "ACT": 1.7,
+        "Te Pāti Māori": 1.4,
+        "United Future": 0.5,
+        "NZ First": 2.3,
+        "Mana": 0.9
+      }
+    },
+    {
+      "date": "2011-08-21",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 54.0,
+        "Labour": 28.8,
+        "Green": 9.3,
+        "ACT": 2.2,
+        "Te Pāti Māori": 1.5,
+        "United Future": 0.0,
+        "NZ First": 2.2,
+        "Mana": 0.9
+      }
+    },
+    {
+      "date": "2011-08-26",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 52.0,
+        "Labour": 31.5,
+        "Green": 9.8,
+        "ACT": 1.2,
+        "Te Pāti Māori": 1.8,
+        "United Future": 0.1,
+        "NZ First": 2.4,
+        "Mana": 0.2
+      }
+    },
+    {
+      "date": "2011-08-28",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 52.0,
+        "Labour": 29.5,
+        "Green": 9.0,
+        "ACT": 2.0,
+        "Te Pāti Māori": 1.5,
+        "United Future": 0.5,
+        "NZ First": 3.5,
+        "Mana": 1.0
+      }
+    },
+    {
+      "date": "2011-08-29",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 57.1,
+        "Labour": 25.7,
+        "Green": 11.0,
+        "ACT": 1.1,
+        "Te Pāti Māori": 1.6,
+        "United Future": 0.1,
+        "NZ First": 2.2,
+        "Mana": 0.6
+      }
+    },
+    {
+      "date": "2011-09-11",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 57.0,
+        "Labour": 26.0,
+        "Green": 7.5,
+        "ACT": 1.5,
+        "Te Pāti Māori": 2.5,
+        "United Future": 0.5,
+        "NZ First": 3.5,
+        "Mana": 1.0
+      }
+    },
+    {
+      "date": "2011-09-25",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 51.0,
+        "Labour": 30.5,
+        "Green": 11.5,
+        "ACT": 1.5,
+        "Te Pāti Māori": 2.5,
+        "United Future": 0.5,
+        "NZ First": 1.0,
+        "Mana": 0.5
+      }
+    },
+    {
+      "date": "2011-09-28",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 54.0,
+        "Labour": 28.0,
+        "Green": 10.0,
+        "ACT": 1.5,
+        "Te Pāti Māori": 1.3,
+        "United Future": 0.4,
+        "NZ First": 2.3,
+        "Mana": 0.2
+      }
+    },
+    {
+      "date": "2011-10-02",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 56.0,
+        "Labour": 29.0,
+        "Green": 9.0,
+        "ACT": 1.3,
+        "Te Pāti Māori": 1.1,
+        "United Future": 0.0,
+        "NZ First": 1.9,
+        "Mana": 0.6
+      }
+    },
+    {
+      "date": "2011-10-02",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 57.4,
+        "Labour": 26.6,
+        "Green": 9.8,
+        "ACT": 1.6,
+        "Te Pāti Māori": 0.8,
+        "United Future": 0.0,
+        "NZ First": 1.9,
+        "Mana": 0.0
+      }
+    },
+    {
+      "date": "2011-10-09",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 55.5,
+        "Labour": 28.0,
+        "Green": 9.5,
+        "ACT": 1.5,
+        "Te Pāti Māori": 2.0,
+        "United Future": 0.5,
+        "NZ First": 2.0,
+        "Mana": 0.5
+      }
+    },
+    {
+      "date": "2011-10-23",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 53.5,
+        "Labour": 29.5,
+        "Green": 9.5,
+        "ACT": 1.0,
+        "Te Pāti Māori": 2.0,
+        "United Future": 1.0,
+        "NZ First": 2.5,
+        "Mana": 0.5
+      }
+    },
+    {
+      "date": "2011-10-27",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 53.5,
+        "Labour": 30.3,
+        "Green": 9.5,
+        "ACT": 1.5,
+        "Te Pāti Māori": 1.2,
+        "United Future": 0.1,
+        "NZ First": 2.8,
+        "Mana": 0.1
+      }
+    },
+    {
+      "date": "2011-10-30",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 52.3,
+        "Labour": 30.2,
+        "Green": 9.4,
+        "ACT": 1.5,
+        "Te Pāti Māori": 1.4,
+        "United Future": 0.0,
+        "NZ First": 2.4,
+        "Mana": 0.9
+      }
+    },
+    {
+      "date": "2011-10-31",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 52.6,
+        "Labour": 31.3,
+        "Green": 9.7,
+        "ACT": 1.2,
+        "Te Pāti Māori": 1.2,
+        "Progressive": 0.2,
+        "United Future": 0.1,
+        "NZ First": 1.5,
+        "Mana": 1.1
+      }
+    },
+    {
+      "date": "2011-11-02",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 54.2,
+        "Labour": 29.1,
+        "Green": 10.1,
+        "ACT": 0.9,
+        "Te Pāti Māori": 1.9,
+        "United Future": 0.5,
+        "NZ First": 1.7,
+        "Mana": 0.1,
+        "Conservative": 1.1
+      }
+    },
+    {
+      "date": "2011-11-03",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 56.0,
+        "Labour": 30.0,
+        "Green": 9.0,
+        "ACT": 0.9,
+        "Te Pāti Māori": 1.3,
+        "United Future": 0.1,
+        "NZ First": 2.2,
+        "Mana": 0.3
+      }
+    },
+    {
+      "date": "2011-11-06",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 53.0,
+        "Labour": 26.0,
+        "Green": 12.0,
+        "ACT": 1.0,
+        "Te Pāti Māori": 2.0,
+        "United Future": 0.0,
+        "NZ First": 4.5,
+        "Mana": 1.0
+      }
+    },
+    {
+      "date": "2011-11-07",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 52.5,
+        "Labour": 25.9,
+        "Green": 12.6,
+        "ACT": 1.0,
+        "Te Pāti Māori": 1.5,
+        "Progressive": 0.2,
+        "United Future": 0.3,
+        "NZ First": 2.8,
+        "Mana": 0.7
+      }
+    },
+    {
+      "date": "2011-11-09",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 49.5,
+        "Labour": 28.7,
+        "Green": 12.6,
+        "ACT": 1.5,
+        "Te Pāti Māori": 0.5,
+        "United Future": 0.7,
+        "NZ First": 3.7,
+        "Mana": 0.7,
+        "Conservative": 1.0
+      }
+    },
+    {
+      "date": "2011-11-10",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 54.0,
+        "Labour": 28.0,
+        "Green": 9.0,
+        "ACT": 1.5,
+        "Te Pāti Māori": 2.1,
+        "United Future": 0.8,
+        "NZ First": 2.9,
+        "Mana": 0.2,
+        "Conservative": 0.5
+      }
+    },
+    {
+      "date": "2011-11-13",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 53.3,
+        "Labour": 29.9,
+        "Green": 10.2,
+        "ACT": 0.7,
+        "Te Pāti Māori": 1.4,
+        "United Future": 0.0,
+        "NZ First": 2.4,
+        "Mana": 1.0
+      }
+    },
+    {
+      "date": "2011-11-16",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 49.9,
+        "Labour": 29.1,
+        "Green": 12.6,
+        "ACT": 1.7,
+        "Te Pāti Māori": 0.7,
+        "United Future": 0.1,
+        "NZ First": 4.9,
+        "Mana": 0.4,
+        "Conservative": 0.6
+      }
+    },
+    {
+      "date": "2011-11-17",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 51.0,
+        "Labour": 26.0,
+        "Green": 13.0,
+        "ACT": 1.6,
+        "Te Pāti Māori": 1.6,
+        "United Future": 0.3,
+        "NZ First": 2.2,
+        "Mana": 1.3,
+        "Conservative": 1.4
+      }
+    },
+    {
+      "date": "2011-11-17",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 50.2,
+        "Labour": 27.4,
+        "Green": 13.0,
+        "ACT": 1.8,
+        "Te Pāti Māori": 1.3,
+        "United Future": 0.0,
+        "NZ First": 3.5,
+        "Mana": 1.0,
+        "Conservative": 1.1
+      }
+    },
+    {
+      "date": "2011-11-18",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 53.0,
+        "Labour": 24.5,
+        "Green": 13.0,
+        "ACT": 1.5,
+        "Te Pāti Māori": 3.0,
+        "United Future": 0.0,
+        "NZ First": 3.0,
+        "Mana": 1.0
+      }
+    },
+    {
+      "date": "2011-11-21",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 54.0,
+        "Labour": 26.0,
+        "Green": 12.0,
+        "ACT": 0.7,
+        "Te Pāti Māori": 1.1,
+        "Progressive": 0.0,
+        "United Future": 0.1,
+        "NZ First": 4.0,
+        "Mana": 1.1
+      }
+    },
+    {
+      "date": "2011-11-23",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 50.9,
+        "Labour": 28.0,
+        "Green": 11.8,
+        "ACT": 1.8,
+        "Te Pāti Māori": 0.4,
+        "United Future": 0.0,
+        "NZ First": 5.2,
+        "Mana": 0.3,
+        "Conservative": 1.3
+      }
+    },
+    {
+      "date": "2011-11-24",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 50.0,
+        "Labour": 28.0,
+        "Green": 10.0,
+        "ACT": 1.7,
+        "Te Pāti Māori": 2.0,
+        "United Future": 0.1,
+        "NZ First": 4.2,
+        "Mana": 1.0,
+        "Conservative": 2.4
+      }
+    },
+    {
+      "date": "2011-11-24",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 50.8,
+        "Labour": 26.0,
+        "Green": 13.4,
+        "ACT": 1.0,
+        "Te Pāti Māori": 1.5,
+        "United Future": 0.0,
+        "NZ First": 3.1,
+        "Mana": 1.1,
+        "Conservative": 1.8
+      }
+    },
+    {
+      "date": "2011-11-24",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 49.5,
+        "Labour": 23.5,
+        "Green": 14.5,
+        "ACT": 1.5,
+        "Te Pāti Māori": 1.0,
+        "United Future": 0.5,
+        "NZ First": 6.5,
+        "Mana": 0.5
+      }
+    },
+    {
+      "date": "2011-11-26",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 47.31,
+        "Labour": 27.48,
+        "Green": 11.06,
+        "ACT": 1.07,
+        "Te Pāti Māori": 1.43,
+        "United Future": 0.6,
+        "NZ First": 6.59,
+        "Mana": 1.08,
+        "Conservative": 2.65
+      }
+    }
+  ]
+}

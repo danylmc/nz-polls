@@ -1,0 +1,831 @@
+{
+  "election_year": 1999,
+  "polls": [
+    {
+      "date": "1996-10-12",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 28.19,
+        "National": 33.87,
+        "NZ First": 13.35,
+        "Alliance": 10.1,
+        "ACT": 6.1,
+        "United Future": 0.88
+      }
+    },
+    {
+      "date": "1997-02-13",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 31.0,
+        "National": 45.0,
+        "NZ First": 7.0,
+        "Alliance": 7.0,
+        "ACT": 4.3,
+        "United Future": 0.2
+      }
+    },
+    {
+      "date": "1997-03-13",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 32.0,
+        "National": 47.0,
+        "NZ First": 4.2,
+        "Alliance": 7.0,
+        "ACT": 4.4
+      }
+    },
+    {
+      "date": "1997-04-11",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 36.0,
+        "National": 41.0,
+        "NZ First": 5.0,
+        "Alliance": 8.0,
+        "ACT": 6.0,
+        "United Future": 0.1
+      }
+    },
+    {
+      "date": "1997-05-13",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 42.0,
+        "National": 38.0,
+        "NZ First": 3.8,
+        "Alliance": 6.0,
+        "ACT": 4.7,
+        "United Future": 0.1
+      }
+    },
+    {
+      "date": "1997-05-25",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 45.0,
+        "National": 30.0,
+        "NZ First": 6.0,
+        "Alliance": 6.7,
+        "ACT": 7.1
+      }
+    },
+    {
+      "date": "1997-06-25",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 41.0,
+        "National": 39.0,
+        "NZ First": 4.4,
+        "Alliance": 7.0,
+        "ACT": 4.9,
+        "United Future": 0.1
+      }
+    },
+    {
+      "date": "1997-07-10",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 42.0,
+        "National": 39.0,
+        "NZ First": 3.8,
+        "Alliance": 7.0,
+        "ACT": 4.5,
+        "United Future": 0.2
+      }
+    },
+    {
+      "date": "1997-08-07",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 42.0,
+        "National": 39.0,
+        "NZ First": 3.7,
+        "Alliance": 9.0,
+        "ACT": 4.7,
+        "United Future": 0.0
+      }
+    },
+    {
+      "date": "1997-09-18",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 45.0,
+        "National": 36.0,
+        "NZ First": 1.9,
+        "Alliance": 7.0,
+        "ACT": 6.0,
+        "United Future": 0.6
+      }
+    },
+    {
+      "date": "1997-10-11",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 49.0,
+        "National": 31.0,
+        "NZ First": 4.5,
+        "Alliance": 8.3,
+        "ACT": 5.9
+      }
+    },
+    {
+      "date": "1997-10-13",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 50.0,
+        "National": 32.0,
+        "NZ First": 1.7,
+        "Alliance": 5.9,
+        "ACT": 4.6
+      }
+    },
+    {
+      "date": "1997-10-16",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 52.0,
+        "National": 30.0,
+        "NZ First": 1.8,
+        "Alliance": 7.0,
+        "ACT": 6.0,
+        "United Future": 0.2
+      }
+    },
+    {
+      "date": "1997-11-04",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 45.0,
+        "National": 37.0,
+        "NZ First": 2.3,
+        "Alliance": 6.0,
+        "ACT": 5.0,
+        "United Future": 0.3
+      }
+    },
+    {
+      "date": "1997-11-13",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 45.0,
+        "National": 36.0,
+        "NZ First": 2.8,
+        "Alliance": 6.0,
+        "ACT": 7.0
+      }
+    },
+    {
+      "date": "1997-11-23",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 45.0,
+        "National": 34.0,
+        "NZ First": 3.1,
+        "Alliance": 7.6,
+        "ACT": 7.0
+      }
+    },
+    {
+      "date": "1997-12-10",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 46.0,
+        "National": 40.0,
+        "NZ First": 1.1,
+        "Alliance": 6.0,
+        "ACT": 5.0,
+        "Green": 0.6,
+        "United Future": 0.1
+      }
+    },
+    {
+      "date": "1998-02-12",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 45.0,
+        "National": 42.0,
+        "NZ First": 1.3,
+        "Alliance": 5.0,
+        "ACT": 5.0,
+        "Green": 0.4
+      }
+    },
+    {
+      "date": "1998-02-15",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 44.0,
+        "National": 38.0,
+        "NZ First": 1.8,
+        "Alliance": 7.9,
+        "ACT": 4.4,
+        "Green": 0.5
+      }
+    },
+    {
+      "date": "1998-03-25",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 39.0,
+        "National": 42.0,
+        "NZ First": 1.6,
+        "Alliance": 5.0,
+        "ACT": 8.0,
+        "Green": 0.6,
+        "United Future": 0.3
+      }
+    },
+    {
+      "date": "1998-04-21",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 38.0,
+        "National": 42.0,
+        "NZ First": 2.2,
+        "Alliance": 6.3,
+        "ACT": 6.1,
+        "Green": 0.4
+      }
+    },
+    {
+      "date": "1998-04-23",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 38.0,
+        "National": 46.0,
+        "NZ First": 2.5,
+        "Alliance": 6.0,
+        "ACT": 5.0,
+        "Green": 0.4,
+        "United Future": 0.3
+      }
+    },
+    {
+      "date": "1998-05-11",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 34.7,
+        "National": 38.3,
+        "NZ First": 1.7,
+        "Alliance": 8.5,
+        "ACT": 11.8,
+        "Green": 1.4
+      }
+    },
+    {
+      "date": "1998-05-14",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 37.0,
+        "National": 41.0,
+        "NZ First": 2.1,
+        "Alliance": 8.0,
+        "ACT": 9.0,
+        "Green": 0.2,
+        "United Future": 0.1
+      }
+    },
+    {
+      "date": "1998-06-18",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 37.0,
+        "National": 37.0,
+        "NZ First": 2.1,
+        "Alliance": 9.0,
+        "ACT": 11.0,
+        "Green": 0.5,
+        "United Future": 0.1
+      }
+    },
+    {
+      "date": "1998-07-09",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 42.0,
+        "National": 36.0,
+        "NZ First": 1.9,
+        "Alliance": 9.0,
+        "ACT": 8.0,
+        "Green": 0.2
+      }
+    },
+    {
+      "date": "1998-07-10",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 42.0,
+        "National": 36.0,
+        "NZ First": 2.3,
+        "Alliance": 9.9,
+        "ACT": 5.1,
+        "Green": 1.0
+      }
+    },
+    {
+      "date": "1998-08-06",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 40.0,
+        "National": 39.0,
+        "NZ First": 2.6,
+        "Alliance": 9.0,
+        "ACT": 6.0,
+        "Green": 0.7
+      }
+    },
+    {
+      "date": "1998-08-11",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 46.1,
+        "National": 32.6,
+        "NZ First": 2.2,
+        "Alliance": 9.7,
+        "ACT": 5.9
+      }
+    },
+    {
+      "date": "1998-08-13",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 41.0,
+        "National": 39.0,
+        "NZ First": 2.9,
+        "Alliance": 9.0,
+        "ACT": 5.0
+      }
+    },
+    {
+      "date": "1998-09-13",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 42.0,
+        "National": 35.0,
+        "NZ First": 4.4,
+        "Alliance": 9.1,
+        "ACT": 4.7,
+        "Green": 0.4
+      }
+    },
+    {
+      "date": "1998-09-22",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 42.0,
+        "National": 41.0,
+        "NZ First": 1.8,
+        "Alliance": 7.0,
+        "ACT": 6.0,
+        "Green": 0.3
+      }
+    },
+    {
+      "date": "1998-10-15",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 48.0,
+        "National": 35.0,
+        "NZ First": 2.0,
+        "Alliance": 6.0,
+        "ACT": 6.0,
+        "Green": 0.7,
+        "United Future": 0.1
+      }
+    },
+    {
+      "date": "1998-11-16",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 48.0,
+        "National": 34.0,
+        "NZ First": 2.0,
+        "Alliance": 7.0,
+        "ACT": 6.0,
+        "Green": 0.5
+      }
+    },
+    {
+      "date": "1998-11-17",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 49.0,
+        "National": 32.0,
+        "NZ First": 3.0,
+        "Alliance": 5.0,
+        "ACT": 5.0,
+        "Green": 1.0
+      }
+    },
+    {
+      "date": "1998-12-07",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 51.0,
+        "National": 32.0,
+        "NZ First": 3.5,
+        "Alliance": 6.0,
+        "ACT": 4.5
+      }
+    },
+    {
+      "date": "1998-12-10",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 45.0,
+        "National": 35.0,
+        "NZ First": 2.4,
+        "Alliance": 8.0,
+        "ACT": 5.0,
+        "Green": 0.4,
+        "United Future": 0.1
+      }
+    },
+    {
+      "date": "1999-02-11",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 42.0,
+        "National": 41.0,
+        "NZ First": 2.6,
+        "Alliance": 7.0,
+        "ACT": 3.9,
+        "Green": 0.7
+      }
+    },
+    {
+      "date": "1999-02-14",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 43.0,
+        "National": 37.0,
+        "NZ First": 3.0,
+        "Alliance": 7.0,
+        "ACT": 5.0,
+        "Green": 1.0
+      }
+    },
+    {
+      "date": "1999-03-23",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 39.0,
+        "National": 42.0,
+        "NZ First": 2.2,
+        "Alliance": 7.0,
+        "ACT": 6.0,
+        "Green": 0.6,
+        "United Future": 0.4
+      }
+    },
+    {
+      "date": "1999-04-18",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 41.0,
+        "National": 37.0,
+        "NZ First": 3.0,
+        "Alliance": 8.0,
+        "ACT": 5.0,
+        "Green": 1.0
+      }
+    },
+    {
+      "date": "1999-04-27",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 44.0,
+        "National": 38.0,
+        "NZ First": 1.5,
+        "Alliance": 6.0,
+        "ACT": 6.0,
+        "Green": 0.5,
+        "United Future": 0.4
+      }
+    },
+    {
+      "date": "1999-05-19",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 44.0,
+        "National": 39.0,
+        "NZ First": 2.6,
+        "Alliance": 7.0,
+        "ACT": 4.4,
+        "Green": 0.9,
+        "United Future": 0.2
+      }
+    },
+    {
+      "date": "1999-06-17",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 42.0,
+        "National": 41.0,
+        "NZ First": 1.9,
+        "Alliance": 6.0,
+        "ACT": 4.9,
+        "Green": 1.4
+      }
+    },
+    {
+      "date": "1999-06-20",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 46.0,
+        "National": 33.0,
+        "NZ First": 4.0,
+        "Alliance": 7.0,
+        "ACT": 4.0,
+        "Green": 1.4
+      }
+    },
+    {
+      "date": "1999-07-13",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 44.0,
+        "National": 38.0,
+        "NZ First": 1.8,
+        "Alliance": 6.0,
+        "ACT": 4.7,
+        "Green": 0.9,
+        "United Future": 0.2
+      }
+    },
+    {
+      "date": "1999-07-25",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 38.0,
+        "National": 37.0,
+        "NZ First": 4.7,
+        "Alliance": 8.0,
+        "ACT": 6.0,
+        "Green": 1.5
+      }
+    },
+    {
+      "date": "1999-08-05",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 40.0,
+        "National": 38.0,
+        "NZ First": 4.0,
+        "Alliance": 7.0,
+        "ACT": 7.0,
+        "Green": 1.1
+      }
+    },
+    {
+      "date": "1999-08-22",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 40.0,
+        "National": 32.0,
+        "NZ First": 7.0,
+        "Alliance": 7.0,
+        "ACT": 6.0,
+        "Green": 2.6
+      }
+    },
+    {
+      "date": "1999-09-03",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 43.8,
+        "National": 35.7,
+        "NZ First": 5.5,
+        "Alliance": 5.0,
+        "Green": 3.1
+      }
+    },
+    {
+      "date": "1999-09-16",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 41.0,
+        "National": 35.0,
+        "NZ First": 4.1,
+        "Alliance": 7.0,
+        "ACT": 5.0,
+        "Green": 1.9,
+        "United Future": 0.2
+      }
+    },
+    {
+      "date": "1999-09-19",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 39.0,
+        "National": 33.0,
+        "NZ First": 7.0,
+        "Alliance": 6.0,
+        "ACT": 7.0,
+        "Green": 2.4
+      }
+    },
+    {
+      "date": "1999-10-10",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 40.0,
+        "National": 36.0,
+        "NZ First": 4.0,
+        "Alliance": 8.0,
+        "ACT": 7.0,
+        "Green": 2.0
+      }
+    },
+    {
+      "date": "1999-10-20",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 37.0,
+        "National": 33.0,
+        "NZ First": 6.0,
+        "Alliance": 7.0,
+        "ACT": 9.0,
+        "Green": 2.5
+      }
+    },
+    {
+      "date": "1999-10-18",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 39.0,
+        "National": 37.0,
+        "NZ First": 6.0,
+        "Alliance": 4.5,
+        "ACT": 7.0,
+        "Green": 1.0,
+        "United Future": 0.5
+      }
+    },
+    {
+      "date": "1999-11-05",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 35.2,
+        "National": 34.0,
+        "NZ First": 1.0,
+        "Alliance": 8.7,
+        "ACT": 9.2,
+        "Green": 2.9,
+        "United Future": 0.3
+      }
+    },
+    {
+      "date": "1999-11-07",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 41.0,
+        "National": 28.0,
+        "NZ First": 6.0,
+        "Alliance": 7.0,
+        "ACT": 10.0,
+        "Green": 2.9
+      }
+    },
+    {
+      "date": "1999-11-11",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 34.0,
+        "National": 33.0,
+        "NZ First": 6.0,
+        "Alliance": 9.0,
+        "ACT": 11.0,
+        "Green": 2.4,
+        "United Future": 0.1
+      }
+    },
+    {
+      "date": "1999-11-17",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 37.0,
+        "National": 30.0,
+        "NZ First": 6.0,
+        "Alliance": 9.0,
+        "ACT": 9.0,
+        "Green": 2.8
+      }
+    },
+    {
+      "date": "1999-11-26",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 39.8,
+        "National": 29.9,
+        "NZ First": 3.6,
+        "Alliance": 7.7,
+        "ACT": 8.5,
+        "Green": 5.4
+      }
+    },
+    {
+      "date": "1999-11-26",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 39.0,
+        "National": 31.0,
+        "NZ First": 3.2,
+        "Alliance": 8.0,
+        "ACT": 7.0,
+        "Green": 6.0,
+        "United Future": 0.7
+      }
+    },
+    {
+      "date": "1999-11-26",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 34.0,
+        "National": 29.0,
+        "NZ First": 5.5,
+        "Alliance": 9.0,
+        "ACT": 11.0,
+        "Green": 6.0
+      }
+    },
+    {
+      "date": "1999-11-27",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 38.74,
+        "National": 30.5,
+        "NZ First": 4.26,
+        "Alliance": 7.74,
+        "ACT": 7.04,
+        "Green": 5.16,
+        "United Future": 0.54
+      }
+    }
+  ]
+}

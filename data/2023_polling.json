@@ -1,0 +1,1741 @@
+{
+  "election_year": 2023,
+  "polls": [
+    {
+      "date": "2023-10-14",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 26.92,
+        "National": 38.08,
+        "Green": 11.61,
+        "ACT": 8.64,
+        "Te Pāti Māori": 3.08,
+        "NZ First": 6.09,
+        "TOP": 2.22
+      }
+    },
+    {
+      "date": "2023-10-10",
+      "pollster": null,
+      "sample_size": 1001,
+      "parties": {
+        "Labour": 28.0,
+        "National": 37.0,
+        "Green": 14.0,
+        "ACT": 9.0,
+        "Te Pāti Māori": 1.7,
+        "NZ First": 6.0,
+        "TOP": 2.3
+      }
+    },
+    {
+      "date": "2023-10-10",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 27.5,
+        "National": 34.5,
+        "Green": 14.9,
+        "ACT": 8.8,
+        "Te Pāti Māori": 2.7,
+        "NZ First": 6.8,
+        "TOP": 2.2
+      }
+    },
+    {
+      "date": "2023-10-08",
+      "pollster": null,
+      "sample_size": 1250,
+      "parties": {
+        "Labour": 26.0,
+        "National": 30.5,
+        "Green": 15.0,
+        "ACT": 11.5,
+        "Te Pāti Māori": 3.0,
+        "NZ First": 7.5,
+        "TOP": 3.5
+      }
+    },
+    {
+      "date": "2023-10-08",
+      "pollster": null,
+      "sample_size": 1200,
+      "parties": {
+        "Labour": 30.3,
+        "National": 34.0,
+        "Green": 10.6,
+        "ACT": 7.9,
+        "Te Pāti Māori": 1.9,
+        "NZ First": 8.2
+      }
+    },
+    {
+      "date": "2023-10-04",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 27.9,
+        "National": 35.9,
+        "Green": 10.6,
+        "ACT": 9.1,
+        "Te Pāti Māori": 3.7,
+        "NZ First": 6.9,
+        "TOP": 2.9
+      }
+    },
+    {
+      "date": "2023-10-03",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 26.0,
+        "National": 36.0,
+        "Green": 13.0,
+        "ACT": 10.0,
+        "Te Pāti Māori": 2.2,
+        "NZ First": 6.0,
+        "TOP": 1.5
+      }
+    },
+    {
+      "date": "2023-09-28",
+      "pollster": null,
+      "sample_size": 1027,
+      "parties": {
+        "Labour": 27.0,
+        "National": 38.0,
+        "Green": 13.0,
+        "ACT": 9.0,
+        "Te Pāti Māori": 3.1,
+        "NZ First": 6.4,
+        "TOP": 2.3
+      }
+    },
+    {
+      "date": "2023-09-26",
+      "pollster": null,
+      "sample_size": 1002,
+      "parties": {
+        "Labour": 26.0,
+        "National": 36.0,
+        "Green": 13.0,
+        "ACT": 12.0,
+        "Te Pāti Māori": 1.9,
+        "NZ First": 6.0,
+        "TOP": 1.3
+      }
+    },
+    {
+      "date": "2023-09-23",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 26.5,
+        "National": 39.1,
+        "Green": 14.2,
+        "ACT": 8.8,
+        "Te Pāti Māori": 2.2,
+        "NZ First": 5.2,
+        "TOP": 1.9
+      }
+    },
+    {
+      "date": "2023-09-19",
+      "pollster": null,
+      "sample_size": 1001,
+      "parties": {
+        "Labour": 27.0,
+        "National": 37.0,
+        "Green": 12.0,
+        "ACT": 12.0,
+        "Te Pāti Māori": 2.9,
+        "NZ First": 5.0,
+        "TOP": 1.4
+      }
+    },
+    {
+      "date": "2023-09-12",
+      "pollster": null,
+      "sample_size": 1002,
+      "parties": {
+        "Labour": 28.0,
+        "National": 39.0,
+        "Green": 10.0,
+        "ACT": 10.0,
+        "Te Pāti Māori": 2.6,
+        "NZ First": 5.0,
+        "TOP": 1.4
+      }
+    },
+    {
+      "date": "2023-09-10",
+      "pollster": null,
+      "sample_size": 1154,
+      "parties": {
+        "Labour": 26.9,
+        "National": 34.5,
+        "Green": 11.0,
+        "ACT": 10.3,
+        "Te Pāti Māori": 2.5,
+        "NZ First": 6.0
+      }
+    },
+    {
+      "date": "2023-09-09",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 26.8,
+        "National": 40.9,
+        "Green": 12.3,
+        "ACT": 10.1,
+        "Te Pāti Māori": 3.1,
+        "NZ First": 4.6,
+        "TOP": 0.7
+      }
+    },
+    {
+      "date": "2023-09-06",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 26.5,
+        "National": 35.0,
+        "Green": 12.7,
+        "ACT": 14.3,
+        "Te Pāti Māori": 2.9,
+        "NZ First": 3.9,
+        "TOP": 2.7
+      }
+    },
+    {
+      "date": "2023-08-30",
+      "pollster": null,
+      "sample_size": 1511,
+      "parties": {
+        "Labour": 26.0,
+        "National": 36.0,
+        "Green": 12.0,
+        "ACT": 11.0,
+        "Te Pāti Māori": 3.0,
+        "NZ First": 6.0
+      }
+    },
+    {
+      "date": "2023-08-30",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 30.0,
+        "National": 36.0,
+        "Green": 12.0,
+        "ACT": 10.0,
+        "Te Pāti Māori": 2.4,
+        "NZ First": 5.4,
+        "TOP": 1.5
+      }
+    },
+    {
+      "date": "2023-08-27",
+      "pollster": null,
+      "sample_size": 1046,
+      "parties": {
+        "Labour": 24.0,
+        "National": 31.0,
+        "Green": 12.5,
+        "ACT": 18.0,
+        "Te Pāti Māori": 4.0,
+        "NZ First": 5.5,
+        "TOP": 2.0
+      }
+    },
+    {
+      "date": "2023-08-25",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 32.0,
+        "National": 34.0,
+        "Green": 11.0,
+        "ACT": 10.0,
+        "Te Pāti Māori": 4.0,
+        "NZ First": 6.0
+      }
+    },
+    {
+      "date": "2023-08-16",
+      "pollster": null,
+      "sample_size": 1002,
+      "parties": {
+        "Labour": 29.0,
+        "National": 37.0,
+        "Green": 12.0,
+        "ACT": 13.0,
+        "Te Pāti Māori": 2.6,
+        "NZ First": 3.7,
+        "TOP": 0.6
+      }
+    },
+    {
+      "date": "2023-08-08",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 27.1,
+        "National": 34.9,
+        "Green": 12.0,
+        "ACT": 13.0,
+        "Te Pāti Māori": 2.5,
+        "NZ First": 5.8,
+        "TOP": 1.0
+      }
+    },
+    {
+      "date": "2023-08-07",
+      "pollster": null,
+      "sample_size": 1012,
+      "parties": {
+        "Labour": 32.0,
+        "National": 35.0,
+        "Green": 10.0,
+        "ACT": 11.0,
+        "Te Pāti Māori": 3.1,
+        "NZ First": 4.4,
+        "TOP": 1.8
+      }
+    },
+    {
+      "date": "2023-08-06",
+      "pollster": null,
+      "sample_size": 1163,
+      "parties": {
+        "Labour": 29.0,
+        "National": 34.5,
+        "Green": 8.5,
+        "ACT": 11.6,
+        "Te Pāti Māori": 2.5,
+        "NZ First": 5.3
+      }
+    },
+    {
+      "date": "2023-07-31",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 32.3,
+        "National": 36.6,
+        "Green": 9.6,
+        "ACT": 12.1,
+        "Te Pāti Māori": 2.7,
+        "NZ First": 4.1,
+        "TOP": 1.5
+      }
+    },
+    {
+      "date": "2023-07-23",
+      "pollster": null,
+      "sample_size": 937,
+      "parties": {
+        "Labour": 26.0,
+        "National": 33.5,
+        "Green": 9.0,
+        "ACT": 14.0,
+        "Te Pāti Māori": 6.0,
+        "NZ First": 5.0,
+        "TOP": 4.0
+      }
+    },
+    {
+      "date": "2023-07-12",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 33.0,
+        "National": 35.0,
+        "Green": 10.0,
+        "ACT": 12.0,
+        "Te Pāti Māori": 2.8,
+        "NZ First": 3.1,
+        "TOP": 1.7
+      }
+    },
+    {
+      "date": "2023-07-10",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 31.1,
+        "National": 33.3,
+        "Green": 8.9,
+        "ACT": 13.2,
+        "Te Pāti Māori": 5.0,
+        "NZ First": 3.3,
+        "TOP": 0.3
+      }
+    },
+    {
+      "date": "2023-07-02",
+      "pollster": null,
+      "sample_size": 1036,
+      "parties": {
+        "Labour": 31.0,
+        "National": 36.0,
+        "Green": 8.0,
+        "ACT": 12.0,
+        "Te Pāti Māori": 4.2,
+        "NZ First": 4.0,
+        "TOP": 2.9
+      }
+    },
+    {
+      "date": "2023-06-25",
+      "pollster": null,
+      "sample_size": 955,
+      "parties": {
+        "Labour": 30.5,
+        "National": 30.0,
+        "Green": 9.5,
+        "ACT": 15.0,
+        "Te Pāti Māori": 7.0,
+        "NZ First": 3.0,
+        "TOP": 3.0
+      }
+    },
+    {
+      "date": "2023-06-06",
+      "pollster": null,
+      "sample_size": 1001,
+      "parties": {
+        "Labour": 36.0,
+        "National": 35.0,
+        "Green": 7.0,
+        "ACT": 11.0,
+        "Te Pāti Māori": 3.65,
+        "NZ First": 2.9
+      }
+    },
+    {
+      "date": "2023-06-06",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 32.9,
+        "National": 35.7,
+        "Green": 9.7,
+        "ACT": 12.7,
+        "Te Pāti Māori": 3.5,
+        "NZ First": 1.6,
+        "TOP": 0.8
+      }
+    },
+    {
+      "date": "2023-05-24",
+      "pollster": null,
+      "sample_size": 1002,
+      "parties": {
+        "Labour": 35.0,
+        "National": 37.0,
+        "Green": 7.0,
+        "ACT": 11.0,
+        "Te Pāti Māori": 2.4,
+        "NZ First": 3.0,
+        "TOP": 1.4
+      }
+    },
+    {
+      "date": "2023-05-21",
+      "pollster": null,
+      "sample_size": 952,
+      "parties": {
+        "Labour": 31.0,
+        "National": 31.5,
+        "Green": 12.0,
+        "ACT": 13.5,
+        "Te Pāti Māori": 4.5,
+        "NZ First": 3.5,
+        "TOP": 2.0
+      }
+    },
+    {
+      "date": "2023-05-17",
+      "pollster": null,
+      "sample_size": 1563,
+      "parties": {
+        "Labour": 34.4,
+        "National": 26.5,
+        "Green": 9.5,
+        "ACT": 12.3,
+        "Te Pāti Māori": 4.3,
+        "NZ First": 5.3,
+        "TOP": 2.8
+      }
+    },
+    {
+      "date": "2023-05-11",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 35.9,
+        "National": 35.3,
+        "Green": 8.1,
+        "ACT": 10.8,
+        "Te Pāti Māori": 3.5,
+        "NZ First": 3.0,
+        "TOP": 2.0
+      }
+    },
+    {
+      "date": "2023-05-07",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 33.8,
+        "National": 35.6,
+        "Green": 7.0,
+        "ACT": 12.7,
+        "Te Pāti Māori": 3.7,
+        "NZ First": 2.6,
+        "TOP": 1.7
+      }
+    },
+    {
+      "date": "2023-05-03",
+      "pollster": null,
+      "sample_size": 1046,
+      "parties": {
+        "Labour": 33.0,
+        "National": 36.0,
+        "Green": 9.0,
+        "ACT": 10.0,
+        "Te Pāti Māori": 4.1,
+        "NZ First": 3.4,
+        "TOP": 1.8
+      }
+    },
+    {
+      "date": "2023-04-23",
+      "pollster": null,
+      "sample_size": 929,
+      "parties": {
+        "Labour": 30.0,
+        "National": 32.0,
+        "Green": 12.0,
+        "ACT": 12.5,
+        "Te Pāti Māori": 4.5,
+        "NZ First": 4.5,
+        "TOP": 2.0
+      }
+    },
+    {
+      "date": "2023-04-05",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 36.9,
+        "National": 36.5,
+        "Green": 6.7,
+        "ACT": 9.5,
+        "Te Pāti Māori": 2.9,
+        "NZ First": 2.6,
+        "TOP": 0.8
+      }
+    },
+    {
+      "date": "2023-04-05",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 36.0,
+        "National": 36.0,
+        "Green": 9.0,
+        "ACT": 10.0,
+        "Te Pāti Māori": 1.9,
+        "NZ First": 3.9,
+        "TOP": 0.8
+      }
+    },
+    {
+      "date": "2023-03-26",
+      "pollster": null,
+      "sample_size": 943,
+      "parties": {
+        "Labour": 33.0,
+        "National": 32.0,
+        "Green": 10.5,
+        "ACT": 13.0,
+        "Te Pāti Māori": 2.0,
+        "NZ First": 3.0,
+        "TOP": 3.5
+      }
+    },
+    {
+      "date": "2023-03-09",
+      "pollster": null,
+      "sample_size": 1021,
+      "parties": {
+        "Labour": 37.0,
+        "National": 34.0,
+        "Green": 8.0,
+        "ACT": 12.0,
+        "Te Pāti Māori": 3.2,
+        "NZ First": 2.9,
+        "TOP": 1.5
+      }
+    },
+    {
+      "date": "2023-03-08",
+      "pollster": null,
+      "sample_size": 1002,
+      "parties": {
+        "Labour": 36.0,
+        "National": 34.0,
+        "Green": 11.0,
+        "ACT": 11.0,
+        "Te Pāti Māori": 2.6,
+        "NZ First": 3.1,
+        "TOP": 1.0
+      }
+    },
+    {
+      "date": "2023-03-07",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 35.5,
+        "National": 34.8,
+        "Green": 5.7,
+        "ACT": 9.3,
+        "Te Pāti Māori": 1.4,
+        "NZ First": 4.2,
+        "TOP": 1.7
+      }
+    },
+    {
+      "date": "2023-02-26",
+      "pollster": null,
+      "sample_size": 943,
+      "parties": {
+        "Labour": 33.0,
+        "National": 32.0,
+        "Green": 12.5,
+        "ACT": 13.5,
+        "Te Pāti Māori": 3.5,
+        "NZ First": 2.0,
+        "TOP": 2.5
+      }
+    },
+    {
+      "date": "2023-02-09",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 34.4,
+        "National": 34.4,
+        "Green": 7.8,
+        "ACT": 11.7,
+        "Te Pāti Māori": 2.1,
+        "NZ First": 2.9,
+        "TOP": 2.0
+      }
+    },
+    {
+      "date": "2023-01-31",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 33.0,
+        "National": 36.0,
+        "Green": 11.0,
+        "ACT": 10.0,
+        "Te Pāti Māori": 3.0,
+        "NZ First": 3.4,
+        "TOP": 2.3
+      }
+    },
+    {
+      "date": "2023-01-29",
+      "pollster": null,
+      "sample_size": 948,
+      "parties": {
+        "Labour": 30.0,
+        "National": 32.0,
+        "Green": 12.0,
+        "ACT": 13.5,
+        "Te Pāti Māori": 4.5,
+        "NZ First": 5.0,
+        "TOP": 1.5
+      }
+    },
+    {
+      "date": "2023-01-29",
+      "pollster": null,
+      "sample_size": 1008,
+      "parties": {
+        "Labour": 38.0,
+        "National": 37.0,
+        "Green": 7.0,
+        "ACT": 10.0,
+        "Te Pāti Māori": 1.4,
+        "NZ First": 2.2,
+        "TOP": 1.1
+      }
+    },
+    {
+      "date": "2023-01-28",
+      "pollster": null,
+      "sample_size": 1147,
+      "parties": {
+        "Labour": 35.5,
+        "National": 27.7,
+        "Green": 9.0,
+        "ACT": 13.0,
+        "Te Pāti Māori": 4.6,
+        "NZ First": 4.5,
+        "TOP": 1.6
+      }
+    },
+    {
+      "date": "2023-01-27",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 38.0,
+        "National": 36.6,
+        "Green": 8.1,
+        "ACT": 10.7,
+        "Te Pāti Māori": 1.8,
+        "NZ First": 2.2,
+        "TOP": 1.5
+      }
+    },
+    {
+      "date": "2023-01-16",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 31.7,
+        "National": 37.2,
+        "Green": 10.6,
+        "ACT": 10.8,
+        "Te Pāti Māori": 1.6,
+        "NZ First": 2.8
+      }
+    },
+    {
+      "date": "2022-12-01",
+      "pollster": null,
+      "sample_size": 947,
+      "parties": {
+        "Labour": 27.5,
+        "National": 35.0,
+        "Green": 11.0,
+        "ACT": 14.5,
+        "Te Pāti Māori": 4.0,
+        "NZ First": 4.0,
+        "TOP": 2.5
+      }
+    },
+    {
+      "date": "2022-12-06",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 33.1,
+        "National": 39.4,
+        "Green": 8.1,
+        "ACT": 10.4,
+        "Te Pāti Māori": 3.5,
+        "NZ First": 2.9
+      }
+    },
+    {
+      "date": "2022-12-01",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 32.0,
+        "National": 35.0,
+        "Green": 9.0,
+        "ACT": 11.0,
+        "Te Pāti Māori": 3.5,
+        "NZ First": 4.3,
+        "TOP": 2.4
+      }
+    },
+    {
+      "date": "2022-11-30",
+      "pollster": null,
+      "sample_size": 1011,
+      "parties": {
+        "Labour": 33.0,
+        "National": 38.0,
+        "Green": 9.0,
+        "ACT": 11.0,
+        "Te Pāti Māori": 2.0,
+        "NZ First": 3.6,
+        "TOP": 1.7
+      }
+    },
+    {
+      "date": "2022-11-27",
+      "pollster": null,
+      "sample_size": 926,
+      "parties": {
+        "Labour": 25.5,
+        "National": 39.0,
+        "Green": 12.0,
+        "ACT": 11.0,
+        "Te Pāti Māori": 4.0,
+        "NZ First": 3.5,
+        "TOP": 2.5
+      }
+    },
+    {
+      "date": "2022-11-08",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 35.3,
+        "National": 37.6,
+        "Green": 7.8,
+        "ACT": 9.9,
+        "Te Pāti Māori": 1.6,
+        "NZ First": 3.8,
+        "TOP": 2.1
+      }
+    },
+    {
+      "date": "2022-11-07",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 34.0,
+        "National": 35.0,
+        "Green": 9.0,
+        "ACT": 10.0,
+        "Te Pāti Māori": 3.2,
+        "NZ First": 4.4,
+        "TOP": 2.0
+      }
+    },
+    {
+      "date": "2022-11-03",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 32.3,
+        "National": 40.7,
+        "Green": 9.5,
+        "ACT": 10.0,
+        "Te Pāti Māori": 1.9,
+        "NZ First": 3.3,
+        "TOP": 1.2
+      }
+    },
+    {
+      "date": "2022-10-25",
+      "pollster": null,
+      "sample_size": 1154,
+      "parties": {
+        "Labour": 29.7,
+        "National": 26.6,
+        "Green": 13.0,
+        "ACT": 13.5,
+        "Te Pāti Māori": 2.2,
+        "NZ First": 7.2,
+        "TOP": 2.0
+      }
+    },
+    {
+      "date": "2022-10-23",
+      "pollster": null,
+      "sample_size": 951,
+      "parties": {
+        "Labour": 29.0,
+        "National": 32.0,
+        "Green": 15.5,
+        "ACT": 12.5,
+        "Te Pāti Māori": 3.0,
+        "NZ First": 3.5,
+        "TOP": 3.0
+      }
+    },
+    {
+      "date": "2022-10-11",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 34.4,
+        "National": 39.2,
+        "Green": 7.2,
+        "ACT": 9.4,
+        "Te Pāti Māori": 2.1,
+        "NZ First": 2.1,
+        "TOP": 3.4
+      }
+    },
+    {
+      "date": "2022-10-01",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 35.0,
+        "National": 35.0,
+        "Green": 9.0,
+        "ACT": 11.0,
+        "Te Pāti Māori": 2.2,
+        "NZ First": 4.0
+      }
+    },
+    {
+      "date": "2022-09-25",
+      "pollster": null,
+      "sample_size": 942,
+      "parties": {
+        "Labour": 29.5,
+        "National": 36.0,
+        "Green": 12.5,
+        "ACT": 12.5,
+        "Te Pāti Māori": 3.5,
+        "NZ First": 1.0,
+        "TOP": 2.5
+      }
+    },
+    {
+      "date": "2022-09-21",
+      "pollster": null,
+      "sample_size": 1001,
+      "parties": {
+        "Labour": 34.0,
+        "National": 37.0,
+        "Green": 9.0,
+        "ACT": 9.0,
+        "Te Pāti Māori": 1.6,
+        "NZ First": 3.0,
+        "TOP": 1.3
+      }
+    },
+    {
+      "date": "2022-09-09",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 33.4,
+        "National": 37.0,
+        "Green": 9.9,
+        "ACT": 12.4,
+        "Te Pāti Māori": 1.5,
+        "NZ First": 1.6,
+        "TOP": 0.7
+      }
+    },
+    {
+      "date": "2022-09-07",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 35.0,
+        "National": 38.0,
+        "Green": 8.0,
+        "ACT": 9.0,
+        "Te Pāti Māori": 3.0
+      }
+    },
+    {
+      "date": "2022-08-21",
+      "pollster": null,
+      "sample_size": 947,
+      "parties": {
+        "Labour": 35.0,
+        "National": 35.5,
+        "Green": 9.0,
+        "ACT": 10.5,
+        "Te Pāti Māori": 5.0,
+        "NZ First": 1.5,
+        "TOP": 1.0
+      }
+    },
+    {
+      "date": "2022-08-11",
+      "pollster": null,
+      "sample_size": 1200,
+      "parties": {
+        "Labour": 35.2,
+        "National": 34.0,
+        "Green": 9.5,
+        "ACT": 11.0,
+        "Te Pāti Māori": 3.5,
+        "NZ First": 2.6
+      }
+    },
+    {
+      "date": "2022-08-08",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 36.0,
+        "National": 37.0,
+        "Green": 9.0,
+        "ACT": 10.0
+      }
+    },
+    {
+      "date": "2022-08-03",
+      "pollster": null,
+      "sample_size": 1023,
+      "parties": {
+        "Labour": 33.0,
+        "National": 37.0,
+        "Green": 9.0,
+        "ACT": 11.0,
+        "Te Pāti Māori": 2.3,
+        "NZ First": 2.6,
+        "TOP": 1.9
+      }
+    },
+    {
+      "date": "2022-08-03",
+      "pollster": null,
+      "sample_size": 1044,
+      "parties": {
+        "Labour": 34.1,
+        "National": 31.4,
+        "Green": 10.2,
+        "ACT": 10.7,
+        "Te Pāti Māori": 2.2,
+        "NZ First": 3.5,
+        "TOP": 1.7
+      }
+    },
+    {
+      "date": "2022-07-01",
+      "pollster": null,
+      "sample_size": 937,
+      "parties": {
+        "Labour": 34.0,
+        "National": 35.0,
+        "Green": 10.5,
+        "ACT": 11.0,
+        "Te Pāti Māori": 4.0,
+        "NZ First": 1.5,
+        "TOP": 2.5
+      }
+    },
+    {
+      "date": "2022-07-10",
+      "pollster": null,
+      "sample_size": 1200,
+      "parties": {
+        "Labour": 34.7,
+        "National": 37.0,
+        "Green": 8.5,
+        "ACT": 10.0,
+        "Te Pāti Māori": 3.7,
+        "NZ First": 2.8
+      }
+    },
+    {
+      "date": "2022-06-26",
+      "pollster": null,
+      "sample_size": 947,
+      "parties": {
+        "Labour": 33.5,
+        "National": 39.0,
+        "Green": 10.0,
+        "ACT": 9.5,
+        "Te Pāti Māori": 1.5,
+        "NZ First": 1.5,
+        "TOP": 2.0
+      }
+    },
+    {
+      "date": "2022-06-12",
+      "pollster": null,
+      "sample_size": 1200,
+      "parties": {
+        "Labour": 34.2,
+        "National": 37.4,
+        "Green": 8.3,
+        "ACT": 9.4,
+        "Te Pāti Māori": 1.8,
+        "NZ First": 2.3,
+        "TOP": 3.0
+      }
+    },
+    {
+      "date": "2022-06-10",
+      "pollster": null,
+      "sample_size": 1200,
+      "parties": {
+        "Labour": 36.0,
+        "National": 35.0,
+        "Green": 10.0,
+        "ACT": 8.0,
+        "Te Pāti Māori": 3.1,
+        "NZ First": 3.3
+      }
+    },
+    {
+      "date": "2022-05-22",
+      "pollster": null,
+      "sample_size": 934,
+      "parties": {
+        "Labour": 31.5,
+        "National": 40.0,
+        "Green": 11.5,
+        "ACT": 10.0,
+        "Te Pāti Māori": 1.0,
+        "NZ First": 3.0,
+        "TOP": 1.0
+      }
+    },
+    {
+      "date": "2022-05-25",
+      "pollster": null,
+      "sample_size": 1002,
+      "parties": {
+        "Labour": 35.0,
+        "National": 39.0,
+        "Green": 10.0,
+        "ACT": 7.0,
+        "Te Pāti Māori": 1.9,
+        "NZ First": 1.3,
+        "TOP": 1.7
+      }
+    },
+    {
+      "date": "2022-05-11",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 34.2,
+        "National": 36.8,
+        "Green": 9.7,
+        "ACT": 10.9,
+        "Te Pāti Māori": 2.4,
+        "NZ First": 1.8,
+        "TOP": 1.4
+      }
+    },
+    {
+      "date": "2022-05-10",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 37.0,
+        "National": 36.0,
+        "Green": 8.0,
+        "ACT": 7.0,
+        "Te Pāti Māori": 3.0,
+        "NZ First": 4.0
+      }
+    },
+    {
+      "date": "2022-04-27",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 38.2,
+        "National": 40.5,
+        "Green": 8.4,
+        "ACT": 6.4,
+        "Te Pāti Māori": 2.5,
+        "NZ First": 1.7,
+        "TOP": 0.9
+      }
+    },
+    {
+      "date": "2022-04-24",
+      "pollster": null,
+      "sample_size": 918,
+      "parties": {
+        "Labour": 33.5,
+        "National": 37.5,
+        "Green": 10.5,
+        "ACT": 10.0,
+        "Te Pāti Māori": 1.5,
+        "NZ First": 2.5,
+        "TOP": 2.0
+      }
+    },
+    {
+      "date": "2022-04-13",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 36.8,
+        "National": 37.8,
+        "Green": 9.4,
+        "ACT": 8.4,
+        "Te Pāti Māori": 3.6,
+        "NZ First": 1.7
+      }
+    },
+    {
+      "date": "2022-03-27",
+      "pollster": null,
+      "sample_size": 944,
+      "parties": {
+        "Labour": 32.0,
+        "National": 38.0,
+        "Green": 10.5,
+        "ACT": 9.0,
+        "Te Pāti Māori": 2.0,
+        "NZ First": 4.0,
+        "TOP": 1.5
+      }
+    },
+    {
+      "date": "2022-03-15",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 36.2,
+        "National": 35.3,
+        "Green": 12.4,
+        "ACT": 11.2,
+        "Te Pāti Māori": 0.2,
+        "NZ First": 1.8,
+        "TOP": 0.1
+      }
+    },
+    {
+      "date": "2022-03-08",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 37.0,
+        "National": 39.0,
+        "Green": 9.0,
+        "ACT": 8.0,
+        "Te Pāti Māori": 2.3,
+        "NZ First": 2.2,
+        "TOP": 1.3
+      }
+    },
+    {
+      "date": "2022-02-27",
+      "pollster": null,
+      "sample_size": 963,
+      "parties": {
+        "Labour": 32.0,
+        "National": 38.0,
+        "Green": 11.0,
+        "ACT": 11.5,
+        "Te Pāti Māori": 2.0,
+        "NZ First": 2.0,
+        "TOP": 1.0
+      }
+    },
+    {
+      "date": "2022-02-10",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 42.3,
+        "National": 38.4,
+        "Green": 6.3,
+        "ACT": 6.6,
+        "Te Pāti Māori": 1.0,
+        "NZ First": 1.5,
+        "TOP": 2.0
+      }
+    },
+    {
+      "date": "2022-02-04",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 44.3,
+        "National": 31.3,
+        "Green": 9.6,
+        "ACT": 8.0,
+        "Te Pāti Māori": 2.0,
+        "NZ First": 1.8,
+        "TOP": 1.5
+      }
+    },
+    {
+      "date": "2022-01-30",
+      "pollster": null,
+      "sample_size": 951,
+      "parties": {
+        "Labour": 33.0,
+        "National": 35.0,
+        "Green": 10.5,
+        "ACT": 13.5,
+        "Te Pāti Māori": 2.5,
+        "NZ First": 2.5,
+        "TOP": 1.5
+      }
+    },
+    {
+      "date": "2022-01-26",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 40.0,
+        "National": 32.0,
+        "Green": 9.0,
+        "ACT": 11.0,
+        "Te Pāti Māori": 1.6,
+        "NZ First": 1.8,
+        "TOP": 1.6
+      }
+    },
+    {
+      "date": "2022-01-17",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 41.2,
+        "National": 33.0,
+        "Green": 10.7,
+        "ACT": 11.5,
+        "Te Pāti Māori": 0.5,
+        "NZ First": 0.9,
+        "TOP": 1.1
+      }
+    },
+    {
+      "date": "2021-12-19",
+      "pollster": null,
+      "sample_size": 967,
+      "parties": {
+        "Labour": 35.5,
+        "National": 31.5,
+        "Green": 8.5,
+        "ACT": 18.5,
+        "Te Pāti Māori": 1.0,
+        "NZ First": 2.0,
+        "TOP": 1.0
+      }
+    },
+    {
+      "date": "2021-12-08",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 39.5,
+        "National": 32.6,
+        "Green": 10.9,
+        "ACT": 10.6,
+        "Te Pāti Māori": 3.0,
+        "NZ First": 2.3
+      }
+    },
+    {
+      "date": "2021-11-21",
+      "pollster": null,
+      "sample_size": 951,
+      "parties": {
+        "Labour": 36.0,
+        "National": 26.5,
+        "Green": 10.5,
+        "ACT": 17.5,
+        "Te Pāti Māori": 3.0,
+        "NZ First": 2.5,
+        "TOP": 1.5
+      }
+    },
+    {
+      "date": "2021-11-17",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 42.7,
+        "National": 26.9,
+        "Green": 7.2,
+        "ACT": 16.0,
+        "Te Pāti Māori": 2.1,
+        "NZ First": 2.5,
+        "TOP": 1.2
+      }
+    },
+    {
+      "date": "2021-11-10",
+      "pollster": null,
+      "sample_size": 1001,
+      "parties": {
+        "Labour": 41.0,
+        "National": 28.0,
+        "Green": 9.0,
+        "ACT": 14.0,
+        "Te Pāti Māori": 0.9,
+        "NZ First": 3.3,
+        "TOP": 1.2
+      }
+    },
+    {
+      "date": "2021-11-08",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 39.3,
+        "National": 26.2,
+        "Green": 8.6,
+        "ACT": 15.9,
+        "Te Pāti Māori": 2.3,
+        "NZ First": 1.7
+      }
+    },
+    {
+      "date": "2021-11-03",
+      "pollster": null,
+      "sample_size": 1023,
+      "parties": {
+        "Labour": 41.0,
+        "National": 24.0,
+        "Green": 9.0,
+        "ACT": 17.0,
+        "Te Pāti Māori": 2.4,
+        "NZ First": 4.2
+      }
+    },
+    {
+      "date": "2021-10-24",
+      "pollster": null,
+      "sample_size": 929,
+      "parties": {
+        "Labour": 39.5,
+        "National": 26.0,
+        "Green": 10.5,
+        "ACT": 16.0,
+        "Te Pāti Māori": 2.0,
+        "NZ First": 2.5,
+        "TOP": 1.0
+      }
+    },
+    {
+      "date": "2021-10-11",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 44.8,
+        "National": 22.5,
+        "Green": 6.4,
+        "ACT": 16.6,
+        "Te Pāti Māori": 1.5,
+        "NZ First": 3.6
+      }
+    },
+    {
+      "date": "2021-10-05",
+      "pollster": null,
+      "sample_size": 1200,
+      "parties": {
+        "Labour": 46.0,
+        "National": 22.0,
+        "Green": 7.0,
+        "ACT": 16.0,
+        "Te Pāti Māori": 1.9,
+        "NZ First": 3.8
+      }
+    },
+    {
+      "date": "2021-09-26",
+      "pollster": null,
+      "sample_size": 940,
+      "parties": {
+        "Labour": 45.5,
+        "National": 23.0,
+        "Green": 9.5,
+        "ACT": 16.0,
+        "Te Pāti Māori": 2.0,
+        "NZ First": 1.5,
+        "TOP": 1.5
+      }
+    },
+    {
+      "date": "2021-09-26",
+      "pollster": null,
+      "sample_size": 1001,
+      "parties": {
+        "Labour": 43.0,
+        "National": 26.0,
+        "Green": 8.0,
+        "ACT": 14.0,
+        "Te Pāti Māori": 2.1,
+        "NZ First": 2.5,
+        "TOP": 1.2
+      }
+    },
+    {
+      "date": "2021-09-09",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 45.8,
+        "National": 21.3,
+        "Green": 9.6,
+        "ACT": 14.9,
+        "Te Pāti Māori": 1.2,
+        "NZ First": 2.7
+      }
+    },
+    {
+      "date": "2021-09-06",
+      "pollster": null,
+      "sample_size": 1050,
+      "parties": {
+        "Labour": 45.0,
+        "National": 26.0,
+        "Green": 6.0,
+        "ACT": 13.0,
+        "Te Pāti Māori": 2.0,
+        "NZ First": 4.1
+      }
+    },
+    {
+      "date": "2021-08-22",
+      "pollster": null,
+      "sample_size": 940,
+      "parties": {
+        "Labour": 39.5,
+        "National": 25.0,
+        "Green": 12.0,
+        "ACT": 13.0,
+        "Te Pāti Māori": 2.5,
+        "NZ First": 2.5,
+        "TOP": 2.0
+      }
+    },
+    {
+      "date": "2021-08-01",
+      "pollster": null,
+      "sample_size": 1216,
+      "parties": {
+        "Labour": 43.0,
+        "National": 28.0,
+        "Green": 7.0,
+        "ACT": 13.0,
+        "Te Pāti Māori": 1.7,
+        "NZ First": 4.4
+      }
+    },
+    {
+      "date": "2021-07-29",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 43.0,
+        "National": 28.7,
+        "Green": 8.5,
+        "ACT": 11.1,
+        "Te Pāti Māori": 1.9,
+        "NZ First": 3.4,
+        "TOP": 0.8
+      }
+    },
+    {
+      "date": "2021-07-25",
+      "pollster": null,
+      "sample_size": 945,
+      "parties": {
+        "Labour": 39.5,
+        "National": 29.0,
+        "Green": 10.0,
+        "ACT": 13.0,
+        "Te Pāti Māori": 2.5,
+        "NZ First": 2.0,
+        "TOP": 3.0
+      }
+    },
+    {
+      "date": "2021-07-01",
+      "pollster": null,
+      "sample_size": 1199,
+      "parties": {
+        "Labour": 48.0,
+        "National": 24.0,
+        "Green": 8.0,
+        "ACT": 11.0,
+        "Te Pāti Māori": 1.5,
+        "NZ First": 5.0
+      }
+    },
+    {
+      "date": "2021-06-27",
+      "pollster": null,
+      "sample_size": 927,
+      "parties": {
+        "Labour": 38.5,
+        "National": 29.5,
+        "Green": 12.5,
+        "ACT": 11.5,
+        "Te Pāti Māori": 2.5,
+        "NZ First": 1.5,
+        "TOP": 2.0
+      }
+    },
+    {
+      "date": "2021-05-26",
+      "pollster": null,
+      "sample_size": 1002,
+      "parties": {
+        "Labour": 46.0,
+        "National": 29.0,
+        "Green": 8.0,
+        "ACT": 9.0,
+        "Te Pāti Māori": 1.8,
+        "NZ First": 1.2,
+        "TOP": 1.8
+      }
+    },
+    {
+      "date": "2021-05-23",
+      "pollster": null,
+      "sample_size": 932,
+      "parties": {
+        "Labour": 45.0,
+        "National": 28.5,
+        "Green": 11.0,
+        "ACT": 9.0,
+        "Te Pāti Māori": 1.5,
+        "NZ First": 2.0,
+        "TOP": 1.5
+      }
+    },
+    {
+      "date": "2021-05-13",
+      "pollster": null,
+      "sample_size": 1000,
+      "parties": {
+        "Labour": 52.7,
+        "National": 27.0,
+        "Green": 7.1,
+        "ACT": 6.9,
+        "Te Pāti Māori": 1.2,
+        "NZ First": 1.9,
+        "TOP": 1.3
+      }
+    },
+    {
+      "date": "2021-04-25",
+      "pollster": null,
+      "sample_size": 933,
+      "parties": {
+        "Labour": 41.5,
+        "National": 29.5,
+        "Green": 13.5,
+        "ACT": 9.0,
+        "Te Pāti Māori": 2.5,
+        "NZ First": 1.0,
+        "TOP": 0.5
+      }
+    },
+    {
+      "date": "2021-03-28",
+      "pollster": null,
+      "sample_size": 924,
+      "parties": {
+        "Labour": 45.5,
+        "National": 23.0,
+        "Green": 12.0,
+        "ACT": 11.0,
+        "Te Pāti Māori": 1.0,
+        "NZ First": 2.5,
+        "TOP": 2.0
+      }
+    },
+    {
+      "date": "2021-03-13",
+      "pollster": null,
+      "sample_size": 1006,
+      "parties": {
+        "Labour": 49.0,
+        "National": 27.0,
+        "Green": 9.0,
+        "ACT": 8.0,
+        "Te Pāti Māori": 1.5,
+        "NZ First": 1.8,
+        "TOP": 1.2
+      }
+    },
+    {
+      "date": "2021-02-21",
+      "pollster": null,
+      "sample_size": 924,
+      "parties": {
+        "Labour": 45.0,
+        "National": 29.0,
+        "Green": 13.5,
+        "ACT": 7.5,
+        "Te Pāti Māori": 1.0,
+        "NZ First": 1.5,
+        "TOP": 1.0
+      }
+    },
+    {
+      "date": "2021-01-24",
+      "pollster": null,
+      "sample_size": 937,
+      "parties": {
+        "Labour": 47.0,
+        "National": 25.0,
+        "Green": 11.5,
+        "ACT": 9.0,
+        "Te Pāti Māori": 2.0,
+        "NZ First": 2.0,
+        "TOP": 1.5
+      }
+    },
+    {
+      "date": "2020-12-13",
+      "pollster": null,
+      "sample_size": 923,
+      "parties": {
+        "Labour": 44.0,
+        "National": 28.0,
+        "Green": 10.5,
+        "ACT": 10.0,
+        "Te Pāti Māori": 2.0,
+        "NZ First": 2.0,
+        "TOP": 2.0
+      }
+    },
+    {
+      "date": "2020-12-02",
+      "pollster": null,
+      "sample_size": 1004,
+      "parties": {
+        "Labour": 53.0,
+        "National": 25.0,
+        "Green": 8.0,
+        "ACT": 8.0,
+        "Te Pāti Māori": 1.5,
+        "NZ First": 1.6,
+        "TOP": 0.5
+      }
+    },
+    {
+      "date": "2020-11-22",
+      "pollster": null,
+      "sample_size": 939,
+      "parties": {
+        "Labour": 44.0,
+        "National": 25.5,
+        "Green": 12.5,
+        "ACT": 10.5,
+        "Te Pāti Māori": 1.5,
+        "NZ First": 1.0,
+        "TOP": 2.0
+      }
+    },
+    {
+      "date": "2020-10-17",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "Labour": 50.0,
+        "National": 25.6,
+        "Green": 7.9,
+        "ACT": 7.6,
+        "Te Pāti Māori": 1.2,
+        "NZ First": 2.6,
+        "TOP": 1.5
+      }
+    }
+  ]
+}

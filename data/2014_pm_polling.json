@@ -1,0 +1,368 @@
+{
+  "election_year": 2014,
+  "polls": [
+    {
+      "date": "2012-02-19",
+      "pollster": "3 News Reid Research",
+      "candidates": {
+        "Key": 45.8,
+        "Shearer": 10.1,
+        "Peters": 5.7
+      }
+    },
+    {
+      "date": "2012-03-28",
+      "pollster": "One News Colmar Brunton",
+      "candidates": {
+        "Key": 48.0,
+        "Shearer": 11.0,
+        "Peters": 3.0
+      }
+    },
+    {
+      "date": "2012-04-22",
+      "pollster": "3 News Reid Research",
+      "candidates": {
+        "Key": 44.2,
+        "Shearer": 10.4,
+        "Peters": 4.2,
+        "Norman": 2.2
+      }
+    },
+    {
+      "date": "2012-04-29",
+      "pollster": "Herald-Digipoll",
+      "candidates": {
+        "Key": 63.9,
+        "Shearer": 13.1,
+        "Peters": 6.4
+      }
+    },
+    {
+      "date": "2012-06-04",
+      "pollster": "One News Colmar Brunton",
+      "candidates": {
+        "Key": 48.0,
+        "Shearer": 14.0
+      }
+    },
+    {
+      "date": "2012-06-10",
+      "pollster": "3 News Reid Research",
+      "candidates": {
+        "Key": 40.5,
+        "Shearer": 12.3,
+        "Peters": 4.8,
+        "Norman": 4.0
+      }
+    },
+    {
+      "date": "2012-06-25",
+      "pollster": "Herald-Digipoll",
+      "candidates": {
+        "Key": 63.5,
+        "Shearer": 14.2,
+        "Peters": 7.3,
+        "Norman": 2.7
+      }
+    },
+    {
+      "date": "2012-08-05",
+      "pollster": "One News Colmar Brunton",
+      "candidates": {
+        "Key": 45.0,
+        "Shearer": 13.0
+      }
+    },
+    {
+      "date": "2012-08-05",
+      "pollster": "3 News Reid Research",
+      "candidates": {
+        "Key": 43.2,
+        "Shearer": 8.9,
+        "Peters": 6.2,
+        "Norman": 2.0
+      }
+    },
+    {
+      "date": "2012-08-31",
+      "pollster": "Herald-Digipoll",
+      "candidates": {
+        "Key": 65.6,
+        "Shearer": 12.9,
+        "Peters": 5.8,
+        "Norman": 1.8
+      }
+    },
+    {
+      "date": "2012-09-23",
+      "pollster": "One News Colmar Brunton",
+      "candidates": {
+        "Key": 44.0,
+        "Shearer": 12.0,
+        "Peters": 4.0
+      }
+    },
+    {
+      "date": "2012-10-14",
+      "pollster": "3 News Reid Research",
+      "candidates": {
+        "Key": 41.0,
+        "Shearer": 8.5,
+        "Peters": 5.0,
+        "Norman": 2.4
+      }
+    },
+    {
+      "date": "2012-11-04",
+      "pollster": "One News Colmar Brunton",
+      "candidates": {
+        "Key": 42.0,
+        "Shearer": 11.0,
+        "Peters": 6.0
+      }
+    },
+    {
+      "date": "2012-12-02",
+      "pollster": "One News Colmar Brunton",
+      "candidates": {
+        "Key": 39.0,
+        "Shearer": 15.0
+      }
+    },
+    {
+      "date": "2012-12-02",
+      "pollster": "3 News Reid Research",
+      "candidates": {
+        "Key": 37.4,
+        "Shearer": 12.6,
+        "Peters": 5.0,
+        "Norman": 2.2
+      }
+    },
+    {
+      "date": "2013-02-13",
+      "pollster": "One News Colmar Brunton",
+      "candidates": {
+        "Key": 44.0,
+        "Shearer": 15.0,
+        "Peters": 5.0,
+        "Norman": 2.0
+      }
+    },
+    {
+      "date": "2013-03-21",
+      "pollster": "Herald-Digipoll",
+      "candidates": {
+        "Key": 63.0,
+        "Shearer": 18.5,
+        "Peters": 4.0,
+        "Norman": 2.4
+      }
+    },
+    {
+      "date": "2013-06-23",
+      "pollster": "Herald-DigiPoll",
+      "candidates": {
+        "Key": 65.2,
+        "Shearer": 12.4,
+        "Peters": 6.4
+      }
+    },
+    {
+      "date": "2013-07-14",
+      "pollster": "3 News Reid Research",
+      "candidates": {
+        "Key": 42.0,
+        "Shearer": 12.1
+      }
+    },
+    {
+      "date": "2013-07-31",
+      "pollster": "One News Colmar Brunton",
+      "candidates": {
+        "Key": 41.0,
+        "Shearer": 13.0,
+        "Peters": 4.0,
+        "Norman": 3.0
+      }
+    },
+    {
+      "date": "2013-09-22",
+      "pollster": "One News Colmar Brunton",
+      "candidates": {
+        "Key": 42.0,
+        "Shearer": 12.0,
+        "Peters": 4.0
+      }
+    },
+    {
+      "date": "2013-09-23",
+      "pollster": "Herald-DigiPoll",
+      "candidates": {
+        "Key": 55.8,
+        "Shearer": 16.8,
+        "Peters": 6.2,
+        "Norman": 3.7
+      }
+    },
+    {
+      "date": "2013-10-23",
+      "pollster": "One News Colmar Brunton",
+      "candidates": {
+        "Key": 43.0,
+        "Shearer": 12.0,
+        "Peters": 4.0
+      }
+    },
+    {
+      "date": "2013-12-09",
+      "pollster": "Herald on Sunday/Key Research",
+      "candidates": {
+        "Key": 45.0,
+        "Shearer": 18.0
+      }
+    },
+    {
+      "date": "2013-12-17",
+      "pollster": "Herald-DigiPoll",
+      "candidates": {
+        "Key": 61.9,
+        "Shearer": 16.5,
+        "Peters": 7.3,
+        "Norman": 3.4
+      }
+    },
+    {
+      "date": "2014-01-29",
+      "pollster": "3 News Reid Research",
+      "candidates": {
+        "Key": 39.0,
+        "Shearer": 10.8,
+        "Peters": 5.9
+      }
+    },
+    {
+      "date": "2014-02-10",
+      "pollster": "Fairfax Media-Ipsos",
+      "candidates": {
+        "Key": 51.2,
+        "Shearer": 18.2
+      }
+    },
+    {
+      "date": "2014-02-19",
+      "pollster": "One News Colmar Brunton",
+      "candidates": {
+        "Key": 42.0,
+        "Shearer": 8.0,
+        "Peters": 4.0
+      }
+    },
+    {
+      "date": "2014-03-16",
+      "pollster": "Herald-DigiPoll",
+      "candidates": {
+        "Key": 66.5,
+        "Shearer": 11.1,
+        "Peters": 6.5,
+        "Norman": 4.5
+      }
+    },
+    {
+      "date": "2014-03-26",
+      "pollster": "3 News Reid Research",
+      "candidates": {
+        "Key": 42.6,
+        "Shearer": 9.0,
+        "Peters": 6.9
+      }
+    },
+    {
+      "date": "2014-03-26",
+      "pollster": "One News Colmar Brunton",
+      "candidates": {
+        "Key": 42.0,
+        "Shearer": 8.0,
+        "Peters": 4.0
+      }
+    },
+    {
+      "date": "2014-05-12",
+      "pollster": "Fairfax Media-Ipsos",
+      "candidates": {
+        "Key": 48.6,
+        "Shearer": 13.4,
+        "Peters": 3.4,
+        "Norman": 1.8
+      }
+    },
+    {
+      "date": "2014-05-21",
+      "pollster": "3 News Reid Research",
+      "candidates": {
+        "Key": 43.1,
+        "Shearer": 9.8,
+        "Peters": 7.8
+      }
+    },
+    {
+      "date": "2014-05-21",
+      "pollster": "One News Colmar Brunton",
+      "candidates": {
+        "Key": 43.0,
+        "Shearer": 10.0
+      }
+    },
+    {
+      "date": "2014-06-16",
+      "pollster": "Herald-DigiPoll",
+      "candidates": {
+        "Key": 65.9,
+        "Shearer": 12.7,
+        "Peters": 6.2,
+        "Norman": 2.5
+      }
+    },
+    {
+      "date": "2014-06-17",
+      "pollster": "Fairfax Media-Ipsos",
+      "candidates": {
+        "Key": 51.4,
+        "Shearer": 11.1,
+        "Peters": 2.6,
+        "Norman": 2.7
+      }
+    },
+    {
+      "date": "2014-07-17",
+      "pollster": "Fairfax Media-Ipsos",
+      "candidates": {
+        "Key": 58.2,
+        "Shearer": 14.2,
+        "Peters": 2.2,
+        "Norman": 2.1
+      }
+    },
+    {
+      "date": "2014-08-27",
+      "pollster": "Herald-DigiPoll",
+      "candidates": {
+        "Key": 67.8,
+        "Shearer": 11.6,
+        "Peters": 8.2,
+        "Norman": 3.8
+      }
+    },
+    {
+      "date": "2014-09-10",
+      "pollster": "Herald-DigiPoll",
+      "candidates": {
+        "Key": 61.6,
+        "Shearer": 17.9,
+        "Peters": 7.8,
+        "Norman": 3.3
+      }
+    }
+  ]
+}

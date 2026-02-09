@@ -1,0 +1,427 @@
+{
+  "election_year": 2017,
+  "polls": [
+    {
+      "date": "2014-12-21",
+      "pollster": "Herald-DigiPoll",
+      "candidates": {
+        "Ardern": 1.7,
+        "Little": 13.6,
+        "Key": 65.0
+      }
+    },
+    {
+      "date": "2015-01-28",
+      "pollster": "3 News-Reid Research",
+      "candidates": {
+        "English": 0.3,
+        "Peters": 7.6,
+        "Little": 9.8,
+        "Key": 44.0
+      }
+    },
+    {
+      "date": "2015-02-18",
+      "pollster": "One News-Colmar Brunton",
+      "candidates": {
+        "English": 0.6,
+        "Ardern": 0.7,
+        "Peters": 7.0,
+        "Turei": 1.1,
+        "Little": 12.0,
+        "Key": 41.0
+      }
+    },
+    {
+      "date": "2015-04-26",
+      "pollster": "Herald-DigiPoll",
+      "candidates": {
+        "Peters": 12.0,
+        "Little": 13.9,
+        "Key": 64.6
+      }
+    },
+    {
+      "date": "2015-05-27",
+      "pollster": "3 News Reid Research",
+      "candidates": {
+        "English": 0.6,
+        "Peters": 11.2,
+        "Little": 11.6,
+        "Key": 39.4
+      }
+    },
+    {
+      "date": "2015-07-22",
+      "pollster": "3 News Reid Research",
+      "candidates": {
+        "English": 0.2,
+        "Peters": 11.3,
+        "Shaw": 0.2,
+        "Little": 10.2,
+        "Key": 38.3
+      }
+    },
+    {
+      "date": "2015-08-24",
+      "pollster": "Herald-DigiPoll",
+      "candidates": {
+        "Ardern": 3.9,
+        "Peters": 11.6,
+        "Shaw": 0.6,
+        "Turei": 0.9,
+        "Little": 13.3,
+        "Key": 63.7
+      }
+    },
+    {
+      "date": "2015-09-16",
+      "pollster": "3 News Reid Research",
+      "candidates": {
+        "English": 0.3,
+        "Ardern": 3.5,
+        "Peters": 8.6,
+        "Shaw": 0.2,
+        "Little": 10.8,
+        "Key": 39.5
+      }
+    },
+    {
+      "date": "2015-11-17",
+      "pollster": "3 News Reid Research",
+      "candidates": {
+        "English": 0.7,
+        "Ardern": 4.2,
+        "Peters": 9.3,
+        "Little": 10.4,
+        "Key": 38.3
+      }
+    },
+    {
+      "date": "2015-12-14",
+      "pollster": "Herald-DigiPoll",
+      "candidates": {
+        "Ardern": 2.8,
+        "Peters": 7.9,
+        "Little": 16.2,
+        "Key": 65.2
+      }
+    },
+    {
+      "date": "2016-04-06",
+      "pollster": "One News Colmar Brunton",
+      "candidates": {
+        "English": 0.9,
+        "Ardern": 2.0,
+        "Peters": 10.0,
+        "Shaw": 0.4,
+        "Little": 7.0,
+        "Key": 39.0
+      }
+    },
+    {
+      "date": "2016-05-22",
+      "pollster": "Newshub Reid Research",
+      "candidates": {
+        "English": 0.2,
+        "Ardern": 2.6,
+        "Peters": 12.1,
+        "Shaw": 0.5,
+        "Little": 8.9,
+        "Key": 36.7
+      }
+    },
+    {
+      "date": "2016-06-02",
+      "pollster": "One News Colmar Brunton",
+      "candidates": {
+        "English": 0.4,
+        "Ardern": 1.0,
+        "Peters": 12.0,
+        "Shaw": 0.4,
+        "Little": 7.0,
+        "Key": 39.0
+      }
+    },
+    {
+      "date": "2016-08-03",
+      "pollster": "Newshub Reid Research",
+      "candidates": {
+        "English": 0.3,
+        "Ardern": 2.9,
+        "Peters": 10.9,
+        "Shaw": 0.9,
+        "Turei": 1.0,
+        "Little": 10.5,
+        "Key": 36.7
+      }
+    },
+    {
+      "date": "2016-09-07",
+      "pollster": "One News Colmar Brunton",
+      "candidates": {
+        "Ardern": 1.0,
+        "Peters": 11.0,
+        "Shaw": 0.1,
+        "Little": 10.0,
+        "Key": 38.0
+      }
+    },
+    {
+      "date": "2016-11-23",
+      "pollster": "One News Colmar Brunton",
+      "candidates": {
+        "Ardern": 1.0,
+        "Peters": 8.0,
+        "Shaw": 0.3,
+        "Turei": 1.0,
+        "Little": 8.0,
+        "Key": 36.0
+      }
+    },
+    {
+      "date": "2017-02-15",
+      "pollster": "One News Colmar Brunton",
+      "candidates": {
+        "English": 31.0,
+        "Ardern": 4.0,
+        "Peters": 8.0,
+        "Shaw": 0.3,
+        "Turei": 2.0,
+        "Little": 7.0,
+        "Key": 2.0
+      }
+    },
+    {
+      "date": "2017-03-19",
+      "pollster": "Newshub Reid Research",
+      "candidates": {
+        "English": 25.0,
+        "Ardern": 10.5,
+        "Peters": 8.9,
+        "Turei": 1.0,
+        "Little": 8.3,
+        "Key": 5.9
+      }
+    },
+    {
+      "date": "2017-03-22",
+      "pollster": "One News Colmar Brunton",
+      "candidates": {
+        "English": 26.0,
+        "Ardern": 9.0,
+        "Peters": 9.0,
+        "Shaw": 0.5,
+        "Turei": 0.4,
+        "Little": 7.0,
+        "Key": 2.0
+      }
+    },
+    {
+      "date": "2017-05-24",
+      "pollster": "Listener: Bauer Media Insights",
+      "candidates": {
+        "English": 39.0,
+        "Ardern": 16.0,
+        "Peters": 9.0,
+        "Shaw": 2.0,
+        "Turei": 3.0,
+        "Little": 13.0
+      }
+    },
+    {
+      "date": "2017-05-31",
+      "pollster": "One News Colmar Brunton",
+      "candidates": {
+        "English": 29.0,
+        "Ardern": 6.0,
+        "Peters": 7.0,
+        "Shaw": 0.4,
+        "Turei": 0.7,
+        "Little": 8.0,
+        "Key": 2.0
+      }
+    },
+    {
+      "date": "2017-06-12",
+      "pollster": "Newshub Reid Research",
+      "candidates": {
+        "English": 26.2,
+        "Ardern": 6.6,
+        "Peters": 9.7,
+        "Shaw": 0.7,
+        "Turei": 1.4,
+        "Little": 7.0,
+        "Key": 5.9
+      }
+    },
+    {
+      "date": "2017-07-05",
+      "pollster": "One News Colmar Brunton",
+      "candidates": {
+        "English": 26.0,
+        "Ardern": 6.0,
+        "Peters": 11.0,
+        "Shaw": 0.5,
+        "Turei": 0.2,
+        "Little": 5.0,
+        "Key": 1.0
+      }
+    },
+    {
+      "date": "2017-07-27",
+      "pollster": "One News Colmar Brunton",
+      "candidates": {
+        "English": 28.0,
+        "Ardern": 6.0,
+        "Peters": 10.0,
+        "Shaw": 0.2,
+        "Turei": 1.0,
+        "Little": 6.0,
+        "Key": 1.0
+      }
+    },
+    {
+      "date": "2017-07-28",
+      "pollster": "Newshub Reid Research",
+      "candidates": {
+        "English": 25.8,
+        "Ardern": 8.7,
+        "Peters": 11.9,
+        "Shaw": 0.7,
+        "Turei": 1.6,
+        "Little": 7.1,
+        "Key": 6.0
+      }
+    },
+    {
+      "date": "2017-08-08",
+      "pollster": "Newshub Reid Research",
+      "candidates": {
+        "English": 27.7,
+        "Ardern": 26.3,
+        "Peters": 10.0,
+        "Shaw": 0.2,
+        "Turei": 0.8,
+        "Little": 0.9,
+        "Key": 4.9
+      }
+    },
+    {
+      "date": "2017-08-16",
+      "pollster": "One News Colmar Brunton",
+      "candidates": {
+        "English": 30.0,
+        "Ardern": 30.0,
+        "Peters": 7.0,
+        "Shaw": 0.3,
+        "Key": 0.5
+      }
+    },
+    {
+      "date": "2017-08-30",
+      "pollster": "Newshub Reid Research",
+      "candidates": {
+        "English": 30.1,
+        "Ardern": 29.9,
+        "Peters": 6.9,
+        "Shaw": 0.5,
+        "Turei": 0.8,
+        "Little": 0.3,
+        "Key": 4.6
+      }
+    },
+    {
+      "date": "2017-08-30",
+      "pollster": "One News Colmar Brunton",
+      "candidates": {
+        "English": 33.0,
+        "Ardern": 34.0,
+        "Peters": 4.0,
+        "Shaw": 0.4,
+        "Turei": 0.8
+      }
+    },
+    {
+      "date": "2017-09-05",
+      "pollster": "Listener: Bauer Media Insights",
+      "candidates": {
+        "English": 36.0,
+        "Ardern": 46.0,
+        "Peters": 6.0,
+        "Shaw": 1.0
+      }
+    },
+    {
+      "date": "2017-09-06",
+      "pollster": "One News Colmar Brunton",
+      "candidates": {
+        "English": 31.0,
+        "Ardern": 35.0,
+        "Peters": 5.0,
+        "Shaw": 1.0,
+        "Little": 0.1,
+        "Key": 0.7
+      }
+    },
+    {
+      "date": "2017-09-06",
+      "pollster": "Newsroom: SSI",
+      "candidates": {
+        "English": 31.0,
+        "Ardern": 45.0,
+        "Peters": 11.0
+      }
+    },
+    {
+      "date": "2017-09-11",
+      "pollster": "Newshub Reid Research",
+      "candidates": {
+        "English": 33.1,
+        "Ardern": 31.7,
+        "Peters": 6.9,
+        "Shaw": 0.6,
+        "Turei": 0.8,
+        "Little": 0.1,
+        "Key": 4.1
+      }
+    },
+    {
+      "date": "2017-09-13",
+      "pollster": "One News Colmar Brunton",
+      "candidates": {
+        "English": 32.0,
+        "Ardern": 34.0,
+        "Peters": 5.0,
+        "Shaw": 0.3,
+        "Turei": 0.2,
+        "Key": 0.6
+      }
+    },
+    {
+      "date": "2017-09-20",
+      "pollster": "Newshub Reid Research",
+      "candidates": {
+        "English": 34.7,
+        "Ardern": 29.6,
+        "Peters": 7.1,
+        "Shaw": 0.6,
+        "Turei": 0.5,
+        "Little": 0.4,
+        "Key": 3.6
+      }
+    },
+    {
+      "date": "2017-09-19",
+      "pollster": "One News Colmar Brunton",
+      "candidates": {
+        "English": 37.0,
+        "Ardern": 31.0,
+        "Peters": 6.0,
+        "Shaw": 0.3,
+        "Turei": 0.1,
+        "Key": 0.7
+      }
+    }
+  ]
+}

@@ -1,0 +1,1149 @@
+{
+  "election_year": 2017,
+  "polls": [
+    {
+      "date": "2014-09-20",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 47.04,
+        "Labour": 25.13,
+        "Green": 10.7,
+        "NZ First": 8.66,
+        "Te Pāti Māori": 1.32,
+        "ACT": 0.69,
+        "Conservative": 3.97
+      }
+    },
+    {
+      "date": "2014-10-12",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 43.5,
+        "Labour": 22.5,
+        "Green": 17.5,
+        "NZ First": 7.0,
+        "Te Pāti Māori": 2.0,
+        "ACT": 0.5,
+        "Conservative": 5.0
+      }
+    },
+    {
+      "date": "2014-11-09",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 49.5,
+        "Labour": 24.0,
+        "Green": 14.5,
+        "NZ First": 6.5,
+        "Te Pāti Māori": 1.0,
+        "ACT": 0.5,
+        "Conservative": 2.0
+      }
+    },
+    {
+      "date": "2014-12-07",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 46.0,
+        "Labour": 27.0,
+        "Green": 12.0,
+        "NZ First": 7.0,
+        "Te Pāti Māori": 2.0,
+        "ACT": 1.5,
+        "Conservative": 2.5
+      }
+    },
+    {
+      "date": "2014-12-21",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 50.4,
+        "Labour": 28.9,
+        "Green": 9.5,
+        "NZ First": 5.6,
+        "Te Pāti Māori": 1.5,
+        "ACT": 0.4,
+        "Conservative": 2.9
+      }
+    },
+    {
+      "date": "2015-01-18",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 52.0,
+        "Labour": 26.0,
+        "Green": 11.0,
+        "NZ First": 6.0,
+        "Te Pāti Māori": 1.5,
+        "ACT": 1.0,
+        "Conservative": 2.0
+      }
+    },
+    {
+      "date": "2015-01-28",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 49.8,
+        "Labour": 29.1,
+        "Green": 9.3,
+        "NZ First": 6.9,
+        "Te Pāti Māori": 1.3,
+        "ACT": 0.4,
+        "Conservative": 2.7
+      }
+    },
+    {
+      "date": "2015-02-15",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 49.0,
+        "Labour": 30.0,
+        "Green": 12.0,
+        "NZ First": 6.0,
+        "Te Pāti Māori": 1.0,
+        "ACT": 0.0,
+        "Conservative": 1.5
+      }
+    },
+    {
+      "date": "2015-02-18",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 49.0,
+        "Labour": 31.0,
+        "Green": 10.0,
+        "NZ First": 6.0,
+        "Te Pāti Māori": 1.5,
+        "ACT": 0.3,
+        "Conservative": 1.4
+      }
+    },
+    {
+      "date": "2015-03-15",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 46.5,
+        "Labour": 31.0,
+        "Green": 11.0,
+        "NZ First": 6.0,
+        "Te Pāti Māori": 2.0,
+        "ACT": 1.0,
+        "Conservative": 1.5
+      }
+    },
+    {
+      "date": "2015-04-15",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 49.0,
+        "Labour": 31.0,
+        "Green": 9.0,
+        "NZ First": 7.0,
+        "Te Pāti Māori": 0.8,
+        "ACT": 0.5,
+        "Conservative": 1.5
+      }
+    },
+    {
+      "date": "2015-04-19",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 45.5,
+        "Labour": 27.5,
+        "Green": 13.5,
+        "NZ First": 8.0,
+        "Te Pāti Māori": 1.5,
+        "ACT": 1.0,
+        "Conservative": 1.0
+      }
+    },
+    {
+      "date": "2015-04-26",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 51.0,
+        "Labour": 28.7,
+        "Green": 10.8,
+        "NZ First": 6.1,
+        "Te Pāti Māori": 0.8,
+        "ACT": 0.8,
+        "Conservative": 1.1
+      }
+    },
+    {
+      "date": "2015-05-17",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 54.0,
+        "Labour": 25.5,
+        "Green": 10.5,
+        "NZ First": 6.0,
+        "Te Pāti Māori": 1.0,
+        "ACT": 1.0,
+        "Conservative": 1.0
+      }
+    },
+    {
+      "date": "2015-05-27",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 48.0,
+        "Labour": 31.0,
+        "Green": 10.0,
+        "NZ First": 7.0,
+        "Te Pāti Māori": 1.4,
+        "ACT": 0.1,
+        "Conservative": 2.3
+      }
+    },
+    {
+      "date": "2015-05-27",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 46.4,
+        "Labour": 30.4,
+        "Green": 11.1,
+        "NZ First": 8.1,
+        "Te Pāti Māori": 1.1,
+        "ACT": 0.5,
+        "Conservative": 1.9
+      }
+    },
+    {
+      "date": "2015-06-21",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 49.5,
+        "Labour": 26.0,
+        "Green": 13.0,
+        "NZ First": 6.5,
+        "Te Pāti Māori": 1.0,
+        "ACT": 1.0,
+        "Conservative": 1.0
+      }
+    },
+    {
+      "date": "2015-07-12",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 43.0,
+        "Labour": 32.0,
+        "Green": 13.0,
+        "NZ First": 7.0,
+        "Te Pāti Māori": 1.5,
+        "ACT": 0.5,
+        "Conservative": 1.5
+      }
+    },
+    {
+      "date": "2015-07-15",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 47.0,
+        "Labour": 32.0,
+        "Green": 13.0,
+        "NZ First": 7.0,
+        "Te Pāti Māori": 0.4,
+        "ACT": 0.4
+      }
+    },
+    {
+      "date": "2015-07-22",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 47.0,
+        "Labour": 31.1,
+        "Green": 11.4,
+        "NZ First": 8.4,
+        "Te Pāti Māori": 0.5,
+        "ACT": 0.5,
+        "Conservative": 0.7
+      }
+    },
+    {
+      "date": "2015-08-16",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 50.5,
+        "Labour": 27.0,
+        "Green": 11.0,
+        "NZ First": 8.0,
+        "Te Pāti Māori": 1.5,
+        "ACT": 0.5
+      }
+    },
+    {
+      "date": "2015-08-24",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 50.8,
+        "Labour": 31.0,
+        "Green": 9.2,
+        "NZ First": 6.9,
+        "Te Pāti Māori": 1.0,
+        "ACT": 0.2,
+        "Conservative": 0.6
+      }
+    },
+    {
+      "date": "2015-09-02",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 47.0,
+        "Labour": 32.0,
+        "Green": 12.0,
+        "NZ First": 7.0,
+        "Te Pāti Māori": 1.2,
+        "ACT": 0.1,
+        "Conservative": 0.1
+      }
+    },
+    {
+      "date": "2015-09-13",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 44.5,
+        "Labour": 31.0,
+        "Green": 15.0,
+        "NZ First": 5.5,
+        "Te Pāti Māori": 1.5,
+        "ACT": 0.5,
+        "Conservative": 1.0
+      }
+    },
+    {
+      "date": "2015-09-16",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 47.3,
+        "Labour": 33.0,
+        "Green": 10.0,
+        "NZ First": 7.9,
+        "Te Pāti Māori": 0.5,
+        "ACT": 0.6,
+        "Conservative": 0.5
+      }
+    },
+    {
+      "date": "2015-10-11",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 50.0,
+        "Labour": 29.0,
+        "Green": 11.5,
+        "NZ First": 6.5,
+        "Te Pāti Māori": 0.5,
+        "ACT": 0.5,
+        "Conservative": 0.5
+      }
+    },
+    {
+      "date": "2015-10-14",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 47.0,
+        "Labour": 31.0,
+        "Green": 12.0,
+        "NZ First": 9.0,
+        "Te Pāti Māori": 0.8,
+        "ACT": 0.2,
+        "Conservative": 0.4
+      }
+    },
+    {
+      "date": "2015-11-08",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 49.0,
+        "Labour": 29.5,
+        "Green": 12.0,
+        "NZ First": 6.0,
+        "Te Pāti Māori": 2.0,
+        "ACT": 0.5,
+        "Conservative": 0.5
+      }
+    },
+    {
+      "date": "2015-11-17",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 46.7,
+        "Labour": 32.3,
+        "Green": 10.2,
+        "NZ First": 7.5,
+        "Te Pāti Māori": 1.3,
+        "ACT": 0.8,
+        "Conservative": 0.7
+      }
+    },
+    {
+      "date": "2015-12-06",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 49.0,
+        "Labour": 28.5,
+        "Green": 13.0,
+        "NZ First": 6.0,
+        "Te Pāti Māori": 1.5,
+        "ACT": 0.5,
+        "Conservative": 0.5
+      }
+    },
+    {
+      "date": "2015-12-14",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 51.3,
+        "Labour": 31.1,
+        "Green": 8.2,
+        "NZ First": 5.7,
+        "Te Pāti Māori": 2.1,
+        "ACT": 0.8
+      }
+    },
+    {
+      "date": "2016-01-17",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 47.0,
+        "Labour": 27.5,
+        "Green": 14.0,
+        "NZ First": 6.5,
+        "Te Pāti Māori": 3.0,
+        "ACT": 0.5,
+        "Conservative": 1.0
+      }
+    },
+    {
+      "date": "2016-02-14",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 48.0,
+        "Labour": 27.0,
+        "Green": 14.5,
+        "NZ First": 6.0,
+        "Te Pāti Māori": 1.0,
+        "ACT": 0.5,
+        "Conservative": 1.0
+      }
+    },
+    {
+      "date": "2016-02-17",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 47.0,
+        "Labour": 32.0,
+        "Green": 8.0,
+        "NZ First": 10.0,
+        "Te Pāti Māori": 1.1,
+        "ACT": 0.3,
+        "Conservative": 0.6
+      }
+    },
+    {
+      "date": "2016-03-13",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 46.0,
+        "Labour": 28.0,
+        "Green": 14.0,
+        "NZ First": 9.0,
+        "Te Pāti Māori": 1.0,
+        "ACT": 1.0,
+        "Conservative": 0.5
+      }
+    },
+    {
+      "date": "2016-04-06",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 50.0,
+        "Labour": 28.0,
+        "Green": 10.0,
+        "NZ First": 9.0,
+        "Te Pāti Māori": 1.1,
+        "ACT": 0.7,
+        "Conservative": 0.3
+      }
+    },
+    {
+      "date": "2016-04-17",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 42.5,
+        "Labour": 26.0,
+        "Green": 14.5,
+        "NZ First": 12.5,
+        "Te Pāti Māori": 1.5,
+        "ACT": 1.5,
+        "Conservative": 1.0
+      }
+    },
+    {
+      "date": "2016-05-15",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 45.5,
+        "Labour": 29.5,
+        "Green": 12.0,
+        "NZ First": 9.5,
+        "Te Pāti Māori": 1.0,
+        "ACT": 1.0,
+        "Conservative": 0.5
+      }
+    },
+    {
+      "date": "2016-05-22",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 47.0,
+        "Labour": 31.3,
+        "Green": 11.1,
+        "NZ First": 7.8,
+        "Te Pāti Māori": 1.0,
+        "ACT": 0.4,
+        "Conservative": 0.6
+      }
+    },
+    {
+      "date": "2016-06-02",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 48.0,
+        "Labour": 29.0,
+        "Green": 12.0,
+        "NZ First": 9.0,
+        "Te Pāti Māori": 0.7,
+        "ACT": 0.3,
+        "Conservative": 0.7
+      }
+    },
+    {
+      "date": "2016-06-12",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 43.5,
+        "Labour": 28.0,
+        "Green": 14.5,
+        "NZ First": 9.0,
+        "Te Pāti Māori": 2.0,
+        "ACT": 0.5,
+        "Conservative": 1.0
+      }
+    },
+    {
+      "date": "2016-07-17",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 53.0,
+        "Labour": 25.5,
+        "Green": 11.5,
+        "NZ First": 7.0,
+        "Te Pāti Māori": 0.5,
+        "ACT": 1.0,
+        "Conservative": 0.5
+      }
+    },
+    {
+      "date": "2016-08-03",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 45.1,
+        "Labour": 32.7,
+        "Green": 11.5,
+        "NZ First": 8.1,
+        "Te Pāti Māori": 1.3,
+        "ACT": 0.2,
+        "Conservative": 0.5
+      }
+    },
+    {
+      "date": "2016-08-21",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 46.0,
+        "Labour": 25.5,
+        "Green": 14.5,
+        "NZ First": 9.5,
+        "Te Pāti Māori": 1.5,
+        "ACT": 1.0,
+        "Conservative": 1.0
+      }
+    },
+    {
+      "date": "2016-09-07",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 48.0,
+        "Labour": 26.0,
+        "Green": 13.0,
+        "NZ First": 11.0,
+        "Te Pāti Māori": 2.0,
+        "Conservative": 0.3
+      }
+    },
+    {
+      "date": "2016-09-18",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 41.5,
+        "Labour": 33.5,
+        "Green": 12.0,
+        "NZ First": 8.5,
+        "Te Pāti Māori": 2.0,
+        "ACT": 1.0,
+        "Conservative": 0.5
+      }
+    },
+    {
+      "date": "2016-10-23",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 48.0,
+        "Labour": 26.5,
+        "Green": 11.5,
+        "NZ First": 10.0,
+        "Te Pāti Māori": 1.5,
+        "ACT": 0.5
+      }
+    },
+    {
+      "date": "2016-11-23",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 50.0,
+        "Labour": 28.0,
+        "Green": 11.0,
+        "NZ First": 10.0,
+        "Te Pāti Māori": 1.0,
+        "Conservative": 0.2
+      }
+    },
+    {
+      "date": "2016-11-20",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 49.5,
+        "Labour": 23.0,
+        "Green": 14.5,
+        "NZ First": 8.0,
+        "Te Pāti Māori": 1.5,
+        "ACT": 1.0,
+        "Conservative": 0.5
+      }
+    },
+    {
+      "date": "2016-12-11",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 45.0,
+        "Labour": 28.5,
+        "Green": 14.5,
+        "NZ First": 7.5,
+        "Te Pāti Māori": 1.0,
+        "ACT": 0.5,
+        "Conservative": 0.5
+      }
+    },
+    {
+      "date": "2017-01-16",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 46.0,
+        "Labour": 27.0,
+        "Green": 12.5,
+        "NZ First": 9.0,
+        "Te Pāti Māori": 2.0,
+        "ACT": 0.5,
+        "Conservative": 0.5
+      }
+    },
+    {
+      "date": "2017-02-12",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 48.0,
+        "Labour": 26.0,
+        "Green": 13.0,
+        "NZ First": 8.0,
+        "Te Pāti Māori": 2.0,
+        "ACT": 1.0,
+        "Conservative": 0.0
+      }
+    },
+    {
+      "date": "2017-02-15",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 46.0,
+        "Labour": 30.0,
+        "Green": 11.0,
+        "NZ First": 11.0,
+        "Te Pāti Māori": 0.7,
+        "ACT": 0.8,
+        "Conservative": 0.2,
+        "TOP": 0.0
+      }
+    },
+    {
+      "date": "2017-03-12",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 43.5,
+        "Labour": 29.5,
+        "Green": 14.5,
+        "NZ First": 7.5,
+        "Te Pāti Māori": 2.0,
+        "ACT": 0.5,
+        "Conservative": 0.5
+      }
+    },
+    {
+      "date": "2017-03-19",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 47.1,
+        "Labour": 30.8,
+        "Green": 11.2,
+        "NZ First": 7.6,
+        "Te Pāti Māori": 0.7,
+        "ACT": 0.4,
+        "Conservative": 0.4,
+        "TOP": 0.8
+      }
+    },
+    {
+      "date": "2017-03-22",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 46.0,
+        "Labour": 30.0,
+        "Green": 11.0,
+        "NZ First": 8.0,
+        "Te Pāti Māori": 4.0,
+        "ACT": 0.4,
+        "Conservative": 0.3,
+        "TOP": 0.4
+      }
+    },
+    {
+      "date": "2017-04-16",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 43.0,
+        "Labour": 29.5,
+        "Green": 13.0,
+        "NZ First": 10.5,
+        "Te Pāti Māori": 1.0,
+        "ACT": 1.5,
+        "Conservative": 0.5
+      }
+    },
+    {
+      "date": "2017-05-14",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 43.0,
+        "Labour": 28.5,
+        "Green": 14.0,
+        "NZ First": 10.0,
+        "Te Pāti Māori": 1.5,
+        "ACT": 0.5,
+        "Conservative": 0.0
+      }
+    },
+    {
+      "date": "2017-05-24",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 43.75,
+        "Labour": 23.75,
+        "Green": 16.25,
+        "NZ First": 10.0,
+        "Te Pāti Māori": 1.25,
+        "ACT": 1.25,
+        "Conservative": 1.25,
+        "TOP": 2.5
+      }
+    },
+    {
+      "date": "2017-05-31",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 49.0,
+        "Labour": 30.0,
+        "Green": 9.0,
+        "NZ First": 9.0,
+        "Te Pāti Māori": 0.6,
+        "ACT": 0.5,
+        "Conservative": 0.1,
+        "TOP": 1.4
+      }
+    },
+    {
+      "date": "2017-06-11",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 46.5,
+        "Labour": 25.5,
+        "Green": 14.0,
+        "NZ First": 9.0,
+        "Te Pāti Māori": 1.5,
+        "ACT": 1.0,
+        "Conservative": 0.0
+      }
+    },
+    {
+      "date": "2017-06-12",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 47.4,
+        "Labour": 26.4,
+        "Green": 12.5,
+        "NZ First": 9.4,
+        "Te Pāti Māori": 0.7,
+        "ACT": 0.9,
+        "Conservative": 0.8,
+        "TOP": 0.8
+      }
+    },
+    {
+      "date": "2017-07-05",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 47.0,
+        "Labour": 27.0,
+        "Green": 11.0,
+        "NZ First": 11.0,
+        "Te Pāti Māori": 1.8,
+        "ACT": 0.3,
+        "Conservative": 0.1,
+        "TOP": 1.1
+      }
+    },
+    {
+      "date": "2017-07-09",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 43.0,
+        "Labour": 30.5,
+        "Green": 13.5,
+        "NZ First": 8.0,
+        "Te Pāti Māori": 1.5,
+        "ACT": 1.0,
+        "Conservative": 0.0
+      }
+    },
+    {
+      "date": "2017-07-27",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 47.0,
+        "Labour": 24.0,
+        "Green": 15.0,
+        "NZ First": 11.0,
+        "Te Pāti Māori": 0.6,
+        "ACT": 0.3,
+        "TOP": 1.5
+      }
+    },
+    {
+      "date": "2017-07-28",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 45.2,
+        "Labour": 24.1,
+        "Green": 13.0,
+        "NZ First": 13.0,
+        "Te Pāti Māori": 1.2,
+        "ACT": 0.5,
+        "Conservative": 0.2,
+        "TOP": 2.0
+      }
+    },
+    {
+      "date": "2017-08-02",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 45.42,
+        "Labour": 26.79,
+        "Green": 13.98,
+        "NZ First": 9.32,
+        "Te Pāti Māori": 0.0,
+        "ACT": 1.17,
+        "Conservative": 0.0,
+        "TOP": 2.33
+      }
+    },
+    {
+      "date": "2017-08-08",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 44.4,
+        "Labour": 33.1,
+        "Green": 8.3,
+        "NZ First": 9.2,
+        "Te Pāti Māori": 1.5,
+        "ACT": 0.6,
+        "Conservative": 0.3,
+        "TOP": 2.0
+      }
+    },
+    {
+      "date": "2017-08-13",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 42.5,
+        "Labour": 32.5,
+        "Green": 9.0,
+        "NZ First": 11.5,
+        "Te Pāti Māori": 1.5,
+        "ACT": 0.5,
+        "Conservative": 0.0,
+        "TOP": 2.0
+      }
+    },
+    {
+      "date": "2017-08-16",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 44.0,
+        "Labour": 37.0,
+        "Green": 4.3,
+        "NZ First": 10.0,
+        "Te Pāti Māori": 1.7,
+        "ACT": 0.4,
+        "TOP": 2.1
+      }
+    },
+    {
+      "date": "2017-08-30",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 43.3,
+        "Labour": 39.4,
+        "Green": 6.1,
+        "NZ First": 6.6,
+        "Te Pāti Māori": 1.0,
+        "ACT": 0.6,
+        "Conservative": 0.3,
+        "TOP": 1.9
+      }
+    },
+    {
+      "date": "2017-08-30",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 41.0,
+        "Labour": 43.0,
+        "Green": 5.0,
+        "NZ First": 8.0,
+        "Te Pāti Māori": 0.5,
+        "ACT": 0.3,
+        "TOP": 0.9
+      }
+    },
+    {
+      "date": "2017-09-05",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 38.9,
+        "Labour": 41.1,
+        "Green": 6.7,
+        "NZ First": 8.9,
+        "Te Pāti Māori": 1.1,
+        "ACT": 1.1,
+        "TOP": 2.2
+      }
+    },
+    {
+      "date": "2017-09-06",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 39.0,
+        "Labour": 43.0,
+        "Green": 5.0,
+        "NZ First": 9.0,
+        "Te Pāti Māori": 2.0,
+        "ACT": 0.1,
+        "TOP": 1.9
+      }
+    },
+    {
+      "date": "2017-09-06",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 30.0,
+        "Labour": 45.0,
+        "Green": 6.0,
+        "NZ First": 11.0,
+        "Te Pāti Māori": 2.0,
+        "ACT": 1.0,
+        "TOP": 2.0
+      }
+    },
+    {
+      "date": "2017-09-10",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 40.0,
+        "Labour": 39.5,
+        "Green": 9.0,
+        "NZ First": 6.0,
+        "Te Pāti Māori": 2.0,
+        "ACT": 0.5,
+        "Conservative": 0.5,
+        "TOP": 2.0
+      }
+    },
+    {
+      "date": "2017-09-11",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 47.3,
+        "Labour": 37.8,
+        "Green": 4.9,
+        "NZ First": 6.0,
+        "Te Pāti Māori": 1.1,
+        "ACT": 0.6,
+        "Conservative": 0.3,
+        "TOP": 1.6
+      }
+    },
+    {
+      "date": "2017-09-13",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 40.0,
+        "Labour": 44.0,
+        "Green": 7.0,
+        "NZ First": 6.0,
+        "Te Pāti Māori": 0.9,
+        "ACT": 0.6,
+        "TOP": 1.6
+      }
+    },
+    {
+      "date": "2017-09-20",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 45.8,
+        "Labour": 37.3,
+        "Green": 7.1,
+        "NZ First": 7.1,
+        "Te Pāti Māori": 0.4,
+        "ACT": 0.6,
+        "Conservative": 0.6,
+        "TOP": 0.9
+      }
+    },
+    {
+      "date": "2017-09-19",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 46.0,
+        "Labour": 37.0,
+        "Green": 8.0,
+        "NZ First": 4.9,
+        "Te Pāti Māori": 0.5,
+        "ACT": 0.3,
+        "TOP": 2.3
+      }
+    },
+    {
+      "date": "2017-09-23",
+      "pollster": null,
+      "sample_size": null,
+      "parties": {
+        "National": 44.4,
+        "Labour": 36.9,
+        "Green": 6.3,
+        "NZ First": 7.2,
+        "Te Pāti Māori": 1.2,
+        "ACT": 0.5,
+        "Conservative": 0.2,
+        "TOP": 2.4
+      }
+    }
+  ]
+}
