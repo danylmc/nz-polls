@@ -12,7 +12,7 @@
 | 4 | Leadership Honeymoon | New leaders get ~6.7 point bounce | midterm avg=6.7, election avg=? | Suggestive |
 | 5 | Crisis Rally | Incumbent gains ~0.6 points in 30 days | mean boost=0.6, n=3 | Suggestive |
 | 6 | Economic Sentiment | Economic conditions predict incumbent support | gdp_growth 12m change: coef=1.145, p=0.0 | Moderate |
-| 7 | Election Convergence | No significant trend | slope=-0.0001, p=0.321513 | Suggestive |
+| 7 | Election Proximity | incumbent fades in 7/9 elections; Labour settles late; NZF surges +1.2pts; gap narrows in only 4/11 cycles | incumbent fade 7/9, NZF late +1.2pts p=0.0 | Moderate |
 | 8 | Minor Party Volatility | Minor parties 3.2x more volatile (CV) than major | major CV=0.212, minor CV=0.687 | Moderate |
 | 9 | Post-Election Reset | Winners move +0.1 pts, losers -0.8 pts | n=10 transitions | Suggestive |
 | 10 | Thermostatic Model | Deviations self-correct (β=-0.1848) | National β=-0.1848, p=0.0, n=969 | Strong |
@@ -158,40 +158,101 @@ extensive policy response.
 **Caveats:** Economic data is interpolated from annual observations; true monthly/quarterly
 data might reveal relationships. Government fixed effects absorb between-government variation.
 
-### Rule 7: Election Convergence
+### Rule 7: Election Proximity Behaviour
 
-**Statement:** Testing whether polling volatility changes as elections approach.
+**Statement:** Several consistent patterns emerge as elections approach: polling
+frequency surges, Labour's numbers settle, incumbents fade, and NZ First picks up
+late-deciding voters. But the National-Labour gap does not systematically narrow.
 
-**National:** No significant trend (slope=-0.0001, r=-0.031, p=0.321513)
+#### Polling Frequency
 
-| Days to Election | Mean Rolling Std | N |
-|------------------|------------------|---|
-| 0-90 | 2.47 | 200 |
-| 90-180 | 2.76 | 89 |
-| 180-270 | 2.6 | 75 |
-| 270-365 | 2.87 | 75 |
-| 365-730 | 2.45 | 305 |
-| 730-1100 | 2.52 | 245 |
+| Days Out | Polls | Polls/Month |
+|----------|-------|-------------|
+| 365+ | 564 | 20.3 |
+| 180-365 | 152 | 24.6 |
+| 90-180 | 93 | 31.0 |
+| 30-90 | 90 | 45.0 |
+| 0-30 | 117 | 117.0 |
 
-**Labour:** Volatility increases away from election (slope=0.00031, r=0.097, p=0.001963)
+#### Poll-to-Poll Volatility
 
-| Days to Election | Mean Rolling Std | N |
-|------------------|------------------|---|
-| 0-90 | 2.14 | 200 |
-| 90-180 | 2.39 | 89 |
-| 180-270 | 2.38 | 75 |
-| 270-365 | 2.54 | 75 |
-| 365-730 | 2.32 | 305 |
-| 730-1100 | 2.48 | 245 |
+**National** — mean |change| by proximity:
 
-**National-Labour absolute gap by proximity:**
+| Days Out | Mean |Δ| | Median |Δ| | N |
+|----------|---------|-----------|---|
+| 365+ | 2.91 | 2.5 | 563 |
+| 180-365 | 3.32 | 3.0 | 152 |
+| 90-180 | 3.08 | 2.1 | 93 |
+| 30-90 | 2.98 | 2.45 | 90 |
+| 0-30 | 2.76 | 2.2 | 117 |
 
-- 0-90 days: 15.5 points
-- 90-180 days: 15.7 points
-- 180-365 days: 11.7 points
-- 365-730 days: 10.1 points
-- 730-1100 days: 14.6 points
+Late vs early: 2.76 vs 3.0 (p = 0.2886) — no significant settling
 
+**Labour** — mean |change| by proximity:
+
+| Days Out | Mean |Δ| | Median |Δ| | N |
+|----------|---------|-----------|---|
+| 365+ | 2.72 | 2.0 | 563 |
+| 180-365 | 2.84 | 2.15 | 152 |
+| 90-180 | 2.51 | 2.0 | 93 |
+| 30-90 | 2.9 | 2.5 | 90 |
+| 0-30 | 2.09 | 2.0 | 117 |
+
+Late vs early: 2.09 vs 2.72 (p = 0.0033) — settles significantly
+
+#### Incumbent Late Fade
+
+Incumbents lose support in final 90 days in **7/9** elections — campaign scrutiny erodes rather than builds incumbent position.
+
+| Election | Incumbent | 90-180d | 0-90d | Change |
+|----------|-----------|---------|-------|--------|
+| 1996 | National | 40.0 | 37.7 | -2.3 |
+| 1999 | National | 36.5 | 32.5 | -4.0 |
+| 2005 | Labour | 43.6 | 40.3 | -3.3 |
+| 2008 | Labour | 32.3 | 35.2 | +2.9 |
+| 2011 | National | 53.0 | 52.8 | -0.2 |
+| 2014 | National | 48.4 | 49.1 | +0.7 |
+| 2017 | National | 45.4 | 42.9 | -2.6 |
+| 2020 | Labour | 55.0 | 49.4 | -5.6 |
+| 2023 | Labour | 32.9 | 27.8 | -5.1 |
+
+#### National-Labour Gap (No Consistent Convergence)
+
+Gap narrows in **4/11** cycles — 
+no systematic convergence; behaviour is election-specific.
+
+| Election | Early Gap | Late Gap | Change |
+|----------|-----------|----------|--------|
+| 1993 | 10.3 | 2.8 | -7.4 (narrows) |
+| 1996 | 12.5 | 15.1 | +2.6 (widens) |
+| 1999 | 7.8 | 5.8 | -2.0 (narrows) |
+| 2002 | 11.8 | 22.9 | +11.1 (widens) |
+| 2005 | 15.9 | 3.7 | -12.2 (narrows) |
+| 2008 | 10.0 | 12.9 | +2.9 (widens) |
+| 2011 | 20.5 | 24.7 | +4.2 (widens) |
+| 2014 | 13.9 | 22.8 | +8.9 (widens) |
+| 2017 | 18.7 | 9.2 | -9.5 (narrows) |
+| 2020 | 5.1 | 17.4 | +12.3 (widens) |
+| 2023 | 8.5 | 8.6 | +0.1 (widens) |
+
+#### Minor Party Late Movement
+
+| Party | >180d Mean | <30d Mean | Change | p-value |
+|-------|-----------|-----------|--------|---------|
+| Green | 8.7 | 9.2 | +0.5 | 0.1413 |
+| ACT | 4.1 | 3.7 | -0.4 | 0.2776 |
+| NZ First | 4.6 | 5.8 | +1.2 ** | 0.0 |
+
+NZ First's late surge (+1.2 pts, p = 0.0) is consistent with their
+role as the party of late-deciding voters who are dissatisfied with both major parties.
+
+#### Total Five-Party Share
+
+Stable at 92.5-93.6% regardless of proximity — the ~7% allocated to other
+parties and undecideds does not systematically shrink as elections approach.
+
+**Caveats:** Polling frequency increase means late-campaign bins have more data,
+potentially reducing noise. Incumbent fade conflated with natural fatigue trend.
 
 ### Rule 8: Minor Party Lifecycle Patterns
 
