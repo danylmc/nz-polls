@@ -13,6 +13,9 @@ Analyses performed:
 6. Momentum Effects
 7. Economic Voting (with external data)
 8. Event Studies (leadership changes, crises)
+9. Government Performance vs Incumbent Polling (Ipsos)
+10. Issue Salience vs Party Support (Ipsos)
+11. Party Capability vs Party Vote (Ipsos)
 """
 
 import json
@@ -136,6 +139,50 @@ def load_pm_polling_data() -> pd.DataFrame:
     df["date"] = pd.to_datetime(df["date"])
     df = df.sort_values("date").reset_index(drop=True)
 
+    return df
+
+
+def get_monthly_polling(df: pd.DataFrame) -> pd.DataFrame:
+    """Aggregate party vote polls to monthly means for merging with Ipsos data"""
+    df = df.copy()
+    df["month"] = df["date"].dt.to_period("M")
+    monthly = df.groupby("month").agg({
+        "National": "mean",
+        "Labour": "mean",
+        "Green": "mean",
+        "ACT": "mean",
+        "NZ First": "mean",
+        "incumbent_support": "mean",
+        "incumbent": "first",
+    }).reset_index()
+    monthly["month_str"] = monthly["month"].astype(str)
+    return monthly
+
+
+def load_ipsos_govt_performance() -> pd.DataFrame:
+    """Load Ipsos government performance ratings (2017-2025)"""
+    filepath = DATA_DIR / "ipsos_govt_performance.csv"
+    df = pd.read_csv(filepath)
+    df["date"] = pd.to_datetime(df["date"], format="%Y-%m")
+    df["month_str"] = df["date"].dt.to_period("M").astype(str)
+    return df
+
+
+def load_ipsos_issue_salience() -> pd.DataFrame:
+    """Load Ipsos issue salience data (2018-2025)"""
+    filepath = DATA_DIR / "ipsos_issue_salience.csv"
+    df = pd.read_csv(filepath)
+    df["date"] = pd.to_datetime(df["date"], format="%Y-%m")
+    df["month_str"] = df["date"].dt.to_period("M").astype(str)
+    return df
+
+
+def load_ipsos_party_capability() -> pd.DataFrame:
+    """Load Ipsos party capability data (2023-2025)"""
+    filepath = DATA_DIR / "ipsos_party_capability.csv"
+    df = pd.read_csv(filepath)
+    df["date"] = pd.to_datetime(df["date"], format="%Y-%m")
+    df["month_str"] = df["date"].dt.to_period("M").astype(str)
     return df
 
 
@@ -600,6 +647,316 @@ def analyze_events(df: pd.DataFrame) -> Dict:
 
 
 # ============================================================================
+# ANALYSIS 9: Government Performance vs Incumbent Polling (Ipsos)
+# ============================================================================
+
+def analyze_govt_performance(df: pd.DataFrame) -> Dict:
+    """Correlate Ipsos government performance rating with incumbent party vote"""
+    results = {
+        "description": "Government performance rating (Ipsos 0-10) vs incumbent party vote share",
+    }
+
+    try:
+        ipsos = load_ipsos_govt_performance()
+    except Exception as e:
+        results["error"] = f"Could not load Ipsos data: {e}"
+        return results
+
+    monthly = get_monthly_polling(df)
+    merged = monthly.merge(ipsos, on="month_str", how="inner", suffixes=("_poll", "_ipsos"))
+
+    if len(merged) < 5:
+        results["note"] = f"Insufficient overlap: only {len(merged)} months matched"
+        return results
+
+    results["n_months"] = len(merged)
+    results["date_range"] = f"{merged['month_str'].min()} to {merged['month_str'].max()}"
+
+    # Determine incumbent party for each row from Ipsos government column
+    def get_incumbent_vote(row):
+        govt = row["government"]
+        if pd.isna(govt):
+            return np.nan
+        if govt.startswith("National"):
+            return row["National"]
+        elif govt.startswith("Labour"):
+            return row["Labour"]
+        return np.nan
+
+    merged["incumbent_vote"] = merged.apply(get_incumbent_vote, axis=1)
+    valid = merged.dropna(subset=["mean_score", "incumbent_vote"])
+
+    if len(valid) < 5:
+        results["note"] = "Insufficient valid data after matching incumbent"
+        return results
+
+    # Overall correlation
+    corr, p_val = pearsonr(valid["mean_score"], valid["incumbent_vote"])
+    results["overall_correlation"] = {
+        "pearson_r": round(corr, 3),
+        "p_value": round(p_val, 4),
+        "n": len(valid),
+        "interpretation": (
+            "Strong positive: higher govt ratings → higher incumbent vote"
+            if corr > 0.5 and p_val < 0.05
+            else "Moderate positive link" if corr > 0.3 and p_val < 0.05
+            else "Weak or non-significant relationship"
+        ),
+    }
+
+    # Simple regression
+    X = sm.add_constant(valid["mean_score"])
+    y = valid["incumbent_vote"]
+    model = sm.OLS(y, X).fit()
+    results["regression"] = {
+        "r_squared": round(model.rsquared, 3),
+        "coefficient": round(model.params["mean_score"], 2),
+        "coef_pvalue": round(model.pvalues["mean_score"], 4),
+        "interpretation": f"Each +1 point in govt rating ≈ {model.params['mean_score']:+.1f}pp incumbent vote",
+    }
+
+    # Split by government era
+    for era_label, era_prefix in [("Labour (2017-2023)", "Labour"), ("National (2023-2025)", "National")]:
+        era = valid[valid["government"].str.startswith(era_prefix)]
+        if len(era) >= 4:
+            r, p = pearsonr(era["mean_score"], era["incumbent_vote"])
+            results[f"era_{era_prefix.lower()}"] = {
+                "label": era_label,
+                "pearson_r": round(r, 3),
+                "p_value": round(p, 4),
+                "n": len(era),
+            }
+
+    # Time-lagged cross-correlation (does performance lead or lag polling?)
+    # Use merged sorted by time, try lags of -3 to +3 months
+    valid_sorted = valid.sort_values("month_str")
+    perf = valid_sorted["mean_score"].values
+    vote = valid_sorted["incumbent_vote"].values
+
+    lag_results = {}
+    for lag in range(-3, 4):
+        if lag == 0:
+            r, p = pearsonr(perf, vote)
+        elif lag > 0:
+            # positive lag: performance leads (compare perf[:-lag] with vote[lag:])
+            if len(perf) > lag + 3:
+                r, p = pearsonr(perf[:-lag], vote[lag:])
+            else:
+                continue
+        else:
+            # negative lag: polling leads (compare vote[:lag] with perf[-lag:])
+            if len(perf) > abs(lag) + 3:
+                r, p = pearsonr(vote[:lag], perf[-lag:])
+            else:
+                continue
+        lag_results[lag] = {"pearson_r": round(r, 3), "p_value": round(p, 4)}
+
+    if lag_results:
+        best_lag = max(lag_results, key=lambda k: abs(lag_results[k]["pearson_r"]))
+        results["cross_correlation"] = {
+            "lags": lag_results,
+            "best_lag": best_lag,
+            "best_r": lag_results[best_lag]["pearson_r"],
+            "interpretation": (
+                f"Strongest correlation at lag={best_lag} months "
+                f"({'performance leads' if best_lag > 0 else 'contemporaneous' if best_lag == 0 else 'polling leads'})"
+            ),
+        }
+
+    return results
+
+
+# ============================================================================
+# ANALYSIS 10: Issue Salience vs Party Support (Ipsos)
+# ============================================================================
+
+def analyze_issue_salience(df: pd.DataFrame) -> Dict:
+    """Test issue ownership: do shifts in issue salience predict party vote changes?"""
+    results = {
+        "description": "Issue salience (Ipsos) vs party support — testing issue ownership theory",
+    }
+
+    try:
+        ipsos = load_ipsos_issue_salience()
+    except Exception as e:
+        results["error"] = f"Could not load Ipsos data: {e}"
+        return results
+
+    monthly = get_monthly_polling(df)
+    merged = monthly.merge(ipsos, on="month_str", how="inner", suffixes=("_poll", "_ipsos"))
+
+    if len(merged) < 5:
+        results["note"] = f"Insufficient overlap: only {len(merged)} months matched"
+        return results
+
+    results["n_months"] = len(merged)
+
+    issues = [
+        "inflation_cost_of_living", "healthcare_hospitals", "the_economy",
+        "housing_price", "crime_law_order", "poverty_inequality",
+        "unemployment", "climate_change", "education", "race_relations",
+    ]
+
+    # Level correlations: salience vs party vote
+    level_results = {}
+    for issue in issues:
+        if issue not in merged.columns:
+            continue
+        valid = merged.dropna(subset=[issue, "National", "Labour"])
+        if len(valid) < 5:
+            continue
+        r_nat, p_nat = pearsonr(valid[issue], valid["National"])
+        r_lab, p_lab = pearsonr(valid[issue], valid["Labour"])
+        level_results[issue] = {
+            "national_r": round(r_nat, 3),
+            "national_p": round(p_nat, 4),
+            "labour_r": round(r_lab, 3),
+            "labour_p": round(p_lab, 4),
+            "n": len(valid),
+        }
+    results["level_correlations"] = level_results
+
+    # First-differenced correlations (change in salience vs change in vote)
+    merged_sorted = merged.sort_values("month_str")
+    diff_results = {}
+    for issue in issues:
+        if issue not in merged_sorted.columns:
+            continue
+        temp = merged_sorted[["month_str", issue, "National", "Labour"]].dropna()
+        if len(temp) < 6:
+            continue
+        temp = temp.copy()
+        temp["d_issue"] = temp[issue].diff()
+        temp["d_national"] = temp["National"].diff()
+        temp["d_labour"] = temp["Labour"].diff()
+        temp = temp.dropna()
+        if len(temp) < 4:
+            continue
+        r_nat, p_nat = pearsonr(temp["d_issue"], temp["d_national"])
+        r_lab, p_lab = pearsonr(temp["d_issue"], temp["d_labour"])
+        diff_results[issue] = {
+            "national_r": round(r_nat, 3),
+            "national_p": round(p_nat, 4),
+            "labour_r": round(r_lab, 3),
+            "labour_p": round(p_lab, 4),
+            "n": len(temp),
+        }
+    results["first_diff_correlations"] = diff_results
+
+    # Issue ownership summary: which issues benefit which party?
+    ownership = {}
+    for issue, data in level_results.items():
+        nat_sig = abs(data["national_r"]) > 0.3 and data["national_p"] < 0.1
+        lab_sig = abs(data["labour_r"]) > 0.3 and data["labour_p"] < 0.1
+        if nat_sig and data["national_r"] > 0:
+            ownership[issue] = "National benefits when salient"
+        elif nat_sig and data["national_r"] < 0:
+            ownership[issue] = "National hurt when salient"
+        elif lab_sig and data["labour_r"] > 0:
+            ownership[issue] = "Labour benefits when salient"
+        elif lab_sig and data["labour_r"] < 0:
+            ownership[issue] = "Labour hurt when salient"
+    results["issue_ownership"] = ownership
+
+    return results
+
+
+# ============================================================================
+# ANALYSIS 11: Party Capability vs Party Vote (Ipsos)
+# ============================================================================
+
+def analyze_party_capability(df: pd.DataFrame) -> Dict:
+    """Compare Ipsos 'best party to manage' scores with actual polling"""
+    results = {
+        "description": "Party capability perception (Ipsos) vs actual party vote share",
+    }
+
+    try:
+        cap = load_ipsos_party_capability()
+    except Exception as e:
+        results["error"] = f"Could not load Ipsos data: {e}"
+        return results
+
+    monthly = get_monthly_polling(df)
+
+    issues = cap["issue"].unique().tolist()
+    results["n_waves"] = cap["date"].nunique()
+    results["n_issues"] = len(issues)
+
+    # For each issue, correlate capability score with party vote
+    issue_results = {}
+    for issue in issues:
+        issue_data = cap[cap["issue"] == issue].copy()
+        merged = issue_data.merge(monthly, on="month_str", how="inner", suffixes=("_cap", "_poll"))
+        if len(merged) < 4:
+            continue
+
+        issue_entry = {"n": len(merged)}
+        for party, cap_col, poll_col in [
+            ("National", "national", "National"),
+            ("Labour", "labour", "Labour"),
+        ]:
+            if cap_col in merged.columns and poll_col in merged.columns:
+                valid = merged.dropna(subset=[cap_col, poll_col])
+                if len(valid) >= 4:
+                    r, p = pearsonr(valid[cap_col], valid[poll_col])
+                    issue_entry[f"{party.lower()}_r"] = round(r, 3)
+                    issue_entry[f"{party.lower()}_p"] = round(p, 4)
+        issue_results[issue] = issue_entry
+    results["by_issue"] = issue_results
+
+    # Pooled analysis: all issues combined
+    # Reshape capability data and merge with polls
+    pooled_rows = []
+    for _, row in cap.iterrows():
+        month_str = row["month_str"]
+        poll_month = monthly[monthly["month_str"] == month_str]
+        if poll_month.empty:
+            continue
+        pm = poll_month.iloc[0]
+        for party, cap_col, poll_col in [
+            ("National", "national", "National"),
+            ("Labour", "labour", "Labour"),
+        ]:
+            if cap_col in row.index and poll_col in pm.index:
+                pooled_rows.append({
+                    "party": party,
+                    "issue": row["issue"],
+                    "capability": row[cap_col],
+                    "vote_share": pm[poll_col],
+                })
+
+    if pooled_rows:
+        pooled = pd.DataFrame(pooled_rows).dropna()
+        if len(pooled) >= 6:
+            r, p = pearsonr(pooled["capability"], pooled["vote_share"])
+            results["pooled_correlation"] = {
+                "pearson_r": round(r, 3),
+                "p_value": round(p, 4),
+                "n": len(pooled),
+                "interpretation": (
+                    "Strong link: perceived competence tracks voting intention"
+                    if r > 0.5 and p < 0.05
+                    else "Moderate link" if r > 0.3 and p < 0.05
+                    else "Weak or non-significant relationship"
+                ),
+            }
+
+            # By party
+            for party in ["National", "Labour"]:
+                pdata = pooled[pooled["party"] == party]
+                if len(pdata) >= 4:
+                    r, p = pearsonr(pdata["capability"], pdata["vote_share"])
+                    results[f"pooled_{party.lower()}"] = {
+                        "pearson_r": round(r, 3),
+                        "p_value": round(p, 4),
+                        "n": len(pdata),
+                    }
+
+    return results
+
+
+# ============================================================================
 # MAIN ANALYSIS
 # ============================================================================
 
@@ -643,6 +1000,15 @@ def run_all_analyses() -> Dict:
     print("8. Analyzing events...")
     results["analyses"]["events"] = analyze_events(df)
 
+    print("\n9. Analyzing government performance vs polling (Ipsos)...")
+    results["analyses"]["govt_performance"] = analyze_govt_performance(df)
+
+    print("10. Analyzing issue salience vs party support (Ipsos)...")
+    results["analyses"]["issue_salience"] = analyze_issue_salience(df)
+
+    print("11. Analyzing party capability vs party vote (Ipsos)...")
+    results["analyses"]["party_capability"] = analyze_party_capability(df)
+
     return results
 
 
@@ -681,6 +1047,25 @@ def generate_report(results: Dict) -> str:
     if "extreme_poll_reversion" in mr:
         for party, data in mr["extreme_poll_reversion"].items():
             report.append(f"- **Mean Reversion ({party}):** {data['reversion_rate']*100:.0f}% of extreme polls revert")
+
+    # Ipsos findings
+    gp = analyses.get("govt_performance", {})
+    if "overall_correlation" in gp:
+        gp_r = gp["overall_correlation"]["pearson_r"]
+        gp_p = gp["overall_correlation"]["p_value"]
+        report.append(f"- **Govt Performance → Incumbent Vote:** r = {gp_r:.3f} (p = {gp_p:.4f}) — subjective approval tracks voting intention")
+
+    isal = analyses.get("issue_salience", {})
+    if isal.get("issue_ownership"):
+        ownership_items = list(isal["issue_ownership"].items())
+        if ownership_items:
+            top = ownership_items[0]
+            report.append(f"- **Issue Ownership:** {len(ownership_items)} issues show significant party links (e.g. {top[0].replace('_', ' ')}: {top[1]})")
+
+    pcap = analyses.get("party_capability", {})
+    if "pooled_correlation" in pcap:
+        pc_r = pcap["pooled_correlation"]["pearson_r"]
+        report.append(f"- **Perceived Competence → Vote:** r = {pc_r:.3f} (pooled across issues)")
 
     report.append("")
 
@@ -809,11 +1194,11 @@ def generate_report(results: Dict) -> str:
         report.append("")
 
     if "multiple_regression" in ev:
-        mr = ev["multiple_regression"]
-        report.append(f"**Multiple Regression (R² = {mr['r_squared']:.3f}):**")
-        report.append(f"- GDP Growth: coef = {mr['gdp_coef']:.3f}, p = {mr['gdp_pval']:.4f}")
-        report.append(f"- Unemployment: coef = {mr['unemployment_coef']:.3f}, p = {mr['unemployment_pval']:.4f}")
-        report.append(f"- Inflation: coef = {mr['inflation_coef']:.3f}, p = {mr['inflation_pval']:.4f}")
+        econ_reg = ev["multiple_regression"]
+        report.append(f"**Multiple Regression (R² = {econ_reg['r_squared']:.3f}):**")
+        report.append(f"- GDP Growth: coef = {econ_reg['gdp_coef']:.3f}, p = {econ_reg['gdp_pval']:.4f}")
+        report.append(f"- Unemployment: coef = {econ_reg['unemployment_coef']:.3f}, p = {econ_reg['unemployment_pval']:.4f}")
+        report.append(f"- Inflation: coef = {econ_reg['inflation_coef']:.3f}, p = {econ_reg['inflation_pval']:.4f}")
     report.append("")
 
     # 8. Event Studies
@@ -849,6 +1234,104 @@ def generate_report(results: Dict) -> str:
                 report.append(f"- **{e['event']}** ({e['date']}): {', '.join(changes)}")
         report.append("")
 
+    # 9. Government Performance (Ipsos)
+    report.append("### 9. Government Performance vs Incumbent Polling (Ipsos)")
+    report.append("")
+    gp = analyses.get("govt_performance", {})
+    if "error" in gp:
+        report.append(f"*Error: {gp['error']}*")
+    elif "overall_correlation" in gp:
+        report.append(f"**Data:** {gp.get('n_months', '?')} months matched ({gp.get('date_range', '?')})")
+        report.append("")
+        oc = gp["overall_correlation"]
+        report.append(f"**Overall Correlation:** r = {oc['pearson_r']:.3f} (p = {oc['p_value']:.4f}, n = {oc['n']})")
+        report.append(f"- {oc['interpretation']}")
+        report.append("")
+        if "regression" in gp:
+            reg = gp["regression"]
+            report.append(f"**Regression:** R² = {reg['r_squared']:.3f}, {reg['interpretation']}")
+            report.append("")
+        # Era breakdown
+        for era_key in ["era_labour", "era_national"]:
+            if era_key in gp:
+                era = gp[era_key]
+                report.append(f"**{era['label']}:** r = {era['pearson_r']:.3f} (p = {era['p_value']:.4f}, n = {era['n']})")
+        report.append("")
+        if "cross_correlation" in gp:
+            xc = gp["cross_correlation"]
+            report.append(f"**Time-Lagged Cross-Correlation:** {xc['interpretation']} (r = {xc['best_r']:.3f})")
+            report.append("")
+    report.append("")
+
+    # 10. Issue Salience (Ipsos)
+    report.append("### 10. Issue Salience vs Party Support (Ipsos)")
+    report.append("")
+    isal = analyses.get("issue_salience", {})
+    if "error" in isal:
+        report.append(f"*Error: {isal['error']}*")
+    elif "level_correlations" in isal:
+        report.append(f"**Data:** {isal.get('n_months', '?')} months matched")
+        report.append("")
+        report.append("**Level Correlations (salience % vs party vote %):**")
+        report.append("")
+        report.append("| Issue | National r | National p | Labour r | Labour p |")
+        report.append("|-------|-----------|-----------|---------|---------|")
+        for issue, data in isal["level_correlations"].items():
+            issue_label = issue.replace("_", " ").title()
+            nat_sig = "**" if data["national_p"] < 0.05 else ""
+            lab_sig = "**" if data["labour_p"] < 0.05 else ""
+            report.append(f"| {issue_label} | {nat_sig}{data['national_r']:.3f}{nat_sig} | {data['national_p']:.3f} | {lab_sig}{data['labour_r']:.3f}{lab_sig} | {data['labour_p']:.3f} |")
+        report.append("")
+
+        if isal.get("issue_ownership"):
+            report.append("**Issue Ownership Pattern:**")
+            for issue, effect in isal["issue_ownership"].items():
+                report.append(f"- {issue.replace('_', ' ').title()}: {effect}")
+            report.append("")
+
+        if "first_diff_correlations" in isal and isal["first_diff_correlations"]:
+            report.append("**First-Differenced Correlations (change in salience vs change in vote):**")
+            report.append("")
+            report.append("| Issue | National r | Labour r | n |")
+            report.append("|-------|-----------|---------|---|")
+            for issue, data in isal["first_diff_correlations"].items():
+                issue_label = issue.replace("_", " ").title()
+                report.append(f"| {issue_label} | {data['national_r']:.3f} | {data['labour_r']:.3f} | {data['n']} |")
+            report.append("")
+    report.append("")
+
+    # 11. Party Capability (Ipsos)
+    report.append("### 11. Party Capability vs Party Vote (Ipsos)")
+    report.append("")
+    pcap = analyses.get("party_capability", {})
+    if "error" in pcap:
+        report.append(f"*Error: {pcap['error']}*")
+    elif "pooled_correlation" in pcap:
+        report.append(f"**Data:** {pcap.get('n_waves', '?')} waves, {pcap.get('n_issues', '?')} issues")
+        report.append("")
+        pc = pcap["pooled_correlation"]
+        report.append(f"**Pooled Correlation (all issues × both parties):** r = {pc['pearson_r']:.3f} (p = {pc['p_value']:.4f}, n = {pc['n']})")
+        report.append(f"- {pc['interpretation']}")
+        report.append("")
+        for party in ["national", "labour"]:
+            key = f"pooled_{party}"
+            if key in pcap:
+                pd_ = pcap[key]
+                report.append(f"**{party.title()}:** r = {pd_['pearson_r']:.3f} (p = {pd_['p_value']:.4f}, n = {pd_['n']})")
+        report.append("")
+        if pcap.get("by_issue"):
+            report.append("**By Issue:**")
+            report.append("")
+            report.append("| Issue | National r | Labour r | n |")
+            report.append("|-------|-----------|---------|---|")
+            for issue, data in pcap["by_issue"].items():
+                issue_label = issue.replace("_", " ").title()
+                nat_r = f"{data['national_r']:.3f}" if "national_r" in data else "—"
+                lab_r = f"{data['labour_r']:.3f}" if "labour_r" in data else "—"
+                report.append(f"| {issue_label} | {nat_r} | {lab_r} | {data['n']} |")
+            report.append("")
+    report.append("")
+
     # Comparison with Literature
     report.append("## Comparison with Political Science Literature")
     report.append("")
@@ -870,6 +1353,30 @@ def generate_report(results: Dict) -> str:
     mr_confirmed = mr_rate is not None and mr_rate > 0.5
     report.append(f"| Mean reversion of outliers | Outliers regress | {mr_rate*100 if mr_rate else 'N/A'}% revert | {'Yes' if mr_confirmed else 'Unclear'} |")
 
+    # Govt approval → vote
+    gp_r = gp.get("overall_correlation", {}).get("pearson_r")
+    gp_confirmed = gp_r is not None and gp_r > 0.3 and gp.get("overall_correlation", {}).get("p_value", 1) < 0.05
+    report.append(f"| Govt approval → incumbent vote | Positive correlation | r = {gp_r if gp_r is not None else 'N/A'} | {'Yes' if gp_confirmed else 'No'} |")
+
+    # Issue ownership
+    n_owned = len(isal.get("issue_ownership", {}))
+    report.append(f"| Issue ownership affects vote | Salience shifts benefit 'owning' party | {n_owned} issues with sig. links | {'Yes' if n_owned > 0 else 'No'} |")
+
+    # Perceived competence
+    pc_r = pcap.get("pooled_correlation", {}).get("pearson_r")
+    pc_confirmed = pc_r is not None and pc_r > 0.3 and pcap.get("pooled_correlation", {}).get("p_value", 1) < 0.05
+    report.append(f"| Perceived competence → vote | Positive correlation | r = {pc_r if pc_r is not None else 'N/A'} | {'Yes' if pc_confirmed else 'Unclear'} |")
+
+    report.append("")
+
+    # Data Sources
+    report.append("## Data Sources")
+    report.append("")
+    report.append("| Source | Coverage | Notes |")
+    report.append("|--------|----------|-------|")
+    report.append(f"| Wikipedia polling tables | {results['metadata']['date_range']} | {results['metadata']['total_polls']} party vote polls |")
+    report.append("| Ipsos NZ Issues Monitor | Sep 2017 – Oct 2025 | 30 waves, govt performance + issue salience + party capability |")
+    report.append("| World Bank / Stats NZ | Various | GDP, unemployment, CPI |")
     report.append("")
 
     # Footer

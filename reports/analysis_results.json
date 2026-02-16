@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "total_polls": 1012,
+    "total_polls": 1016,
     "election_cycles": [
       1993,
       1996,
@@ -15,8 +15,8 @@
       2023,
       2026
     ],
-    "date_range": "1990-10-27 to 2025-12-21",
-    "analysis_timestamp": "2026-01-16T19:54:24.732640"
+    "date_range": "1990-10-27 to 2026-02-03",
+    "analysis_timestamp": "2026-02-12T10:29:29.365345"
   },
   "analyses": {
     "volatility": {
@@ -306,40 +306,40 @@
         },
         "2026": {
           "National": {
-            "std": 2.93,
-            "mean": 34.1,
-            "n": 85
+            "std": 2.9,
+            "mean": 34.02,
+            "n": 89
           },
           "Labour": {
-            "std": 3.68,
-            "mean": 30.05,
-            "n": 85
+            "std": 3.69,
+            "mean": 30.21,
+            "n": 89
           },
           "Green": {
-            "std": 1.97,
-            "mean": 11.62,
-            "n": 84
+            "std": 1.99,
+            "mean": 11.53,
+            "n": 88
           },
           "ACT": {
             "std": 1.6,
-            "mean": 8.97,
-            "n": 84
+            "mean": 8.9,
+            "n": 88
           },
           "NZ First": {
-            "std": 1.57,
-            "mean": 7.24,
-            "n": 84
+            "std": 1.68,
+            "mean": 7.38,
+            "n": 88
           }
         }
       },
       "by_party": {
         "National": {
-          "overall_std": 8.7,
-          "overall_mean": 41.39
+          "overall_std": 8.71,
+          "overall_mean": 41.35
         },
         "Labour": {
-          "overall_std": 7.49,
-          "overall_mean": 35.09
+          "overall_std": 7.47,
+          "overall_mean": 35.08
         },
         "Green": {
           "overall_std": 3.34,
@@ -347,17 +347,17 @@
         },
         "ACT": {
           "overall_std": 4.06,
-          "overall_mean": 3.96
+          "overall_mean": 3.98
         },
         "NZ First": {
-          "overall_std": 3.28,
-          "overall_mean": 4.99
+          "overall_std": 3.3,
+          "overall_mean": 5.01
         }
       },
       "election_proximity_effect": {
         "early_volatility_national": 8.61,
         "late_volatility_national": 9.07,
-        "levene_p_value": 0.3214,
+        "levene_p_value": 0.3368,
         "significant": "False",
         "interpretation": "Higher volatility near election"
       }
@@ -368,23 +368,23 @@
         "National": {
           "lag1": 0.904,
           "lag2": 0.905,
-          "lag3": 0.881
+          "lag3": 0.882
         },
         "Labour": {
           "lag1": 0.895,
-          "lag2": 0.884,
+          "lag2": 0.885,
           "lag3": 0.861
         }
       },
       "extreme_poll_reversion": {
         "National": {
           "n_extreme_polls": 125,
-          "reversion_rate": 0.68,
+          "reversion_rate": 0.672,
           "interpretation": "Mean reversion observed"
         },
         "Labour": {
           "n_extreme_polls": 115,
-          "reversion_rate": 0.661,
+          "reversion_rate": 0.643,
           "interpretation": "Mean reversion observed"
         }
       }
@@ -392,13 +392,13 @@
     "zero_sum": {
       "description": "National-Labour zero-sum hypothesis - are they negatively correlated?",
       "level_correlation": {
-        "pearson_r": -0.508,
+        "pearson_r": -0.506,
         "p_value": 0.0,
         "significant": "True",
         "interpretation": "Strong negative correlation (zero-sum)"
       },
       "change_correlation": {
-        "pearson_r": -0.316,
+        "pearson_r": -0.31,
         "p_value": 0.0,
         "significant": "True",
         "interpretation": "Changes are inversely related"
@@ -407,18 +407,18 @@
     "third_party_squeeze": {
       "description": "Third party squeeze - do minor parties lose support near elections?",
       "regression": {
-        "coefficient": -0.0002,
-        "p_value": 0.748,
+        "coefficient": -0.0003,
+        "p_value": 0.6822,
         "r_squared": 0.0,
         "significant": "False"
       },
       "interpretation": "No significant third party squeeze detected",
       "early_vs_late": {
-        "early_mean": 17.65,
+        "early_mean": 17.71,
         "late_mean": 19.28,
-        "difference": -1.63,
-        "t_statistic": -2.102,
-        "p_value": 0.0359
+        "difference": -1.57,
+        "t_statistic": -2.015,
+        "p_value": 0.0442
       }
     },
     "mmp_effect": {
@@ -426,33 +426,33 @@
       "national_variance": {
         "pre_mmp_std": 6.37,
         "post_mmp_std": 8.67,
-        "levene_stat": 9.122,
-        "p_value": 0.0026,
+        "levene_stat": 9.245,
+        "p_value": 0.0024,
         "significant_difference": "True"
       },
       "labour_variance": {
         "pre_mmp_std": 4.28,
-        "post_mmp_std": 7.53,
-        "levene_stat": 7.943,
-        "p_value": 0.0049,
+        "post_mmp_std": 7.52,
+        "levene_stat": 7.823,
+        "p_value": 0.0053,
         "significant_difference": "True"
       },
       "minor_party_growth": {
-        "mean_minor_support": 18.58,
-        "std_minor_support": 7.17,
+        "mean_minor_support": 18.63,
+        "std_minor_support": 7.19,
         "note": "MMP enabled significant minor party representation"
       }
     },
     "momentum": {
       "description": "Momentum effects - does movement predict future movement?",
       "National": {
-        "change_autocorrelation": -0.512,
+        "change_autocorrelation": -0.51,
         "p_value": 0.0,
         "significant": "True",
         "interpretation": "Reversal effect - gains predict losses"
       },
       "Labour": {
-        "change_autocorrelation": -0.447,
+        "change_autocorrelation": -0.451,
         "p_value": 0.0,
         "significant": "True",
         "interpretation": "Reversal effect - gains predict losses"
@@ -580,6 +580,295 @@
       "leadership_summary": {
         "mean_change": 8.9,
         "n_events": 1
+      }
+    },
+    "govt_performance": {
+      "description": "Government performance rating (Ipsos 0-10) vs incumbent party vote share",
+      "n_months": 29,
+      "date_range": "2017-09 to 2025-10",
+      "overall_correlation": {
+        "pearson_r": 0.827,
+        "p_value": 0.0,
+        "n": 29,
+        "interpretation": "Strong positive: higher govt ratings \u2192 higher incumbent vote"
+      },
+      "regression": {
+        "r_squared": 0.684,
+        "coefficient": 5.71,
+        "coef_pvalue": 0.0,
+        "interpretation": "Each +1 point in govt rating \u2248 +5.7pp incumbent vote"
+      },
+      "era_labour": {
+        "label": "Labour (2017-2023)",
+        "pearson_r": 0.795,
+        "p_value": 0.0,
+        "n": 19
+      },
+      "era_national": {
+        "label": "National (2023-2025)",
+        "pearson_r": 0.893,
+        "p_value": 0.0005,
+        "n": 10
+      },
+      "cross_correlation": {
+        "lags": {
+          "-3": {
+            "pearson_r": 0.732,
+            "p_value": 0.0
+          },
+          "-2": {
+            "pearson_r": 0.759,
+            "p_value": 0.0
+          },
+          "-1": {
+            "pearson_r": 0.811,
+            "p_value": 0.0
+          },
+          "0": {
+            "pearson_r": 0.827,
+            "p_value": 0.0
+          },
+          "1": {
+            "pearson_r": 0.641,
+            "p_value": 0.0002
+          },
+          "2": {
+            "pearson_r": 0.448,
+            "p_value": 0.019
+          },
+          "3": {
+            "pearson_r": 0.372,
+            "p_value": 0.0616
+          }
+        },
+        "best_lag": 0,
+        "best_r": 0.827,
+        "interpretation": "Strongest correlation at lag=0 months (contemporaneous)"
+      }
+    },
+    "issue_salience": {
+      "description": "Issue salience (Ipsos) vs party support \u2014 testing issue ownership theory",
+      "n_months": 27,
+      "level_correlations": {
+        "inflation_cost_of_living": {
+          "national_r": -0.013,
+          "national_p": 0.9493,
+          "labour_r": -0.885,
+          "labour_p": 0.0,
+          "n": 27
+        },
+        "healthcare_hospitals": {
+          "national_r": -0.14,
+          "national_p": 0.4852,
+          "labour_r": 0.67,
+          "labour_p": 0.0001,
+          "n": 27
+        },
+        "the_economy": {
+          "national_r": 0.241,
+          "national_p": 0.2259,
+          "labour_r": -0.701,
+          "labour_p": 0.0,
+          "n": 27
+        },
+        "housing_price": {
+          "national_r": 0.233,
+          "national_p": 0.2413,
+          "labour_r": -0.692,
+          "labour_p": 0.0001,
+          "n": 27
+        },
+        "crime_law_order": {
+          "national_r": 0.403,
+          "national_p": 0.0372,
+          "labour_r": -0.726,
+          "labour_p": 0.0,
+          "n": 27
+        },
+        "poverty_inequality": {
+          "national_r": 0.014,
+          "national_p": 0.946,
+          "labour_r": 0.335,
+          "labour_p": 0.0874,
+          "n": 27
+        },
+        "unemployment": {
+          "national_r": -0.593,
+          "national_p": 0.0011,
+          "labour_r": 0.631,
+          "labour_p": 0.0004,
+          "n": 27
+        },
+        "climate_change": {
+          "national_r": -0.215,
+          "national_p": 0.2813,
+          "labour_r": -0.373,
+          "labour_p": 0.0551,
+          "n": 27
+        },
+        "education": {
+          "national_r": 0.085,
+          "national_p": 0.6747,
+          "labour_r": -0.423,
+          "labour_p": 0.0279,
+          "n": 27
+        },
+        "race_relations": {
+          "national_r": 0.366,
+          "national_p": 0.0606,
+          "labour_r": 0.273,
+          "labour_p": 0.1684,
+          "n": 27
+        }
+      },
+      "first_diff_correlations": {
+        "inflation_cost_of_living": {
+          "national_r": 0.198,
+          "national_p": 0.3316,
+          "labour_r": -0.21,
+          "labour_p": 0.3029,
+          "n": 26
+        },
+        "healthcare_hospitals": {
+          "national_r": -0.308,
+          "national_p": 0.1257,
+          "labour_r": 0.662,
+          "labour_p": 0.0002,
+          "n": 26
+        },
+        "the_economy": {
+          "national_r": 0.152,
+          "national_p": 0.4598,
+          "labour_r": -0.174,
+          "labour_p": 0.395,
+          "n": 26
+        },
+        "housing_price": {
+          "national_r": 0.509,
+          "national_p": 0.0079,
+          "labour_r": -0.536,
+          "labour_p": 0.0047,
+          "n": 26
+        },
+        "crime_law_order": {
+          "national_r": 0.108,
+          "national_p": 0.6009,
+          "labour_r": -0.386,
+          "labour_p": 0.0513,
+          "n": 26
+        },
+        "poverty_inequality": {
+          "national_r": 0.239,
+          "national_p": 0.2388,
+          "labour_r": -0.055,
+          "labour_p": 0.7878,
+          "n": 26
+        },
+        "unemployment": {
+          "national_r": -0.29,
+          "national_p": 0.1508,
+          "labour_r": 0.579,
+          "labour_p": 0.0019,
+          "n": 26
+        },
+        "climate_change": {
+          "national_r": -0.364,
+          "national_p": 0.0673,
+          "labour_r": 0.345,
+          "labour_p": 0.0839,
+          "n": 26
+        },
+        "education": {
+          "national_r": 0.353,
+          "national_p": 0.0769,
+          "labour_r": -0.022,
+          "labour_p": 0.9138,
+          "n": 26
+        },
+        "race_relations": {
+          "national_r": -0.102,
+          "national_p": 0.6217,
+          "labour_r": 0.342,
+          "labour_p": 0.0871,
+          "n": 26
+        }
+      },
+      "issue_ownership": {
+        "inflation_cost_of_living": "Labour hurt when salient",
+        "healthcare_hospitals": "Labour benefits when salient",
+        "the_economy": "Labour hurt when salient",
+        "housing_price": "Labour hurt when salient",
+        "crime_law_order": "National benefits when salient",
+        "poverty_inequality": "Labour benefits when salient",
+        "unemployment": "National hurt when salient",
+        "climate_change": "Labour hurt when salient",
+        "education": "Labour hurt when salient",
+        "race_relations": "National benefits when salient"
+      }
+    },
+    "party_capability": {
+      "description": "Party capability perception (Ipsos) vs actual party vote share",
+      "n_waves": 10,
+      "n_issues": 6,
+      "by_issue": {
+        "inflation_cost_of_living": {
+          "n": 10,
+          "national_r": 0.675,
+          "national_p": 0.0324,
+          "labour_r": 0.717,
+          "labour_p": 0.0195
+        },
+        "healthcare_hospitals": {
+          "n": 10,
+          "national_r": 0.374,
+          "national_p": 0.2876,
+          "labour_r": 0.623,
+          "labour_p": 0.0541
+        },
+        "the_economy": {
+          "n": 10,
+          "national_r": 0.873,
+          "national_p": 0.001,
+          "labour_r": 0.892,
+          "labour_p": 0.0005
+        },
+        "housing_price": {
+          "n": 10,
+          "national_r": 0.515,
+          "national_p": 0.1275,
+          "labour_r": 0.573,
+          "labour_p": 0.0835
+        },
+        "crime_law_order": {
+          "n": 10,
+          "national_r": 0.777,
+          "national_p": 0.0081,
+          "labour_r": 0.885,
+          "labour_p": 0.0007
+        },
+        "unemployment": {
+          "n": 10,
+          "national_r": -0.731,
+          "national_p": 0.0162,
+          "labour_r": -0.787,
+          "labour_p": 0.007
+        }
+      },
+      "pooled_correlation": {
+        "pearson_r": 0.585,
+        "p_value": 0.0,
+        "n": 120,
+        "interpretation": "Strong link: perceived competence tracks voting intention"
+      },
+      "pooled_national": {
+        "pearson_r": 0.355,
+        "p_value": 0.0053,
+        "n": 60
+      },
+      "pooled_labour": {
+        "pearson_r": 0.327,
+        "p_value": 0.0108,
+        "n": 60
       }
     }
   }
