@@ -1,0 +1,106 @@
+
+========================================================================
+  PRICE-TO-INCOME RATIO (OECD, index 2015=100)
+========================================================================
+
+NZ value (2024): 109.6
+NZ value (2015, base): 100.0
+NZ OECD rank (2024): 19 of 33 (1 = most expensive)
+OECD median: 113.1
+OECD mean:   110.6
+
+NZ trajectory:
+  2000: 60.7
+  2005: 87.9
+  2010: 83.2
+  2015: 100.0
+  2020: 112.5
+  2024: 109.6
+
+Top 5 OECD (2024, most expensive):
+  Portugal                  147.4
+  Canada                    136.2
+  Netherlands               130.4
+  United States             128.3
+  Switzerland               125.3
+
+Bottom 5 OECD (2024, most affordable):
+  France                    93.4
+  Colombia                  88.1
+  Italy                     87.0
+  Finland                   81.1
+  Korea                     77.6
+
+========================================================================
+  WORLDWIDE GOVERNANCE INDICATORS (World Bank)
+========================================================================
+
+Latest year: 2023
+
+Dimension                          NZ  OECD mean  OECD rank
+------------------------------------------------------------
+Government Effectiveness         1.53       1.08    12/38
+Rule of Law                      1.71       1.10     8/38
+Voice and Accountability         1.69       1.12     2/38
+Regulatory Quality               1.91       1.16     3/38
+Control of Corruption            2.08       1.09     4/38
+Political Stability              1.36       0.53     1/38
+
+Strongest: Control of Corruption (2.08)
+Weakest:   Political Stability (1.36)
+
+NZ trajectory (all 6 dimensions, mean score):
+  1996: 1.77  (n=6 indicators)
+  2002: 1.69  (n=6 indicators)
+  2010: 1.76  (n=6 indicators)
+  2015: 1.84  (n=6 indicators)
+  2020: 1.74  (n=6 indicators)
+  2023: 1.71  (n=6 indicators)
+
+========================================================================
+  LABOUR PRODUCTIVITY (OECD, GDP per hour worked, USD PPP)
+========================================================================
+
+NZ GDP/hour (2023): $55.4
+NZ OECD rank (2023): 28 of 37 (1 = highest)
+OECD median: $73.4
+OECD mean:   $74.1
+NZ as % of OECD average: 74.8%
+
+NZ trajectory:
+  2000: $25.7
+  2005: $28.4
+  2010: $36.0
+  2015: $41.7
+  2020: $49.3
+  2023: $55.4
+
+Top 5 OECD (2023):
+  Ireland                   $153.6
+  Norway                    $132.3
+  Luxembourg                $126.5
+  Belgium                   $100.3
+  Switzerland               $99.2
+
+========================================================================
+  TRUST IN GOVERNMENT
+========================================================================
+
+NZ 46% trust in national government (OECD 39% average)
+  Source: OECD Government at a Glance 2023
+
+Note: Ipsos NZ Issues Monitor shows govt approval dropped to
+3.9/10 (Oct 2025, record low). Trust != approval — trust is a
+broader institutional measure that changes slowly; approval is
+a performance rating that responds to current conditions.
+
+========================================================================
+  FREEDOM HOUSE RATINGS
+========================================================================
+
+Years covered: 1972–2024 (52 years)
+NZ: consistently Free since 1972, PR=1, CL=1 in all years
+
+PR = Political Rights (1=most free, 7=least free)
+CL = Civil Liberties (1=most free, 7=least free)
+F = Free, PF = Partly Free, NF = Not Free
