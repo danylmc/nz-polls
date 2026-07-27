@@ -1,0 +1,652 @@
+[
+  {
+    "date": "2017-10-15",
+    "election_year": 2020,
+    "pollster": "Roy Morgan Research",
+    "sample_size": 894.0,
+    "right_direction": 58.5,
+    "wrong_direction": 27.5,
+    "dont_know": 14.0,
+    "net": 31.0
+  },
+  {
+    "date": "2017-11-01",
+    "election_year": 2020,
+    "pollster": "Horizon Research",
+    "sample_size": 1068.0,
+    "right_direction": 49.0,
+    "wrong_direction": 24.0,
+    "dont_know": 28.0,
+    "net": 25.0
+  },
+  {
+    "date": "2017-11-12",
+    "election_year": 2020,
+    "pollster": "Roy Morgan Research",
+    "sample_size": 887.0,
+    "right_direction": 66.5,
+    "wrong_direction": 20.0,
+    "dont_know": 13.5,
+    "net": 46.5
+  },
+  {
+    "date": "2017-12-05",
+    "election_year": 2020,
+    "pollster": "1 News–Colmar Brunton",
+    "sample_size": 1007.0,
+    "right_direction": 51.0,
+    "wrong_direction": 26.0,
+    "dont_know": 23.0,
+    "net": 25.0
+  },
+  {
+    "date": "2017-12-10",
+    "election_year": 2020,
+    "pollster": "Roy Morgan Research",
+    "sample_size": null,
+    "right_direction": 68.0,
+    "wrong_direction": 18.0,
+    "dont_know": 14.0,
+    "net": 50.0
+  },
+  {
+    "date": "2020-01-01",
+    "election_year": 2020,
+    "pollster": "Roy Morgan Research",
+    "sample_size": 900.0,
+    "right_direction": 66.5,
+    "wrong_direction": 20.0,
+    "dont_know": 12.5,
+    "net": 46.5
+  },
+  {
+    "date": "2020-02-01",
+    "election_year": 2020,
+    "pollster": "Roy Morgan Research",
+    "sample_size": 900.0,
+    "right_direction": 59.0,
+    "wrong_direction": 27.0,
+    "dont_know": 14.0,
+    "net": 32.0
+  },
+  {
+    "date": "2020-03-01",
+    "election_year": 2020,
+    "pollster": "Roy Morgan Research",
+    "sample_size": 900.0,
+    "right_direction": 60.5,
+    "wrong_direction": 25.5,
+    "dont_know": 14.0,
+    "net": 35.0
+  },
+  {
+    "date": "2020-04-01",
+    "election_year": 2020,
+    "pollster": "Roy Morgan Research",
+    "sample_size": 900.0,
+    "right_direction": 77.0,
+    "wrong_direction": 14.0,
+    "dont_know": 9.0,
+    "net": 63.0
+  },
+  {
+    "date": "2020-05-01",
+    "election_year": 2020,
+    "pollster": "Roy Morgan Research",
+    "sample_size": 900.0,
+    "right_direction": 76.0,
+    "wrong_direction": 17.5,
+    "dont_know": 6.5,
+    "net": 58.5
+  },
+  {
+    "date": "2020-06-01",
+    "election_year": 2020,
+    "pollster": "Roy Morgan Research",
+    "sample_size": 879.0,
+    "right_direction": 72.0,
+    "wrong_direction": 18.5,
+    "dont_know": 9.5,
+    "net": 53.5
+  },
+  {
+    "date": "2020-07-01",
+    "election_year": 2020,
+    "pollster": "Roy Morgan Research",
+    "sample_size": 899.0,
+    "right_direction": 71.5,
+    "wrong_direction": 19.0,
+    "dont_know": 9.5,
+    "net": 52.5
+  },
+  {
+    "date": "2020-08-01",
+    "election_year": 2020,
+    "pollster": "Roy Morgan Research",
+    "sample_size": 897.0,
+    "right_direction": 71.0,
+    "wrong_direction": 19.0,
+    "dont_know": 10.0,
+    "net": 52.0
+  },
+  {
+    "date": "2020-09-01",
+    "election_year": 2020,
+    "pollster": "Roy Morgan Research",
+    "sample_size": 911.0,
+    "right_direction": 70.5,
+    "wrong_direction": 19.5,
+    "dont_know": 10.0,
+    "net": 51.0
+  },
+  {
+    "date": "2020-11-22",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 939.0,
+    "right_direction": 69.5,
+    "wrong_direction": 20.0,
+    "dont_know": 10.5,
+    "net": 49.5
+  },
+  {
+    "date": "2020-12-13",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 923.0,
+    "right_direction": 71.5,
+    "wrong_direction": 18.0,
+    "dont_know": 10.5,
+    "net": 53.5
+  },
+  {
+    "date": "2021-01-24",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 937.0,
+    "right_direction": 71.5,
+    "wrong_direction": 18.5,
+    "dont_know": 10.0,
+    "net": 53.0
+  },
+  {
+    "date": "2021-02-21",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 924.0,
+    "right_direction": 69.5,
+    "wrong_direction": 20.0,
+    "dont_know": 10.5,
+    "net": 49.5
+  },
+  {
+    "date": "2021-03-28",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 924.0,
+    "right_direction": 61.5,
+    "wrong_direction": 26.0,
+    "dont_know": 12.5,
+    "net": 35.5
+  },
+  {
+    "date": "2021-04-25",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 933.0,
+    "right_direction": 62.5,
+    "wrong_direction": 26.5,
+    "dont_know": 11.0,
+    "net": 36.0
+  },
+  {
+    "date": "2021-05-23",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 932.0,
+    "right_direction": 62.5,
+    "wrong_direction": 28.5,
+    "dont_know": 9.0,
+    "net": 34.0
+  },
+  {
+    "date": "2021-06-27",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 927.0,
+    "right_direction": 57.0,
+    "wrong_direction": 33.0,
+    "dont_know": 10.0,
+    "net": 24.0
+  },
+  {
+    "date": "2021-07-25",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 945.0,
+    "right_direction": 55.5,
+    "wrong_direction": 34.5,
+    "dont_know": 10.0,
+    "net": 21.0
+  },
+  {
+    "date": "2021-08-22",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 940.0,
+    "right_direction": 52.5,
+    "wrong_direction": 37.5,
+    "dont_know": 10.0,
+    "net": 15.0
+  },
+  {
+    "date": "2021-09-26",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 940.0,
+    "right_direction": 57.0,
+    "wrong_direction": 32.0,
+    "dont_know": 11.0,
+    "net": 25.0
+  },
+  {
+    "date": "2021-10-05",
+    "election_year": 2023,
+    "pollster": "Talbot Mills",
+    "sample_size": 1200.0,
+    "right_direction": 63.0,
+    "wrong_direction": 30.0,
+    "dont_know": 7.0,
+    "net": 33.0
+  },
+  {
+    "date": "2021-10-24",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 929.0,
+    "right_direction": 48.0,
+    "wrong_direction": 38.5,
+    "dont_know": 13.5,
+    "net": 9.5
+  },
+  {
+    "date": "2021-11-08",
+    "election_year": 2023,
+    "pollster": "Taxpayers' Union–Curia",
+    "sample_size": 1000.0,
+    "right_direction": 44.0,
+    "wrong_direction": 45.0,
+    "dont_know": 11.0,
+    "net": -1.0
+  },
+  {
+    "date": "2021-11-21",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 951.0,
+    "right_direction": 46.0,
+    "wrong_direction": 44.5,
+    "dont_know": 9.5,
+    "net": 1.5
+  },
+  {
+    "date": "2021-12-19",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 967.0,
+    "right_direction": 42.5,
+    "wrong_direction": 44.5,
+    "dont_know": 13.0,
+    "net": -2.0
+  },
+  {
+    "date": "2022-01-30",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 951.0,
+    "right_direction": 48.5,
+    "wrong_direction": 42.0,
+    "dont_know": 9.5,
+    "net": 6.5
+  },
+  {
+    "date": "2022-02-27",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 963.0,
+    "right_direction": 42.5,
+    "wrong_direction": 47.5,
+    "dont_know": 10.0,
+    "net": -5.0
+  },
+  {
+    "date": "2022-03-27",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 944.0,
+    "right_direction": 39.0,
+    "wrong_direction": 51.5,
+    "dont_know": 9.5,
+    "net": -12.5
+  },
+  {
+    "date": "2022-04-24",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 913.0,
+    "right_direction": 43.0,
+    "wrong_direction": 49.5,
+    "dont_know": 7.5,
+    "net": -6.5
+  },
+  {
+    "date": "2022-05-10",
+    "election_year": 2023,
+    "pollster": "Talbot Mills",
+    "sample_size": null,
+    "right_direction": 51.0,
+    "wrong_direction": 40.0,
+    "dont_know": 9.0,
+    "net": 11.0
+  },
+  {
+    "date": "2022-05-11",
+    "election_year": 2023,
+    "pollster": "Taxpayers' Union–Curia",
+    "sample_size": 1000.0,
+    "right_direction": 34.0,
+    "wrong_direction": 48.0,
+    "dont_know": 18.0,
+    "net": -14.0
+  },
+  {
+    "date": "2022-05-22",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 934.0,
+    "right_direction": 40.0,
+    "wrong_direction": 50.0,
+    "dont_know": 10.0,
+    "net": -10.0
+  },
+  {
+    "date": "2022-06-10",
+    "election_year": 2023,
+    "pollster": "Talbot Mills",
+    "sample_size": 1200.0,
+    "right_direction": 50.0,
+    "wrong_direction": 42.0,
+    "dont_know": 8.0,
+    "net": 8.0
+  },
+  {
+    "date": "2022-06-12",
+    "election_year": 2023,
+    "pollster": "Taxpayers' Union–Curia",
+    "sample_size": 1200.0,
+    "right_direction": 36.0,
+    "wrong_direction": 50.0,
+    "dont_know": 14.0,
+    "net": -14.0
+  },
+  {
+    "date": "2022-06-26",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 947.0,
+    "right_direction": 39.0,
+    "wrong_direction": 51.5,
+    "dont_know": 9.5,
+    "net": -12.5
+  },
+  {
+    "date": "2022-07-24",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 937.0,
+    "right_direction": 40.5,
+    "wrong_direction": 51.0,
+    "dont_know": 8.5,
+    "net": -10.5
+  },
+  {
+    "date": "2022-08-08",
+    "election_year": 2023,
+    "pollster": "Talbot Mills",
+    "sample_size": null,
+    "right_direction": 42.0,
+    "wrong_direction": 50.0,
+    "dont_know": 8.0,
+    "net": -8.0
+  },
+  {
+    "date": "2022-08-21",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 947.0,
+    "right_direction": 37.5,
+    "wrong_direction": 53.0,
+    "dont_know": 9.5,
+    "net": -15.5
+  },
+  {
+    "date": "2022-09-07",
+    "election_year": 2023,
+    "pollster": "Talbot Mills",
+    "sample_size": null,
+    "right_direction": 44.0,
+    "wrong_direction": 49.0,
+    "dont_know": 7.0,
+    "net": -5.0
+  },
+  {
+    "date": "2022-09-09",
+    "election_year": 2023,
+    "pollster": "Taxpayers' Union–Curia",
+    "sample_size": 1000.0,
+    "right_direction": 32.0,
+    "wrong_direction": 54.0,
+    "dont_know": 14.0,
+    "net": -22.0
+  },
+  {
+    "date": "2022-09-25",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 942.0,
+    "right_direction": 37.5,
+    "wrong_direction": 51.5,
+    "dont_know": 11.0,
+    "net": -14.0
+  },
+  {
+    "date": "2022-10-11",
+    "election_year": 2023,
+    "pollster": "Taxpayers' Union–Curia",
+    "sample_size": 1000.0,
+    "right_direction": 29.0,
+    "wrong_direction": 56.0,
+    "dont_know": 15.0,
+    "net": -27.0
+  },
+  {
+    "date": "2022-10-23",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 951.0,
+    "right_direction": 42.0,
+    "wrong_direction": 50.0,
+    "dont_know": 8.0,
+    "net": -8.0
+  },
+  {
+    "date": "2022-11-07",
+    "election_year": 2023,
+    "pollster": "Talbot Mills",
+    "sample_size": null,
+    "right_direction": 41.0,
+    "wrong_direction": 49.0,
+    "dont_know": 10.0,
+    "net": -8.0
+  },
+  {
+    "date": "2022-11-27",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 926.0,
+    "right_direction": 35.0,
+    "wrong_direction": 55.0,
+    "dont_know": 10.0,
+    "net": -20.0
+  },
+  {
+    "date": "2022-12-01",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 947.0,
+    "right_direction": 32.0,
+    "wrong_direction": 57.0,
+    "dont_know": 11.0,
+    "net": -25.0
+  },
+  {
+    "date": "2023-01-29",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 948.0,
+    "right_direction": 40.0,
+    "wrong_direction": 49.0,
+    "dont_know": 11.0,
+    "net": -9.0
+  },
+  {
+    "date": "2023-02-26",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 943.0,
+    "right_direction": 42.5,
+    "wrong_direction": 47.5,
+    "dont_know": 10.0,
+    "net": -5.0
+  },
+  {
+    "date": "2023-03-26",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 945.0,
+    "right_direction": 38.5,
+    "wrong_direction": 52.5,
+    "dont_know": 9.0,
+    "net": -14.0
+  },
+  {
+    "date": "2023-04-23",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 929.0,
+    "right_direction": 35.0,
+    "wrong_direction": 55.0,
+    "dont_know": 10.0,
+    "net": -20.0
+  },
+  {
+    "date": "2023-05-03",
+    "election_year": 2023,
+    "pollster": "Talbot Mills",
+    "sample_size": 1046.0,
+    "right_direction": 40.0,
+    "wrong_direction": 52.0,
+    "dont_know": 8.0,
+    "net": -12.0
+  },
+  {
+    "date": "2023-05-21",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 952.0,
+    "right_direction": 34.5,
+    "wrong_direction": 54.5,
+    "dont_know": 11.0,
+    "net": -20.0
+  },
+  {
+    "date": "2023-06-25",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 955.0,
+    "right_direction": 38.0,
+    "wrong_direction": 54.0,
+    "dont_know": 8.0,
+    "net": -16.0
+  },
+  {
+    "date": "2023-07-10",
+    "election_year": 2023,
+    "pollster": "Taxpayers' Union–Curia",
+    "sample_size": 1000.0,
+    "right_direction": 22.1,
+    "wrong_direction": 64.5,
+    "dont_know": 13.4,
+    "net": -42.4
+  },
+  {
+    "date": "2023-07-23",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 937.0,
+    "right_direction": 29.0,
+    "wrong_direction": 60.5,
+    "dont_know": 10.5,
+    "net": -31.5
+  },
+  {
+    "date": "2023-08-06",
+    "election_year": 2023,
+    "pollster": "Guardian Essential",
+    "sample_size": 1163.0,
+    "right_direction": 31.0,
+    "wrong_direction": 55.0,
+    "dont_know": 14.0,
+    "net": -24.0
+  },
+  {
+    "date": "2023-08-07",
+    "election_year": 2023,
+    "pollster": "Talbot Mills",
+    "sample_size": 1012.0,
+    "right_direction": 37.0,
+    "wrong_direction": 55.0,
+    "dont_know": 8.0,
+    "net": -18.0
+  },
+  {
+    "date": "2023-08-27",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": 1046.0,
+    "right_direction": 32.0,
+    "wrong_direction": 56.0,
+    "dont_know": 12.0,
+    "net": -24.0
+  },
+  {
+    "date": "2023-08-30",
+    "election_year": 2023,
+    "pollster": "The Post–Freshwater Strategy",
+    "sample_size": 1511.0,
+    "right_direction": 21.0,
+    "wrong_direction": 63.0,
+    "dont_know": 15.0,
+    "net": -42.0
+  },
+  {
+    "date": "2023-10-08",
+    "election_year": 2023,
+    "pollster": "Roy Morgan",
+    "sample_size": null,
+    "right_direction": 38.0,
+    "wrong_direction": 45.0,
+    "dont_know": 17.0,
+    "net": -7.0
+  }
+]
