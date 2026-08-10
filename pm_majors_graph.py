@@ -22,9 +22,8 @@ from pm_history_graph import LEADER_PARTY
 ROOT = Path(__file__).parent
 
 START = "2006-01-01"
-# Orange: the line combines National and Labour, so it must not wear either
-# party's colour, and it must not read as blue. No NZ party claims orange.
-INK = "#eb6834"
+# Black and white: no hue at all sidesteps the party-colour problem entirely.
+INK = "#111111"
 
 CORE_HOUSES = {
     "1 News (Colmar Brunton / Kantar / Verian)": ("colmar", "kantar", "verian"),
@@ -42,7 +41,7 @@ NOTES = [
 TEXT_PRIMARY = "#0b0b0b"
 TEXT_SECONDARY = "#52514e"
 TEXT_MUTED = "#8a8880"
-SURFACE = "#fcfcfb"
+SURFACE = "#ffffff"
 
 
 def house(pollster: str):
@@ -81,11 +80,11 @@ def main():
     fig.patch.set_facecolor(SURFACE)
     ax.set_facecolor(SURFACE)
 
-    ax.axhline(baseline, color=INK, linewidth=1, linestyle=(0, (5, 5)),
-               alpha=0.45, zorder=2)
+    ax.axhline(baseline, color=TEXT_SECONDARY, linewidth=1, linestyle=(0, (5, 5)),
+               alpha=0.6, zorder=2)
     ax.text(pd.Timestamp("2023-06-01"), baseline + 1.5,
             f"Average up to 2022: {baseline:.0f}%",
-            fontsize=10.5, color=INK, alpha=0.9, va="bottom")
+            fontsize=10.5, color=TEXT_SECONDARY, va="bottom")
 
     for date, y, text in NOTES:
         ax.annotate(text, xy=(pd.Timestamp(date), y), ha="center", va="top",
