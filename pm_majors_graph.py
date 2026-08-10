@@ -38,10 +38,25 @@ NOTES = [
     ("2019-09-01", 78, "Covid"),
 ]
 
-TEXT_PRIMARY = "#0b0b0b"
-TEXT_SECONDARY = "#52514e"
-TEXT_MUTED = "#8a8880"
-SURFACE = "#ffffff"
+# Prime ministers over the window. English and Hipkins held office under a year
+# each, so they are shown but not named — labelling them is what makes the band
+# unreadable, and leaving them out entirely would misdate Key's and Ardern's terms.
+PMS = [
+    ("Clark", "2006-01-01", "2008-11-19"),
+    ("Key", "2008-11-19", "2016-12-12"),
+    ("", "2016-12-12", "2017-10-26"),      # English
+    ("Ardern", "2017-10-26", "2023-01-25"),
+    ("", "2023-01-25", "2023-11-27"),      # Hipkins
+    ("Luxon", "2023-11-27", "2026-09-01"),
+]
+
+PM_BAND = (4, 11)  # y-range the band occupies
+
+TEXT_PRIMARY = "#0b1a2b"
+TEXT_SECONDARY = "#3f5570"
+TEXT_MUTED = "#6b7f96"
+SURFACE = "#dbe8f7"   # soft blue panel
+GRID = "#ffffff"
 
 
 def house(pollster: str):
@@ -80,6 +95,17 @@ def main():
     fig.patch.set_facecolor(SURFACE)
     ax.set_facecolor(SURFACE)
 
+    for i, (name, begin, end) in enumerate(PMS):
+        x0, x1 = pd.Timestamp(begin), pd.Timestamp(end)
+        ax.fill_between([x0, x1], PM_BAND[0], PM_BAND[1], color=GRID,
+                        alpha=0.85 if i % 2 == 0 else 0.55, linewidth=0, zorder=2)
+        if name:
+            ax.text(x0 + (x1 - x0) / 2, sum(PM_BAND) / 2, name, ha="center",
+                    va="center", fontsize=11, fontweight="bold",
+                    color=TEXT_SECONDARY, zorder=3)
+    ax.text(pd.Timestamp(START), PM_BAND[1] + 1.5, "Prime minister",
+            fontsize=9.5, color=TEXT_MUTED, va="bottom", zorder=3)
+
     ax.axhline(baseline, color=TEXT_SECONDARY, linewidth=1, linestyle=(0, (5, 5)),
                alpha=0.6, zorder=2)
     ax.text(pd.Timestamp("2023-06-01"), baseline + 1.5,
@@ -112,17 +138,18 @@ def main():
     ax.yaxis.set_major_formatter(lambda v, _: f"{v:.0f}%")
     ax.set_xticks([pd.Timestamp(f"{y}-01-01") for y in range(2008, 2027, 3)])
     ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y"))
-    ax.grid(axis="y", color=TEXT_MUTED, alpha=0.16, linewidth=0.8)
+    ax.grid(axis="y", color=GRID, alpha=0.9, linewidth=1.2)
     ax.set_axisbelow(True)
     for side in ("top", "right", "left"):
         ax.spines[side].set_visible(False)
-    ax.spines["bottom"].set_color(TEXT_MUTED)
-    ax.spines["bottom"].set_linewidth(0.8)
+    ax.spines["bottom"].set_color(GRID)
+    ax.spines["bottom"].set_linewidth(1.2)
     ax.tick_params(colors=TEXT_SECONDARY, labelsize=11.5, length=0)
 
     fig.text(0.11, 0.02,
              "Polls by 1 News (Colmar Brunton/Kantar/Verian), Reid Research, "
-             "Curia/Taxpayers' Union and Talbot Mills.",
+             "Curia/Taxpayers' Union and Talbot Mills. The two unnamed terms are "
+             "Bill English (2016–17) and Chris Hipkins (2023).",
              ha="left", fontsize=9, color=TEXT_MUTED)
 
     out = ROOT / "reports" / "pm_majors.png"
