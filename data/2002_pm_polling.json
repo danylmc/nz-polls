@@ -1,0 +1,147 @@
+{
+  "election_year": 2002,
+  "polls": [
+    {
+      "date": "2000-02-28",
+      "pollster": "TV3/CM Research poll",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 36.0,
+        "Shipley": 13.0
+      }
+    },
+    {
+      "date": "2000-02-28",
+      "pollster": "One News Colmar Brunton",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 43.0,
+        "Shipley": 16.0
+      }
+    },
+    {
+      "date": "2000-04-18",
+      "pollster": "TV3/CM Research poll",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 42.0,
+        "Shipley": 13.0
+      }
+    },
+    {
+      "date": "2000-04-18",
+      "pollster": "TV3/CM Research poll",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 28.0,
+        "Shipley": 14.0
+      }
+    },
+    {
+      "date": "2000-08-22",
+      "pollster": "TV3/CM Research poll",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 31.0,
+        "Shipley": 16.0
+      }
+    },
+    {
+      "date": "2001-02-20",
+      "pollster": "TV3/CM Research poll",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 35.0,
+        "Shipley": 16.0
+      }
+    },
+    {
+      "date": "2001-02-20",
+      "pollster": "TV3/CM Research poll",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 30.0,
+        "Shipley": 13.0
+      }
+    },
+    {
+      "date": "2001-04-09",
+      "pollster": "TV3-NFO",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 36.0,
+        "Shipley": 11.0
+      }
+    },
+    {
+      "date": "2001-05-14",
+      "pollster": "One News Colmar Brunton",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 37.0,
+        "Shipley": 17.0,
+        "Anderton": 3.0
+      }
+    },
+    {
+      "date": "2001-10-12",
+      "pollster": "One News Colmar Brunton",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 41.0,
+        "English": 21.0
+      }
+    },
+    {
+      "date": "2001-11-12",
+      "pollster": "One News Colmar Brunton",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 40.0,
+        "English": 19.0
+      }
+    },
+    {
+      "date": "2001-12-17",
+      "pollster": "TV3/CM Research poll",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 41.0,
+        "English": 17.0
+      }
+    },
+    {
+      "date": "2002-02-27",
+      "pollster": "TV3/CM Research poll",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 41.0,
+        "English": 10.0,
+        "Peters": 5.0,
+        "Anderton": 3.0
+      }
+    },
+    {
+      "date": "2002-06-17",
+      "pollster": "One News Colmar Brunton",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 52.0,
+        "English": 17.0,
+        "Peters": 4.0,
+        "Anderton": 2.0
+      }
+    },
+    {
+      "date": "2002-07-15",
+      "pollster": "One News Colmar Brunton",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 48.0,
+        "English": 19.0,
+        "Peters": 7.0,
+        "Anderton": 2.0
+      }
+    }
+  ]
+}

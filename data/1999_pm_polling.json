@@ -1,0 +1,214 @@
+{
+  "election_year": 1999,
+  "polls": [
+    {
+      "date": "1997-05-13",
+      "pollster": "One News Colmar Brunton",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 21.0,
+        "Bolger": 20.0,
+        "Shipley": 6.0,
+        "Peters": 4.0,
+        "Anderton": 6.0,
+        "Moore": 5.0
+      }
+    },
+    {
+      "date": "1997-06-25",
+      "pollster": "One News Colmar Brunton",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 26.0,
+        "Bolger": 21.0,
+        "Shipley": 4.0,
+        "Peters": 4.0,
+        "Anderton": 5.0,
+        "Moore": 4.0
+      }
+    },
+    {
+      "date": "1997-08-13",
+      "pollster": "One News Colmar Brunton",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 25.0,
+        "Bolger": 20.0,
+        "Shipley": 9.0,
+        "Peters": 3.0,
+        "Anderton": 7.0
+      }
+    },
+    {
+      "date": "1997-12-10",
+      "pollster": "One News Colmar Brunton",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 28.0,
+        "Bolger": 5.0,
+        "Shipley": 27.0,
+        "Peters": 2.0
+      }
+    },
+    {
+      "date": "1998-02-12",
+      "pollster": "One News Colmar Brunton",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 26.0,
+        "Bolger": 3.0,
+        "Shipley": 27.0,
+        "Peters": 1.0,
+        "Anderton": 5.0,
+        "Moore": 3.0
+      }
+    },
+    {
+      "date": "1998-02-15",
+      "pollster": "TV3-CM Research",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 28.0,
+        "Bolger": 4.0,
+        "Shipley": 20.0,
+        "Peters": 2.0,
+        "Anderton": 5.0,
+        "Moore": 5.0
+      }
+    },
+    {
+      "date": "1998-03-25",
+      "pollster": "One News Colmar Brunton",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 23.0,
+        "Bolger": 3.0,
+        "Shipley": 31.0,
+        "Peters": 3.0,
+        "Anderton": 4.0,
+        "Moore": 3.0
+      }
+    },
+    {
+      "date": "1998-07-10",
+      "pollster": "TV3-CM Research",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 21.0,
+        "Shipley": 22.0
+      }
+    },
+    {
+      "date": "1998-08-11",
+      "pollster": "One News Colmar Brunton",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 22.0,
+        "Shipley": 28.0,
+        "Peters": 2.0,
+        "Anderton": 9.0,
+        "Prebble": 2.0
+      }
+    },
+    {
+      "date": "1998-09-22",
+      "pollster": "One News Colmar Brunton",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 23.0,
+        "Shipley": 28.0,
+        "Peters": 3.0,
+        "Anderton": 7.0,
+        "Prebble": 1.0
+      }
+    },
+    {
+      "date": "1998-11-17",
+      "pollster": "TV3/CM Research",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 24.0,
+        "Shipley": 15.0,
+        "Peters": 4.0,
+        "Anderton": 6.0
+      }
+    },
+    {
+      "date": "1999-03-23",
+      "pollster": "One News Colmar Brunton",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 21.0,
+        "Shipley": 29.0
+      }
+    },
+    {
+      "date": "1999-04-27",
+      "pollster": "One News Colmar Brunton",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 21.0,
+        "Shipley": 27.0,
+        "Peters": 3.0,
+        "Anderton": 5.0,
+        "Prebble": 1.0
+      }
+    },
+    {
+      "date": "1999-05-19",
+      "pollster": "One News Colmar Brunton",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 22.0,
+        "Shipley": 27.0,
+        "Peters": 4.0,
+        "Anderton": 6.0,
+        "Prebble": 1.0
+      }
+    },
+    {
+      "date": "1999-08-11",
+      "pollster": "New Zealand Herald-DigiPoll",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 19.5,
+        "Shipley": 17.6,
+        "Peters": 2.4,
+        "Anderton": 6.4,
+        "Moore": 3.0
+      }
+    },
+    {
+      "date": "1999-09-08",
+      "pollster": "New Zealand Herald-DigiPoll",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 19.5,
+        "Bolger": 1.1,
+        "Shipley": 16.0,
+        "Peters": 6.9,
+        "Anderton": 4.4,
+        "Prebble": 1.8,
+        "Moore": 1.7
+      }
+    },
+    {
+      "date": "1999-11-26",
+      "pollster": "One News Colmar Brunton",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 30.0,
+        "Shipley": 27.0
+      }
+    },
+    {
+      "date": "1999-11-26",
+      "pollster": "TV3/CM Research",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 23.0,
+        "Shipley": 20.0
+      }
+    }
+  ]
+}

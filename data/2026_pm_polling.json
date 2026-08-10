@@ -2,375 +2,154 @@
   "election_year": 2026,
   "polls": [
     {
-      "date": "2025-12-10",
-      "pollster": "The Post/Freshwater Strategy",
-      "candidates": {
-        "Luxon": 39.0,
-        "Hipkins": 45.0
-      }
-    },
-    {
-      "date": "2025-12-07",
+      "date": "2023-11-06",
       "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
       "candidates": {
-        "Luxon": 19.7,
-        "Hipkins": 17.8,
-        "Seymour": 6.0,
-        "Peters": 8.5
-      }
-    },
-    {
-      "date": "2025-12-03",
-      "pollster": "1 News–Verian",
-      "candidates": {
-        "Luxon": 23.0,
-        "Hipkins": 21.0,
-        "Seymour": 5.0,
-        "Peters": 9.0
-      }
-    },
-    {
-      "date": "2025-11-10",
-      "pollster": "Talbot Mills",
-      "candidates": {
-        "Luxon": 22.0,
-        "Hipkins": 26.0
-      }
-    },
-    {
-      "date": "2025-11-06",
-      "pollster": "Taxpayers' Union–Curia",
-      "candidates": {
-        "Luxon": 20.8,
-        "Hipkins": 20.6,
-        "Seymour": 7.7,
-        "Peters": 8.5
-      }
-    },
-    {
-      "date": "2025-10-10",
-      "pollster": "Talbot Mills",
-      "candidates": {
-        "Luxon": 21.0,
-        "Hipkins": 24.0
-      }
-    },
-    {
-      "date": "2025-10-08",
-      "pollster": "1 News–Verian",
-      "candidates": {
-        "Luxon": 21.0,
+        "Luxon": 33.0,
         "Hipkins": 18.0,
-        "Seymour": 5.0,
-        "Peters": 8.0
-      }
-    },
-    {
-      "date": "2025-10-08",
-      "pollster": "The Post/Freshwater Strategy",
-      "candidates": {
-        "Luxon": 36.0,
-        "Hipkins": 45.0
-      }
-    },
-    {
-      "date": "2025-10-05",
-      "pollster": "Taxpayers' Union–Curia",
-      "candidates": {
-        "Luxon": 19.8,
-        "Hipkins": 20.9,
+        "Swarbrick": 6.3,
         "Seymour": 4.0,
-        "Peters": 9.9
+        "Peters": 5.0
       }
     },
     {
-      "date": "2025-09-12",
-      "pollster": "RNZ-Reid Research",
+      "date": "2023-12-05",
+      "pollster": "Curia",
+      "sample_size": null,
       "candidates": {
-        "Luxon": 19.6,
-        "Hipkins": 23.0,
-        "Seymour": 5.8,
-        "Peters": 8.9
+        "Luxon": 30.0,
+        "Hipkins": 22.0
       }
     },
     {
-      "date": "2025-09-10",
-      "pollster": "Talbot Mills",
+      "date": "2024-01-10",
+      "pollster": "Curia",
+      "sample_size": 1000,
       "candidates": {
-        "Luxon": 20.0,
-        "Hipkins": 25.0
+        "Luxon": 31.0,
+        "Hipkins": 13.0
       }
     },
     {
-      "date": "2025-09-02",
+      "date": "2024-02-07",
       "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
       "candidates": {
-        "Luxon": 21.7,
-        "Hipkins": 17.7,
-        "Seymour": 3.7,
-        "Peters": 10.9
-      }
-    },
-    {
-      "date": "2025-08-10",
-      "pollster": "Talbot Mills",
-      "candidates": {
-        "Luxon": 21.0,
-        "Hipkins": 26.0
-      }
-    },
-    {
-      "date": "2025-08-06",
-      "pollster": "1 News–Verian",
-      "candidates": {
-        "Luxon": 20.0,
+        "Luxon": 29.0,
         "Hipkins": 19.0,
-        "Seymour": 4.0,
-        "Peters": 7.0
-      }
-    },
-    {
-      "date": "2025-08-05",
-      "pollster": "Taxpayers' Union–Curia",
-      "candidates": {
-        "Luxon": 20.2,
-        "Hipkins": 20.2,
-        "Seymour": 6.2,
-        "Peters": 8.2
-      }
-    },
-    {
-      "date": "2025-07-10",
-      "pollster": "Talbot Mills",
-      "candidates": {
-        "Luxon": 24.0,
-        "Hipkins": 24.0
-      }
-    },
-    {
-      "date": "2025-07-06",
-      "pollster": "Taxpayers' Union–Curia",
-      "candidates": {
-        "Luxon": 19.7,
-        "Hipkins": 19.6,
-        "Seymour": 5.7,
-        "Peters": 9.3
-      }
-    },
-    {
-      "date": "2025-06-15",
-      "pollster": "The Post/Freshwater Strategy",
-      "candidates": {
-        "Luxon": 37.0,
-        "Hipkins": 43.0
-      }
-    },
-    {
-      "date": "2025-06-09",
-      "pollster": "Taxpayers' Union–Curia",
-      "candidates": {
-        "Luxon": 20.3,
-        "Hipkins": 18.5,
-        "Seymour": 6.0,
-        "Peters": 8.0
-      }
-    },
-    {
-      "date": "2025-05-30",
-      "pollster": "RNZ-Reid Research",
-      "candidates": {
-        "Luxon": 18.8,
-        "Hipkins": 23.2,
-        "Seymour": 6.4,
-        "Peters": 8.9
-      }
-    },
-    {
-      "date": "2025-05-28",
-      "pollster": "1 News-Verian",
-      "candidates": {
-        "Luxon": 23.0,
-        "Hipkins": 19.0,
-        "Seymour": 4.0,
+        "Swarbrick": 6.0,
+        "Seymour": 10.0,
         "Peters": 6.0
       }
     },
     {
-      "date": "2025-05-04",
-      "pollster": "Taxpayers' Union–Curia",
-      "candidates": {
-        "Luxon": 24.5,
-        "Hipkins": 20.0,
-        "Seymour": 6.7,
-        "Peters": 8.1
-      }
-    },
-    {
-      "date": "2025-04-02",
-      "pollster": "1 News–Verian",
-      "candidates": {
-        "Luxon": 23.0,
-        "Hipkins": 20.0,
-        "Seymour": 3.0,
-        "Peters": 7.0
-      }
-    },
-    {
-      "date": "2025-04-01",
-      "pollster": "Taxpayers' Union–Curia",
-      "candidates": {
-        "Luxon": 21.9,
-        "Hipkins": 18.9,
-        "Seymour": 8.0,
-        "Peters": 12.8
-      }
-    },
-    {
-      "date": "2025-03-27",
-      "pollster": "RNZ–Reid Research",
-      "candidates": {
-        "Luxon": 21.9,
-        "Hipkins": 20.9,
-        "Seymour": 6.8,
-        "Peters": 7.9
-      }
-    },
-    {
-      "date": "2025-03-10",
+      "date": "2024-02-10",
       "pollster": "Talbot Mills",
+      "sample_size": null,
       "candidates": {
-        "Luxon": 21.0,
-        "Hipkins": 24.0
-      }
-    },
-    {
-      "date": "2025-03-04",
-      "pollster": "Taxpayers' Union–Curia",
-      "candidates": {
-        "Luxon": 20.3,
-        "Hipkins": 20.7,
-        "Seymour": 5.0,
-        "Peters": 8.6
-      }
-    },
-    {
-      "date": "2025-02-07",
-      "pollster": "1 News–Verian",
-      "candidates": {
-        "Luxon": 22.0,
-        "Hipkins": 17.0,
-        "Seymour": 6.0,
-        "Peters": 5.0
-      }
-    },
-    {
-      "date": "2025-02-04",
-      "pollster": "Taxpayers' Union–Curia",
-      "candidates": {
-        "Luxon": 20.7,
-        "Hipkins": 17.6,
-        "Seymour": 6.4,
-        "Peters": 8.0
-      }
-    },
-    {
-      "date": "2025-01-27",
-      "pollster": "Talbot Mills",
-      "candidates": {
-        "Luxon": 24.0,
-        "Hipkins": 25.0
-      }
-    },
-    {
-      "date": "2025-01-13",
-      "pollster": "Taxpayers' Union–Curia",
-      "candidates": {
-        "Luxon": 24.5,
-        "Hipkins": 15.3,
-        "Seymour": 6.3,
-        "Peters": 8.8
-      }
-    },
-    {
-      "date": "2024-12-04",
-      "pollster": "1 News–Verian",
-      "candidates": {
-        "Luxon": 24.0,
-        "Hipkins": 15.0,
-        "Seymour": 6.0,
-        "Peters": 5.0
-      }
-    },
-    {
-      "date": "2024-12-03",
-      "pollster": "Taxpayers' Union–Curia",
-      "candidates": {
-        "Luxon": 27.1,
-        "Hipkins": 19.9,
-        "Seymour": 5.8,
-        "Peters": 5.8
-      }
-    },
-    {
-      "date": "2024-11-28",
-      "pollster": "Labour–Talbot Mills",
-      "candidates": {
-        "Luxon": 22.1,
-        "Hipkins": 22.7
-      }
-    },
-    {
-      "date": "2024-11-27",
-      "pollster": "The Post/Freshwater Strategy",
-      "candidates": {
-        "Luxon": 41.0,
-        "Hipkins": 42.0
-      }
-    },
-    {
-      "date": "2024-11-10",
-      "pollster": "Taxpayers' Union–Curia",
-      "candidates": {
-        "Luxon": 26.5,
-        "Hipkins": 15.5,
-        "Seymour": 7.4,
-        "Peters": 6.3
-      }
-    },
-    {
-      "date": "2024-11-10",
-      "pollster": "Talbot Mills",
-      "candidates": {
-        "Luxon": 25.0,
+        "Luxon": 27.0,
         "Hipkins": 23.0
       }
     },
     {
-      "date": "2024-10-09",
+      "date": "2024-02-14",
       "pollster": "1 News–Verian",
+      "sample_size": 1002,
       "candidates": {
         "Luxon": 25.0,
         "Hipkins": 15.0,
+        "Swarbrick": 4.0,
         "Seymour": 4.0,
         "Peters": 6.0
       }
     },
     {
-      "date": "2024-10-07",
-      "pollster": "Taxpayers' Union–Curia",
+      "date": "2024-03-10",
+      "pollster": "Talbot Mills",
+      "sample_size": 1000,
       "candidates": {
-        "Luxon": 27.7,
-        "Hipkins": 16.9,
-        "Seymour": 7.4,
-        "Peters": 8.4
+        "Luxon": 24.0,
+        "Hipkins": 23.0
+      }
+    },
+    {
+      "date": "2024-04-24",
+      "pollster": "1 News–Verian",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 23.0,
+        "Hipkins": 16.0,
+        "Swarbrick": 6.0,
+        "Seymour": 5.0,
+        "Peters": 4.0
+      }
+    },
+    {
+      "date": "2024-05-10",
+      "pollster": "Talbot Mills",
+      "sample_size": null,
+      "candidates": {
+        "Luxon": 25.0,
+        "Hipkins": 25.0
+      }
+    },
+    {
+      "date": "2024-06-06",
+      "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 25.4,
+        "Hipkins": 20.2,
+        "Swarbrick": 8.6,
+        "Seymour": 5.0,
+        "Peters": 3.8
+      }
+    },
+    {
+      "date": "2024-06-19",
+      "pollster": "1 News–Verian",
+      "sample_size": 1002,
+      "candidates": {
+        "Luxon": 23.0,
+        "Hipkins": 18.0,
+        "Swarbrick": 6.0,
+        "Seymour": 4.0,
+        "Peters": 4.0
+      }
+    },
+    {
+      "date": "2024-07-08",
+      "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 34.5,
+        "Hipkins": 18.7,
+        "Swarbrick": 10.9,
+        "Seymour": 5.6,
+        "Peters": 5.6
+      }
+    },
+    {
+      "date": "2024-08-14",
+      "pollster": "1 News–Verian",
+      "sample_size": 1001,
+      "candidates": {
+        "Luxon": 28.0,
+        "Hipkins": 18.0,
+        "Swarbrick": 7.0,
+        "Seymour": 4.0,
+        "Peters": 5.0
       }
     },
     {
       "date": "2024-09-10",
       "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
       "candidates": {
         "Luxon": 32.7,
         "Hipkins": 12.6,
+        "Swarbrick": 7.2,
         "Seymour": 5.2,
         "Peters": 6.7
       }
@@ -378,129 +157,673 @@
     {
       "date": "2024-09-10",
       "pollster": "Talbot Mills",
+      "sample_size": null,
       "candidates": {
         "Luxon": 26.0,
         "Hipkins": 22.0
       }
     },
     {
-      "date": "2024-08-14",
-      "pollster": "1 News–Verian",
+      "date": "2024-10-07",
+      "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
       "candidates": {
-        "Luxon": 28.0,
-        "Hipkins": 18.0,
+        "Luxon": 27.7,
+        "Hipkins": 16.9,
+        "Swarbrick": 9.9,
+        "Seymour": 7.4,
+        "Peters": 8.4
+      }
+    },
+    {
+      "date": "2024-10-09",
+      "pollster": "1 News–Verian",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 25.0,
+        "Hipkins": 15.0,
+        "Swarbrick": 6.0,
         "Seymour": 4.0,
+        "Peters": 6.0
+      }
+    },
+    {
+      "date": "2024-11-10",
+      "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 26.5,
+        "Hipkins": 15.5,
+        "Swarbrick": 5.2,
+        "Seymour": 7.4,
+        "Peters": 6.3
+      }
+    },
+    {
+      "date": "2024-11-10",
+      "pollster": "Talbot Mills",
+      "sample_size": null,
+      "candidates": {
+        "Luxon": 25.0,
+        "Hipkins": 23.0
+      }
+    },
+    {
+      "date": "2024-11-27",
+      "pollster": "The Post/Freshwater Strategy",
+      "sample_size": 1150,
+      "candidates": {
+        "Luxon": 41.0,
+        "Hipkins": 42.0
+      }
+    },
+    {
+      "date": "2024-11-28",
+      "pollster": "Labour–Talbot Mills",
+      "sample_size": null,
+      "candidates": {
+        "Luxon": 22.1,
+        "Hipkins": 22.7
+      }
+    },
+    {
+      "date": "2024-12-03",
+      "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 27.1,
+        "Hipkins": 19.9,
+        "Swarbrick": 4.5,
+        "Seymour": 5.8,
+        "Peters": 5.8
+      }
+    },
+    {
+      "date": "2024-12-04",
+      "pollster": "1 News–Verian",
+      "sample_size": 1006,
+      "candidates": {
+        "Luxon": 24.0,
+        "Hipkins": 15.0,
+        "Swarbrick": 6.0,
+        "Seymour": 6.0,
         "Peters": 5.0
       }
     },
     {
-      "date": "2024-07-08",
+      "date": "2025-01-13",
       "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
       "candidates": {
-        "Luxon": 34.5,
-        "Hipkins": 18.7,
-        "Seymour": 5.6,
-        "Peters": 5.6
+        "Luxon": 24.5,
+        "Hipkins": 15.3,
+        "Swarbrick": 8.5,
+        "Seymour": 6.3,
+        "Peters": 8.8
       }
     },
     {
-      "date": "2024-06-19",
-      "pollster": "1 News–Verian",
-      "candidates": {
-        "Luxon": 23.0,
-        "Hipkins": 18.0,
-        "Seymour": 4.0,
-        "Peters": 4.0
-      }
-    },
-    {
-      "date": "2024-06-06",
-      "pollster": "Taxpayers' Union–Curia",
-      "candidates": {
-        "Luxon": 25.4,
-        "Hipkins": 20.2,
-        "Seymour": 5.0,
-        "Peters": 3.8
-      }
-    },
-    {
-      "date": "2024-05-10",
+      "date": "2025-01-27",
       "pollster": "Talbot Mills",
+      "sample_size": 1049,
       "candidates": {
-        "Luxon": 25.0,
+        "Luxon": 24.0,
         "Hipkins": 25.0
       }
     },
     {
-      "date": "2024-04-24",
+      "date": "2025-02-04",
+      "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 20.7,
+        "Hipkins": 17.6,
+        "Swarbrick": 8.9,
+        "Seymour": 6.4,
+        "Peters": 8.0
+      }
+    },
+    {
+      "date": "2025-02-07",
       "pollster": "1 News–Verian",
+      "sample_size": 1002,
+      "candidates": {
+        "Luxon": 22.0,
+        "Hipkins": 17.0,
+        "Swarbrick": 6.0,
+        "Seymour": 6.0,
+        "Peters": 5.0
+      }
+    },
+    {
+      "date": "2025-03-04",
+      "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 20.3,
+        "Hipkins": 20.7,
+        "Swarbrick": 4.8,
+        "Seymour": 5.0,
+        "Peters": 8.6
+      }
+    },
+    {
+      "date": "2025-03-10",
+      "pollster": "Talbot Mills",
+      "sample_size": 1003,
+      "candidates": {
+        "Luxon": 21.0,
+        "Hipkins": 24.0
+      }
+    },
+    {
+      "date": "2025-03-27",
+      "pollster": "RNZ–Reid Research",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 21.9,
+        "Hipkins": 20.9,
+        "Swarbrick": 6.1,
+        "Seymour": 6.8,
+        "Peters": 7.9
+      }
+    },
+    {
+      "date": "2025-04-01",
+      "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 21.9,
+        "Hipkins": 18.9,
+        "Swarbrick": 4.2,
+        "Seymour": 8.0,
+        "Peters": 12.8
+      }
+    },
+    {
+      "date": "2025-04-02",
+      "pollster": "1 News–Verian",
+      "sample_size": 1000,
       "candidates": {
         "Luxon": 23.0,
-        "Hipkins": 16.0,
-        "Seymour": 5.0,
-        "Peters": 4.0
+        "Hipkins": 20.0,
+        "Swarbrick": 4.0,
+        "Seymour": 3.0,
+        "Peters": 7.0
       }
     },
     {
-      "date": "2024-03-10",
+      "date": "2025-05-04",
+      "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 24.5,
+        "Hipkins": 20.0,
+        "Swarbrick": 5.0,
+        "Seymour": 6.7,
+        "Peters": 8.1
+      }
+    },
+    {
+      "date": "2025-05-28",
+      "pollster": "1 News-Verian",
+      "sample_size": 1002,
+      "candidates": {
+        "Luxon": 23.0,
+        "Hipkins": 19.0,
+        "Swarbrick": 5.0,
+        "Seymour": 4.0,
+        "Peters": 6.0
+      }
+    },
+    {
+      "date": "2025-05-30",
+      "pollster": "RNZ-Reid Research",
+      "sample_size": 1008,
+      "candidates": {
+        "Luxon": 18.8,
+        "Hipkins": 23.2,
+        "Swarbrick": 6.9,
+        "Seymour": 6.4,
+        "Peters": 8.9
+      }
+    },
+    {
+      "date": "2025-06-09",
+      "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 20.3,
+        "Hipkins": 18.5,
+        "Swarbrick": 5.6,
+        "Seymour": 6.0,
+        "Peters": 8.0
+      }
+    },
+    {
+      "date": "2025-06-15",
+      "pollster": "The Post/Freshwater Strategy",
+      "sample_size": 1150,
+      "candidates": {
+        "Luxon": 37.0,
+        "Hipkins": 43.0
+      }
+    },
+    {
+      "date": "2025-07-06",
+      "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 19.7,
+        "Hipkins": 19.6,
+        "Swarbrick": 7.0,
+        "Seymour": 5.7,
+        "Peters": 9.3
+      }
+    },
+    {
+      "date": "2025-07-10",
       "pollster": "Talbot Mills",
+      "sample_size": 1090,
       "candidates": {
         "Luxon": 24.0,
-        "Hipkins": 23.0
+        "Hipkins": 24.0
       }
     },
     {
-      "date": "2024-02-14",
+      "date": "2025-08-05",
+      "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 20.2,
+        "Hipkins": 20.2,
+        "Swarbrick": 8.0,
+        "Seymour": 6.2,
+        "Peters": 8.2
+      }
+    },
+    {
+      "date": "2025-08-06",
       "pollster": "1 News–Verian",
+      "sample_size": 1002,
       "candidates": {
-        "Luxon": 25.0,
-        "Hipkins": 15.0,
-        "Seymour": 4.0,
-        "Peters": 6.0
-      }
-    },
-    {
-      "date": "2024-02-10",
-      "pollster": "Talbot Mills",
-      "candidates": {
-        "Luxon": 27.0,
-        "Hipkins": 23.0
-      }
-    },
-    {
-      "date": "2024-02-07",
-      "pollster": "Taxpayers' Union–Curia",
-      "candidates": {
-        "Luxon": 29.0,
+        "Luxon": 20.0,
         "Hipkins": 19.0,
-        "Seymour": 10.0,
-        "Peters": 6.0
-      }
-    },
-    {
-      "date": "2024-01-10",
-      "pollster": "Curia",
-      "candidates": {
-        "Luxon": 31.0,
-        "Hipkins": 13.0
-      }
-    },
-    {
-      "date": "2023-12-05",
-      "pollster": "Curia",
-      "candidates": {
-        "Luxon": 30.0,
-        "Hipkins": 22.0
-      }
-    },
-    {
-      "date": "2023-11-06",
-      "pollster": "Taxpayers' Union–Curia",
-      "candidates": {
-        "Luxon": 33.0,
-        "Hipkins": 18.0,
+        "Swarbrick": 4.0,
         "Seymour": 4.0,
-        "Peters": 5.0
+        "Peters": 7.0
+      }
+    },
+    {
+      "date": "2025-08-10",
+      "pollster": "Talbot Mills",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 21.0,
+        "Hipkins": 26.0
+      }
+    },
+    {
+      "date": "2025-09-02",
+      "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 21.7,
+        "Hipkins": 17.7,
+        "Swarbrick": 8.8,
+        "Seymour": 3.7,
+        "Peters": 10.9
+      }
+    },
+    {
+      "date": "2025-09-10",
+      "pollster": "Talbot Mills",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 20.0,
+        "Hipkins": 25.0
+      }
+    },
+    {
+      "date": "2025-09-12",
+      "pollster": "RNZ-Reid Research",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 19.6,
+        "Hipkins": 23.0,
+        "Swarbrick": 6.5,
+        "Seymour": 5.8,
+        "Peters": 8.9
+      }
+    },
+    {
+      "date": "2025-10-05",
+      "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 19.8,
+        "Hipkins": 20.9,
+        "Swarbrick": 6.3,
+        "Seymour": 4.0,
+        "Peters": 9.9
+      }
+    },
+    {
+      "date": "2025-10-08",
+      "pollster": "1 News–Verian",
+      "sample_size": 1014,
+      "candidates": {
+        "Luxon": 21.0,
+        "Hipkins": 18.0,
+        "Swarbrick": 6.0,
+        "Seymour": 5.0,
+        "Peters": 8.0
+      }
+    },
+    {
+      "date": "2025-10-08",
+      "pollster": "The Post/Freshwater Strategy",
+      "sample_size": 1050,
+      "candidates": {
+        "Luxon": 36.0,
+        "Hipkins": 45.0
+      }
+    },
+    {
+      "date": "2025-10-10",
+      "pollster": "Talbot Mills",
+      "sample_size": 1097,
+      "candidates": {
+        "Luxon": 21.0,
+        "Hipkins": 24.0
+      }
+    },
+    {
+      "date": "2025-11-06",
+      "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 20.8,
+        "Hipkins": 20.6,
+        "Swarbrick": 4.1,
+        "Seymour": 7.7,
+        "Peters": 8.5
+      }
+    },
+    {
+      "date": "2025-11-10",
+      "pollster": "Talbot Mills",
+      "sample_size": null,
+      "candidates": {
+        "Luxon": 22.0,
+        "Hipkins": 26.0
+      }
+    },
+    {
+      "date": "2025-12-03",
+      "pollster": "1 News–Verian",
+      "sample_size": 1007,
+      "candidates": {
+        "Luxon": 23.0,
+        "Hipkins": 21.0,
+        "Swarbrick": 5.0,
+        "Seymour": 5.0,
+        "Peters": 9.0
+      }
+    },
+    {
+      "date": "2025-12-07",
+      "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 19.7,
+        "Hipkins": 17.8,
+        "Swarbrick": 7.6,
+        "Seymour": 6.0,
+        "Peters": 8.5
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "pollster": "The Post/Freshwater Strategy",
+      "sample_size": 1031,
+      "candidates": {
+        "Luxon": 39.0,
+        "Hipkins": 45.0
+      }
+    },
+    {
+      "date": "2026-01-18",
+      "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 19.5,
+        "Hipkins": 18.0,
+        "Swarbrick": 5.5,
+        "Seymour": 7.1,
+        "Peters": 9.7
+      }
+    },
+    {
+      "date": "2026-01-22",
+      "pollster": "RNZ–Reid Research",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 19.4,
+        "Hipkins": 21.1,
+        "Swarbrick": 6.0,
+        "Seymour": 6.7,
+        "Peters": 12.6
+      }
+    },
+    {
+      "date": "2026-02-03",
+      "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 22.0,
+        "Hipkins": 18.0,
+        "Swarbrick": 6.7,
+        "Seymour": 4.8,
+        "Peters": 12.5
+      }
+    },
+    {
+      "date": "2026-02-11",
+      "pollster": "1 News–Verian",
+      "sample_size": 1003,
+      "candidates": {
+        "Luxon": 20.0,
+        "Hipkins": 20.0,
+        "Swarbrick": 5.0,
+        "Seymour": 4.0,
+        "Peters": 10.0
+      }
+    },
+    {
+      "date": "2026-02-12",
+      "pollster": "The Post/Freshwater Strategy",
+      "sample_size": 1039,
+      "candidates": {
+        "Luxon": 34.0,
+        "Hipkins": 46.0
+      }
+    },
+    {
+      "date": "2026-03-03",
+      "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 21.0,
+        "Hipkins": 22.7,
+        "Swarbrick": 4.6,
+        "Seymour": 5.2,
+        "Peters": 10.4
+      }
+    },
+    {
+      "date": "2026-03-12",
+      "pollster": "Talbot Mills",
+      "sample_size": 1059,
+      "candidates": {
+        "Luxon": 22.0,
+        "Hipkins": 26.0,
+        "Swarbrick": 8.0,
+        "Seymour": 6.0,
+        "Peters": 13.0
+      }
+    },
+    {
+      "date": "2026-03-20",
+      "pollster": "RNZ–Reid Research",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 17.3,
+        "Hipkins": 20.7,
+        "Swarbrick": 6.8,
+        "Seymour": 6.8,
+        "Peters": 13.1
+      }
+    },
+    {
+      "date": "2026-04-02",
+      "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 20.5,
+        "Hipkins": 21.7,
+        "Swarbrick": 7.4,
+        "Seymour": 4.6,
+        "Peters": 12.1
+      }
+    },
+    {
+      "date": "2026-04-15",
+      "pollster": "1 News–Verian",
+      "sample_size": 1010,
+      "candidates": {
+        "Luxon": 16.0,
+        "Hipkins": 19.0,
+        "Swarbrick": 6.0,
+        "Seymour": 4.0,
+        "Peters": 12.0
+      }
+    },
+    {
+      "date": "2026-04-16",
+      "pollster": "Talbot Mills",
+      "sample_size": 1082,
+      "candidates": {
+        "Luxon": 20.0,
+        "Hipkins": 23.0,
+        "Swarbrick": 9.0,
+        "Seymour": 7.0,
+        "Peters": 15.0
+      }
+    },
+    {
+      "date": "2026-05-07",
+      "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 21.5,
+        "Hipkins": 19.0,
+        "Swarbrick": 5.4,
+        "Seymour": 3.9,
+        "Peters": 11.6
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "pollster": "Talbot Mills",
+      "sample_size": null,
+      "candidates": {
+        "Luxon": 20.0,
+        "Hipkins": 23.0,
+        "Swarbrick": 10.0,
+        "Seymour": 7.0,
+        "Peters": 17.0
+      }
+    },
+    {
+      "date": "2026-06-08",
+      "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 18.8,
+        "Hipkins": 17.1,
+        "Swarbrick": 8.1,
+        "Seymour": 6.3,
+        "Peters": 12.8
+      }
+    },
+    {
+      "date": "2026-06-10",
+      "pollster": "Talbot Mills",
+      "sample_size": 1021,
+      "candidates": {
+        "Luxon": 20.0,
+        "Hipkins": 21.0,
+        "Swarbrick": 10.0,
+        "Seymour": 6.0,
+        "Peters": 14.0
+      }
+    },
+    {
+      "date": "2026-06-11",
+      "pollster": "The Post/Freshwater Strategy",
+      "sample_size": 1038,
+      "candidates": {
+        "Luxon": 37.0,
+        "Hipkins": 44.0
+      }
+    },
+    {
+      "date": "2026-06-17",
+      "pollster": "1 News–Verian",
+      "sample_size": 1001,
+      "candidates": {
+        "Luxon": 18.0,
+        "Hipkins": 16.0,
+        "Swarbrick": 6.0,
+        "Seymour": 4.0,
+        "Peters": 10.0
+      }
+    },
+    {
+      "date": "2026-07-05",
+      "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 19.1,
+        "Hipkins": 19.2,
+        "Swarbrick": 4.6,
+        "Seymour": 5.1,
+        "Peters": 11.8
+      }
+    },
+    {
+      "date": "2026-07-09",
+      "pollster": "RNZ–Reid Research",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 20.0,
+        "Hipkins": 23.9,
+        "Swarbrick": 8.2,
+        "Seymour": 6.9,
+        "Peters": 13.2
+      }
+    },
+    {
+      "date": "2026-08-04",
+      "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 23.2,
+        "Hipkins": 19.8,
+        "Swarbrick": 4.8,
+        "Seymour": 3.8,
+        "Peters": 10.5
       }
     }
   ]

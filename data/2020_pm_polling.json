@@ -1,5 +1,441 @@
 {
   "election_year": 2020,
-  "polls": [],
-  "error": "No PM table found"
+  "polls": [
+    {
+      "date": "2017-12-05",
+      "pollster": "1 News–Colmar Brunton",
+      "sample_size": 1007,
+      "candidates": {
+        "Ardern": 37.0,
+        "Collins": 0.7,
+        "Peters": 5.0,
+        "Shaw": 0.4,
+        "Bridges": 0.3,
+        "English": 28.0
+      }
+    },
+    {
+      "date": "2018-01-28",
+      "pollster": "Newshub–Reid Research",
+      "sample_size": 1000,
+      "candidates": {
+        "Ardern": 37.9,
+        "Collins": 0.2,
+        "Peters": 5.7,
+        "Shaw": 0.1,
+        "Bridges": 0.5,
+        "English": 25.7
+      }
+    },
+    {
+      "date": "2018-02-14",
+      "pollster": "1 News–Colmar Brunton",
+      "sample_size": 1007,
+      "candidates": {
+        "Ardern": 41.0,
+        "Collins": 0.4,
+        "Peters": 4.0,
+        "Shaw": 0.4,
+        "Seymour": 0.1,
+        "Bridges": 1.0,
+        "English": 20.0
+      }
+    },
+    {
+      "date": "2018-04-11",
+      "pollster": "1 News–Colmar Brunton",
+      "sample_size": 1007,
+      "candidates": {
+        "Ardern": 37.0,
+        "Collins": 2.0,
+        "Peters": 5.0,
+        "Seymour": 0.3,
+        "Bridges": 10.0,
+        "English": 2.0
+      }
+    },
+    {
+      "date": "2018-05-23",
+      "pollster": "1 News–Colmar Brunton",
+      "sample_size": 1007,
+      "candidates": {
+        "Ardern": 41.0,
+        "Collins": 2.0,
+        "Peters": 4.0,
+        "Shaw": 0.2,
+        "Seymour": 0.1,
+        "Bridges": 12.0,
+        "English": 0.9
+      }
+    },
+    {
+      "date": "2018-05-24",
+      "pollster": "Newshub–Reid Research",
+      "sample_size": 1000,
+      "candidates": {
+        "Ardern": 40.2,
+        "Collins": 3.7,
+        "Peters": 4.6,
+        "Bridges": 9.0,
+        "English": 4.2
+      }
+    },
+    {
+      "date": "2018-08-01",
+      "pollster": "1 News–Colmar Brunton Archived 26 August 2018 at the Wayback Machine",
+      "sample_size": 1007,
+      "candidates": {
+        "Ardern": 40.0,
+        "Collins": 2.0,
+        "Peters": 5.0,
+        "Shaw": 0.3,
+        "Davidson": 0.3,
+        "Seymour": 0.2,
+        "Bridges": 10.0,
+        "English": 0.9
+      }
+    },
+    {
+      "date": "2018-10-19",
+      "pollster": "1 News–Colmar Brunton",
+      "sample_size": 1006,
+      "candidates": {
+        "Ardern": 42.0,
+        "Collins": 5.0,
+        "Peters": 4.0,
+        "Shaw": 0.1,
+        "Davidson": 0.1,
+        "Bridges": 7.0,
+        "English": 1.0
+      }
+    },
+    {
+      "date": "2018-11-28",
+      "pollster": "1 News–Colmar Brunton",
+      "sample_size": 1008,
+      "candidates": {
+        "Ardern": 39.0,
+        "Collins": 6.0,
+        "Peters": 4.0,
+        "Shaw": 0.1,
+        "Seymour": 0.1,
+        "Bridges": 7.0,
+        "English": 0.4
+      }
+    },
+    {
+      "date": "2019-02-02",
+      "pollster": "Newshub–Reid Research",
+      "sample_size": 1000,
+      "candidates": {
+        "Ardern": 41.8,
+        "Collins": 6.2,
+        "Bridges": 5.0
+      }
+    },
+    {
+      "date": "2019-02-13",
+      "pollster": "1 News–Colmar Brunton",
+      "sample_size": 1006,
+      "candidates": {
+        "Ardern": 44.0,
+        "Collins": 6.0,
+        "Peters": 3.0,
+        "Shaw": 0.2,
+        "Seymour": 0.1,
+        "Bridges": 6.0,
+        "English": 0.4
+      }
+    },
+    {
+      "date": "2019-04-10",
+      "pollster": "1 News–Colmar Brunton",
+      "sample_size": 1006,
+      "candidates": {
+        "Ardern": 51.0,
+        "Collins": 5.0,
+        "Peters": 3.0,
+        "Shaw": 0.2,
+        "Seymour": 0.2,
+        "Bridges": 5.0,
+        "English": 0.3
+      }
+    },
+    {
+      "date": "2019-06-07",
+      "pollster": "Newshub–Reid Research",
+      "sample_size": 1000,
+      "candidates": {
+        "Ardern": 49.0,
+        "Collins": 7.1,
+        "Bridges": 4.2
+      }
+    },
+    {
+      "date": "2019-06-08",
+      "pollster": "1 News–Colmar Brunton",
+      "sample_size": 1002,
+      "candidates": {
+        "Ardern": 45.0,
+        "Collins": 6.0,
+        "Peters": 5.0,
+        "Shaw": 0.1,
+        "Seymour": 0.5,
+        "Bridges": 5.0,
+        "English": 0.1
+      }
+    },
+    {
+      "date": "2019-07-24",
+      "pollster": "1 News–Colmar Brunton",
+      "sample_size": 1003,
+      "candidates": {
+        "Ardern": 41.0,
+        "Collins": 6.0,
+        "Peters": 2.0,
+        "Davidson": 0.1,
+        "Seymour": 0.4,
+        "Muller": 0.1,
+        "Bridges": 6.0,
+        "English": 0.2
+      }
+    },
+    {
+      "date": "2019-10-09",
+      "pollster": "1 News–Colmar Brunton",
+      "sample_size": 1008,
+      "candidates": {
+        "Ardern": 38.0,
+        "Collins": 5.0,
+        "Peters": 4.0,
+        "Shaw": 0.3,
+        "Davidson": 0.3,
+        "Seymour": 0.4,
+        "Muller": 0.2,
+        "Bridges": 9.0,
+        "English": 0.1
+      }
+    },
+    {
+      "date": "2019-10-09",
+      "pollster": "Newshub–Reid Research",
+      "sample_size": 1000,
+      "candidates": {
+        "Ardern": 38.4,
+        "Collins": 5.2,
+        "Bridges": 6.7
+      }
+    },
+    {
+      "date": "2019-11-27",
+      "pollster": "1 News–Colmar Brunton",
+      "sample_size": 1006,
+      "candidates": {
+        "Ardern": 36.0,
+        "Collins": 4.0,
+        "Peters": 3.0,
+        "Shaw": 0.3,
+        "Seymour": 0.6,
+        "Bridges": 10.0
+      }
+    },
+    {
+      "date": "2020-02-01",
+      "pollster": "Newshub–Reid Research",
+      "sample_size": 1000,
+      "candidates": {
+        "Ardern": 38.7,
+        "Bridges": 10.6
+      }
+    },
+    {
+      "date": "2020-02-12",
+      "pollster": "1 News–Colmar Brunton",
+      "sample_size": 1004,
+      "candidates": {
+        "Ardern": 42.0,
+        "Collins": 3.0,
+        "Peters": 3.0,
+        "Shaw": 0.1,
+        "Davidson": 0.5,
+        "Seymour": 0.8,
+        "Bridges": 11.0,
+        "English": 0.2
+      }
+    },
+    {
+      "date": "2020-04-27",
+      "pollster": "UMR Research",
+      "sample_size": null,
+      "candidates": {
+        "Ardern": 65.0,
+        "Collins": 7.0,
+        "Peters": 3.0,
+        "Bridges": 7.0
+      }
+    },
+    {
+      "date": "2020-05-16",
+      "pollster": "Newshub–Reid Research",
+      "sample_size": 1000,
+      "candidates": {
+        "Ardern": 59.5,
+        "Collins": 3.1,
+        "Bridges": 4.5
+      }
+    },
+    {
+      "date": "2020-05-20",
+      "pollster": "1 News–Colmar Brunton",
+      "sample_size": 1003,
+      "candidates": {
+        "Ardern": 63.0,
+        "Collins": 3.0,
+        "Peters": 1.0,
+        "Shaw": 0.1,
+        "Davidson": 0.1,
+        "Seymour": 0.4,
+        "Baker": 0.3,
+        "Muller": 0.2,
+        "Bridges": 5.0,
+        "English": 0.1
+      }
+    },
+    {
+      "date": "2020-06-01",
+      "pollster": "UMR Research",
+      "sample_size": null,
+      "candidates": {
+        "Ardern": 65.0,
+        "Muller": 13.0
+      }
+    },
+    {
+      "date": "2020-06-24",
+      "pollster": "1 News–Colmar Brunton",
+      "sample_size": 1007,
+      "candidates": {
+        "Ardern": 54.0,
+        "Collins": 2.0,
+        "Peters": 2.0,
+        "Shaw": 0.1,
+        "Davidson": 0.1,
+        "Seymour": 0.8,
+        "Baker": 0.1,
+        "Muller": 13.0,
+        "Bridges": 0.4,
+        "English": 0.2
+      }
+    },
+    {
+      "date": "2020-07-24",
+      "pollster": "Newshub–Reid Research",
+      "sample_size": 1000,
+      "candidates": {
+        "Ardern": 62.0,
+        "Collins": 14.6
+      }
+    },
+    {
+      "date": "2020-07-29",
+      "pollster": "1 News–Colmar Brunton",
+      "sample_size": 1004,
+      "candidates": {
+        "Ardern": 54.0,
+        "Collins": 20.0,
+        "Peters": 1.0,
+        "Shaw": 0.1,
+        "Davidson": 0.1,
+        "Seymour": 1.0,
+        "Baker": 0.1,
+        "Kahika": 0.7,
+        "Muller": 0.2
+      }
+    },
+    {
+      "date": "2020-09-21",
+      "pollster": "1 News–Colmar Brunton",
+      "sample_size": 1008,
+      "candidates": {
+        "Ardern": 54.0,
+        "Collins": 18.0,
+        "Peters": 2.0,
+        "Shaw": 0.1,
+        "Seymour": 2.0,
+        "Baker": 0.3,
+        "Kahika": 0.2,
+        "Bridges": 0.1,
+        "English": 0.3
+      }
+    },
+    {
+      "date": "2020-09-23",
+      "pollster": "Newshub–Reid Research",
+      "sample_size": 1000,
+      "candidates": {
+        "Ardern": 53.2,
+        "Collins": 17.7
+      }
+    },
+    {
+      "date": "2020-09-27",
+      "pollster": "1 News–Colmar Brunton",
+      "sample_size": 1005,
+      "candidates": {
+        "Ardern": 54.0,
+        "Collins": 23.0,
+        "Peters": 1.0,
+        "Shaw": 0.1,
+        "Davidson": 0.2,
+        "Seymour": 2.0,
+        "Baker": 0.1,
+        "Kahika": 0.4,
+        "Bridges": 0.1,
+        "English": 0.1
+      }
+    },
+    {
+      "date": "2020-10-07",
+      "pollster": "1 News–Colmar Brunton",
+      "sample_size": 1007,
+      "candidates": {
+        "Ardern": 50.0,
+        "Collins": 23.0,
+        "Peters": 1.0,
+        "Shaw": 0.1,
+        "Davidson": 0.5,
+        "Seymour": 2.0,
+        "Baker": 0.1,
+        "Kahika": 0.2,
+        "Muller": 0.1,
+        "Bridges": 0.2,
+        "English": 0.2
+      }
+    },
+    {
+      "date": "2020-10-14",
+      "pollster": "1 News–Colmar Brunton",
+      "sample_size": 1005,
+      "candidates": {
+        "Ardern": 55.0,
+        "Collins": 20.0,
+        "Peters": 1.0,
+        "Shaw": 0.4,
+        "Davidson": 0.1,
+        "Seymour": 3.0,
+        "Baker": 0.4,
+        "Kahika": 0.4,
+        "Bridges": 0.4
+      }
+    },
+    {
+      "date": "2020-10-15",
+      "pollster": "Newshub–Reid Research",
+      "sample_size": 1000,
+      "candidates": {
+        "Ardern": 52.6,
+        "Collins": 18.4
+      }
+    }
+  ]
 }

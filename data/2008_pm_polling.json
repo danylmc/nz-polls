@@ -4,40 +4,50 @@
     {
       "date": "2005-11-02",
       "pollster": "TV3–TNS",
+      "sample_size": null,
       "candidates": {
         "Clark": 43.0,
+        "Brash": 19.0,
         "Peters": 8.0
       }
     },
     {
       "date": "2006-02-02",
       "pollster": "TV3–TNS",
+      "sample_size": null,
       "candidates": {
         "Clark": 39.0,
+        "Brash": 16.0,
         "Peters": 7.0
       }
     },
     {
       "date": "2006-03-29",
       "pollster": "TV3–TNS",
+      "sample_size": null,
       "candidates": {
         "Clark": 38.0,
+        "Brash": 15.0,
         "Peters": 6.0
       }
     },
     {
       "date": "2006-05-10",
       "pollster": "TV3–TNS",
+      "sample_size": null,
       "candidates": {
         "Clark": 34.0,
+        "Brash": 18.0,
         "Peters": 6.0
       }
     },
     {
       "date": "2006-07-05",
       "pollster": "TV3–TNS",
+      "sample_size": null,
       "candidates": {
         "Clark": 38.0,
+        "Brash": 13.0,
         "Key": 0.0,
         "Peters": 6.0
       }
@@ -45,8 +55,10 @@
     {
       "date": "2006-08-30",
       "pollster": "TV3–TNS",
+      "sample_size": null,
       "candidates": {
         "Clark": 38.0,
+        "Brash": 17.0,
         "Key": 0.0,
         "Peters": 5.0
       }
@@ -54,8 +66,10 @@
     {
       "date": "2006-08-31",
       "pollster": "Herald–DigiPoll",
+      "sample_size": null,
       "candidates": {
         "Clark": 52.4,
+        "Brash": 22.4,
         "Key": 8.5,
         "Peters": 5.0
       }
@@ -63,8 +77,10 @@
     {
       "date": "2006-09-24",
       "pollster": "Herald–DigiPoll",
+      "sample_size": null,
       "candidates": {
         "Clark": 50.8,
+        "Brash": 25.9,
         "Key": 9.2,
         "Peters": 4.8
       }
@@ -72,23 +88,29 @@
     {
       "date": "2006-11-01",
       "pollster": "TV3–TNS",
+      "sample_size": null,
       "candidates": {
-        "Clark": 35.0
+        "Clark": 35.0,
+        "Brash": 15.0
       }
     },
     {
       "date": "2006-12-02",
       "pollster": "Herald–DigiPoll",
+      "sample_size": null,
       "candidates": {
         "Clark": 54.2,
+        "Brash": 3.9,
         "Key": 28.5
       }
     },
     {
       "date": "2007-02-01",
       "pollster": "TV3–TNS",
+      "sample_size": null,
       "candidates": {
         "Clark": 35.0,
+        "Brash": 1.0,
         "Key": 24.0,
         "Peters": 5.0
       }
@@ -96,6 +118,7 @@
     {
       "date": "2007-02-15",
       "pollster": "One News–Colmar Brunton",
+      "sample_size": null,
       "candidates": {
         "Clark": 32.0,
         "Key": 27.0,
@@ -105,6 +128,7 @@
     {
       "date": "2007-03-22",
       "pollster": "One News–Colmar Brunton",
+      "sample_size": null,
       "candidates": {
         "Clark": 32.0,
         "Key": 29.0,
@@ -114,8 +138,10 @@
     {
       "date": "2007-03-28",
       "pollster": "TV3–TNS",
+      "sample_size": null,
       "candidates": {
         "Clark": 37.0,
+        "Brash": 1.0,
         "Key": 28.0,
         "Peters": 4.0
       }
@@ -123,8 +149,10 @@
     {
       "date": "2007-04-19",
       "pollster": "One News–Colmar Brunton",
+      "sample_size": null,
       "candidates": {
         "Clark": 37.0,
+        "Brash": 1.0,
         "Key": 29.0,
         "Peters": 3.0
       }
@@ -132,8 +160,10 @@
     {
       "date": "2007-05-09",
       "pollster": "TV3–TNS",
+      "sample_size": null,
       "candidates": {
         "Clark": 30.0,
+        "Brash": 1.0,
         "Key": 32.0,
         "Peters": 5.0
       }
@@ -141,6 +171,7 @@
     {
       "date": "2007-05-24",
       "pollster": "Herald–DigiPoll",
+      "sample_size": null,
       "candidates": {
         "Clark": 42.1,
         "Key": 45.5,
@@ -150,8 +181,10 @@
     {
       "date": "2007-05-24",
       "pollster": "One News–Colmar Brunton",
+      "sample_size": null,
       "candidates": {
         "Clark": 27.0,
+        "Brash": 0.3,
         "Key": 38.0,
         "Peters": 2.0
       }
@@ -159,8 +192,10 @@
     {
       "date": "2007-07-05",
       "pollster": "One News–Colmar Brunton",
+      "sample_size": null,
       "candidates": {
         "Clark": 29.0,
+        "Brash": 0.5,
         "Key": 35.0,
         "Peters": 2.0
       }
@@ -168,8 +203,10 @@
     {
       "date": "2007-07-11",
       "pollster": "TV3–TNS",
+      "sample_size": null,
       "candidates": {
         "Clark": 31.0,
+        "Brash": 1.0,
         "Key": 31.0,
         "Peters": 4.0
       }
@@ -177,6 +214,7 @@
     {
       "date": "2007-07-19",
       "pollster": "Herald–DigiPoll",
+      "sample_size": null,
       "candidates": {
         "Clark": 48.7,
         "Key": 37.9,
@@ -186,8 +224,10 @@
     {
       "date": "2007-08-09",
       "pollster": "One News–Colmar Brunton",
+      "sample_size": null,
       "candidates": {
         "Clark": 30.0,
+        "Brash": 0.7,
         "Key": 33.0,
         "Peters": 4.0
       }
@@ -195,15 +235,29 @@
     {
       "date": "2007-09-05",
       "pollster": "TV3–TNS",
+      "sample_size": null,
       "candidates": {
         "Clark": 28.0,
+        "Brash": 1.0,
         "Key": 32.0,
         "Peters": 6.0
       }
     },
     {
+      "date": "2007-09-13",
+      "pollster": "One News–Colmar Brunton",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 33.0,
+        "Brash": 0.3,
+        "Key": 31.0,
+        "Peters": 4.0
+      }
+    },
+    {
       "date": "2007-09-15",
       "pollster": "Fairfax Media Poll",
+      "sample_size": null,
       "candidates": {
         "Clark": 34.0,
         "Key": 41.0,
@@ -211,17 +265,9 @@
       }
     },
     {
-      "date": "2007-09-13",
-      "pollster": "One News–Colmar Brunton",
-      "candidates": {
-        "Clark": 33.0,
-        "Key": 31.0,
-        "Peters": 4.0
-      }
-    },
-    {
       "date": "2007-09-29",
       "pollster": "Herald–DigiPoll",
+      "sample_size": null,
       "candidates": {
         "Clark": 46.8,
         "Key": 42.2
@@ -230,8 +276,10 @@
     {
       "date": "2007-10-11",
       "pollster": "One News–Colmar Brunton",
+      "sample_size": null,
       "candidates": {
         "Clark": 33.0,
+        "Brash": 0.2,
         "Key": 33.0,
         "Peters": 3.0
       }
@@ -239,6 +287,7 @@
     {
       "date": "2007-10-28",
       "pollster": "Herald–DigiPoll",
+      "sample_size": null,
       "candidates": {
         "Clark": 50.8,
         "Key": 37.3,
@@ -248,6 +297,7 @@
     {
       "date": "2007-11-17",
       "pollster": "Fairfax Media Poll",
+      "sample_size": null,
       "candidates": {
         "Clark": 38.0,
         "Key": 36.0
@@ -256,6 +306,7 @@
     {
       "date": "2007-11-26",
       "pollster": "Herald–DigiPoll",
+      "sample_size": null,
       "candidates": {
         "Clark": 48.7,
         "Key": 36.7,
@@ -265,6 +316,7 @@
     {
       "date": "2007-12-12",
       "pollster": "TV3–TNS",
+      "sample_size": null,
       "candidates": {
         "Clark": 28.0,
         "Key": 33.0,
@@ -274,8 +326,10 @@
     {
       "date": "2007-12-13",
       "pollster": "One News–Colmar Brunton",
+      "sample_size": null,
       "candidates": {
         "Clark": 30.0,
+        "Brash": 0.2,
         "Key": 35.0,
         "Peters": 2.0
       }
@@ -283,6 +337,7 @@
     {
       "date": "2008-01-24",
       "pollster": "Herald–DigiPoll",
+      "sample_size": null,
       "candidates": {
         "Clark": 49.7,
         "Key": 39.2,
@@ -292,6 +347,7 @@
     {
       "date": "2008-01-30",
       "pollster": "TV3–TNS",
+      "sample_size": null,
       "candidates": {
         "Clark": 29.0,
         "Key": 33.0,
@@ -301,8 +357,10 @@
     {
       "date": "2008-02-14",
       "pollster": "One News–Colmar Brunton",
+      "sample_size": null,
       "candidates": {
         "Clark": 27.0,
+        "Brash": 0.4,
         "Key": 36.0,
         "Peters": 4.0
       }
@@ -310,6 +368,7 @@
     {
       "date": "2008-02-19",
       "pollster": "Fairfax Media–Nielsen",
+      "sample_size": null,
       "candidates": {
         "Clark": 29.0,
         "Key": 44.0
@@ -318,6 +377,7 @@
     {
       "date": "2008-02-26",
       "pollster": "TV3–TNS",
+      "sample_size": null,
       "candidates": {
         "Clark": 28.0,
         "Key": 35.0,
@@ -327,8 +387,10 @@
     {
       "date": "2008-02-28",
       "pollster": "Herald–DigiPoll",
+      "sample_size": null,
       "candidates": {
         "Clark": 44.3,
+        "Brash": 0.2,
         "Key": 46.3,
         "Peters": 3.3
       }
@@ -336,6 +398,7 @@
     {
       "date": "2008-03-13",
       "pollster": "One News–Colmar Brunton",
+      "sample_size": null,
       "candidates": {
         "Clark": 31.0,
         "Key": 36.0,
@@ -345,6 +408,7 @@
     {
       "date": "2008-03-27",
       "pollster": "Herald–DigiPoll",
+      "sample_size": null,
       "candidates": {
         "Clark": 45.6,
         "Key": 45.9,
@@ -354,6 +418,7 @@
     {
       "date": "2008-04-16",
       "pollster": "TV3–TNS",
+      "sample_size": null,
       "candidates": {
         "Clark": 32.0,
         "Key": 29.0,
@@ -363,6 +428,7 @@
     {
       "date": "2008-04-17",
       "pollster": "One News–Colmar Brunton",
+      "sample_size": null,
       "candidates": {
         "Clark": 29.0,
         "Key": 35.0,
@@ -372,6 +438,7 @@
     {
       "date": "2008-04-22",
       "pollster": "Fairfax Media–Nielsen",
+      "sample_size": null,
       "candidates": {
         "Clark": 33.0,
         "Key": 42.0
@@ -380,6 +447,7 @@
     {
       "date": "2008-04-26",
       "pollster": "Herald–DigiPoll",
+      "sample_size": null,
       "candidates": {
         "Clark": 45.3,
         "Key": 48.0
@@ -388,6 +456,7 @@
     {
       "date": "2008-05-13",
       "pollster": "Fairfax Media–Nielsen",
+      "sample_size": null,
       "candidates": {
         "Clark": 28.0,
         "Key": 45.0,
@@ -397,6 +466,7 @@
     {
       "date": "2008-05-28",
       "pollster": "Herald–DigiPoll",
+      "sample_size": null,
       "candidates": {
         "Clark": 42.3,
         "Key": 44.6,
@@ -406,6 +476,7 @@
     {
       "date": "2008-05-29",
       "pollster": "TV3–TNS",
+      "sample_size": null,
       "candidates": {
         "Clark": 29.0,
         "Key": 35.0,
@@ -415,6 +486,7 @@
     {
       "date": "2008-05-29",
       "pollster": "One News–Colmar Brunton",
+      "sample_size": null,
       "candidates": {
         "Clark": 28.0,
         "Key": 36.0,
@@ -424,6 +496,7 @@
     {
       "date": "2008-06-17",
       "pollster": "Fairfax Media–Nielsen",
+      "sample_size": null,
       "candidates": {
         "Clark": 30.0,
         "Key": 43.0,
@@ -433,8 +506,10 @@
     {
       "date": "2008-06-19",
       "pollster": "One News–Colmar Brunton",
+      "sample_size": null,
       "candidates": {
         "Clark": 27.0,
+        "Brash": 0.2,
         "Key": 38.0,
         "Peters": 4.0
       }
@@ -442,6 +517,7 @@
     {
       "date": "2008-07-15",
       "pollster": "Fairfax Media–Nielsen",
+      "sample_size": null,
       "candidates": {
         "Clark": 32.0,
         "Key": 39.0,
@@ -451,8 +527,10 @@
     {
       "date": "2008-07-17",
       "pollster": "One News–Colmar Brunton",
+      "sample_size": null,
       "candidates": {
         "Clark": 31.0,
+        "Brash": 0.3,
         "Key": 38.0,
         "Peters": 4.0
       }
@@ -460,6 +538,7 @@
     {
       "date": "2008-07-18",
       "pollster": "TV3–TNS",
+      "sample_size": null,
       "candidates": {
         "Clark": 28.0,
         "Key": 32.0,
@@ -469,6 +548,7 @@
     {
       "date": "2008-07-29",
       "pollster": "Herald–DigiPoll",
+      "sample_size": null,
       "candidates": {
         "Clark": 44.0,
         "Key": 47.1,
@@ -478,6 +558,7 @@
     {
       "date": "2008-08-12",
       "pollster": "Fairfax Media–Nielsen",
+      "sample_size": null,
       "candidates": {
         "Clark": 31.0,
         "Key": 43.0,
@@ -487,6 +568,7 @@
     {
       "date": "2008-08-14",
       "pollster": "One News–Colmar Brunton",
+      "sample_size": null,
       "candidates": {
         "Clark": 33.0,
         "Key": 36.0,
@@ -496,6 +578,7 @@
     {
       "date": "2008-08-20",
       "pollster": "TV3–TNS",
+      "sample_size": null,
       "candidates": {
         "Clark": 31.0,
         "Key": 34.0,
@@ -505,6 +588,7 @@
     {
       "date": "2008-08-25",
       "pollster": "Herald–DigiPoll",
+      "sample_size": null,
       "candidates": {
         "Clark": 45.0,
         "Key": 46.6,
@@ -514,8 +598,10 @@
     {
       "date": "2008-09-11",
       "pollster": "One News-Colmar Brunton",
+      "sample_size": null,
       "candidates": {
         "Clark": 31.0,
+        "Brash": 0.1,
         "Key": 40.0,
         "Peters": 3.0
       }
@@ -523,6 +609,7 @@
     {
       "date": "2008-09-16",
       "pollster": "Fairfax Media–Nielsen",
+      "sample_size": null,
       "candidates": {
         "Clark": 30.0,
         "Key": 41.0,
@@ -532,6 +619,7 @@
     {
       "date": "2008-09-24",
       "pollster": "Herald–DigiPoll",
+      "sample_size": null,
       "candidates": {
         "Clark": 43.1,
         "Key": 45.5,
@@ -541,6 +629,7 @@
     {
       "date": "2008-09-28",
       "pollster": "TV3–TNS",
+      "sample_size": null,
       "candidates": {
         "Clark": 32.0,
         "Key": 34.0
@@ -549,6 +638,7 @@
     {
       "date": "2008-10-02",
       "pollster": "One News-Colmar Brunton",
+      "sample_size": null,
       "candidates": {
         "Clark": 31.0,
         "Key": 41.0,
@@ -556,16 +646,9 @@
       }
     },
     {
-      "date": "2008-10-10",
-      "pollster": "TV3–TNS",
-      "candidates": {
-        "Clark": 31.6,
-        "Key": 31.0
-      }
-    },
-    {
       "date": "2008-10-09",
       "pollster": "One News-Colmar Brunton",
+      "sample_size": null,
       "candidates": {
         "Clark": 31.0,
         "Key": 39.0,
@@ -573,8 +656,18 @@
       }
     },
     {
+      "date": "2008-10-10",
+      "pollster": "TV3–TNS",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 31.6,
+        "Key": 31.0
+      }
+    },
+    {
       "date": "2008-10-14",
       "pollster": "Fairfax Media–Nielsen",
+      "sample_size": null,
       "candidates": {
         "Clark": 35.0,
         "Key": 43.0
@@ -583,23 +676,18 @@
     {
       "date": "2008-10-16",
       "pollster": "One News-Colmar Brunton",
+      "sample_size": null,
       "candidates": {
         "Clark": 34.0,
+        "Brash": 0.1,
         "Key": 40.0,
         "Peters": 2.0
       }
     },
     {
-      "date": "2008-10-23",
-      "pollster": "TV3–TNS",
-      "candidates": {
-        "Clark": 36.3,
-        "Key": 36.3
-      }
-    },
-    {
       "date": "2008-10-22",
       "pollster": "Herald–DigiPoll",
+      "sample_size": null,
       "candidates": {
         "Clark": 45.4,
         "Key": 44.8,
@@ -608,7 +696,17 @@
     },
     {
       "date": "2008-10-23",
+      "pollster": "TV3–TNS",
+      "sample_size": null,
+      "candidates": {
+        "Clark": 36.3,
+        "Key": 36.3
+      }
+    },
+    {
+      "date": "2008-10-23",
       "pollster": "One News-Colmar Brunton",
+      "sample_size": null,
       "candidates": {
         "Clark": 37.0,
         "Key": 38.0,
@@ -618,6 +716,7 @@
     {
       "date": "2008-11-05",
       "pollster": "One News-Colmar Brunton",
+      "sample_size": null,
       "candidates": {
         "Clark": 36.0,
         "Key": 40.0,
