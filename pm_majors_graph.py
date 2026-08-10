@@ -22,9 +22,9 @@ from pm_history_graph import LEADER_PARTY
 ROOT = Path(__file__).parent
 
 START = "2006-01-01"
-# Deep violet: the line combines National and Labour, so it must not wear
-# either party's colour. No current NZ party claims violet.
-INK = "#4a3aa7"
+# Orange: the line combines National and Labour, so it must not wear either
+# party's colour, and it must not read as blue. No NZ party claims orange.
+INK = "#eb6834"
 
 CORE_HOUSES = {
     "1 News (Colmar Brunton / Kantar / Verian)": ("colmar", "kantar", "verian"),
