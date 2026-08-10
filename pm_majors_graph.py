@@ -47,16 +47,19 @@ PMS = [
     ("", "2016-12-12", "2017-10-26"),      # English
     ("Ardern", "2017-10-26", "2023-01-25"),
     ("", "2023-01-25", "2023-11-27"),      # Hipkins
-    ("Luxon", "2023-11-27", "2026-09-01"),
+    ("Luxon", "2023-11-27", "2027-09-01"),
 ]
 
-PM_BAND = (4, 11)  # y-range the band occupies
+PM_LABEL_Y = 7  # where the names sit inside their shaded column
 
 TEXT_PRIMARY = "#0b1a2b"
 TEXT_SECONDARY = "#3f5570"
 TEXT_MUTED = "#6b7f96"
 SURFACE = "#dbe8f7"   # soft blue panel
 GRID = "#ffffff"
+# Two tints either side of the panel colour, alternating term by term. Kept
+# close together so they read as a rhythm rather than as an encoded quantity.
+PM_TINTS = ("#e5effc", "#cfdff2")
 
 
 def house(pollster: str):
@@ -97,13 +100,12 @@ def main():
 
     for i, (name, begin, end) in enumerate(PMS):
         x0, x1 = pd.Timestamp(begin), pd.Timestamp(end)
-        ax.fill_between([x0, x1], PM_BAND[0], PM_BAND[1], color=GRID,
-                        alpha=0.85 if i % 2 == 0 else 0.55, linewidth=0, zorder=2)
+        ax.axvspan(x0, x1, color=PM_TINTS[i % 2], linewidth=0, zorder=0)
         if name:
-            ax.text(x0 + (x1 - x0) / 2, sum(PM_BAND) / 2, name, ha="center",
-                    va="center", fontsize=11, fontweight="bold",
+            ax.text(x0 + (x1 - x0) / 2, PM_LABEL_Y, name, ha="center",
+                    va="center", fontsize=11.5, fontweight="bold",
                     color=TEXT_SECONDARY, zorder=3)
-    ax.text(pd.Timestamp(START), PM_BAND[1] + 1.5, "Prime minister",
+    ax.text(pd.Timestamp(START), PM_LABEL_Y + 6, "Prime minister",
             fontsize=9.5, color=TEXT_MUTED, va="bottom", zorder=3)
 
     ax.axhline(baseline, color=TEXT_SECONDARY, linewidth=1, linestyle=(0, (5, 5)),
