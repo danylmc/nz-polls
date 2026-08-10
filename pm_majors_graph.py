@@ -22,7 +22,9 @@ from pm_history_graph import LEADER_PARTY
 ROOT = Path(__file__).parent
 
 START = "2006-01-01"
-BLUE = "#2a78d6"  # reference palette, categorical slot 1
+# Deep violet: the line combines National and Labour, so it must not wear
+# either party's colour. No current NZ party claims violet.
+INK = "#4a3aa7"
 
 CORE_HOUSES = {
     "1 News (Colmar Brunton / Kantar / Verian)": ("colmar", "kantar", "verian"),
@@ -79,22 +81,22 @@ def main():
     fig.patch.set_facecolor(SURFACE)
     ax.set_facecolor(SURFACE)
 
-    ax.axhline(baseline, color=BLUE, linewidth=1, linestyle=(0, (5, 5)),
+    ax.axhline(baseline, color=INK, linewidth=1, linestyle=(0, (5, 5)),
                alpha=0.45, zorder=2)
     ax.text(pd.Timestamp("2023-06-01"), baseline + 1.5,
             f"Average up to 2022: {baseline:.0f}%",
-            fontsize=10.5, color=BLUE, alpha=0.9, va="bottom")
+            fontsize=10.5, color=INK, alpha=0.9, va="bottom")
 
     for date, y, text in NOTES:
         ax.annotate(text, xy=(pd.Timestamp(date), y), ha="center", va="top",
                     fontsize=10, color=TEXT_MUTED, linespacing=1.4, zorder=3)
 
-    ax.plot(line.index, line.values, color=BLUE, linewidth=3,
+    ax.plot(line.index, line.values, color=INK, linewidth=3,
             solid_capstyle="round", zorder=4)
     ax.annotate(f"{latest:.0f}%", xy=(series.index[-1], latest),
                 textcoords="offset points", xytext=(14, 0),
                 ha="left", va="center", fontsize=15, fontweight="bold",
-                color=BLUE, zorder=5)
+                color=INK, zorder=5)
 
     ax.set_title("Fewer New Zealanders than ever want either big party's leader "
                  "as Prime Minister",
