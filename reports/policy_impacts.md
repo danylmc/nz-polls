@@ -146,17 +146,17 @@ Current incumbent (National) polling: **31.5%**
 | 2022-02 | Labour | 5.7 | 38.8% | 24% |
 | 2022-05 | Labour | 5.3 | 35.2% | 28% |
 | 2022-09 | Labour | 5.5 | 34.0% | 27% |
-| 2023-02 | Labour | 5.4 | 34.2% | 25% |
-| 2023-05 | Labour | 5.2 | 34.0% | 34% |
-| 2023-08 | Labour | 4.5 | 29.4% | 32% |
-| 2023-09 | National-ACT-NZ | 4.7 | 36.1% | 37% |
-| 2024-02 | National-ACT-NZ | 4.6 | 38.4% | 38% |
+| 2023-02 | Labour | 5.4 | 34.2% | 27% |
+| 2023-05 | Labour | 5.2 | 34.0% | 25% |
+| 2023-08 | Labour | 4.5 | 29.4% | 34% |
+| 2023-09 | National-ACT-NZ | 4.7 | 36.1% | 32% |
+| 2024-02 | National-ACT-NZ | 4.6 | 38.4% | 37% |
 | 2024-05 | National-ACT-NZ | 4.6 | 35.6% | 38% |
-| 2024-08 | National-ACT-NZ | 4.5 | 36.0% | 36% |
-| 2024-10 | National-ACT-NZ | 4.7 | 36.1% | 41% |
-| 2025-02 | National-ACT-NZ | 4.2 | 31.9% | 39% |
-| 2025-05 | National-ACT-NZ | 4.3 | 33.0% | 41% |
-| 2025-08 | National-ACT-NZ | 4.2 | 32.0% | 45% |
+| 2024-08 | National-ACT-NZ | 4.5 | 36.0% | 38% |
+| 2024-10 | National-ACT-NZ | 4.7 | 36.1% | 36% |
+| 2025-02 | National-ACT-NZ | 4.2 | 31.9% | 41% |
+| 2025-05 | National-ACT-NZ | 4.3 | 33.0% | 39% |
+| 2025-08 | National-ACT-NZ | 4.2 | 32.0% | 41% |
 | 2025-10 | National-ACT-NZ | 3.9 | 31.5% | 45% |
 
 ![Govt vs Polls](../graphs/pol_govt_vs_polls.png)
