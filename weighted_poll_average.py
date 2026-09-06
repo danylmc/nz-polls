@@ -35,7 +35,7 @@ PARTY_COLORS = {
     "Te Pāti Māori": "#B2001A",
     "TOP": "#32DAC3",
 }
-LABEL_COLORS = {**PARTY_COLORS, "ACT": "#9C8300", "TOP": "#0E8C80"}  # darker text variants for contrast on light bg
+LABEL_INK = "#1a1a1a"  # values and legend text; the line and dot carry party identity
 
 BG_COLOR = "#DDEEF7"
 GRID_COLOR = "#B9D3E0"
@@ -191,6 +191,8 @@ def adjust_for_house_effects(polls, effects):
     return adjusted
 
 
+CHECKPOINT_CAPTIONS = ["Start of year", "Midpoint", "Latest"]
+
 SUBTITLE = "Smoothed, sample-size weighted average of all major published polls"
 
 
@@ -231,24 +233,7 @@ def plot_chart(df, parties, title, out_path, midpoint_date, result):
         color = PARTY_COLORS.get(party, "#777777")
         ax.plot(df["date"], df[party], color=color, linewidth=2.5, solid_capstyle="round", label=party)
 
-        last_val = df[party].iloc[-1]
         start_val = result.get(party)
-        if pd.notna(last_val):
-            change_txt = ""
-            if start_val is not None:
-                change = last_val - start_val
-                sign = "+" if change >= 0 else ""
-                change_txt = f" ({sign}{change:.1f}pp)"
-            ax.annotate(
-                f"{party}: {last_val:.1f}%{change_txt}",
-                xy=(last_date, last_val),
-                xytext=(8, 0),
-                textcoords="offset points",
-                va="center",
-                fontsize=9,
-                fontweight="bold",
-                color=LABEL_COLORS.get(party, color),
-            )
 
         # 2023 election result, marked at the left edge of the series
         if start_val is not None:
@@ -263,7 +248,7 @@ def plot_chart(df, parties, title, out_path, midpoint_date, result):
                 ha="right",
                 fontsize=8,
                 fontweight="bold",
-                color=LABEL_COLORS.get(party, color),
+                color=LABEL_INK,
             )
 
     ax.axvline(ELECTION_DATE, color="#555555", linewidth=1, linestyle="--", alpha=0.8)
@@ -309,7 +294,7 @@ def plot_chart(df, parties, title, out_path, midpoint_date, result):
             va="center",
             fontsize=8,
             fontweight="bold",
-            color=LABEL_COLORS.get(party, color),
+            color=LABEL_INK,
         )
 
     ax.set_xlim(ELECTION_DATE - timedelta(days=55), last_date + x_pad)
@@ -319,27 +304,67 @@ def plot_chart(df, parties, title, out_path, midpoint_date, result):
 
     legend = ax.legend(loc="upper center", bbox_to_anchor=(0.5, -0.1), frameon=False,
                         fontsize=9, ncol=len(parties), handlelength=1.5, columnspacing=1.2)
-    for text, party in zip(legend.get_texts(), parties):
-        text.set_color(LABEL_COLORS.get(party, "#777777"))
+    for text in legend.get_texts():
+        text.set_color(LABEL_INK)
         text.set_fontweight("bold")
 
+    fig.tight_layout(rect=(0, 0.06, 1, 1))
+
+    # Series that finish close together need their labels spread; the panel's
+    # settled height converts the minimum separation into data units.
+    low, high = ax.get_ylim()
+    panel_points = ax.get_position().height * fig.get_figheight() * 72
+    min_gap = LABEL_SEPARATION_POINTS * (high - low) / panel_points
+    finals = {
+        party: df[party].iloc[-1]
+        for party in parties if pd.notna(df[party].iloc[-1])
+    }
+    for party, label_y in stagger_labels(finals, min_gap).items():
+        change_txt = ""
+        if result.get(party) is not None:
+            change = finals[party] - result[party]
+            change_txt = f" ({'+' if change >= 0 else ''}{change:.1f}pp)"
+        ax.annotate(
+            f"{party}: {finals[party]:.1f}%{change_txt}",
+            xy=(last_date, label_y), xytext=(8, 0), textcoords="offset points",
+            va="center", fontsize=9, fontweight="bold", color=LABEL_INK,
+        )
+
+    # Lay out again now the end labels exist, so the axes leaves room for them.
     fig.tight_layout(rect=(0, 0.06, 1, 1))
     fig.savefig(out_path, dpi=300, facecolor=BG_COLOR)
     plt.close(fig)
     print(f"Saved {out_path}")
 
 
-LABEL_OFFSET_POINTS = 15
+LABEL_SEPARATION_POINTS = 13  # clear of the 8.5pt label text
 
 
-def label_sides(values_by_party, span):
+def stagger_labels(values_by_key, min_gap):
+    """Nudge end-of-line labels apart, keeping their vertical order.
+
+    Series that finish within a label's height of each other print on top of
+    one another. Walking down from the highest and enforcing a minimum gap
+    separates those, and leaves well-spaced labels sitting exactly on their
+    own line.
+    """
+    placed, previous = {}, None
+    for key, value in sorted(values_by_key.items(), key=lambda item: -item[1]):
+        y = value if previous is None else min(value, previous - min_gap)
+        placed[key] = y
+        previous = y
+    return placed
+
+
+def label_sides(values_by_party, gap):
     """Choose above (+1) or below (-1) for each value label in one column.
 
     Series converge and cross, so a fixed side per party collides as soon as
     the numbers move. Place the highest value first, preferring above, and drop
-    a label to the other side when its slot is already taken.
+    a label to the other side when its slot is already taken. `gap` is the
+    label offset expressed in data units, so this agrees with where the label
+    actually lands.
     """
-    gap = 0.055 * span if span else 1.0
     sides, taken = {}, []
     for party, value in sorted(values_by_party.items(), key=lambda item: -item[1]):
         for side in (1, -1):
@@ -373,6 +398,7 @@ def plot_year_checkpoints(df, out_path, pollsters, checkpoint_dates):
         ha="left", fontsize=10.5, color="#444444",
     )
 
+    labelled = []
     panels = [
         (axes[0], MAJOR_PARTIES, "Major parties"),
         (axes[1], MINOR_PARTIES, "Minor parties"),
@@ -385,7 +411,14 @@ def plot_year_checkpoints(df, out_path, pollsters, checkpoint_dates):
             spine.set_visible(False)
         ax.tick_params(axis="both", length=0, labelsize=9)
         ax.set_ylabel("Weighted average (%)", fontsize=8.5, color="#333333")
-        ax.set_title(panel_title, loc="left", fontsize=12, fontweight="bold", pad=10)
+        ax.set_title(panel_title, loc="left", fontsize=12, fontweight="bold", pad=40)
+        for date, caption in zip(checkpoint_dates, CHECKPOINT_CAPTIONS):
+            ax.annotate(
+                f"{date.day} {date:%b}\n{caption}",
+                xy=(mdates.date2num(date), 1.0), xycoords=ax.get_xaxis_transform(),
+                xytext=(0, 7), textcoords="offset points",
+                ha="center", va="bottom", fontsize=9, color="#444444",
+            )
         ax.axvspan(checkpoint_dates[0], checkpoint_dates[1], color="#FFFFFF", alpha=0.18)
         ax.axvspan(checkpoint_dates[1], checkpoint_dates[2], color="#8FC5DF", alpha=0.10)
 
@@ -394,10 +427,7 @@ def plot_year_checkpoints(df, out_path, pollsters, checkpoint_dates):
         span = high - low
         # Room for the value labels, which sit outside the data range.
         ax.set_ylim(low - 0.14 * span, high + 0.14 * span)
-        column_sides = [
-            label_sides(panel_values.loc[date].to_dict(), span)
-            for date in checkpoint_dates
-        ]
+        labelled.append((ax, panel_values))
 
         for party in parties:
             values = checkpoints.loc[checkpoint_dates, party].to_numpy()
@@ -409,25 +439,13 @@ def plot_year_checkpoints(df, out_path, pollsters, checkpoint_dates):
                 markeredgewidth=1.2, solid_capstyle="round", label=label,
             )
 
-            for i, (date, value) in enumerate(zip(checkpoint_dates, values)):
-                offset = column_sides[i][party] * LABEL_OFFSET_POINTS
-                ax.annotate(
-                    f"{value:.1f}", xy=(date, value), xytext=(0, offset),
-                    textcoords="offset points", ha="center", va="center",
-                    fontsize=8.5, fontweight="bold", color=LABEL_COLORS[party],
-                )
-
         ax.legend(
             loc="upper center", bbox_to_anchor=(0.5, -0.12), frameon=False,
             fontsize=9, ncol=len(parties), handlelength=1.6, columnspacing=1.2,
         )
 
     axes[-1].set_xticks(checkpoint_dates)
-    captions = ["Start of year", "Midpoint", "Latest"]
-    axes[-1].set_xticklabels([
-        f"{date.day} {date:%b}\n{caption}"
-        for date, caption in zip(checkpoint_dates, captions)
-    ])
+    axes[-1].set_xticklabels([])
     axes[-1].set_xlim(checkpoint_dates[0] - timedelta(days=20),
                       checkpoint_dates[-1] + timedelta(days=20))
     fig.text(
@@ -441,6 +459,21 @@ def plot_year_checkpoints(df, out_path, pollsters, checkpoint_dates):
         ha="left", fontsize=8.5, color="#555555",
     )
     fig.tight_layout(rect=(0.05, 0.07, 0.98, 0.91), h_pad=3.3)
+
+    for ax, panel_values in labelled:
+        low, high = ax.get_ylim()
+        panel_points = ax.get_position().height * fig.get_figheight() * 72
+        gap = LABEL_SEPARATION_POINTS * (high - low) / panel_points
+        for date in checkpoint_dates:
+            column = panel_values.loc[date].to_dict()
+            for party, side in label_sides(column, gap).items():
+                ax.annotate(
+                    f"{column[party]:.1f}", xy=(date, column[party]),
+                    xytext=(0, side * LABEL_SEPARATION_POINTS), textcoords="offset points",
+                    ha="center", va="center",
+                    fontsize=8.5, fontweight="bold", color=LABEL_INK,
+                )
+
     fig.savefig(out_path, dpi=600, facecolor=BG_COLOR)
     vector_path = Path(out_path).with_suffix(".svg")
     fig.savefig(vector_path, facecolor=BG_COLOR)
