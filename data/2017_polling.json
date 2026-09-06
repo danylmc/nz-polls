@@ -1,8 +1,12 @@
 {
   "election_year": 2017,
+  "source": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2017_New_Zealand_general_election",
+  "scraped_at": "2026-09-06T21:13:26.233969+00:00",
   "polls": [
     {
       "date": "2014-09-20",
+      "fieldwork_start": "2014-09-20",
+      "fieldwork_end": "2014-09-20",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -17,6 +21,8 @@
     },
     {
       "date": "2014-10-12",
+      "fieldwork_start": "2014-09-29",
+      "fieldwork_end": "2014-10-12",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -31,6 +37,8 @@
     },
     {
       "date": "2014-11-09",
+      "fieldwork_start": "2014-10-27",
+      "fieldwork_end": "2014-11-09",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -45,6 +53,8 @@
     },
     {
       "date": "2014-12-07",
+      "fieldwork_start": "2014-11-24",
+      "fieldwork_end": "2014-12-07",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -59,6 +69,8 @@
     },
     {
       "date": "2014-12-21",
+      "fieldwork_start": "2014-12-08",
+      "fieldwork_end": "2014-12-21",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -73,6 +85,8 @@
     },
     {
       "date": "2015-01-18",
+      "fieldwork_start": "2015-01-05",
+      "fieldwork_end": "2015-01-18",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -87,6 +101,8 @@
     },
     {
       "date": "2015-01-28",
+      "fieldwork_start": "2015-01-20",
+      "fieldwork_end": "2015-01-28",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -101,6 +117,8 @@
     },
     {
       "date": "2015-02-15",
+      "fieldwork_start": "2015-02-02",
+      "fieldwork_end": "2015-02-15",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -115,6 +133,8 @@
     },
     {
       "date": "2015-02-18",
+      "fieldwork_start": "2015-02-14",
+      "fieldwork_end": "2015-02-18",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -129,6 +149,8 @@
     },
     {
       "date": "2015-03-15",
+      "fieldwork_start": "2015-03-02",
+      "fieldwork_end": "2015-03-15",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -143,6 +165,8 @@
     },
     {
       "date": "2015-04-15",
+      "fieldwork_start": "2015-04-11",
+      "fieldwork_end": "2015-04-15",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -157,6 +181,8 @@
     },
     {
       "date": "2015-04-19",
+      "fieldwork_start": "2015-04-06",
+      "fieldwork_end": "2015-04-19",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -171,6 +197,8 @@
     },
     {
       "date": "2015-04-26",
+      "fieldwork_start": "2015-04-17",
+      "fieldwork_end": "2015-04-26",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -185,6 +213,8 @@
     },
     {
       "date": "2015-05-17",
+      "fieldwork_start": "2015-05-04",
+      "fieldwork_end": "2015-05-17",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -199,6 +229,8 @@
     },
     {
       "date": "2015-05-27",
+      "fieldwork_start": "2015-05-23",
+      "fieldwork_end": "2015-05-27",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -213,6 +245,8 @@
     },
     {
       "date": "2015-05-27",
+      "fieldwork_start": "2015-05-21",
+      "fieldwork_end": "2015-05-27",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -227,6 +261,8 @@
     },
     {
       "date": "2015-06-21",
+      "fieldwork_start": "2015-06-08",
+      "fieldwork_end": "2015-06-21",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -241,6 +277,8 @@
     },
     {
       "date": "2015-07-12",
+      "fieldwork_start": "2015-06-29",
+      "fieldwork_end": "2015-07-12",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -255,6 +293,8 @@
     },
     {
       "date": "2015-07-15",
+      "fieldwork_start": "2015-07-11",
+      "fieldwork_end": "2015-07-15",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -268,6 +308,8 @@
     },
     {
       "date": "2015-07-22",
+      "fieldwork_start": "2015-07-15",
+      "fieldwork_end": "2015-07-22",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -282,6 +324,8 @@
     },
     {
       "date": "2015-08-16",
+      "fieldwork_start": "2015-08-03",
+      "fieldwork_end": "2015-08-16",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -295,6 +339,8 @@
     },
     {
       "date": "2015-08-24",
+      "fieldwork_start": "2015-08-14",
+      "fieldwork_end": "2015-08-24",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -309,6 +355,8 @@
     },
     {
       "date": "2015-09-02",
+      "fieldwork_start": "2015-08-29",
+      "fieldwork_end": "2015-09-02",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -323,6 +371,8 @@
     },
     {
       "date": "2015-09-13",
+      "fieldwork_start": "2015-08-31",
+      "fieldwork_end": "2015-09-13",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -337,6 +387,8 @@
     },
     {
       "date": "2015-09-16",
+      "fieldwork_start": "2015-09-08",
+      "fieldwork_end": "2015-09-16",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -351,6 +403,8 @@
     },
     {
       "date": "2015-10-11",
+      "fieldwork_start": "2015-10-11",
+      "fieldwork_end": "2015-10-11",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -365,6 +419,8 @@
     },
     {
       "date": "2015-10-14",
+      "fieldwork_start": "2015-10-10",
+      "fieldwork_end": "2015-10-14",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -379,6 +435,8 @@
     },
     {
       "date": "2015-11-08",
+      "fieldwork_start": "2015-10-26",
+      "fieldwork_end": "2015-11-08",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -393,6 +451,8 @@
     },
     {
       "date": "2015-11-17",
+      "fieldwork_start": "2015-11-09",
+      "fieldwork_end": "2015-11-17",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -407,6 +467,8 @@
     },
     {
       "date": "2015-12-06",
+      "fieldwork_start": "2015-11-23",
+      "fieldwork_end": "2015-12-06",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -421,6 +483,8 @@
     },
     {
       "date": "2015-12-14",
+      "fieldwork_start": "2015-12-04",
+      "fieldwork_end": "2015-12-14",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -434,6 +498,8 @@
     },
     {
       "date": "2016-01-17",
+      "fieldwork_start": "2016-01-04",
+      "fieldwork_end": "2016-01-17",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -448,6 +514,8 @@
     },
     {
       "date": "2016-02-14",
+      "fieldwork_start": "2016-02-01",
+      "fieldwork_end": "2016-02-14",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -462,6 +530,8 @@
     },
     {
       "date": "2016-02-17",
+      "fieldwork_start": "2016-02-13",
+      "fieldwork_end": "2016-02-17",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -476,6 +546,8 @@
     },
     {
       "date": "2016-03-13",
+      "fieldwork_start": "2016-02-29",
+      "fieldwork_end": "2016-03-13",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -490,6 +562,8 @@
     },
     {
       "date": "2016-04-06",
+      "fieldwork_start": "2016-04-02",
+      "fieldwork_end": "2016-04-06",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -504,6 +578,8 @@
     },
     {
       "date": "2016-04-17",
+      "fieldwork_start": "2016-04-04",
+      "fieldwork_end": "2016-04-17",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -518,6 +594,8 @@
     },
     {
       "date": "2016-05-15",
+      "fieldwork_start": "2016-05-02",
+      "fieldwork_end": "2016-05-15",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -532,6 +610,8 @@
     },
     {
       "date": "2016-05-22",
+      "fieldwork_start": "2016-05-12",
+      "fieldwork_end": "2016-05-22",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -546,6 +626,8 @@
     },
     {
       "date": "2016-06-02",
+      "fieldwork_start": "2016-05-28",
+      "fieldwork_end": "2016-06-02",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -560,6 +642,8 @@
     },
     {
       "date": "2016-06-12",
+      "fieldwork_start": "2016-06-12",
+      "fieldwork_end": "2016-06-12",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -574,6 +658,8 @@
     },
     {
       "date": "2016-07-17",
+      "fieldwork_start": "2016-07-17",
+      "fieldwork_end": "2016-07-17",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -588,6 +674,8 @@
     },
     {
       "date": "2016-08-03",
+      "fieldwork_start": "2016-07-22",
+      "fieldwork_end": "2016-08-03",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -602,6 +690,8 @@
     },
     {
       "date": "2016-08-21",
+      "fieldwork_start": "2016-08-08",
+      "fieldwork_end": "2016-08-21",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -616,6 +706,8 @@
     },
     {
       "date": "2016-09-07",
+      "fieldwork_start": "2016-09-03",
+      "fieldwork_end": "2016-09-07",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -629,6 +721,8 @@
     },
     {
       "date": "2016-09-18",
+      "fieldwork_start": "2016-09-05",
+      "fieldwork_end": "2016-09-18",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -643,6 +737,8 @@
     },
     {
       "date": "2016-10-23",
+      "fieldwork_start": "2016-10-10",
+      "fieldwork_end": "2016-10-23",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -656,6 +752,8 @@
     },
     {
       "date": "2016-11-23",
+      "fieldwork_start": "2016-11-12",
+      "fieldwork_end": "2016-11-23",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -669,6 +767,8 @@
     },
     {
       "date": "2016-11-20",
+      "fieldwork_start": "2016-10-24",
+      "fieldwork_end": "2016-11-20",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -683,6 +783,8 @@
     },
     {
       "date": "2016-12-11",
+      "fieldwork_start": "2016-11-28",
+      "fieldwork_end": "2016-12-11",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -697,6 +799,8 @@
     },
     {
       "date": "2017-01-16",
+      "fieldwork_start": "2017-01-03",
+      "fieldwork_end": "2017-01-16",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -711,6 +815,8 @@
     },
     {
       "date": "2017-02-12",
+      "fieldwork_start": "2017-01-30",
+      "fieldwork_end": "2017-02-12",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -725,6 +831,8 @@
     },
     {
       "date": "2017-02-15",
+      "fieldwork_start": "2017-02-11",
+      "fieldwork_end": "2017-02-15",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -740,6 +848,8 @@
     },
     {
       "date": "2017-03-12",
+      "fieldwork_start": "2017-02-27",
+      "fieldwork_end": "2017-03-12",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -754,6 +864,8 @@
     },
     {
       "date": "2017-03-19",
+      "fieldwork_start": "2017-03-10",
+      "fieldwork_end": "2017-03-19",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -769,6 +881,8 @@
     },
     {
       "date": "2017-03-22",
+      "fieldwork_start": "2017-03-18",
+      "fieldwork_end": "2017-03-22",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -784,6 +898,8 @@
     },
     {
       "date": "2017-04-16",
+      "fieldwork_start": "2017-04-03",
+      "fieldwork_end": "2017-04-16",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -798,6 +914,8 @@
     },
     {
       "date": "2017-05-14",
+      "fieldwork_start": "2017-05-01",
+      "fieldwork_end": "2017-05-14",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -812,6 +930,8 @@
     },
     {
       "date": "2017-05-24",
+      "fieldwork_start": "2017-05-19",
+      "fieldwork_end": "2017-05-24",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -827,6 +947,8 @@
     },
     {
       "date": "2017-05-31",
+      "fieldwork_start": "2017-05-21",
+      "fieldwork_end": "2017-05-31",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -842,6 +964,8 @@
     },
     {
       "date": "2017-06-11",
+      "fieldwork_start": "2017-05-29",
+      "fieldwork_end": "2017-06-11",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -856,6 +980,8 @@
     },
     {
       "date": "2017-06-12",
+      "fieldwork_start": "2017-06-12",
+      "fieldwork_end": "2017-06-12",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -871,6 +997,8 @@
     },
     {
       "date": "2017-07-05",
+      "fieldwork_start": "2017-07-01",
+      "fieldwork_end": "2017-07-05",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -886,6 +1014,8 @@
     },
     {
       "date": "2017-07-09",
+      "fieldwork_start": "2017-06-26",
+      "fieldwork_end": "2017-07-09",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -900,6 +1030,8 @@
     },
     {
       "date": "2017-07-27",
+      "fieldwork_start": "2017-07-22",
+      "fieldwork_end": "2017-07-27",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -914,6 +1046,8 @@
     },
     {
       "date": "2017-07-28",
+      "fieldwork_start": "2017-07-20",
+      "fieldwork_end": "2017-07-28",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -929,6 +1063,8 @@
     },
     {
       "date": "2017-08-02",
+      "fieldwork_start": "2017-08-01",
+      "fieldwork_end": "2017-08-02",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -944,6 +1080,8 @@
     },
     {
       "date": "2017-08-08",
+      "fieldwork_start": "2017-08-02",
+      "fieldwork_end": "2017-08-08",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -959,6 +1097,8 @@
     },
     {
       "date": "2017-08-13",
+      "fieldwork_start": "2017-07-31",
+      "fieldwork_end": "2017-08-13",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -974,6 +1114,8 @@
     },
     {
       "date": "2017-08-16",
+      "fieldwork_start": "2017-08-12",
+      "fieldwork_end": "2017-08-16",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -988,6 +1130,8 @@
     },
     {
       "date": "2017-08-30",
+      "fieldwork_start": "2017-08-22",
+      "fieldwork_end": "2017-08-30",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -1003,6 +1147,8 @@
     },
     {
       "date": "2017-08-30",
+      "fieldwork_start": "2017-08-26",
+      "fieldwork_end": "2017-08-30",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -1017,6 +1163,8 @@
     },
     {
       "date": "2017-09-05",
+      "fieldwork_start": "2017-09-01",
+      "fieldwork_end": "2017-09-05",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -1031,6 +1179,8 @@
     },
     {
       "date": "2017-09-06",
+      "fieldwork_start": "2017-09-02",
+      "fieldwork_end": "2017-09-06",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -1045,6 +1195,8 @@
     },
     {
       "date": "2017-09-06",
+      "fieldwork_start": "2017-09-04",
+      "fieldwork_end": "2017-09-06",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -1059,6 +1211,8 @@
     },
     {
       "date": "2017-09-10",
+      "fieldwork_start": "2017-08-28",
+      "fieldwork_end": "2017-09-10",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -1074,6 +1228,8 @@
     },
     {
       "date": "2017-09-11",
+      "fieldwork_start": "2017-09-06",
+      "fieldwork_end": "2017-09-11",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -1089,6 +1245,8 @@
     },
     {
       "date": "2017-09-13",
+      "fieldwork_start": "2017-09-09",
+      "fieldwork_end": "2017-09-13",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -1103,6 +1261,8 @@
     },
     {
       "date": "2017-09-20",
+      "fieldwork_start": "2017-09-13",
+      "fieldwork_end": "2017-09-20",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -1118,6 +1278,8 @@
     },
     {
       "date": "2017-09-19",
+      "fieldwork_start": "2017-09-15",
+      "fieldwork_end": "2017-09-19",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -1132,6 +1294,8 @@
     },
     {
       "date": "2017-09-23",
+      "fieldwork_start": "2017-09-23",
+      "fieldwork_end": "2017-09-23",
       "pollster": null,
       "sample_size": null,
       "parties": {

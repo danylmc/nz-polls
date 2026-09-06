@@ -4,11 +4,12 @@ NZ Election Polling Data Scraper
 Scrapes opinion polling data from Wikipedia for NZ elections 1993-2026
 """
 
+import argparse
 import json
 import re
 import time
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Optional
 
 import requests
@@ -65,6 +66,9 @@ PARTY_ALIASES = {
     "top": "TOP",
     "opportunities": "TOP",
     "the opportunities party": "TOP",
+    "opp": "TOP",
+    "opportunity": "TOP",
+    "opportunity party": "TOP",
     # United Future
     "uf": "United Future",
     "united": "United Future",
@@ -89,7 +93,8 @@ PARTY_ALIASES = {
 # Known party columns to look for (case-insensitive)
 KNOWN_PARTIES = [
     "national", "labour", "green", "act", "nz first", "new zealand first",
-    "māori", "maori", "te pāti māori", "top", "united future", "united",
+    "māori", "maori", "te pāti māori", "top", "opp", "opportunity",
+    "united future", "united",
     "alliance", "progressive", "mana", "conservative", "new conservative",
     "nzf", "grn", "tpm", "nat", "lab", "mri"  # MRI = Maori abbreviated
 ]
@@ -117,6 +122,26 @@ def normalize_party_name(name: str) -> Optional[str]:
         return None
     cleaned = clean_text(name).lower().strip()
     return PARTY_ALIASES.get(cleaned, name.strip())
+
+
+def normalize_pollster_name(name: str) -> Optional[str]:
+    """Normalize a pollster name so the same firm reads identically everywhere.
+
+    Wikipedia writes joined names ("Taxpayers’ Union–Curia", "1 News–Verian")
+    inconsistently: the separator turns up as an en dash, an em dash or a
+    spaced hyphen, and apostrophes come both straight and curly. Left alone
+    that splits one pollster into several, which quietly breaks any grouping
+    by firm — house-effect estimates most of all.
+    """
+    if not name:
+        return None
+    cleaned = clean_text(name)
+    # Citation text from an archive link sometimes lands inside the cell.
+    cleaned = re.sub(r"\s*Archived\s+.*?\s+at the Wayback Machine\s*$", "", cleaned,
+                     flags=re.IGNORECASE)
+    cleaned = re.sub(r"\s*[—–-]\s*", "–", cleaned)
+    cleaned = cleaned.replace("’", "'")
+    return cleaned or None
 
 
 def parse_percentage(value: str) -> Optional[float]:
@@ -168,6 +193,56 @@ def parse_date(date_str: str, election_year: int) -> Optional[str]:
                 continue
 
     return None
+
+
+def parse_fieldwork_period(date_str: str, election_year: int) -> tuple[Optional[str], Optional[str]]:
+    """Return the start and end dates represented by a polling-table date."""
+    cleaned = clean_text(date_str)
+    end_iso = parse_date(cleaned, election_year)
+    if not end_iso:
+        return None, None
+    try:
+        end = datetime.strptime(end_iso, "%Y-%m-%d")
+    except ValueError:
+        return None, None
+
+    # Different months: "27 Jul – 23 Aug 2026".
+    match = re.search(
+        r'(\d{1,2})\s+(\w+)(?:\s+(\d{4}))?\s*[-–—]\s*'
+        r'(\d{1,2})\s+(\w+)\s+(\d{4})',
+        cleaned,
+        re.IGNORECASE,
+    )
+    if match:
+        # Wikipedia occasionally carries an impossible date ("31 Sep - 11 Oct
+        # 2015"). Fall through to the single-date result rather than crashing
+        # the whole scrape over one typo.
+        try:
+            start_year = int(match.group(3) or match.group(6))
+            start_month = month_to_num(match.group(2))
+            end_month = month_to_num(match.group(5))
+            end = datetime(int(match.group(6)), end_month, int(match.group(4)))
+            if not match.group(3) and start_month > end_month:
+                start_year -= 1
+            start = datetime(start_year, start_month, int(match.group(1)))
+            return start.strftime("%Y-%m-%d"), end.strftime("%Y-%m-%d")
+        except (ValueError, KeyError):
+            return end_iso, end_iso
+
+    # Same month: "14–21 Aug 2026".
+    match = re.search(
+        r'(\d{1,2})\s*[-–—]\s*(\d{1,2})\s+(\w+)\s+(\d{4})',
+        cleaned,
+        re.IGNORECASE,
+    )
+    if match:
+        try:
+            start = datetime(int(match.group(4)), month_to_num(match.group(3)), int(match.group(1)))
+        except (ValueError, KeyError):
+            return end_iso, end_iso
+        return start.strftime("%Y-%m-%d"), end.strftime("%Y-%m-%d")
+
+    return end_iso, end_iso
 
 
 def month_to_num(month_str: str) -> int:
@@ -344,11 +419,13 @@ def scrape_election_year(year: int, session: requests.Session) -> dict:
     for idx, header in enumerate(headers):
         header_lower = header.lower()
         if 'date' in header_lower or 'poll' in header_lower and date_col is None:
-            if 'pollster' in header_lower or 'firm' in header_lower or 'company' in header_lower:
+            if any(label in header_lower for label in
+                   ('pollster', 'firm', 'company', 'organisation', 'organization')):
                 pollster_col = idx
             else:
                 date_col = idx
-        elif 'pollster' in header_lower or 'firm' in header_lower or 'company' in header_lower:
+        elif any(label in header_lower for label in
+                 ('pollster', 'firm', 'company', 'organisation', 'organization')):
             pollster_col = idx
         elif 'sample' in header_lower or 'size' in header_lower or 'n=' in header_lower:
             sample_col = idx
@@ -374,6 +451,8 @@ def scrape_election_year(year: int, session: requests.Session) -> dict:
         # Extract poll data
         poll_data = {
             "date": None,
+            "fieldwork_start": None,
+            "fieldwork_end": None,
             "pollster": None,
             "sample_size": None,
             "parties": {}
@@ -381,14 +460,20 @@ def scrape_election_year(year: int, session: requests.Session) -> dict:
 
         # Get date
         if date_col is not None and date_col < len(cell_values):
-            poll_data["date"] = parse_date(cell_values[date_col], year)
+            start, end = parse_fieldwork_period(cell_values[date_col], year)
+            poll_data["date"] = end
+            poll_data["fieldwork_start"] = start
+            poll_data["fieldwork_end"] = end
         elif date_col is None and len(cell_values) > 0:
             # Try first column as date fallback
-            poll_data["date"] = parse_date(cell_values[0], year)
+            start, end = parse_fieldwork_period(cell_values[0], year)
+            poll_data["date"] = end
+            poll_data["fieldwork_start"] = start
+            poll_data["fieldwork_end"] = end
 
         # Get pollster
         if pollster_col is not None and pollster_col < len(cell_values):
-            poll_data["pollster"] = cell_values[pollster_col] if cell_values[pollster_col] else None
+            poll_data["pollster"] = normalize_pollster_name(cell_values[pollster_col])
 
         # Get sample size
         if sample_col is not None and sample_col < len(cell_values):
@@ -407,16 +492,33 @@ def scrape_election_year(year: int, session: requests.Session) -> dict:
                 if pct is not None and 0 <= pct <= 100:
                     poll_data["parties"][party_name] = pct
 
-        # Only add if we have at least some party data
-        if poll_data["parties"]:
+        # Reject rows whose parsed party shares cannot represent a vote split.
+        # This also guards against future table-layout changes shifting columns.
+        party_total = sum(poll_data["parties"].values())
+        if poll_data["parties"] and party_total <= 105:
             polls.append(poll_data)
 
     print(f"  Found {len(polls)} polls for {year}")
-    return {"election_year": year, "polls": polls}
+    return {
+        "election_year": year,
+        "source": url,
+        "scraped_at": datetime.now(timezone.utc).isoformat(),
+        "polls": polls,
+    }
 
 
 def main():
     """Main function to scrape all election years"""
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--year",
+        type=int,
+        choices=ELECTION_YEARS,
+        help="scrape one election cycle instead of replacing every data file",
+    )
+    args = parser.parse_args()
+    years = [args.year] if args.year else ELECTION_YEARS
+
     print("NZ Election Polling Data Scraper")
     print("=" * 40)
 
@@ -425,7 +527,7 @@ def main():
 
     session = requests.Session()
 
-    for year in ELECTION_YEARS:
+    for year in years:
         print(f"\nScraping {year} election polling data...")
 
         data = scrape_election_year(year, session)
@@ -445,7 +547,7 @@ def main():
 
     # Print summary
     total_polls = 0
-    for year in ELECTION_YEARS:
+    for year in years:
         output_file = output_dir / f"{year}_polling.json"
         if output_file.exists():
             with open(output_file, 'r') as f:

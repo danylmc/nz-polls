@@ -1,13 +1,13 @@
 {
   "election_year": 2026,
   "source": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election",
-  "scraped_at": "2026-09-06T21:05:11.615577+00:00",
+  "scraped_at": "2026-09-06T21:13:31.723963+00:00",
   "polls": [
     {
       "date": "2026-09-03",
       "fieldwork_start": "2026-09-01",
       "fieldwork_end": "2026-09-03",
-      "pollster": "Taxpayers' Union—Curia",
+      "pollster": "Taxpayers' Union–Curia",
       "sample_size": 858,
       "parties": {
         "National": 29.0,

@@ -1,8 +1,12 @@
 {
   "election_year": 1999,
+  "source": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_1999_New_Zealand_general_election",
+  "scraped_at": "2026-09-06T21:13:15.191891+00:00",
   "polls": [
     {
       "date": "1996-10-12",
+      "fieldwork_start": "1996-10-12",
+      "fieldwork_end": "1996-10-12",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -16,6 +20,8 @@
     },
     {
       "date": "1997-02-13",
+      "fieldwork_start": "1997-02-13",
+      "fieldwork_end": "1997-02-13",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -29,6 +35,8 @@
     },
     {
       "date": "1997-03-13",
+      "fieldwork_start": "1997-03-13",
+      "fieldwork_end": "1997-03-13",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -41,6 +49,8 @@
     },
     {
       "date": "1997-04-11",
+      "fieldwork_start": "1997-04-11",
+      "fieldwork_end": "1997-04-11",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -54,6 +64,8 @@
     },
     {
       "date": "1997-05-13",
+      "fieldwork_start": "1997-05-13",
+      "fieldwork_end": "1997-05-13",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -67,6 +79,8 @@
     },
     {
       "date": "1997-05-25",
+      "fieldwork_start": "1997-05-25",
+      "fieldwork_end": "1997-05-25",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -79,6 +93,8 @@
     },
     {
       "date": "1997-06-25",
+      "fieldwork_start": "1997-06-25",
+      "fieldwork_end": "1997-06-25",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -92,6 +108,8 @@
     },
     {
       "date": "1997-07-10",
+      "fieldwork_start": "1997-07-10",
+      "fieldwork_end": "1997-07-10",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -105,6 +123,8 @@
     },
     {
       "date": "1997-08-07",
+      "fieldwork_start": "1997-08-07",
+      "fieldwork_end": "1997-08-07",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -118,6 +138,8 @@
     },
     {
       "date": "1997-09-18",
+      "fieldwork_start": "1997-09-18",
+      "fieldwork_end": "1997-09-18",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -131,6 +153,8 @@
     },
     {
       "date": "1997-10-11",
+      "fieldwork_start": "1997-10-11",
+      "fieldwork_end": "1997-10-11",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -143,6 +167,8 @@
     },
     {
       "date": "1997-10-13",
+      "fieldwork_start": "1997-10-13",
+      "fieldwork_end": "1997-10-13",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -155,6 +181,8 @@
     },
     {
       "date": "1997-10-16",
+      "fieldwork_start": "1997-10-16",
+      "fieldwork_end": "1997-10-16",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -168,6 +196,8 @@
     },
     {
       "date": "1997-11-04",
+      "fieldwork_start": "1997-11-04",
+      "fieldwork_end": "1997-11-04",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -181,6 +211,8 @@
     },
     {
       "date": "1997-11-13",
+      "fieldwork_start": "1997-11-13",
+      "fieldwork_end": "1997-11-13",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -193,6 +225,8 @@
     },
     {
       "date": "1997-11-23",
+      "fieldwork_start": "1997-11-23",
+      "fieldwork_end": "1997-11-23",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -205,6 +239,8 @@
     },
     {
       "date": "1997-12-10",
+      "fieldwork_start": "1997-12-08",
+      "fieldwork_end": "1997-12-10",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -219,6 +255,8 @@
     },
     {
       "date": "1998-02-12",
+      "fieldwork_start": "1998-02-12",
+      "fieldwork_end": "1998-02-12",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -232,6 +270,8 @@
     },
     {
       "date": "1998-02-15",
+      "fieldwork_start": "1998-02-15",
+      "fieldwork_end": "1998-02-15",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -245,6 +285,8 @@
     },
     {
       "date": "1998-03-25",
+      "fieldwork_start": "1998-03-25",
+      "fieldwork_end": "1998-03-25",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -259,6 +301,8 @@
     },
     {
       "date": "1998-04-21",
+      "fieldwork_start": "1998-04-21",
+      "fieldwork_end": "1998-04-21",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -272,6 +316,8 @@
     },
     {
       "date": "1998-04-23",
+      "fieldwork_start": "1998-04-23",
+      "fieldwork_end": "1998-04-23",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -286,6 +332,8 @@
     },
     {
       "date": "1998-05-11",
+      "fieldwork_start": "1998-05-11",
+      "fieldwork_end": "1998-05-11",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -299,6 +347,8 @@
     },
     {
       "date": "1998-05-14",
+      "fieldwork_start": "1998-05-14",
+      "fieldwork_end": "1998-05-14",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -313,6 +363,8 @@
     },
     {
       "date": "1998-06-18",
+      "fieldwork_start": "1998-06-18",
+      "fieldwork_end": "1998-06-18",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -327,6 +379,8 @@
     },
     {
       "date": "1998-07-09",
+      "fieldwork_start": "1998-07-09",
+      "fieldwork_end": "1998-07-09",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -340,6 +394,8 @@
     },
     {
       "date": "1998-07-10",
+      "fieldwork_start": "1998-07-10",
+      "fieldwork_end": "1998-07-10",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -353,6 +409,8 @@
     },
     {
       "date": "1998-08-06",
+      "fieldwork_start": "1998-08-06",
+      "fieldwork_end": "1998-08-06",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -366,6 +424,8 @@
     },
     {
       "date": "1998-08-11",
+      "fieldwork_start": "1998-08-11",
+      "fieldwork_end": "1998-08-11",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -378,6 +438,8 @@
     },
     {
       "date": "1998-08-13",
+      "fieldwork_start": "1998-08-13",
+      "fieldwork_end": "1998-08-13",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -390,6 +452,8 @@
     },
     {
       "date": "1998-09-13",
+      "fieldwork_start": "1998-09-13",
+      "fieldwork_end": "1998-09-13",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -403,6 +467,8 @@
     },
     {
       "date": "1998-09-22",
+      "fieldwork_start": "1998-09-22",
+      "fieldwork_end": "1998-09-22",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -416,6 +482,8 @@
     },
     {
       "date": "1998-10-15",
+      "fieldwork_start": "1998-10-15",
+      "fieldwork_end": "1998-10-15",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -430,6 +498,8 @@
     },
     {
       "date": "1998-11-16",
+      "fieldwork_start": "1998-11-16",
+      "fieldwork_end": "1998-11-16",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -443,6 +513,8 @@
     },
     {
       "date": "1998-11-17",
+      "fieldwork_start": "1998-11-17",
+      "fieldwork_end": "1998-11-17",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -456,6 +528,8 @@
     },
     {
       "date": "1998-12-07",
+      "fieldwork_start": "1998-12-07",
+      "fieldwork_end": "1998-12-07",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -468,6 +542,8 @@
     },
     {
       "date": "1998-12-10",
+      "fieldwork_start": "1998-12-10",
+      "fieldwork_end": "1998-12-10",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -482,6 +558,8 @@
     },
     {
       "date": "1999-02-11",
+      "fieldwork_start": "1999-02-11",
+      "fieldwork_end": "1999-02-11",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -495,6 +573,8 @@
     },
     {
       "date": "1999-02-14",
+      "fieldwork_start": "1999-02-14",
+      "fieldwork_end": "1999-02-14",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -508,6 +588,8 @@
     },
     {
       "date": "1999-03-23",
+      "fieldwork_start": "1999-03-23",
+      "fieldwork_end": "1999-03-23",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -522,6 +604,8 @@
     },
     {
       "date": "1999-04-18",
+      "fieldwork_start": "1999-04-18",
+      "fieldwork_end": "1999-04-18",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -535,6 +619,8 @@
     },
     {
       "date": "1999-04-27",
+      "fieldwork_start": "1999-04-27",
+      "fieldwork_end": "1999-04-27",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -549,6 +635,8 @@
     },
     {
       "date": "1999-05-19",
+      "fieldwork_start": "1999-05-19",
+      "fieldwork_end": "1999-05-19",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -563,6 +651,8 @@
     },
     {
       "date": "1999-06-17",
+      "fieldwork_start": "1999-06-17",
+      "fieldwork_end": "1999-06-17",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -576,6 +666,8 @@
     },
     {
       "date": "1999-06-20",
+      "fieldwork_start": "1999-06-20",
+      "fieldwork_end": "1999-06-20",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -589,6 +681,8 @@
     },
     {
       "date": "1999-07-13",
+      "fieldwork_start": "1999-07-13",
+      "fieldwork_end": "1999-07-13",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -603,6 +697,8 @@
     },
     {
       "date": "1999-07-25",
+      "fieldwork_start": "1999-07-25",
+      "fieldwork_end": "1999-07-25",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -616,6 +712,8 @@
     },
     {
       "date": "1999-08-05",
+      "fieldwork_start": "1999-08-05",
+      "fieldwork_end": "1999-08-05",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -629,6 +727,8 @@
     },
     {
       "date": "1999-08-22",
+      "fieldwork_start": "1999-08-22",
+      "fieldwork_end": "1999-08-22",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -642,6 +742,8 @@
     },
     {
       "date": "1999-09-03",
+      "fieldwork_start": "1999-08-28",
+      "fieldwork_end": "1999-09-03",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -654,6 +756,8 @@
     },
     {
       "date": "1999-09-16",
+      "fieldwork_start": "1999-09-16",
+      "fieldwork_end": "1999-09-16",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -668,6 +772,8 @@
     },
     {
       "date": "1999-09-19",
+      "fieldwork_start": "1999-09-19",
+      "fieldwork_end": "1999-09-19",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -681,6 +787,8 @@
     },
     {
       "date": "1999-10-10",
+      "fieldwork_start": "1999-10-10",
+      "fieldwork_end": "1999-10-10",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -694,6 +802,8 @@
     },
     {
       "date": "1999-10-20",
+      "fieldwork_start": "1999-10-20",
+      "fieldwork_end": "1999-10-20",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -707,6 +817,8 @@
     },
     {
       "date": "1999-10-18",
+      "fieldwork_start": "1999-10-18",
+      "fieldwork_end": "1999-10-18",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -721,6 +833,8 @@
     },
     {
       "date": "1999-11-05",
+      "fieldwork_start": "1999-11-05",
+      "fieldwork_end": "1999-11-05",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -735,6 +849,8 @@
     },
     {
       "date": "1999-11-07",
+      "fieldwork_start": "1999-11-07",
+      "fieldwork_end": "1999-11-07",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -748,6 +864,8 @@
     },
     {
       "date": "1999-11-11",
+      "fieldwork_start": "1999-11-11",
+      "fieldwork_end": "1999-11-11",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -762,6 +880,8 @@
     },
     {
       "date": "1999-11-17",
+      "fieldwork_start": "1999-11-17",
+      "fieldwork_end": "1999-11-17",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -775,6 +895,8 @@
     },
     {
       "date": "1999-11-26",
+      "fieldwork_start": "1999-11-26",
+      "fieldwork_end": "1999-11-26",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -788,6 +910,8 @@
     },
     {
       "date": "1999-11-26",
+      "fieldwork_start": "1999-11-26",
+      "fieldwork_end": "1999-11-26",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -802,6 +926,8 @@
     },
     {
       "date": "1999-11-26",
+      "fieldwork_start": "1999-11-26",
+      "fieldwork_end": "1999-11-26",
       "pollster": null,
       "sample_size": null,
       "parties": {
@@ -815,6 +941,8 @@
     },
     {
       "date": "1999-11-27",
+      "fieldwork_start": "1999-11-27",
+      "fieldwork_end": "1999-11-27",
       "pollster": null,
       "sample_size": null,
       "parties": {

@@ -1,9 +1,13 @@
 {
   "election_year": 2020,
+  "source": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2020_New_Zealand_general_election",
+  "scraped_at": "2026-09-06T21:13:28.015918+00:00",
   "polls": [
     {
       "date": "2020-10-17",
-      "pollster": null,
+      "fieldwork_start": "2020-10-17",
+      "fieldwork_end": "2020-10-17",
+      "pollster": "2020 election result",
       "sample_size": null,
       "parties": {
         "National": 25.6,
@@ -17,7 +21,9 @@
     },
     {
       "date": "2020-10-15",
-      "pollster": null,
+      "fieldwork_start": "2020-10-08",
+      "fieldwork_end": "2020-10-15",
+      "pollster": "Newshub–Reid Research",
       "sample_size": 1000,
       "parties": {
         "National": 31.1,
@@ -31,7 +37,9 @@
     },
     {
       "date": "2020-10-14",
-      "pollster": null,
+      "fieldwork_start": "2020-10-10",
+      "fieldwork_end": "2020-10-14",
+      "pollster": "1 News–Colmar Brunton",
       "sample_size": 1005,
       "parties": {
         "National": 31.0,
@@ -45,7 +53,9 @@
     },
     {
       "date": "2020-10-07",
-      "pollster": null,
+      "fieldwork_start": "2020-10-03",
+      "fieldwork_end": "2020-10-07",
+      "pollster": "1 News–Colmar Brunton",
       "sample_size": 1007,
       "parties": {
         "National": 32.0,
@@ -59,7 +69,9 @@
     },
     {
       "date": "2020-09-01",
-      "pollster": null,
+      "fieldwork_start": "2020-09-01",
+      "fieldwork_end": "2020-09-01",
+      "pollster": "Roy Morgan Research",
       "sample_size": 911,
       "parties": {
         "National": 28.5,
@@ -73,7 +85,9 @@
     },
     {
       "date": "2020-09-27",
-      "pollster": null,
+      "fieldwork_start": "2020-09-23",
+      "fieldwork_end": "2020-09-27",
+      "pollster": "1 News–Colmar Brunton",
       "sample_size": 1005,
       "parties": {
         "National": 33.0,
@@ -87,7 +101,9 @@
     },
     {
       "date": "2020-09-23",
-      "pollster": null,
+      "fieldwork_start": "2020-09-16",
+      "fieldwork_end": "2020-09-23",
+      "pollster": "Newshub–Reid Research",
       "sample_size": 1000,
       "parties": {
         "National": 29.6,
@@ -101,7 +117,9 @@
     },
     {
       "date": "2020-09-21",
-      "pollster": null,
+      "fieldwork_start": "2020-09-17",
+      "fieldwork_end": "2020-09-21",
+      "pollster": "1 News–Colmar Brunton",
       "sample_size": 1008,
       "parties": {
         "National": 31.0,
@@ -115,7 +133,9 @@
     },
     {
       "date": "2020-08-01",
-      "pollster": null,
+      "fieldwork_start": "2020-08-01",
+      "fieldwork_end": "2020-08-01",
+      "pollster": "Roy Morgan Research",
       "sample_size": 897,
       "parties": {
         "National": 28.5,
@@ -129,7 +149,9 @@
     },
     {
       "date": "2020-07-01",
-      "pollster": null,
+      "fieldwork_start": "2020-07-01",
+      "fieldwork_end": "2020-07-01",
+      "pollster": "Roy Morgan Research",
       "sample_size": 899,
       "parties": {
         "National": 26.5,
@@ -143,7 +165,9 @@
     },
     {
       "date": "2020-07-29",
-      "pollster": null,
+      "fieldwork_start": "2020-07-25",
+      "fieldwork_end": "2020-07-29",
+      "pollster": "1 News–Colmar Brunton",
       "sample_size": 1004,
       "parties": {
         "National": 32.0,
@@ -157,7 +181,9 @@
     },
     {
       "date": "2020-07-24",
-      "pollster": null,
+      "fieldwork_start": "2020-07-16",
+      "fieldwork_end": "2020-07-24",
+      "pollster": "Newshub–Reid Research",
       "sample_size": 1000,
       "parties": {
         "National": 25.1,
@@ -171,7 +197,9 @@
     },
     {
       "date": "2020-06-01",
-      "pollster": null,
+      "fieldwork_start": "2020-06-01",
+      "fieldwork_end": "2020-06-01",
+      "pollster": "Roy Morgan Research",
       "sample_size": 879,
       "parties": {
         "National": 27.0,
@@ -185,7 +213,9 @@
     },
     {
       "date": "2020-06-24",
-      "pollster": null,
+      "fieldwork_start": "2020-06-20",
+      "fieldwork_end": "2020-06-24",
+      "pollster": "1 News–Colmar Brunton",
       "sample_size": 1007,
       "parties": {
         "National": 38.0,
@@ -199,7 +229,9 @@
     },
     {
       "date": "2020-05-24",
-      "pollster": null,
+      "fieldwork_start": "2020-04-27",
+      "fieldwork_end": "2020-05-24",
+      "pollster": "Roy Morgan Research",
       "sample_size": 894,
       "parties": {
         "National": 26.5,
@@ -213,7 +245,9 @@
     },
     {
       "date": "2020-05-20",
-      "pollster": null,
+      "fieldwork_start": "2020-05-16",
+      "fieldwork_end": "2020-05-20",
+      "pollster": "1 News–Colmar Brunton",
       "sample_size": 1003,
       "parties": {
         "National": 29.0,
@@ -227,7 +261,9 @@
     },
     {
       "date": "2020-05-16",
-      "pollster": null,
+      "fieldwork_start": "2020-05-08",
+      "fieldwork_end": "2020-05-16",
+      "pollster": "Newshub–Reid Research",
       "sample_size": 1000,
       "parties": {
         "National": 30.6,
@@ -241,7 +277,9 @@
     },
     {
       "date": "2020-04-01",
-      "pollster": null,
+      "fieldwork_start": "2020-04-01",
+      "fieldwork_end": "2020-04-01",
+      "pollster": "Roy Morgan Research",
       "sample_size": null,
       "parties": {
         "National": 30.5,
@@ -253,7 +291,9 @@
     },
     {
       "date": "2020-03-01",
-      "pollster": null,
+      "fieldwork_start": "2020-03-01",
+      "fieldwork_end": "2020-03-01",
+      "pollster": "Roy Morgan Research",
       "sample_size": null,
       "parties": {
         "National": 37.0,
@@ -265,7 +305,9 @@
     },
     {
       "date": "2020-02-01",
-      "pollster": null,
+      "fieldwork_start": "2020-02-01",
+      "fieldwork_end": "2020-02-01",
+      "pollster": "Roy Morgan Research",
       "sample_size": null,
       "parties": {
         "National": 37.0,
@@ -277,7 +319,9 @@
     },
     {
       "date": "2020-02-12",
-      "pollster": null,
+      "fieldwork_start": "2020-02-08",
+      "fieldwork_end": "2020-02-12",
+      "pollster": "1 News–Colmar Brunton",
       "sample_size": 1004,
       "parties": {
         "National": 46.0,
@@ -291,7 +335,9 @@
     },
     {
       "date": "2020-02-01",
-      "pollster": null,
+      "fieldwork_start": "2020-01-23",
+      "fieldwork_end": "2020-02-01",
+      "pollster": "Newshub–Reid Research",
       "sample_size": 1000,
       "parties": {
         "National": 43.3,
@@ -305,7 +351,9 @@
     },
     {
       "date": "2020-01-01",
-      "pollster": null,
+      "fieldwork_start": "2020-01-01",
+      "fieldwork_end": "2020-01-01",
+      "pollster": "Roy Morgan Research",
       "sample_size": null,
       "parties": {
         "National": 40.0,
@@ -317,7 +365,9 @@
     },
     {
       "date": "2019-11-27",
-      "pollster": null,
+      "fieldwork_start": "2019-11-23",
+      "fieldwork_end": "2019-11-27",
+      "pollster": "1 News–Colmar Brunton",
       "sample_size": 1006,
       "parties": {
         "National": 46.0,
@@ -331,7 +381,9 @@
     },
     {
       "date": "2019-11-11",
-      "pollster": null,
+      "fieldwork_start": "2019-11-07",
+      "fieldwork_end": "2019-11-11",
+      "pollster": "Stuff–YouGov",
       "sample_size": 1005,
       "parties": {
         "National": 38.0,
@@ -345,7 +397,9 @@
     },
     {
       "date": "2019-10-09",
-      "pollster": null,
+      "fieldwork_start": "2019-10-05",
+      "fieldwork_end": "2019-10-09",
+      "pollster": "1 News–Colmar Brunton",
       "sample_size": 1008,
       "parties": {
         "National": 47.0,
@@ -359,7 +413,9 @@
     },
     {
       "date": "2019-10-09",
-      "pollster": null,
+      "fieldwork_start": "2019-10-02",
+      "fieldwork_end": "2019-10-09",
+      "pollster": "Newshub–Reid Research",
       "sample_size": 1000,
       "parties": {
         "National": 43.9,
@@ -373,7 +429,9 @@
     },
     {
       "date": "2019-07-24",
-      "pollster": null,
+      "fieldwork_start": "2019-07-20",
+      "fieldwork_end": "2019-07-24",
+      "pollster": "1 News–Colmar Brunton",
       "sample_size": 1003,
       "parties": {
         "National": 45.0,
@@ -387,7 +445,9 @@
     },
     {
       "date": "2019-06-08",
-      "pollster": null,
+      "fieldwork_start": "2019-06-04",
+      "fieldwork_end": "2019-06-08",
+      "pollster": "1 News–Colmar Brunton",
       "sample_size": 1002,
       "parties": {
         "National": 44.0,
@@ -401,7 +461,9 @@
     },
     {
       "date": "2019-06-07",
-      "pollster": null,
+      "fieldwork_start": "2019-05-30",
+      "fieldwork_end": "2019-06-07",
+      "pollster": "Newshub–Reid Research",
       "sample_size": 1000,
       "parties": {
         "National": 37.4,
@@ -415,7 +477,9 @@
     },
     {
       "date": "2019-04-10",
-      "pollster": null,
+      "fieldwork_start": "2019-04-06",
+      "fieldwork_end": "2019-04-10",
+      "pollster": "1 News–Colmar Brunton",
       "sample_size": 1009,
       "parties": {
         "National": 40.0,
@@ -428,7 +492,9 @@
     },
     {
       "date": "2019-03-23",
-      "pollster": null,
+      "fieldwork_start": "2019-03-15",
+      "fieldwork_end": "2019-03-23",
+      "pollster": "Business NZ–Reid Research",
       "sample_size": 1000,
       "parties": {
         "National": 41.3,
@@ -439,7 +505,9 @@
     },
     {
       "date": "2019-02-13",
-      "pollster": null,
+      "fieldwork_start": "2019-02-09",
+      "fieldwork_end": "2019-02-13",
+      "pollster": "1 News–Colmar Brunton",
       "sample_size": 1006,
       "parties": {
         "National": 42.0,
@@ -453,7 +521,9 @@
     },
     {
       "date": "2019-02-02",
-      "pollster": null,
+      "fieldwork_start": "2019-01-24",
+      "fieldwork_end": "2019-02-02",
+      "pollster": "Newshub–Reid Research",
       "sample_size": 1000,
       "parties": {
         "National": 41.6,
@@ -467,7 +537,9 @@
     },
     {
       "date": "2018-11-28",
-      "pollster": null,
+      "fieldwork_start": "2018-11-24",
+      "fieldwork_end": "2018-11-28",
+      "pollster": "1 News–Colmar Brunton",
       "sample_size": 1008,
       "parties": {
         "National": 46.0,
@@ -481,7 +553,9 @@
     },
     {
       "date": "2018-10-19",
-      "pollster": null,
+      "fieldwork_start": "2018-10-15",
+      "fieldwork_end": "2018-10-19",
+      "pollster": "1 News–Colmar Brunton",
       "sample_size": 1006,
       "parties": {
         "National": 43.0,
@@ -495,7 +569,9 @@
     },
     {
       "date": "2018-08-01",
-      "pollster": null,
+      "fieldwork_start": "2018-07-28",
+      "fieldwork_end": "2018-08-01",
+      "pollster": "1 News–Colmar Brunton",
       "sample_size": 1007,
       "parties": {
         "National": 45.0,
@@ -509,7 +585,9 @@
     },
     {
       "date": "2018-05-24",
-      "pollster": null,
+      "fieldwork_start": "2018-05-17",
+      "fieldwork_end": "2018-05-24",
+      "pollster": "Newshub–Reid Research",
       "sample_size": 1000,
       "parties": {
         "National": 45.1,
@@ -523,7 +601,9 @@
     },
     {
       "date": "2018-05-23",
-      "pollster": null,
+      "fieldwork_start": "2018-05-19",
+      "fieldwork_end": "2018-05-23",
+      "pollster": "1 News–Colmar Brunton",
       "sample_size": 1007,
       "parties": {
         "National": 45.0,
@@ -537,7 +617,9 @@
     },
     {
       "date": "2018-04-11",
-      "pollster": null,
+      "fieldwork_start": "2018-04-07",
+      "fieldwork_end": "2018-04-11",
+      "pollster": "1 News–Colmar Brunton",
       "sample_size": 1007,
       "parties": {
         "National": 44.0,
@@ -551,7 +633,9 @@
     },
     {
       "date": "2018-02-14",
-      "pollster": null,
+      "fieldwork_start": "2018-02-10",
+      "fieldwork_end": "2018-02-14",
+      "pollster": "1 News–Colmar Brunton",
       "sample_size": 1007,
       "parties": {
         "National": 43.0,
@@ -565,7 +649,9 @@
     },
     {
       "date": "2018-01-28",
-      "pollster": null,
+      "fieldwork_start": "2018-01-18",
+      "fieldwork_end": "2018-01-28",
+      "pollster": "Newshub–Reid Research",
       "sample_size": 1000,
       "parties": {
         "National": 44.5,
@@ -579,7 +665,9 @@
     },
     {
       "date": "2018-01-28",
-      "pollster": null,
+      "fieldwork_start": "2018-01-02",
+      "fieldwork_end": "2018-01-28",
+      "pollster": "Roy Morgan Research",
       "sample_size": 1000,
       "parties": {
         "National": 39.0,
@@ -593,7 +681,9 @@
     },
     {
       "date": "2017-12-10",
-      "pollster": null,
+      "fieldwork_start": "2017-11-27",
+      "fieldwork_end": "2017-12-10",
+      "pollster": "Roy Morgan Research",
       "sample_size": null,
       "parties": {
         "National": 40.5,
@@ -605,7 +695,9 @@
     },
     {
       "date": "2017-12-05",
-      "pollster": null,
+      "fieldwork_start": "2017-11-29",
+      "fieldwork_end": "2017-12-05",
+      "pollster": "1 News–Colmar Brunton",
       "sample_size": 1007,
       "parties": {
         "National": 46.0,
@@ -619,7 +711,9 @@
     },
     {
       "date": "2017-11-12",
-      "pollster": null,
+      "fieldwork_start": "2017-10-30",
+      "fieldwork_end": "2017-11-12",
+      "pollster": "Roy Morgan Research",
       "sample_size": 887,
       "parties": {
         "National": 40.5,
@@ -633,7 +727,9 @@
     },
     {
       "date": "2017-10-15",
-      "pollster": null,
+      "fieldwork_start": "2017-10-02",
+      "fieldwork_end": "2017-10-15",
+      "pollster": "Roy Morgan Research",
       "sample_size": 894,
       "parties": {
         "National": 46.0,
@@ -647,7 +743,9 @@
     },
     {
       "date": "2017-09-23",
-      "pollster": null,
+      "fieldwork_start": "2017-09-23",
+      "fieldwork_end": "2017-09-23",
+      "pollster": "2017 election result",
       "sample_size": null,
       "parties": {
         "National": 44.4,
