@@ -468,8 +468,18 @@ def plot_year_checkpoints(df, out_path, pollsters, checkpoint_dates):
         opening = panel_values.loc[checkpoint_dates[0]]
         for date in checkpoint_dates:
             column = panel_values.loc[date].to_dict()
+            # Where two series finish within a label's height of each other,
+            # the displaced label gives no clue which line it belongs to, so
+            # both get a leader back to their own marker.
+            ordered = sorted(column.items(), key=lambda item: -item[1])
+            crowded = set()
+            for (upper, above), (lower, below) in zip(ordered, ordered[1:]):
+                if above - below < gap:
+                    crowded.update((upper, lower))
             for party, side in label_sides(column, gap).items():
-                text = f"{column[party]:.1f}"
+                # A crowded label is unreadable without saying whose it is.
+                text = f"{party} {column[party]:.1f}" if party in crowded \
+                    else f"{column[party]:.1f}"
                 if date == checkpoint_dates[-1]:
                     # The point of the chart is the shift, so state it rather
                     # than leaving it to be read off the three columns.
@@ -480,6 +490,10 @@ def plot_year_checkpoints(df, out_path, pollsters, checkpoint_dates):
                     xytext=(0, side * LABEL_SEPARATION_POINTS), textcoords="offset points",
                     ha="center", va="center",
                     fontsize=8.5, fontweight="bold", color=LABEL_INK,
+                    arrowprops=dict(
+                        arrowstyle="-", color=PARTY_COLORS[party],
+                        linewidth=1.0, shrinkA=1, shrinkB=3,
+                    ) if party in crowded else None,
                 )
 
     fig.savefig(out_path, dpi=600, facecolor=BG_COLOR)
