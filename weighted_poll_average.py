@@ -394,7 +394,8 @@ def plot_year_checkpoints(df, out_path, pollsters, checkpoint_dates):
     )
     fig.text(
         0.08, 0.935,
-        "House-effect-adjusted averages at the start of the year, the midpoint, and the latest polls",
+        "House-effect-adjusted averages at the start of the year, the midpoint and the latest polls, "
+        "with the change since 1 January in brackets",
         ha="left", fontsize=10.5, color="#444444",
     )
 
@@ -464,11 +465,18 @@ def plot_year_checkpoints(df, out_path, pollsters, checkpoint_dates):
         low, high = ax.get_ylim()
         panel_points = ax.get_position().height * fig.get_figheight() * 72
         gap = LABEL_SEPARATION_POINTS * (high - low) / panel_points
+        opening = panel_values.loc[checkpoint_dates[0]]
         for date in checkpoint_dates:
             column = panel_values.loc[date].to_dict()
             for party, side in label_sides(column, gap).items():
+                text = f"{column[party]:.1f}"
+                if date == checkpoint_dates[-1]:
+                    # The point of the chart is the shift, so state it rather
+                    # than leaving it to be read off the three columns.
+                    change = column[party] - opening[party]
+                    text += f" ({'+' if change >= 0 else ''}{change:.1f}pp)"
                 ax.annotate(
-                    f"{column[party]:.1f}", xy=(date, column[party]),
+                    text, xy=(date, column[party]),
                     xytext=(0, side * LABEL_SEPARATION_POINTS), textcoords="offset points",
                     ha="center", va="center",
                     fontsize=8.5, fontweight="bold", color=LABEL_INK,
