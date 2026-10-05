@@ -1,14 +1,78 @@
 {
   "election_year": 2026,
   "source": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election",
-  "scraped_at": "2026-09-06T21:13:31.723963+00:00",
+  "scraped_at": "2026-10-05T19:37:51.948152+00:00",
   "polls": [
+    {
+      "date": "2026-09-11",
+      "fieldwork_start": "2026-09-04",
+      "fieldwork_end": "2026-09-11",
+      "pollster": "RNZ–Reid Research",
+      "sample_size": 1000,
+      "parties": {
+        "National": 25.9,
+        "Labour": 30.8,
+        "Green": 14.8,
+        "ACT": 9.0,
+        "NZ First": 10.6,
+        "Te Pāti Māori": 2.0,
+        "TOP": 5.5
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "fieldwork_start": "2026-09-23",
+      "fieldwork_end": "2026-09-27",
+      "pollster": "1 News–Verian",
+      "sample_size": 1004,
+      "parties": {
+        "National": 28.0,
+        "Labour": 28.0,
+        "Green": 16.0,
+        "ACT": 11.0,
+        "NZ First": 9.0,
+        "Te Pāti Māori": 1.2,
+        "TOP": 6.0
+      }
+    },
+    {
+      "date": "2026-09-11",
+      "fieldwork_start": "2026-09-04",
+      "fieldwork_end": "2026-09-11",
+      "pollster": "The Post/Freshwater Strategy",
+      "sample_size": 1011,
+      "parties": {
+        "National": 27.0,
+        "Labour": 28.0,
+        "Green": 14.0,
+        "ACT": 9.0,
+        "NZ First": 13.0,
+        "Te Pāti Māori": 2.0,
+        "TOP": 6.0
+      }
+    },
+    {
+      "date": "2026-09-10",
+      "fieldwork_start": "2026-09-04",
+      "fieldwork_end": "2026-09-10",
+      "pollster": "Anacta",
+      "sample_size": 1701,
+      "parties": {
+        "National": 30.0,
+        "Labour": 31.0,
+        "Green": 12.0,
+        "ACT": 8.0,
+        "NZ First": 10.0,
+        "Te Pāti Māori": 2.0,
+        "TOP": 7.0
+      }
+    },
     {
       "date": "2026-09-03",
       "fieldwork_start": "2026-09-01",
       "fieldwork_end": "2026-09-03",
       "pollster": "Taxpayers' Union–Curia",
-      "sample_size": 858,
+      "sample_size": 1000,
       "parties": {
         "National": 29.0,
         "Labour": 25.9,
