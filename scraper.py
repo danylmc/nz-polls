@@ -296,7 +296,10 @@ def get_table_headers(table: BeautifulSoup) -> list:
 
         if row_idx == 0:
             headers = row_headers
-        else:
+        elif all(cell.name == 'th' for cell in cells):
+            # Only a row of header cells can be a second header row; a td row
+            # here is data, e.g. an event note such as "National Party leader
+            # ... debate" spanning the party columns.
             # Merge second row headers if they contain party names
             row_text = ' '.join(row_headers).lower()
             if any(party in row_text for party in ['national', 'labour', 'green', 'act', 'nat', 'lab']):
@@ -408,7 +411,8 @@ def scrape_election_year(year: int, session: requests.Session) -> dict:
     if len(rows) > 1:
         # Check if second row is also headers (contains party names)
         second_row_text = clean_text(rows[1].get_text()).lower()
-        if any(party in second_row_text for party in ['national', 'labour', 'green']):
+        second_row_is_header = all(c.name == 'th' for c in rows[1].find_all(['th', 'td']))
+        if second_row_is_header and any(party in second_row_text for party in ['national', 'labour', 'green']):
             start_row = 2
 
     # Find date/pollster columns
