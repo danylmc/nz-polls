@@ -32,9 +32,10 @@ COLOURS = {
 W = 1200
 PANEL_X, PANEL_W = 40, 1120
 LO, HI = -12, 9  # shared scale, percentage points
-SUBPANELS = [(285, 370, "Since the 2023 election", "election"),
-             (685, 370, "Since 1 January 2026", "january")]
-NOW_X = 1105  # centre of the right-hand "party vote now" column
+SUBPANELS = [(337, 345, "Since the 2023 election", "election"),
+             (707, 345, "Since 1 January 2026", "january")]
+RESULT_X = 266  # centre of the "2023 result" column
+NOW_X = 1112  # centre of the right-hand "party vote now" column
 ROW_H, BAR_H = 72, 36
 
 
@@ -75,7 +76,8 @@ def build(rows, as_of):
         'Bars to the right are gains,</text>',
         f'<text class="s" x="40" y="158">bars to the left are losses. Today\'s figures are the poll average at {day}.</text>',
         f'<rect x="{PANEL_X}" y="{panel_top}" width="{PANEL_W}" height="{panel_bottom - panel_top}" fill="#dceaf7"/>',
-        f'<text class="hd" x="60" y="{panel_top + 38}">2023 result</text>',
+        f'<text class="hd" x="60" y="{panel_top + 38}">Party</text>',
+        f'<text class="hd" x="{RESULT_X}" y="{panel_top + 38}" text-anchor="middle">2023 result</text>',
         f'<text class="hd" x="{NOW_X}" y="{panel_top + 38}" text-anchor="middle">Now</text>',
     ]
 
@@ -93,10 +95,11 @@ def build(rows, as_of):
             tick = f"{v:+d}".replace("-", "−") if v else "0"
             out.append(f'<text class="ax" x="{x:.1f}" y="{panel_bottom + 24}" text-anchor="middle">{tick}</text>')
 
-    # White gutter between the two panels.
+    # White gutters separate the two panels from each other and from the number columns.
     gutter = (SUBPANELS[0][0] + SUBPANELS[0][1] + SUBPANELS[1][0]) / 2
+    result_gutter = SUBPANELS[0][0] - 8
     now_gutter = SUBPANELS[1][0] + SUBPANELS[1][1] + 6
-    for gx in (gutter, now_gutter):
+    for gx in (result_gutter, gutter, now_gutter):
         out.append(f'<line x1="{gx:.1f}" x2="{gx:.1f}" y1="{panel_top}" y2="{panel_bottom}" '
                    f'stroke="#fff" stroke-width="4"/>')
 
@@ -105,8 +108,8 @@ def build(rows, as_of):
         mid = top + ROW_H / 2
         if i:
             out.append(f'<line class="g" x1="{PANEL_X}" x2="{PANEL_X + PANEL_W}" y1="{top}" y2="{top}"/>')
-        out.append(f'<text class="p" x="60" y="{mid - 2:.0f}">{escape(LABELS.get(r["party"], r["party"]))}</text>')
-        out.append(f'<text class="lv" x="60" y="{mid + 22:.0f}">{r["election"]:.1f}%</text>')
+        out.append(f'<text class="p" x="60" y="{mid + 8:.0f}">{escape(LABELS.get(r["party"], r["party"]))}</text>')
+        out.append(f'<text class="now" x="{RESULT_X}" y="{mid + 8.5:.0f}" text-anchor="middle">{r["election"]:.1f}%</text>')
         out.append(f'<text class="now" x="{NOW_X}" y="{mid + 8.5:.0f}" text-anchor="middle">{r["now"]:.1f}%</text>')
         for x0, width, _, key in SUBPANELS:
             scale = width / (HI - LO)
@@ -117,9 +120,13 @@ def build(rows, as_of):
             left = min(zero, end)
             out.append(f'<rect x="{left:.1f}" y="{mid - BAR_H / 2:.1f}" width="{abs(end - zero):.1f}" '
                        f'height="{BAR_H}" fill="{colour}"/>')
-            label_x, anchor = (end + 8, "start") if d >= 0 else (end - 8, "end")
-            out.append(f'<text class="v" x="{label_x:.1f}" y="{mid + 7.5:.1f}" text-anchor="{anchor}">'
-                       f'{fmt_change(d)}</text>')
+            label = fmt_change(d)
+            label_x, anchor, fill = (end + 8, "start", "") if d >= 0 else (end - 8, "end", "")
+            if d < 0 and end - 8 - 12 * len(label) < x0:
+                # No room left of the bar: put the label inside it, in white.
+                label_x, anchor, fill = end + 8, "start", ' style="fill:#fff"'
+            out.append(f'<text class="v" x="{label_x:.1f}" y="{mid + 7.5:.1f}" text-anchor="{anchor}"{fill}>'
+                       f'{label}</text>')
 
     # Zero lines go last so they sit on top of the bars.
     for x0, width, *_ in SUBPANELS:
