@@ -1,91 +1,67 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 848" width="1200" height="848" role="img" aria-labelledby="t d">
-<title id="t">National is down 10 points since 2023. Labour has slumped this year, but is still polling above its 2023 election result</title>
-<desc id="d">Two bar charts of the change in each party&#x27;s vote, in percentage points: one since the 2023 election result, one since the 1 January 2026 poll average, both measured to the poll average at 9 October 2026. Labour (28.2% now): +1.3 since the election, −5.7 since 1 January. National (27.7% now): −10.4 since the election, −4.5 since 1 January. Green (15.1% now): +3.5 since the election, +5.5 since 1 January. NZ First (10.7% now): +4.6 since the election, +1.0 since 1 January. ACT (9.7% now): +1.1 since the election, +1.8 since 1 January. TOP (6.1% now): +3.9 since the election, +4.3 since 1 January. Te Pāti Māori (1.5% now): −1.6 since the election, −1.2 since 1 January.</desc>
+<title id="t">National has lost 10 points since the 2023 election, while the Greens, NZ First and TOP have gained</title>
+<desc id="d">Bar chart of the change in each party&#x27;s vote since the 2023 election, in percentage points, to the poll average at 9 October 2026. Labour: 26.9% in 2023, 28.2% now (+1.3). National: 38.1% in 2023, 27.7% now (−10.4). Green: 11.6% in 2023, 15.1% now (+3.5). NZ First: 6.1% in 2023, 10.7% now (+4.6). ACT: 8.6% in 2023, 9.7% now (+1.1). TOP: 2.2% in 2023, 6.1% now (+3.9). Te Pāti Māori: 3.1% in 2023, 1.5% now (−1.6).</desc>
 <style>text{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;fill:#1a1a1a}.h{font-size:34px;font-weight:700}.s{font-size:19px;fill:#666}.src{font-size:15px;fill:#666}.ax{font-size:17px;fill:#444}.hd{font-size:21px;font-weight:700}.hm{font-size:17px;fill:#555}.p{font-size:23px;font-weight:700}.lv{font-size:17px;fill:#555}.v{font-size:21px;font-weight:700}.g{stroke:#fff;stroke-width:1.5}.now{font-size:25px;font-weight:700}</style>
 <rect width="1200" height="848" fill="#fff"/>
-<text class="h" x="40" y="54">National is down 10 points since 2023. Labour has slumped this year,</text>
-<text class="h" x="40" y="96">but is still polling above its 2023 election result</text>
-<text class="s" x="40" y="132">Change in each party's share of the vote, percentage points. Bars to the right are gains,</text>
-<text class="s" x="40" y="158">bars to the left are losses. Today's figures are the poll average at 9 October 2026.</text>
+<text class="h" x="40" y="54">National has lost 10 points since the 2023 election,</text>
+<text class="h" x="40" y="96">while the Greens, NZ First and TOP have gained</text>
+<text class="s" x="40" y="132">Party vote, %. Bars show the change in percentage points: right is a gain, left is a loss.</text>
+<text class="s" x="40" y="158">"Now" is the poll average at 9 October 2026.</text>
 <rect x="40" y="192" width="1120" height="576" fill="#dceaf7"/>
 <text class="hd" x="60" y="230">Party</text>
 <text class="hd" x="266" y="230" text-anchor="middle">2023 result</text>
 <text class="hd" x="1112" y="230" text-anchor="middle">Now</text>
-<text class="hd" x="343" y="230">Since the 2023 election</text>
-<line class="g" x1="369.9" x2="369.9" y1="252" y2="762"/>
-<text class="ax" x="369.9" y="792" text-anchor="middle">−10</text>
-<line class="g" x1="452.0" x2="452.0" y1="252" y2="762"/>
-<text class="ax" x="452.0" y="792" text-anchor="middle">−5</text>
-<text class="ax" x="534.1" y="792" text-anchor="middle">0</text>
-<line class="g" x1="616.3" x2="616.3" y1="252" y2="762"/>
-<text class="ax" x="616.3" y="792" text-anchor="middle">+5</text>
-<text class="hd" x="713" y="230">Since 1 January 2026</text>
-<line class="g" x1="739.9" x2="739.9" y1="252" y2="762"/>
-<text class="ax" x="739.9" y="792" text-anchor="middle">−10</text>
-<line class="g" x1="822.0" x2="822.0" y1="252" y2="762"/>
-<text class="ax" x="822.0" y="792" text-anchor="middle">−5</text>
-<text class="ax" x="904.1" y="792" text-anchor="middle">0</text>
-<line class="g" x1="986.3" x2="986.3" y1="252" y2="762"/>
-<text class="ax" x="986.3" y="792" text-anchor="middle">+5</text>
+<text class="hd" x="343" y="230">Change since the 2023 election</text>
+<line class="g" x1="412.3" x2="412.3" y1="252" y2="762"/>
+<text class="ax" x="412.3" y="792" text-anchor="middle">−10</text>
+<line class="g" x1="600.4" x2="600.4" y1="252" y2="762"/>
+<text class="ax" x="600.4" y="792" text-anchor="middle">−5</text>
+<text class="ax" x="788.6" y="792" text-anchor="middle">0</text>
+<line class="g" x1="976.7" x2="976.7" y1="252" y2="762"/>
+<text class="ax" x="976.7" y="792" text-anchor="middle">+5</text>
 <line x1="329.0" x2="329.0" y1="192" y2="768" stroke="#fff" stroke-width="4"/>
-<line x1="694.5" x2="694.5" y1="192" y2="768" stroke="#fff" stroke-width="4"/>
 <line x1="1058.0" x2="1058.0" y1="192" y2="768" stroke="#fff" stroke-width="4"/>
 <text class="p" x="60" y="302">Labour</text>
 <text class="now" x="266" y="302" text-anchor="middle">26.9%</text>
 <text class="now" x="1112" y="302" text-anchor="middle">28.2%</text>
-<rect x="534.1" y="276.0" width="21.4" height="36" fill="#d82a20"/>
-<text class="v" x="563.5" y="301.5" text-anchor="start">+1.3</text>
-<rect x="810.5" y="276.0" width="93.6" height="36" fill="#d82a20"/>
-<text class="v" x="802.5" y="301.5" text-anchor="end">−5.7</text>
+<rect x="788.6" y="276.0" width="48.9" height="36" fill="#d82a20"/>
+<text class="v" x="845.5" y="301.5" text-anchor="start">+1.3</text>
 <line class="g" x1="40" x2="1160" y1="330" y2="330"/>
 <text class="p" x="60" y="374">National</text>
 <text class="now" x="266" y="374" text-anchor="middle">38.1%</text>
 <text class="now" x="1112" y="374" text-anchor="middle">27.7%</text>
-<rect x="363.3" y="348.0" width="170.9" height="36" fill="#00529f"/>
-<text class="v" x="371.3" y="373.5" text-anchor="start" style="fill:#fff">−10.4</text>
-<rect x="830.2" y="348.0" width="73.9" height="36" fill="#00529f"/>
-<text class="v" x="822.2" y="373.5" text-anchor="end">−4.5</text>
+<rect x="397.2" y="348.0" width="391.4" height="36" fill="#00529f"/>
+<text class="v" x="405.2" y="373.5" text-anchor="start" style="fill:#fff">−10.4</text>
 <line class="g" x1="40" x2="1160" y1="402" y2="402"/>
 <text class="p" x="60" y="446">Greens</text>
 <text class="now" x="266" y="446" text-anchor="middle">11.6%</text>
 <text class="now" x="1112" y="446" text-anchor="middle">15.1%</text>
-<rect x="534.1" y="420.0" width="57.5" height="36" fill="#098137"/>
-<text class="v" x="599.6" y="445.5" text-anchor="start">+3.5</text>
-<rect x="904.1" y="420.0" width="90.4" height="36" fill="#098137"/>
-<text class="v" x="1002.5" y="445.5" text-anchor="start">+5.5</text>
+<rect x="788.6" y="420.0" width="131.7" height="36" fill="#098137"/>
+<text class="v" x="928.3" y="445.5" text-anchor="start">+3.5</text>
 <line class="g" x1="40" x2="1160" y1="474" y2="474"/>
 <text class="p" x="60" y="518">NZ First</text>
 <text class="now" x="266" y="518" text-anchor="middle">6.1%</text>
 <text class="now" x="1112" y="518" text-anchor="middle">10.7%</text>
-<rect x="534.1" y="492.0" width="75.6" height="36" fill="#1a1a1a"/>
-<text class="v" x="617.7" y="517.5" text-anchor="start">+4.6</text>
-<rect x="904.1" y="492.0" width="16.4" height="36" fill="#1a1a1a"/>
-<text class="v" x="928.6" y="517.5" text-anchor="start">+1.0</text>
+<rect x="788.6" y="492.0" width="173.1" height="36" fill="#1a1a1a"/>
+<text class="v" x="969.7" y="517.5" text-anchor="start">+4.6</text>
 <line class="g" x1="40" x2="1160" y1="546" y2="546"/>
 <text class="p" x="60" y="590">ACT</text>
 <text class="now" x="266" y="590" text-anchor="middle">8.6%</text>
 <text class="now" x="1112" y="590" text-anchor="middle">9.7%</text>
-<rect x="534.1" y="564.0" width="18.1" height="36" fill="#d4b000"/>
-<text class="v" x="560.2" y="589.5" text-anchor="start">+1.1</text>
-<rect x="904.1" y="564.0" width="29.6" height="36" fill="#d4b000"/>
-<text class="v" x="941.7" y="589.5" text-anchor="start">+1.8</text>
+<rect x="788.6" y="564.0" width="41.4" height="36" fill="#d4b000"/>
+<text class="v" x="838.0" y="589.5" text-anchor="start">+1.1</text>
 <line class="g" x1="40" x2="1160" y1="618" y2="618"/>
 <text class="p" x="60" y="662">TOP</text>
 <text class="now" x="266" y="662" text-anchor="middle">2.2%</text>
 <text class="now" x="1112" y="662" text-anchor="middle">6.1%</text>
-<rect x="534.1" y="636.0" width="64.1" height="36" fill="#17a593"/>
-<text class="v" x="606.2" y="661.5" text-anchor="start">+3.9</text>
-<rect x="904.1" y="636.0" width="70.6" height="36" fill="#17a593"/>
-<text class="v" x="982.8" y="661.5" text-anchor="start">+4.3</text>
+<rect x="788.6" y="636.0" width="146.8" height="36" fill="#17a593"/>
+<text class="v" x="943.3" y="661.5" text-anchor="start">+3.9</text>
 <line class="g" x1="40" x2="1160" y1="690" y2="690"/>
 <text class="p" x="60" y="734">Te Pāti Māori</text>
 <text class="now" x="266" y="734" text-anchor="middle">3.1%</text>
 <text class="now" x="1112" y="734" text-anchor="middle">1.5%</text>
-<rect x="507.9" y="708.0" width="26.3" height="36" fill="#6e0a1e"/>
-<text class="v" x="499.9" y="733.5" text-anchor="end">−1.6</text>
-<rect x="884.4" y="708.0" width="19.7" height="36" fill="#6e0a1e"/>
-<text class="v" x="876.4" y="733.5" text-anchor="end">−1.2</text>
-<line x1="534.1" x2="534.1" y1="252" y2="762" stroke="#1a1a1a" stroke-width="2"/>
-<line x1="904.1" x2="904.1" y1="252" y2="762" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="728.4" y="708.0" width="60.2" height="36" fill="#6e0a1e"/>
+<text class="v" x="720.4" y="733.5" text-anchor="end">−1.6</text>
+<line x1="788.6" x2="788.6" y1="252" y2="762" stroke="#1a1a1a" stroke-width="2"/>
 <text class="src" x="40" y="822">Source: 2023 official election result; published polls compiled on Wikipedia | Poll figures are a house-effect-adjusted, time-weighted average as at 9 October 2026</text>
 </svg>

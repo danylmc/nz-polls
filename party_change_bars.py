@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Listener-style bar chart: each party's change in party vote since the 2023
-election and since 1 January 2026, in two side-by-side panels on one scale.
+election, set between its 2023 result and its current poll average.
 
-Bars use party colours in both panels; direction is shown only by which side
-of zero a bar sits on.
+Bars use party colours; direction is shown only by which side of zero a bar
+sits on.
 Writes graphics/party_change_bars_listener.svg; render the PNG with the
 listener-charts render.py.
 """
@@ -31,9 +31,8 @@ COLOURS = {
 
 W = 1200
 PANEL_X, PANEL_W = 40, 1120
-LO, HI = -12, 9  # shared scale, percentage points
-SUBPANELS = [(337, 345, "Since the 2023 election", "election"),
-             (707, 345, "Since 1 January 2026", "january")]
+LO, HI = -12, 7  # percentage points
+SUBPANELS = [(337, 715, "Change since the 2023 election", "election")]
 RESULT_X = 266  # centre of the "2023 result" column
 NOW_X = 1112  # centre of the right-hand "party vote now" column
 ROW_H, BAR_H = 72, 36
@@ -46,16 +45,15 @@ def build(rows, as_of):
     panel_bottom = first_row + len(rows) * ROW_H + 6
     height = panel_bottom + 80
 
-    headline = ["National is down 10 points since 2023. Labour has slumped this year,",
-                "but is still polling above its 2023 election result"]
+    headline = ["National has lost 10 points since the 2023 election,",
+                "while the Greens, NZ First and TOP have gained"]
     title = " ".join(headline)
     desc = (
-        "Two bar charts of the change in each party's vote, in percentage points: one since "
-        "the 2023 election result, one since the 1 January 2026 poll average, both measured "
-        f"to the poll average at {day}. "
+        "Bar chart of the change in each party's vote since the 2023 election, in percentage "
+        f"points, to the poll average at {day}. "
         + " ".join(
-            f"{r['party']} ({r['now']}% now): {fmt_change(r['now'] - r['election'])} since the "
-            f"election, {fmt_change(r['now'] - r['january'])} since 1 January."
+            f"{r['party']}: {r['election']}% in 2023, {r['now']}% now "
+            f"({fmt_change(r['now'] - r['election'])})."
             for r in rows
         )
     )
@@ -72,9 +70,9 @@ def build(rows, as_of):
         f'<rect width="{W}" height="{height}" fill="#fff"/>',
         f'<text class="h" x="40" y="54">{escape(headline[0])}</text>',
         f'<text class="h" x="40" y="96">{escape(headline[1])}</text>',
-        '<text class="s" x="40" y="132">Change in each party\'s share of the vote, percentage points. '
-        'Bars to the right are gains,</text>',
-        f'<text class="s" x="40" y="158">bars to the left are losses. Today\'s figures are the poll average at {day}.</text>',
+        '<text class="s" x="40" y="132">Party vote, %. Bars show the change in percentage points: '
+        'right is a gain, left is a loss.</text>',
+        f'<text class="s" x="40" y="158">"Now" is the poll average at {day}.</text>',
         f'<rect x="{PANEL_X}" y="{panel_top}" width="{PANEL_W}" height="{panel_bottom - panel_top}" fill="#dceaf7"/>',
         f'<text class="hd" x="60" y="{panel_top + 38}">Party</text>',
         f'<text class="hd" x="{RESULT_X}" y="{panel_top + 38}" text-anchor="middle">2023 result</text>',
@@ -95,11 +93,10 @@ def build(rows, as_of):
             tick = f"{v:+d}".replace("-", "−") if v else "0"
             out.append(f'<text class="ax" x="{x:.1f}" y="{panel_bottom + 24}" text-anchor="middle">{tick}</text>')
 
-    # White gutters separate the two panels from each other and from the number columns.
-    gutter = (SUBPANELS[0][0] + SUBPANELS[0][1] + SUBPANELS[1][0]) / 2
+    # White gutters separate the bar panel from the number columns either side.
     result_gutter = SUBPANELS[0][0] - 8
-    now_gutter = SUBPANELS[1][0] + SUBPANELS[1][1] + 6
-    for gx in (result_gutter, gutter, now_gutter):
+    now_gutter = SUBPANELS[-1][0] + SUBPANELS[-1][1] + 6
+    for gx in (result_gutter, now_gutter):
         out.append(f'<line x1="{gx:.1f}" x2="{gx:.1f}" y1="{panel_top}" y2="{panel_bottom}" '
                    f'stroke="#fff" stroke-width="4"/>')
 
