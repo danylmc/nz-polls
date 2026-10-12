@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 944" width="1200" height="944" role="img" aria-labelledby="t d">
+<title id="t">National is down 10 points since 2023, and Labour has slumped this year</title>
+<desc id="d">Arrow chart of party vote. For each party, one arrow runs from the 2023 election result to the current poll average and a second runs from the 1 January 2026 poll average to the current average (9 October 2026). Labour: 28.2% now, +1.3 points since the election (26.9%), −5.7 since 1 January (33.9%). National: 27.7% now, −10.4 points since the election (38.1%), −4.5 since 1 January (32.2%). Green: 15.1% now, +3.5 points since the election (11.6%), +5.5 since 1 January (9.6%). NZ First: 10.7% now, +4.6 points since the election (6.1%), +1.0 since 1 January (9.7%). ACT: 9.7% now, +1.1 points since the election (8.6%), +1.8 since 1 January (7.9%). TOP: 6.1% now, +3.9 points since the election (2.2%), +4.3 since 1 January (1.8%). Te Pāti Māori: 1.5% now, −1.6 points since the election (3.1%), −1.2 since 1 January (2.7%).</desc>
+<style>text{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;fill:#1a1a1a}.h{font-size:34px;font-weight:700}.s{font-size:19px;fill:#666}.src{font-size:15px;fill:#666}.ax{font-size:17px;fill:#444}.hd{font-size:17px;font-weight:700;fill:#444}.p{font-size:23px;font-weight:700}.lane{font-size:17px;fill:#555}.now{font-size:26px;font-weight:700}.up{font-size:21px;font-weight:700;fill:#3f7f4f}.dn{font-size:21px;font-weight:700;fill:#c0303f}.g{stroke:#fff;stroke-width:1.5}</style>
+<rect width="1200" height="944" fill="#fff"/>
+<text class="h" x="40" y="54">National is down 10 points since 2023, and Labour has slumped this year</text>
+<text class="s" x="40" y="90">Party vote, %. Each party has two arrows, both ending at today's poll average:</text>
+<text class="s" x="40" y="116">the top one starts at the 2023 election result, the bottom one at 1 January 2026.</text>
+<text class="s" x="40" y="142"><tspan fill="#3f7f4f" font-weight="700">Green arrows</tspan> = gained, <tspan fill="#c0303f" font-weight="700">red arrows</tspan> = lost. Changes are in percentage points.</text>
+<rect x="40" y="170" width="1120" height="696" fill="#dceaf7"/>
+<text class="hd" x="1000" y="196" text-anchor="middle">Now</text>
+<text class="hd" x="1140" y="196" text-anchor="end">Change</text>
+<line class="g" x1="360.0" x2="360.0" y1="210" y2="858"/>
+<text class="ax" x="360.0" y="196" text-anchor="middle">0%</text>
+<text class="ax" x="360.0" y="890" text-anchor="middle">0%</text>
+<line class="g" x1="500.0" x2="500.0" y1="210" y2="858"/>
+<text class="ax" x="500.0" y="196" text-anchor="middle">10%</text>
+<text class="ax" x="500.0" y="890" text-anchor="middle">10%</text>
+<line class="g" x1="640.0" x2="640.0" y1="210" y2="858"/>
+<text class="ax" x="640.0" y="196" text-anchor="middle">20%</text>
+<text class="ax" x="640.0" y="890" text-anchor="middle">20%</text>
+<line class="g" x1="780.0" x2="780.0" y1="210" y2="858"/>
+<text class="ax" x="780.0" y="196" text-anchor="middle">30%</text>
+<text class="ax" x="780.0" y="890" text-anchor="middle">30%</text>
+<line class="g" x1="920.0" x2="920.0" y1="210" y2="858"/>
+<text class="ax" x="920.0" y="196" text-anchor="middle">40%</text>
+<text class="ax" x="920.0" y="890" text-anchor="middle">40%</text>
+<text class="p" x="60" y="268">Labour</text>
+<text class="lane" x="338" y="248" text-anchor="end">Since election</text>
+<text class="lane" x="338" y="282" text-anchor="end">Since 1 January</text>
+<circle cx="736.6" cy="243.0" r="5.5" fill="#fff" stroke="#3f7f4f" stroke-width="3"/>
+<polygon points="754.8,243.0 741.8,234.5 741.8,251.5" fill="#3f7f4f"/>
+<line x1="834.6" x2="767.8" y1="277.0" y2="277.0" stroke="#d6404f" stroke-width="6"/>
+<circle cx="834.6" cy="277.0" r="5.5" fill="#fff" stroke="#d6404f" stroke-width="3"/>
+<polygon points="754.8,277.0 767.8,268.5 767.8,285.5" fill="#d6404f"/>
+<text class="now" x="1000" y="269" text-anchor="middle">28.2%</text>
+<text class="up" x="1140" y="250" text-anchor="end">+1.3</text>
+<text class="dn" x="1140" y="284" text-anchor="end">−5.7</text>
+<line class="g" x1="40" x2="1160" y1="306" y2="306"/>
+<text class="p" x="60" y="360">National</text>
+<text class="lane" x="338" y="340" text-anchor="end">Since election</text>
+<text class="lane" x="338" y="374" text-anchor="end">Since 1 January</text>
+<line x1="893.4" x2="760.8" y1="335.0" y2="335.0" stroke="#d6404f" stroke-width="6"/>
+<circle cx="893.4" cy="335.0" r="5.5" fill="#fff" stroke="#d6404f" stroke-width="3"/>
+<polygon points="747.8,335.0 760.8,326.5 760.8,343.5" fill="#d6404f"/>
+<line x1="810.8" x2="760.8" y1="369.0" y2="369.0" stroke="#d6404f" stroke-width="6"/>
+<circle cx="810.8" cy="369.0" r="5.5" fill="#fff" stroke="#d6404f" stroke-width="3"/>
+<polygon points="747.8,369.0 760.8,360.5 760.8,377.5" fill="#d6404f"/>
+<text class="now" x="1000" y="361" text-anchor="middle">27.7%</text>
+<text class="dn" x="1140" y="342" text-anchor="end">−10.4</text>
+<text class="dn" x="1140" y="376" text-anchor="end">−4.5</text>
+<line class="g" x1="40" x2="1160" y1="398" y2="398"/>
+<text class="p" x="60" y="452">Greens</text>
+<text class="lane" x="338" y="432" text-anchor="end">Since election</text>
+<text class="lane" x="338" y="466" text-anchor="end">Since 1 January</text>
+<line x1="522.4" x2="558.4" y1="427.0" y2="427.0" stroke="#3f7f4f" stroke-width="6"/>
+<circle cx="522.4" cy="427.0" r="5.5" fill="#fff" stroke="#3f7f4f" stroke-width="3"/>
+<polygon points="571.4,427.0 558.4,418.5 558.4,435.5" fill="#3f7f4f"/>
+<line x1="494.4" x2="558.4" y1="461.0" y2="461.0" stroke="#3f7f4f" stroke-width="6"/>
+<circle cx="494.4" cy="461.0" r="5.5" fill="#fff" stroke="#3f7f4f" stroke-width="3"/>
+<polygon points="571.4,461.0 558.4,452.5 558.4,469.5" fill="#3f7f4f"/>
+<text class="now" x="1000" y="453" text-anchor="middle">15.1%</text>
+<text class="up" x="1140" y="434" text-anchor="end">+3.5</text>
+<text class="up" x="1140" y="468" text-anchor="end">+5.5</text>
+<line class="g" x1="40" x2="1160" y1="490" y2="490"/>
+<text class="p" x="60" y="544">NZ First</text>
+<text class="lane" x="338" y="524" text-anchor="end">Since election</text>
+<text class="lane" x="338" y="558" text-anchor="end">Since 1 January</text>
+<line x1="445.4" x2="496.8" y1="519.0" y2="519.0" stroke="#3f7f4f" stroke-width="6"/>
+<circle cx="445.4" cy="519.0" r="5.5" fill="#fff" stroke="#3f7f4f" stroke-width="3"/>
+<polygon points="509.8,519.0 496.8,510.5 496.8,527.5" fill="#3f7f4f"/>
+<circle cx="495.8" cy="553.0" r="5.5" fill="#fff" stroke="#3f7f4f" stroke-width="3"/>
+<polygon points="509.8,553.0 496.8,544.5 496.8,561.5" fill="#3f7f4f"/>
+<text class="now" x="1000" y="545" text-anchor="middle">10.7%</text>
+<text class="up" x="1140" y="526" text-anchor="end">+4.6</text>
+<text class="up" x="1140" y="560" text-anchor="end">+1.0</text>
+<line class="g" x1="40" x2="1160" y1="582" y2="582"/>
+<text class="p" x="60" y="636">ACT</text>
+<text class="lane" x="338" y="616" text-anchor="end">Since election</text>
+<text class="lane" x="338" y="650" text-anchor="end">Since 1 January</text>
+<circle cx="480.4" cy="611.0" r="5.5" fill="#fff" stroke="#3f7f4f" stroke-width="3"/>
+<polygon points="495.8,611.0 482.8,602.5 482.8,619.5" fill="#3f7f4f"/>
+<line x1="470.6" x2="482.8" y1="645.0" y2="645.0" stroke="#3f7f4f" stroke-width="6"/>
+<circle cx="470.6" cy="645.0" r="5.5" fill="#fff" stroke="#3f7f4f" stroke-width="3"/>
+<polygon points="495.8,645.0 482.8,636.5 482.8,653.5" fill="#3f7f4f"/>
+<text class="now" x="1000" y="637" text-anchor="middle">9.7%</text>
+<text class="up" x="1140" y="618" text-anchor="end">+1.1</text>
+<text class="up" x="1140" y="652" text-anchor="end">+1.8</text>
+<line class="g" x1="40" x2="1160" y1="674" y2="674"/>
+<text class="p" x="60" y="728">TOP</text>
+<text class="lane" x="338" y="708" text-anchor="end">Since election</text>
+<text class="lane" x="338" y="742" text-anchor="end">Since 1 January</text>
+<line x1="390.8" x2="432.4" y1="703.0" y2="703.0" stroke="#3f7f4f" stroke-width="6"/>
+<circle cx="390.8" cy="703.0" r="5.5" fill="#fff" stroke="#3f7f4f" stroke-width="3"/>
+<polygon points="445.4,703.0 432.4,694.5 432.4,711.5" fill="#3f7f4f"/>
+<line x1="385.2" x2="432.4" y1="737.0" y2="737.0" stroke="#3f7f4f" stroke-width="6"/>
+<circle cx="385.2" cy="737.0" r="5.5" fill="#fff" stroke="#3f7f4f" stroke-width="3"/>
+<polygon points="445.4,737.0 432.4,728.5 432.4,745.5" fill="#3f7f4f"/>
+<text class="now" x="1000" y="729" text-anchor="middle">6.1%</text>
+<text class="up" x="1140" y="710" text-anchor="end">+3.9</text>
+<text class="up" x="1140" y="744" text-anchor="end">+4.3</text>
+<line class="g" x1="40" x2="1160" y1="766" y2="766"/>
+<text class="p" x="60" y="820">Te Pāti Māori</text>
+<text class="lane" x="338" y="800" text-anchor="end">Since election</text>
+<text class="lane" x="338" y="834" text-anchor="end">Since 1 January</text>
+<line x1="403.4" x2="394.0" y1="795.0" y2="795.0" stroke="#d6404f" stroke-width="6"/>
+<circle cx="403.4" cy="795.0" r="5.5" fill="#fff" stroke="#d6404f" stroke-width="3"/>
+<polygon points="381.0,795.0 394.0,786.5 394.0,803.5" fill="#d6404f"/>
+<circle cx="397.8" cy="829.0" r="5.5" fill="#fff" stroke="#d6404f" stroke-width="3"/>
+<polygon points="381.0,829.0 394.0,820.5 394.0,837.5" fill="#d6404f"/>
+<text class="now" x="1000" y="821" text-anchor="middle">1.5%</text>
+<text class="dn" x="1140" y="802" text-anchor="end">−1.6</text>
+<text class="dn" x="1140" y="836" text-anchor="end">−1.2</text>
+<text class="src" x="40" y="918">Source: 2023 official election result; published polls compiled on Wikipedia | Poll figures are a house-effect-adjusted, time-weighted average as at 9 October 2026</text>
+</svg>
