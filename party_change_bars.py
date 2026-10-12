@@ -39,12 +39,14 @@ ROW_H, BAR_H = 72, 36
 
 def build(rows, as_of):
     day = f"{as_of.day} {as_of:%B %Y}"
-    panel_top = 150
+    panel_top = 192
     first_row = panel_top + 66
     panel_bottom = first_row + len(rows) * ROW_H + 6
     height = panel_bottom + 80
 
-    title = "National is down 10 points since 2023, and Labour has slumped this year"
+    headline = ["National is down 10 points since 2023. Labour has slumped this year,",
+                "but is still polling above its 2023 election result"]
+    title = " ".join(headline)
     desc = (
         "Two bar charts of the change in each party's vote, in percentage points: one since "
         "the 2023 election result, one since the 1 January 2026 poll average, both measured "
@@ -64,12 +66,13 @@ def build(rows, as_of):
         ".h{font-size:34px;font-weight:700}.s{font-size:19px;fill:#666}.src{font-size:15px;fill:#666}"
         ".ax{font-size:17px;fill:#444}.hd{font-size:21px;font-weight:700}.hm{font-size:17px;fill:#555}"
         ".p{font-size:23px;font-weight:700}.lv{font-size:17px;fill:#555}"
-        ".v{font-size:21px;font-weight:700}.g{stroke:#fff;stroke-width:1.5}.note{font-size:17px;font-style:italic}</style>",
+        ".v{font-size:21px;font-weight:700}.g{stroke:#fff;stroke-width:1.5}</style>",
         f'<rect width="{W}" height="{height}" fill="#fff"/>',
-        f'<text class="h" x="40" y="54">{escape(title)}</text>',
-        '<text class="s" x="40" y="90">Change in each party\'s share of the vote, percentage points. '
+        f'<text class="h" x="40" y="54">{escape(headline[0])}</text>',
+        f'<text class="h" x="40" y="96">{escape(headline[1])}</text>',
+        '<text class="s" x="40" y="132">Change in each party\'s share of the vote, percentage points. '
         'Bars to the right are gains,</text>',
-        f'<text class="s" x="40" y="116">bars to the left are losses. Today\'s figures are the poll average at {day}.</text>',
+        f'<text class="s" x="40" y="158">bars to the left are losses. Today\'s figures are the poll average at {day}.</text>',
         f'<rect x="{PANEL_X}" y="{panel_top}" width="{PANEL_W}" height="{panel_bottom - panel_top}" fill="#dceaf7"/>',
         f'<text class="hm" x="60" y="{panel_top + 38}">Party vote now</text>',
     ]
@@ -112,17 +115,6 @@ def build(rows, as_of):
             label_x, anchor = (end + 8, "start") if d >= 0 else (end - 8, "end")
             out.append(f'<text class="v" x="{label_x:.1f}" y="{mid + 7.5:.1f}" text-anchor="{anchor}">'
                        f'{fmt_change(d)}</text>')
-
-    # Labour is up since the election but down this year; say why both are true.
-    i = next(i for i, r in enumerate(rows) if r["party"] == "Labour")
-    lab = rows[i]
-    mid = first_row + i * ROW_H + ROW_H / 2
-    x0, width, *_ = SUBPANELS[0]
-    note_x = x0 + -LO * width / (HI - LO) - 14
-    out.append(f'<text class="note" x="{note_x:.1f}" y="{mid - 5:.0f}" text-anchor="end">'
-               f'Rose, then fell back this year –</text>')
-    out.append(f'<text class="note" x="{note_x:.1f}" y="{mid + 17:.0f}" text-anchor="end">'
-               f'still above its {lab["election"]:.1f}% in 2023</text>')
 
     # Zero lines go last so they sit on top of the bars.
     for x0, width, *_ in SUBPANELS:
