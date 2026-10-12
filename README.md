@@ -50,6 +50,10 @@ Full analysis: [`reports/nz_rules.md`](reports/nz_rules.md)
 
 ## Usage
 
+Comparative 2026 polling: `python comparative_purple_polls.py` fetches peer-country Wikipedia polling tables, combines them with the local NZ poll file, and writes [`reports/purple_vote_2026_comparison.md`](reports/purple_vote_2026_comparison.md)'s underlying dataset and trend chart.
+
+Historical election results for the same party pairs: [`reports/purple_vote_election_results.md`](reports/purple_vote_election_results.md).
+
 ```bash
 python -m venv venv
 source venv/bin/activate

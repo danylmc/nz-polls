@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 795" width="1200" height="795" role="img" aria-labelledby="t d">
+<title id="t">Labour and National have fallen from 81% to 57% of the vote since 2017</title>
+<desc id="d">Line chart of the combined vote of each country's two traditional governing parties at elections near 2005, near 2017 and the latest election. New Zealand's Labour plus National vote was 80.2% in 2005, 81.3% in 2017 and 65.0% in 2023, and the 6 October 2026 weighted poll average is 56.8%. The UK fell from 82.3% in 2017 to 57.4% in 2024. Eleven other countries are shown in grey.</desc>
+<style>text{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;fill:#1a1a1a}
+.h{font-size:32px;font-weight:700}.s{font-size:17px;fill:#666}.src{font-size:13px;fill:#666}
+.ax{font-size:13px}.o{font-size:14px;fill:#666}.r{font-size:15px;font-weight:700;fill:#c0303f}.b{font-size:15px;font-weight:700;fill:#2f6a9c}.g{stroke:#fff;stroke-width:1.2}</style>
+<rect width="1200" height="795" fill="#fff"/>
+<text class="h" x="40" y="52">Labour and National have fallen from 81% to 57% of the vote since 2017</text>
+<text class="s" x="40" y="82">Combined vote of each country's two traditional governing parties at elections, percent</text>
+<text class="s" x="40" y="106">NZ's last point is the 6 October 2026 weighted poll average (dashed); every other point is an election result</text>
+<rect x="40" y="150" width="1120" height="525" fill="#dceaf7"/>
+<line class="g" x1="40" x2="1160" y1="640.0" y2="640.0"/><text class="ax" x="48" y="635.0">30%</text>
+<line class="g" x1="40" x2="1160" y1="570.0" y2="570.0"/><text class="ax" x="48" y="565.0">40%</text>
+<line class="g" x1="40" x2="1160" y1="500.0" y2="500.0"/><text class="ax" x="48" y="495.0">50%</text>
+<line class="g" x1="40" x2="1160" y1="430.0" y2="430.0"/><text class="ax" x="48" y="425.0">60%</text>
+<line class="g" x1="40" x2="1160" y1="360.0" y2="360.0"/><text class="ax" x="48" y="355.0">70%</text>
+<line class="g" x1="40" x2="1160" y1="290.0" y2="290.0"/><text class="ax" x="48" y="285.0">80%</text>
+<line class="g" x1="40" x2="1160" y1="220.0" y2="220.0"/><text class="ax" x="48" y="215.0">90%</text>
+<line class="g" x1="136.5" x2="136.5" y1="150" y2="675"/><text class="ax" x="136.5" y="697" text-anchor="middle">2005</text>
+<line class="g" x1="319.1" x2="319.1" y1="150" y2="675"/><text class="ax" x="319.1" y="697" text-anchor="middle">2010</text>
+<line class="g" x1="501.7" x2="501.7" y1="150" y2="675"/><text class="ax" x="501.7" y="697" text-anchor="middle">2015</text>
+<line class="g" x1="684.3" x2="684.3" y1="150" y2="675"/><text class="ax" x="684.3" y="697" text-anchor="middle">2020</text>
+<line class="g" x1="867.0" x2="867.0" y1="150" y2="675"/><text class="ax" x="867.0" y="697" text-anchor="middle">2025</text>
+<polyline fill="none" stroke="#7f8c9a" stroke-width="2" stroke-opacity="1" stroke-linejoin="round"  points="100.0,259.9 538.3,312.4 867.0,385.2"/>
+<circle cx="100.0" cy="259.9" r="3.5" fill="#7f8c9a"/>
+<circle cx="538.3" cy="312.4" r="3.5" fill="#7f8c9a"/>
+<circle cx="867.0" cy="385.2" r="3.5" fill="#7f8c9a"/>
+<polyline fill="none" stroke="#7f8c9a" stroke-width="2" stroke-opacity="1" stroke-linejoin="round"  points="136.5,364.2 574.8,476.2 867.0,535.0"/>
+<circle cx="136.5" cy="364.2" r="3.5" fill="#7f8c9a"/>
+<circle cx="574.8" cy="476.2" r="3.5" fill="#7f8c9a"/>
+<circle cx="867.0" cy="535.0" r="3.5" fill="#7f8c9a"/>
+<polyline fill="none" stroke="#7f8c9a" stroke-width="2" stroke-opacity="1" stroke-linejoin="round"  points="173.0,362.1 574.8,441.9 830.4,518.2"/>
+<circle cx="173.0" cy="362.1" r="3.5" fill="#7f8c9a"/>
+<circle cx="574.8" cy="441.9" r="3.5" fill="#7f8c9a"/>
+<circle cx="830.4" cy="518.2" r="3.5" fill="#7f8c9a"/>
+<polyline fill="none" stroke="#7f8c9a" stroke-width="2" stroke-opacity="1" stroke-linejoin="round"  points="209.6,367.7 538.3,500.7 830.4,551.1"/>
+<circle cx="209.6" cy="367.7" r="3.5" fill="#7f8c9a"/>
+<circle cx="538.3" cy="500.7" r="3.5" fill="#7f8c9a"/>
+<circle cx="830.4" cy="551.1" r="3.5" fill="#7f8c9a"/>
+<polyline fill="none" stroke="#7f8c9a" stroke-width="2" stroke-opacity="1" stroke-linejoin="round"  points="100.0,287.9 538.3,460.1 793.9,397.1"/>
+<circle cx="100.0" cy="287.9" r="3.5" fill="#7f8c9a"/>
+<circle cx="538.3" cy="460.1" r="3.5" fill="#7f8c9a"/>
+<circle cx="793.9" cy="397.1" r="3.5" fill="#7f8c9a"/>
+<polyline fill="none" stroke="#7f8c9a" stroke-width="2" stroke-opacity="1" stroke-linejoin="round"  points="173.0,384.5 501.7,350.2 867.0,254.3"/>
+<circle cx="173.0" cy="384.5" r="3.5" fill="#7f8c9a"/>
+<circle cx="501.7" cy="350.2" r="3.5" fill="#7f8c9a"/>
+<circle cx="867.0" cy="254.3" r="3.5" fill="#7f8c9a"/>
+<polyline fill="none" stroke="#7f8c9a" stroke-width="2" stroke-opacity="1" stroke-linejoin="round"  points="173.0,421.6 611.3,513.3 903.5,514.7"/>
+<circle cx="173.0" cy="421.6" r="3.5" fill="#7f8c9a"/>
+<circle cx="611.3" cy="513.3" r="3.5" fill="#7f8c9a"/>
+<circle cx="903.5" cy="514.7" r="3.5" fill="#7f8c9a"/>
+<polyline fill="none" stroke="#7f8c9a" stroke-width="2" stroke-opacity="1" stroke-linejoin="round"  points="136.5,465.7 501.7,529.4 903.5,626.0"/>
+<circle cx="136.5" cy="465.7" r="3.5" fill="#7f8c9a"/>
+<circle cx="501.7" cy="529.4" r="3.5" fill="#7f8c9a"/>
+<circle cx="903.5" cy="626.0" r="3.5" fill="#7f8c9a"/>
+<polyline fill="none" stroke="#7f8c9a" stroke-width="2" stroke-opacity="1" stroke-linejoin="round"  points="136.5,522.4 574.8,483.2 867.0,551.1"/>
+<circle cx="136.5" cy="522.4" r="3.5" fill="#7f8c9a"/>
+<circle cx="574.8" cy="483.2" r="3.5" fill="#7f8c9a"/>
+<circle cx="867.0" cy="551.1" r="3.5" fill="#7f8c9a"/>
+<polyline fill="none" stroke="#7f8c9a" stroke-width="2" stroke-opacity="1" stroke-linejoin="round"  points="100.0,248.7 501.7,609.2 793.9,483.2"/>
+<circle cx="100.0" cy="248.7" r="3.5" fill="#7f8c9a"/>
+<circle cx="501.7" cy="609.2" r="3.5" fill="#7f8c9a"/>
+<circle cx="793.9" cy="483.2" r="3.5" fill="#7f8c9a"/>
+<polyline fill="none" stroke="#7f8c9a" stroke-width="2" stroke-opacity="1" stroke-linejoin="round"  points="136.5,333.4 501.7,353.7 867.0,467.8"/>
+<circle cx="136.5" cy="333.4" r="3.5" fill="#7f8c9a"/>
+<circle cx="501.7" cy="353.7" r="3.5" fill="#7f8c9a"/>
+<circle cx="867.0" cy="467.8" r="3.5" fill="#7f8c9a"/>
+<polyline fill="none" stroke="#3f7fb3" stroke-width="3" stroke-opacity="1" stroke-linejoin="round"  points="136.5,376.8 574.8,273.9 830.4,448.2"/>
+<circle cx="136.5" cy="376.8" r="5" fill="#3f7fb3"/>
+<circle cx="574.8" cy="273.9" r="5" fill="#3f7fb3"/>
+<circle cx="830.4" cy="448.2" r="5" fill="#3f7fb3"/>
+<polyline fill="none" stroke="#d6404f" stroke-width="3" stroke-opacity="1" stroke-linejoin="round"  points="136.5,288.6 574.8,280.9 793.9,395.0"/>
+<line x1="793.9" y1="395.0" x2="931.2" y2="452.4" stroke="#d6404f" stroke-width="3" stroke-dasharray="7 5"/>
+<circle cx="136.5" cy="288.6" r="5" fill="#d6404f"/>
+<circle cx="574.8" cy="280.9" r="5" fill="#d6404f"/>
+<circle cx="793.9" cy="395.0" r="5" fill="#d6404f"/>
+<circle cx="931.2" cy="452.4" r="5.5" fill="#dceaf7" stroke="#d6404f" stroke-width="3"/>
+<text class="r" x="136.5" y="310.6" text-anchor="middle">80.2</text><text class="r" x="574.8" y="304.9" text-anchor="middle">81.3</text><text class="r" x="803.9" y="385.0">65.0</text>
+<line x1="875.0" y1="254.3" x2="948" y2="250.3" stroke="#9aa7b4" stroke-width="0.8"/><text class="o" x="952" y="254.3">Canada 85.1</text>
+<line x1="875.0" y1="385.2" x2="948" y2="381.2" stroke="#9aa7b4" stroke-width="0.8"/><text class="o" x="952" y="385.2">Australia 66.4</text>
+<line x1="801.9" y1="397.1" x2="948" y2="397.2" stroke="#9aa7b4" stroke-width="0.8"/><text class="o" x="952" y="401.2">Spain 64.7</text>
+<line x1="838.4" y1="448.2" x2="948" y2="444.2" stroke="#9aa7b4" stroke-width="0.8"/><text class="b" x="952" y="448.2">UK 57.4</text>
+<line x1="939.2" y1="452.4" x2="948" y2="460.2" stroke="#9aa7b4" stroke-width="0.8"/><text class="r" x="952" y="464.2">NZ 56.8 (poll avg)</text>
+<line x1="875.0" y1="467.8" x2="948" y2="476.2" stroke="#9aa7b4" stroke-width="0.8"/><text class="o" x="952" y="480.2">Portugal 54.6</text>
+<line x1="801.9" y1="483.2" x2="948" y2="492.2" stroke="#9aa7b4" stroke-width="0.8"/><text class="o" x="952" y="496.2">Greece 52.4</text>
+<line x1="911.5" y1="514.7" x2="948" y2="510.7" stroke="#9aa7b4" stroke-width="0.8"/><text class="o" x="952" y="514.7">Sweden 47.9</text>
+<line x1="838.4" y1="518.2" x2="948" y2="526.7" stroke="#9aa7b4" stroke-width="0.8"/><text class="o" x="952" y="530.7">Austria 47.4</text>
+<line x1="875.0" y1="535.0" x2="948" y2="542.7" stroke="#9aa7b4" stroke-width="0.8"/><text class="o" x="952" y="546.7">Germany 45.0</text>
+<line x1="838.4" y1="551.1" x2="948" y2="558.7" stroke="#9aa7b4" stroke-width="0.8"/><text class="o" x="952" y="562.7">Ireland 42.7</text>
+<line x1="875.0" y1="551.1" x2="948" y2="574.7" stroke="#9aa7b4" stroke-width="0.8"/><text class="o" x="952" y="578.7">Norway 42.7</text>
+<line x1="911.5" y1="626.0" x2="948" y2="622.0" stroke="#9aa7b4" stroke-width="0.8"/><text class="o" x="952" y="626.0">Denmark 32.0</text>
+<line x1="60" x2="88" y1="174" y2="174" stroke="#d6404f" stroke-width="3"/><text class="ax" x="96" y="179" style="font-size:14px;font-weight:700">New Zealand: Labour + National</text><line x1="340" x2="368" y1="174" y2="174" stroke="#3f7fb3" stroke-width="3"/><text class="ax" x="376" y="179" style="font-size:14px;font-weight:700">UK: Labour + Conservative</text><line x1="600" x2="628" y1="174" y2="174" stroke="#7f8c9a" stroke-width="2"/><text class="ax" x="636" y="179" style="font-size:14px">11 other countries</text>
+<text class="src" x="40" y="761">Source: national electoral authorities (see CSV); NZ poll average: local weighted average of public polls | Elections nearest 2005, 2017 and latest.</text>
+<text class="src" x="40" y="779">Greece 2015 (PASOK joint list) and Portugal 2015/2025 (PSD list incl. CDS-PP) are not pure two-party series. Australia, Ireland: first preferences; Germany: second votes.</text></svg>

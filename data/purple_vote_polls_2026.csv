@@ -1,0 +1,915 @@
+country,date,pollster,red_pct,blue_pct,purple_pct,sample_size,source_url
+Australia,2026-01-06,DemosAU,29.0,23.0,52.0,"1,027",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-01-06,Fox & Hedgehog,29.0,25.0,54.0,"1,608",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-01-11,Roy Morgan,30.0,30.5,60.5,"1,676",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-01-16,Newspoll,32.0,21.0,53.0,"1,224",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-01-16,Resolve,30.0,28.0,58.0,"1,800",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-01-18,Freshwater,33.0,28.0,61.0,"1,050",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-01-18,Roy Morgan,28.5,24.0,52.5,"1,630",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-01-21,DemosAU,30.0,21.0,51.0,"1,933",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-01-23,Essential,31.0,25.0,56.0,"1,022",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-01-25,Roy Morgan,30.5,22.5,53.0,"1,933",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-01-27,YouGov,31.0,16.0,47.0,"1,500",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-01-29,RedBridge/Accent,34.0,15.0,49.0,"1,003",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-02-01,Roy Morgan,30.5,20.5,51.0,"1,401",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-02-08,Newspoll,33.0,18.0,51.0,"1,234",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-02-08,Roy Morgan,28.5,22.5,51.0,"1,584",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-02-10,YouGov,30.0,15.0,45.0,"1,561",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-02-12,RedBridge/Accent,34.0,17.0,51.0,"2,010",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-02-12,Resolve,31.0,20.0,51.0,"1,717",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-02-13,Roy Morgan,30.5,20.0,50.5,"1,216",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-02-14,Resolve,32.0,23.0,55.0,"1,717",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-02-16,Roy Morgan,32.0,23.5,55.5,526,https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-02-19,Fox & Hedgehog,30.0,24.0,54.0,"1,625",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-02-20,DemosAU,29.0,21.0,50.0,"1,551",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-02-22,Roy Morgan,31.0,24.0,55.0,"1,649",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-02-23,Essential,30.0,26.0,56.0,"1,002",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-02-24,YouGov,29.0,17.0,46.0,"1,500",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-02-26,Newspoll,32.0,20.0,52.0,"1,237",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-02-27,RedBridge/Accent,32.0,15.0,47.0,"1,006",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-03-01,Roy Morgan,30.5,23.5,54.0,"1,554",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-03-03,DemosAU (MRP),29.0,21.0,50.0,"8,424",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-03-08,Roy Morgan,26.5,22.5,49.0,"1,532",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-03-10,YouGov,30.0,19.0,49.0,"1,500",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-03-14,Resolve,29.0,22.0,51.0,"1,803",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-03-15,Roy Morgan,28.5,24.0,52.5,"1,649",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-03-19,YouGov,28.0,21.0,49.0,"1,502",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-03-22,Roy Morgan,27.0,25.5,52.5,"1,664",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-03-23,Essential,31.0,24.0,55.0,"1,008",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-03-24,YouGov,29.0,19.0,48.0,"1,500",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-03-25,Fox & Hedgehog,30.0,23.0,53.0,"1,810",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-03-26,Newspoll,31.0,21.0,52.0,"1,232",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-03-27,RedBridge/Accent,32.0,17.0,49.0,"1,003",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-03-29,Freshwater,32.0,23.0,55.0,"1,050",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-03-29,Roy Morgan,30.0,22.5,52.5,"1,562",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-04-05,Roy Morgan,30.5,24.0,54.5,"1,411",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-04-07,YouGov,30.0,20.0,50.0,"1,500",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-04-08,Spectre Strategy,28.0,24.0,52.0,"1,002",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-04-12,Roy Morgan,30.0,22.5,52.5,"1,512",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-04-14,DemosAU,26.0,23.0,49.0,"1,439",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-04-16,Newspoll,31.0,21.0,52.0,"1,235",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-04-18,Resolve,32.0,23.0,55.0,"1,807",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-04-19,Roy Morgan,30.5,23.0,53.5,"1,620",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-04-21,YouGov,27.0,20.0,47.0,"1,500",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-04-26,Roy Morgan,30.0,22.5,52.5,"1,587",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-04-27,Essential,30.0,24.0,54.0,"1,002",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-04-30,Freshwater,32.0,23.0,55.0,"1,046",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-04-30,RedBridge/Accent,31.0,22.0,53.0,"1,014",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-05-03,Roy Morgan,29.5,24.0,53.5,"1,681",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-05-05,YouGov,30.0,21.0,51.0,"1,500",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-05-10,Roy Morgan,30.5,25.0,55.5,"1,605",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-05-13,Wolf & Smith,30.0,24.0,54.0,"1,002",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-05-14,RedBridge/Accent (MRP),31.0,21.0,52.0,"6,015",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-05-14,Roy Morgan,28.5,16.5,45.0,"2,348",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-05-15,Freshwater,29.0,25.0,54.0,"1,384",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-05-16,Resolve,29.0,23.0,52.0,"1,800",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-05-17,Newspoll,31.0,20.0,51.0,"1,252",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-05-17,Roy Morgan,29.5,24.0,53.5,"1,668",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-05-19,YouGov,28.0,23.0,51.0,"1,500",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-05-20,DemosAU,26.0,23.0,49.0,"1,502",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-05-24,Roy Morgan,27.5,23.0,50.5,"1,613",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-05-25,Essential,29.0,23.0,52.0,"1,027",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-05-26,Agenda C Synesis,29.0,18.0,47.0,"1,232",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-05-26,Fox & Hedgehog,29.0,25.0,54.0,"1,700",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-05-28,RedBridge/Accent,28.0,20.0,48.0,"1,005",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-05-31,Roy Morgan,27.0,20.0,47.0,"1,542",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-06-02,YouGov,26.0,20.0,46.0,"1,471",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-06-04,Newspoll,30.0,18.0,48.0,"1,240",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-06-07,Roy Morgan,26.0,17.5,43.5,"1,631",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-06-13,Resolve,28.0,20.0,48.0,"1,801",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-06-14,Roy Morgan,28.0,17.0,45.0,"1,583",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-06-16,YouGov,26.0,21.0,47.0,"1,500",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-06-18,DemosAU,27.0,18.0,45.0,"1,497",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-06-21,Roy Morgan,27.0,17.5,44.5,"1,575",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-06-25,Newspoll,33.0,17.0,50.0,"1,235",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-06-26,RedBridge/Accent,30.0,18.0,48.0,"1,006",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-06-28,Roy Morgan,28.0,21.5,49.5,"1,639",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-06-29,Essential,30.0,23.0,53.0,"1,017",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-06-30,YouGov,29.0,17.0,46.0,"1,502",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-07-05,Roy Morgan,28.0,21.5,49.5,"1,584",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-07-08,DemosAU,26.0,21.0,47.0,"2,694",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-07-11,Resolve,28.0,23.0,51.0,"2,252",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-07-12,Roy Morgan,27.5,20.0,47.5,"1,612",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-07-14,YouGov,28.0,20.0,48.0,"1,500",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-07-16,Newspoll,30.0,19.0,49.0,"1,238",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-07-19,Roy Morgan,27.5,23.0,50.5,"1,679",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-07-23,Spectre Strategy,28.0,23.0,51.0,"1,434",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-07-26,Roy Morgan,27.5,22.0,49.5,"1,643",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-07-27,Essential,31.0,22.0,53.0,"1,060",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-07-28,YouGov,28.0,22.0,50.0,"1,500",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-07-30,RedBridge/Accent,29.0,22.0,51.0,"1,001",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-08-02,Roy Morgan,27.5,23.5,51.0,"1,531",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-08-07,Newspoll,29.0,18.0,47.0,"1,242",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-08-09,Roy Morgan,25.5,22.0,47.5,"1,647",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-08-10,YouGov,28.0,22.0,50.0,"1,500",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-08-15,Resolve,28.0,23.0,51.0,"2,256",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-08-16,Roy Morgan,28.5,23.5,52.0,"1,576",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-08-20,DemosAU,26.0,25.0,51.0,"1,562",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-08-23,Roy Morgan,27.0,21.0,48.0,"1,508",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-08-24,YouGov,29.0,21.0,50.0,"1,510",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-08-28,Newspoll,29.0,19.0,48.0,"1,243",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-08-28,RedBridge/Accent,29.0,22.0,51.0,"1,006",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-08-30,Roy Morgan,29.5,20.5,50.0,"1,585",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-08-31,Essential,26.0,26.0,52.0,"1,050",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-09-06,Roy Morgan,27.0,21.5,48.5,"1,541",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-09-08,YouGov,26.0,18.0,44.0,"1,500",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-09-12,Resolve,28.0,24.0,52.0,"2,256",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-09-13,Roy Morgan,25.0,21.5,46.5,"1,583",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-09-14,DemosAU,28.0,20.0,48.0,"1,583",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-09-17,Newspoll,27.0,19.0,46.0,"1,244",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-09-20,Roy Morgan,25.0,21.5,46.5,"1,561",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-09-21,YouGov,26.0,21.0,47.0,"1,500",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-09-27,Roy Morgan,26.0,22.5,48.5,"2,569",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-09-28,Essential,29.0,22.0,51.0,"1,022",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Australia,2026-10-02,RedBridge/Accent,28.0,21.0,49.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_Australian_federal_election
+Austria,2026-01-05,IFDD,18.0,20.0,38.0,"1,509",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-01-07,Market-Lazarsfeld,18.0,19.0,37.0,"2,000",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-01-14,INSA,20.0,20.0,40.0,"1,000",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-01-14,Market-Lazarsfeld,18.0,21.0,39.0,"2,000",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-02-03,Market-Lazarsfeld,18.0,24.0,42.0,"2,000",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-02-10,Market-Lazarsfeld,19.0,21.0,40.0,"2,000",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-02-17,IFDD,18.0,22.0,40.0,"2,600",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-02-17,Market-Lazarsfeld,17.0,20.0,37.0,"2,000",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-02-24,Market-Lazarsfeld,16.0,22.0,38.0,"2,000",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-02-25,INSA,19.0,19.0,38.0,"1,000",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-03-17,Market-Lazarsfeld,18.0,20.0,38.0,"2,000",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-03-24,Market-Lazarsfeld,18.0,21.0,39.0,"2,000",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-03-26,Unique Research,18.0,22.0,40.0,821,https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-03-31,Market-Lazarsfeld,19.0,18.0,37.0,"2,000",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-04-07,Market-Lazarsfeld,19.0,18.0,37.0,"2,000",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-04-14,Market-Lazarsfeld,18.0,20.0,38.0,"2,000",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-04-16,INSA,19.0,19.0,38.0,"1,000",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-05-12,Market-Lazarsfeld,18.0,20.0,38.0,"2,000",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-05-19,Market-Lazarsfeld,18.0,21.0,39.0,"2,000",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-05-20,OGM,16.0,20.0,36.0,"3,017",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-05-26,Market-Lazarsfeld,18.0,21.0,39.0,"2,000",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-06-02,Market-Lazarsfeld,17.0,20.0,37.0,"2,000",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-06-09,Market-Lazarsfeld,18.0,18.0,36.0,"2,000",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-06-16,Market-Lazarsfeld,18.0,20.0,38.0,"2,000",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-06-18,Unique Research,18.0,22.0,40.0,819,https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-07-07,Market-Lazarsfeld,16.0,19.0,35.0,"2,000",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-07-15,INSA,18.0,19.0,37.0,"1,000",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-07-17,IFDD,15.0,20.0,35.0,"1,000",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-08-25,Market-Lazarsfeld,15.0,22.0,37.0,"2,000",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-09-01,Market-Lazarsfeld,15.0,21.0,36.0,"2,000",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-09-08,Market-Lazarsfeld,14.0,21.0,35.0,"2,000",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-09-10,OGM,15.0,21.0,36.0,"1,012",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-09-15,Market-Lazarsfeld,16.0,22.0,38.0,"2,000",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Austria,2026-09-22,Market-Lazarsfeld,15.0,21.0,36.0,"2,000",https://en.wikipedia.org/wiki/Next_Austrian_legislative_election
+Canada,2026-01-02,Nanos Research,37.7,35.5,73.2,"1,059 (1/4)",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-01-03,Liaison Strategies,38.0,37.0,75.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-01-09,Nanos Research,38.8,35.5,74.3,"1,054 (1/4)",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-01-10,Liaison Strategies,39.0,36.0,75.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-01-12,Pallas Data,40.0,37.0,77.0,"1,120",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-01-14,Abacus Data,40.0,40.0,80.0,"1,850",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-01-16,Abacus Data,41.0,39.0,80.0,"2,008",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-01-16,Nanos Research,38.8,34.8,73.6,"1,084 (1/4)",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-01-17,Liaison Strategies,40.0,35.0,75.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-01-23,Nanos Research,39.2,35.2,74.4,"1,053 (1/4)",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-01-24,Liaison Strategies,42.0,34.0,76.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-01-26,Angus Reid,41.0,38.0,79.0,"1,420",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-01-26,Léger,47.0,38.0,85.0,"1,611",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-01-27,Abacus Data,43.0,39.0,82.0,"2,498",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-01-30,Ekos,44.4,29.5,73.9,"1,453",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-01-30,Nanos Research,38.9,35.2,74.1,"1,055 (1/4)",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-01-31,Liaison Strategies,43.0,35.0,78.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-02-02,Innovative Research,40.0,38.0,78.0,"1,666",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-02-02,Mainstreet Research,51.0,35.5,86.5,"1,276",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-02-05,Research Co.,45.0,32.0,77.0,"1,001",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-02-06,Nanos Research,39.1,35.2,74.30000000000001,"1,049 (1/4)",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-02-07,Liaison Strategies,42.0,35.0,77.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-02-10,Abacus Data,44.0,37.0,81.0,"1,915",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-02-13,Nanos Research,38.1,36.5,74.6,"1,018 (1/4)",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-02-14,Liaison Strategies,43.0,34.0,77.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-02-17,Innovative Research,44.0,37.0,81.0,"1,838",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-02-20,Nanos Research,41.3,33.7,75.0,"1,021 (1/4)",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-02-21,Liaison Strategies,45.0,33.0,78.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-02-23,Abacus Data,44.0,38.0,82.0,"1,500",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-02-23,Angus Reid,45.0,32.0,77.0,"1,650",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-02-24,Pollara,47.0,34.0,81.0,"2,410",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-02-26,Ipsos,44.0,36.0,80.0,"1,001",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-02-27,Nanos Research,43.6,33.2,76.80000000000001,"1,015 (1/4)",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-02-28,Liaison Strategies,43.0,33.0,76.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-03-02,Léger,49.0,35.0,84.0,"1,627",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-03-02,Mainstreet Research,46.0,36.0,82.0,"1,276",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-03-06,Nanos Research,46.0,32.5,78.5,"1,023 (1/4)",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-03-06,Spark Insights,46.0,31.0,77.0,"3,055",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-03-07,Liaison Strategies,44.0,30.0,74.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-03-11,Abacus Data,46.0,35.0,81.0,"1,931",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-03-13,Nanos Research,47.8,31.1,78.9,"1,015 (1/4)",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-03-14,Liaison Strategies,45.0,31.0,76.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-03-15,Ekos,47.5,27.0,74.5,"1,047",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-03-17,Angus Reid,44.0,36.0,80.0,"4,005",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-03-20,Nanos Research,45.7,32.9,78.6,"1,024 (1/4)",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-03-21,Liaison Strategies,46.0,32.0,78.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-03-24,Abacus Data,44.0,37.0,81.0,"1,515",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-03-26,Spark Insights,46.0,30.0,76.0,"4,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-03-27,Nanos Research,46.5,32.2,78.7,"1,029 (1/4)",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-03-28,Liaison Strategies,45.0,33.0,78.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-03-30,Léger,48.0,34.0,82.0,"1,618",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-04-03,Nanos Research,45.7,30.5,76.2,"1,025 (1/4)",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-04-04,Liaison Strategies,44.0,33.0,77.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-04-07,Ipsos,45.0,33.0,78.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-04-08,Abacus Data,44.0,38.0,82.0,"1,680",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-04-08,Spark Insights,46.0,32.0,78.0,"4,026",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-04-10,Nanos Research,45.3,32.0,77.3,"1,027 (1/4)",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-04-11,Liaison Strategies,43.0,33.0,76.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-04-17,Nanos Research,45.8,31.5,77.3,"1,022 (1/4)",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-04-18,Liaison Strategies,45.0,33.0,78.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-04-20,Angus Reid,42.0,35.0,77.0,"2,013",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-04-22,Abacus Data,45.0,36.0,81.0,"2,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-04-24,Ekos,44.5,31.0,75.5,"1,916",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-04-24,Nanos Research,44.6,32.0,76.6,"1,024",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-04-25,Liaison Strategies,45.0,34.0,79.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-04-26,Léger,48.0,37.0,85.0,"1,521",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-05-01,Nanos Research,44.8,32.0,76.8,"1,027",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-05-02,Liaison Strategies,45.0,33.0,78.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-05-05,Abacus Data,46.0,36.0,82.0,"2,478",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-05-08,Nanos Research,45.5,33.4,78.9,"1,036",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-05-08,Research Co.,46.0,31.0,77.0,"1,003",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-05-09,Liaison Strategies,44.0,33.0,77.0,"1,526",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-05-15,Nanos Research,42.3,32.7,75.0,"1,035",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-05-16,Liaison Strategies,43.0,34.0,77.0,"1,526",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-05-20,Abacus Data,47.0,35.0,82.0,"1,920",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-05-22,Nanos Research,41.1,32.7,73.80000000000001,"1,026",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-05-23,Liaison Strategies,43.0,31.0,74.0,"1,526",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-05-24,Pallas Data,45.0,32.0,77.0,"1,295",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-05-29,Nanos Research,40.3,32.8,73.1,"1,028",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-05-31,Liaison Strategies,41.0,32.0,73.0,"1,526",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-06-01,Léger,50.0,34.0,84.0,"1,532",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-06-02,Abacus Data,44.0,36.0,80.0,"1,910",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-06-05,Nanos Research,42.3,29.4,71.69999999999999,"1,023",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-06-06,Liaison Strategies,40.0,32.0,72.0,"1,526",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-06-10,Angus Reid,41.0,36.0,77.0,"4,237",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-06-12,Nanos Research,42.7,30.7,73.4,"1,021",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-06-13,Liaison Strategies,41.0,32.0,73.0,"1,526",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-06-13,Mainstreet Research,43.1,32.8,75.9,"1,349",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-06-17,Abacus Data,45.0,37.0,82.0,"3,080",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-06-19,Nanos Research,43.5,31.5,75.0,"1,024",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-06-20,Liaison Strategies,43.0,32.0,75.0,"1,526",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-06-22,Léger,48.0,34.0,82.0,"1,528",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-06-26,Nanos Research,43.8,30.4,74.19999999999999,"1,017",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-06-27,Liaison Strategies,42.0,34.0,76.0,"1,526",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-07-02,Abacus Data,44.0,36.0,80.0,"2,366",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-07-03,Nanos Research,41.4,32.1,73.5,"1,017",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-07-04,Liaison Strategies,43.0,34.0,77.0,"1,458",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-07-10,Nanos Research,43.0,31.0,74.0,"1,018",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-07-11,Liaison Strategies,41.0,35.0,76.0,"1,526",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-07-16,Abacus Data,43.0,37.0,80.0,"4,205",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-07-17,Nanos Research,42.7,31.3,74.0,"1,022",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-07-18,Liaison Strategies,43.0,35.0,78.0,"1,526",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-07-24,Nanos Research,44.7,29.5,74.2,"1,034",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-07-25,Liaison Strategies,44.0,35.0,79.0,"1,526",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-07-27,Angus Reid,40.0,36.0,76.0,"1,769",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-07-29,Abacus Data,44.0,38.0,82.0,"1,910",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-07-31,Nanos Research,47.1,27.9,75.0,"1,037",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-08-01,Liaison Strategies,43.0,34.0,77.0,"1,526",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-08-03,Léger,46.0,34.0,80.0,"1,514",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-08-04,Ekos,44.7,27.1,71.80000000000001,"3,195",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-08-07,Nanos Research,45.6,29.1,74.7,"1,038",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-08-07,Research Co.,47.0,27.0,74.0,"1,001",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-08-08,Liaison Strategies,44.0,31.0,75.0,"1,526",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-08-12,Abacus Data,42.0,35.0,77.0,"1,499",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-08-14,Nanos Research,45.7,28.5,74.2,"1,031 (1/4)",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-08-15,Liaison Strategies,43.0,32.0,75.0,"1,526",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-08-21,Nanos Research,44.1,30.0,74.1,"1,022",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-08-22,Liaison Strategies,43.0,32.0,75.0,"1,526",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-08-26,Abacus Data,45.0,35.0,80.0,"2,022",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-08-27,Ipsos,44.0,33.0,77.0,"1,001",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-08-28,Nanos Research,43.7,32.6,76.30000000000001,"1,017",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-08-29,Liaison Strategies,46.0,29.0,75.0,"1,526",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-09-04,Nanos Research,47.3,31.3,78.6,"1,020",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-09-05,Liaison Strategies,45.0,31.0,76.0,"1,526",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-09-07,Angus Reid,46.0,32.0,78.0,"1,811",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-09-07,Léger,49.0,33.0,82.0,"1,538",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-09-09,Abacus Data,47.0,33.0,80.0,"1,479",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-09-11,Nanos Research,48.3,30.9,79.19999999999999,"1,014",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-09-12,Liaison Strategies,44.0,32.0,76.0,"1,526",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-09-18,Nanos Research,48.1,31.0,79.1,"1,026",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-09-19,Liaison Strategies,45.0,31.0,76.0,"1,526",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-09-23,Abacus Data,46.0,34.0,80.0,"2,774",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-09-25,Nanos Research,49.9,27.9,77.8,"1,022",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-09-26,Liaison Strategies,46.0,29.0,75.0,"1,526",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Canada,2026-10-03,Liaison Strategies,46.0,28.0,74.0,"1,526",https://en.wikipedia.org/wiki/Opinion_polling_for_the_46th_Canadian_federal_election
+Germany,2026-01-02,INSA,14.0,25.0,39.0,"1,004",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-01-05,GMS,15.0,24.0,39.0,"1,027",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-01-05,INSA,14.5,25.0,39.5,"2,008",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-01-07,Infratest dimap,13.0,28.0,41.0,"1,323",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-01-09,INSA,14.0,24.0,38.0,"1,205",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-01-11,Ipsos,15.0,23.0,38.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-01-12,Forsa,13.0,24.0,37.0,"3,004",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-01-12,INSA,14.5,24.5,39.0,"2,010",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-01-12,YouGov,16.0,25.0,41.0,"1,673",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-01-13,Verian,15.0,26.0,41.0,"1,455",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-01-13,pollytix,15.0,25.0,40.0,"1,573",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-01-15,Forschungsgruppe Wahlen,15.0,26.0,41.0,"1,245",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-01-16,INSA,14.0,25.0,39.0,"1,202",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-01-19,Allensbach,15.0,27.0,42.0,"1,077",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-01-19,Forsa,14.0,25.0,39.0,"2,501",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-01-19,INSA,14.0,25.0,39.0,"2,004",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-01-23,INSA,15.0,25.0,40.0,"1,204",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-01-26,Forsa,14.0,26.0,40.0,"2,501",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-01-26,INSA,14.5,25.0,39.5,"2,008",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-01-30,INSA,16.0,26.0,42.0,"1,204",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-02-02,Forsa,14.0,26.0,40.0,"2,503",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-02-02,INSA,15.5,26.0,41.5,"2,006",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-02-04,Infratest dimap,15.0,26.0,41.0,"1,319",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-02-05,Forschungsgruppe Wahlen,15.0,26.0,41.0,"1,289",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-02-06,INSA,16.0,25.0,41.0,"1,202",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-02-08,Ipsos,15.0,23.0,38.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-02-09,Forsa,14.0,26.0,40.0,"2,503",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-02-09,INSA,15.5,25.5,41.0,"2,004",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-02-09,YouGov,16.0,25.0,41.0,"1,657",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-02-10,Verian,15.0,25.0,40.0,"1,472",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-02-13,INSA,16.0,25.0,41.0,"1,202",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-02-16,Forsa,14.0,26.0,40.0,"2,504",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-02-16,INSA,15.5,25.5,41.0,"2,002",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-02-19,Allensbach,16.0,27.0,43.0,"1,052",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-02-20,INSA,16.0,25.0,41.0,"1,203",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-02-23,Forsa,14.0,26.0,40.0,"2,504",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-02-23,INSA,15.5,25.0,40.5,"2,006",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-02-26,Forschungsgruppe Wahlen,15.0,26.0,41.0,"1,262",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-02-27,INSA,16.0,26.0,42.0,"1,203",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-03-01,Ipsos,15.0,25.0,40.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-03-02,Forsa,14.0,26.0,40.0,"2,503",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-03-02,GMS,16.0,26.0,42.0,"1,027",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-03-02,INSA,16.0,25.5,41.5,"2,002",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-03-04,Infratest dimap,14.0,28.0,42.0,"1,317",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-03-06,INSA,15.0,26.0,41.0,"1,200",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-03-09,Forsa,14.0,26.0,40.0,"2,502",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-03-09,INSA,15.5,26.0,41.5,"2,003",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-03-10,Verian,15.0,26.0,41.0,"1,471",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-03-12,Allensbach,16.0,28.0,44.0,"1,045",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-03-13,INSA,15.0,25.0,40.0,"1,201",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-03-16,Forsa,12.0,27.0,39.0,"2,503",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-03-16,INSA,15.0,25.5,40.5,"2,002",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-03-16,YouGov,14.0,26.0,40.0,"1,851",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-03-20,INSA,15.0,26.0,41.0,"1,205",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-03-23,Forsa,12.0,26.0,38.0,"2,501",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-03-23,INSA,15.0,26.0,41.0,"2,010",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-03-26,Forschungsgruppe Wahlen,13.0,26.0,39.0,"1,206",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-03-27,INSA,14.0,26.0,40.0,"1,205",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-03-29,Ipsos,14.0,24.0,38.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-03-30,Forsa,12.0,26.0,38.0,"2,504",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-03-30,INSA,14.5,26.0,40.5,"2,006",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-03-31,Infratest dimap,12.0,26.0,38.0,"1,316",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-04-02,Forsa,12.0,26.0,38.0,"1,503",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-04-02,INSA,13.0,25.0,38.0,"1,199",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-04-07,INSA,13.0,25.0,38.0,"2,002",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-04-07,Verian,14.0,25.0,39.0,"1,460",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-04-09,Allensbach,14.0,26.0,40.0,"1,057",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-04-10,INSA,14.0,25.0,39.0,"1,205",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-04-13,Forsa,12.0,24.0,36.0,"1,502",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-04-13,INSA,14.0,25.0,39.0,"2,006",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-04-13,YouGov,13.0,23.0,36.0,"1,763",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-04-16,Forschungsgruppe Wahlen,12.0,25.0,37.0,"1,355",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-04-17,INSA,14.0,24.0,38.0,"1,201",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-04-20,Forsa,12.0,24.0,36.0,"2,502",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-04-20,INSA,14.0,24.0,38.0,"2,003",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-04-24,INSA,14.0,24.0,38.0,"1,203",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-04-27,Forsa,12.0,22.0,34.0,"2,503",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-04-27,INSA,14.0,23.5,37.5,"2,010",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-04-30,Allensbach,12.5,25.0,37.5,"1,015",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-04-30,INSA,14.0,24.0,38.0,"1,207",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-05-04,Forsa,12.0,22.0,34.0,"2,002",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-05-04,INSA,13.5,24.0,37.5,"2,008",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-05-05,Verian,13.0,24.0,37.0,"1,448",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-05-06,Infratest dimap,12.0,24.0,36.0,"1,303",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-05-07,Forschungsgruppe Wahlen,12.0,25.0,37.0,"1,240",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-05-08,INSA,13.0,23.0,36.0,"1,200",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-05-10,Ipsos,13.0,23.0,36.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-05-11,Forsa,12.0,22.0,34.0,"2,501",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-05-11,INSA,13.0,23.0,36.0,"2,006",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-05-11,YouGov,13.0,22.0,35.0,"1,783",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-05-15,INSA,12.0,22.0,34.0,"1,203",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-05-18,Forsa,12.0,22.0,34.0,"2,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-05-18,INSA,12.5,22.0,34.5,"2,005",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-05-21,Forschungsgruppe Wahlen,12.0,24.0,36.0,"1,340",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-05-22,Forsa,12.0,22.0,34.0,"2,002",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-05-22,INSA,12.0,22.0,34.0,"1,203",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-05-26,INSA,12.0,22.0,34.0,"2,010",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-05-29,INSA,12.0,22.0,34.0,"1,205",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-06-01,Forsa,12.0,21.0,33.0,"2,502",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-06-01,GMS,11.0,23.0,34.0,"1,023",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-06-01,INSA,12.0,22.0,34.0,"2,006",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-06-02,Infratest dimap,13.0,23.0,36.0,"1,326",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-06-02,Verian,13.0,23.0,36.0,"1,454",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-06-03,Forschungsgruppe Wahlen,12.0,25.0,37.0,"1,247",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-06-05,Allensbach,13.5,24.0,37.5,"1,010",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-06-05,INSA,12.0,21.0,33.0,"1,206",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-06-08,Forsa,11.0,22.0,33.0,"2,502",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-06-08,INSA,12.0,21.0,33.0,"2,009",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-06-12,INSA,13.0,22.0,35.0,"1,203",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-06-15,Forsa,12.0,21.0,33.0,"2,500",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-06-15,INSA,12.0,22.0,34.0,"2,003",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-06-15,YouGov,12.0,20.0,32.0,"1,793",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-06-17,Allensbach,12.5,24.0,36.5,"1,047",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-06-17,pollytix,14.0,21.0,35.0,"2,040",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-06-18,Forschungsgruppe Wahlen,13.0,24.0,37.0,"1,190",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-06-19,INSA,13.0,22.0,35.0,"1,204",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-06-22,Forsa,12.0,22.0,34.0,"2,504",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-06-22,INSA,12.5,21.5,34.0,"2,008",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-06-26,INSA,12.0,22.0,34.0,"1,204",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-06-29,Forsa,12.0,22.0,34.0,"2,505",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-06-29,INSA,12.0,22.0,34.0,"2,006",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-06-30,Verian,13.0,22.0,35.0,"1,470",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-07-01,Infratest dimap,12.0,22.0,34.0,"1,317",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-07-03,INSA,13.0,21.0,34.0,"1,205",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-07-06,Forsa,12.0,22.0,34.0,"2,502",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-07-06,INSA,12.5,22.0,34.5,"2,010",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-07-06,Ipsos,13.0,22.0,35.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-07-10,INSA,12.0,22.0,34.0,"1,204",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-07-13,Forsa,12.0,22.0,34.0,"2,503",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-07-13,INSA,12.5,21.5,34.0,"2,006",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-07-13,YouGov,12.0,20.0,32.0,"1,827",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-07-16,Allensbach,13.0,24.0,37.0,"1,040",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-07-16,Forschungsgruppe Wahlen,12.0,23.0,35.0,"1,284",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-07-17,INSA,13.0,21.0,34.0,"1,201",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-07-20,Forsa,12.0,22.0,34.0,"2,502",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-07-20,GMS,11.0,23.0,34.0,"1,005",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-07-20,INSA,13.0,20.5,33.5,"2,005",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-07-24,INSA,12.0,21.0,33.0,"1,204",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-07-27,Forsa,12.0,21.0,33.0,"2,502",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-07-27,INSA,12.5,21.0,33.5,"2,006",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-07-28,Verian,13.0,21.0,34.0,"1,456",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-07-30,Forschungsgruppe Wahlen,12.0,23.0,35.0,"1,405",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-07-31,INSA,12.0,21.0,33.0,"1,201",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-08-02,Ipsos,12.0,21.0,33.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-08-03,Forsa,12.0,21.0,33.0,"2,501",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-08-03,INSA,12.0,21.0,33.0,"2,004",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-08-05,Infratest dimap,12.0,21.0,33.0,"1,297",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-08-07,INSA,12.0,21.0,33.0,"1,205",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-08-10,Forsa,12.0,21.0,33.0,"2,503",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-08-10,INSA,12.5,20.5,33.0,"2,010",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-08-13,Allensbach,13.0,22.5,35.5,"1,039",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-08-14,INSA,12.0,20.0,32.0,"1,203",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-08-17,Forsa,12.0,21.0,33.0,"2,504",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-08-17,INSA,12.0,20.5,32.5,"2,006",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-08-17,YouGov,12.0,20.0,32.0,"1,744",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-08-17,pollytix,15.0,20.0,35.0,"1,276",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-08-19,Forschungsgruppe Wahlen,12.0,22.0,34.0,"1,319",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-08-21,INSA,12.0,21.0,33.0,"1,203",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-08-24,Forsa,12.0,21.0,33.0,"2,501",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-08-24,INSA,12.0,20.5,32.5,"2,004",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-08-25,Verian,13.0,20.0,33.0,"1,451",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-08-28,INSA,12.0,20.0,32.0,"1,200",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-08-31,Forsa,12.0,21.0,33.0,"2,504",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-08-31,INSA,12.0,20.5,32.5,"2,002",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-08-31,Ipsos,12.0,21.0,33.0,"2,105",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-09-02,Infratest dimap,13.0,21.0,34.0,"1,319",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-09-03,pollytix,14.0,20.0,34.0,"3,023",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-09-04,INSA,13.0,20.0,33.0,"1,206",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-09-07,Forsa,12.0,21.0,33.0,"2,502",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-09-07,INSA,12.5,19.5,32.0,"2,010",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-09-10,INSA,13.0,20.0,33.0,"1,203",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-09-14,Forsa,12.0,20.0,32.0,"2,502",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-09-14,GMS,11.0,20.0,31.0,"1,009",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-09-14,INSA,12.5,19.5,32.0,"2,006",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-09-14,YouGov,13.0,18.0,31.0,"1,787",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-09-16,Allensbach,13.0,23.0,36.0,"1,051",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-09-16,pollytix,14.0,19.0,33.0,"3,113",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-09-18,INSA,13.0,20.0,33.0,"1,202",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-09-21,Forsa,12.0,20.0,32.0,"2,504",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-09-21,INSA,13.5,19.5,33.0,"2,004",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-09-22,Verian,14.0,20.0,34.0,"1,464",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-09-24,Forschungsgruppe Wahlen,13.0,21.0,34.0,"1,346",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-09-25,INSA,14.0,19.0,33.0,"1,203",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-09-28,Forsa,14.0,19.0,33.0,"2,501",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-09-28,INSA,14.5,19.0,33.5,"2,001",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-09-30,Infratest dimap,13.0,20.0,33.0,"1,303",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-10-02,INSA,14.0,18.0,32.0,"1,202",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Germany,2026-10-05,INSA,14.5,17.5,32.0,"2,002",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_German_federal_election
+Ireland,2026-01-21,Red C,15.0,18.0,33.0,"1,010",https://en.wikipedia.org/wiki/Next_Irish_general_election
+Ireland,2026-01-30,Ireland Thinks,18.0,18.0,36.0,"1,248",https://en.wikipedia.org/wiki/Next_Irish_general_election
+Ireland,2026-02-03,Ipsos B&A,19.0,18.0,37.0,"1,200",https://en.wikipedia.org/wiki/Next_Irish_general_election
+Ireland,2026-02-19,Red C,17.0,18.0,35.0,"1,010",https://en.wikipedia.org/wiki/Next_Irish_general_election
+Ireland,2026-02-27,Ireland Thinks,18.0,17.0,35.0,"~1,200",https://en.wikipedia.org/wiki/Next_Irish_general_election
+Ireland,2026-03-25,Red C,16.0,18.0,34.0,"1,010",https://en.wikipedia.org/wiki/Next_Irish_general_election
+Ireland,2026-04-03,Ireland Thinks,19.0,17.0,36.0,"1,286",https://en.wikipedia.org/wiki/Next_Irish_general_election
+Ireland,2026-04-22,Red C,16.0,16.0,32.0,"1,008",https://en.wikipedia.org/wiki/Next_Irish_general_election
+Ireland,2026-05-01,Ireland Thinks,17.0,17.0,34.0,"1,774",https://en.wikipedia.org/wiki/Next_Irish_general_election
+Ireland,2026-05-27,Red C,15.0,17.0,32.0,"1,010",https://en.wikipedia.org/wiki/Next_Irish_general_election
+Ireland,2026-06-05,Ireland Thinks,16.0,19.0,35.0,"1,625",https://en.wikipedia.org/wiki/Next_Irish_general_election
+Ireland,2026-06-24,Red C,14.0,18.0,32.0,"1,010",https://en.wikipedia.org/wiki/Next_Irish_general_election
+Ireland,2026-07-03,Ireland Thinks,17.0,20.0,37.0,"1,279",https://en.wikipedia.org/wiki/Next_Irish_general_election
+Ireland,2026-07-31,Ireland Thinks,16.0,20.0,36.0,"1,384",https://en.wikipedia.org/wiki/Next_Irish_general_election
+Ireland,2026-09-04,Ireland Thinks,17.0,19.0,36.0,"1,044",https://en.wikipedia.org/wiki/Next_Irish_general_election
+Ireland,2026-09-09,Red C,14.0,18.0,32.0,"1,010",https://en.wikipedia.org/wiki/Next_Irish_general_election
+Ireland,2026-09-22,Ipsos B&A,18.0,17.0,35.0,"~1,200",https://en.wikipedia.org/wiki/Next_Irish_general_election
+Ireland,2026-10-04,Ireland Thinks,18.0,18.0,36.0,"~1,000",https://en.wikipedia.org/wiki/Next_Irish_general_election
+Netherlands,2026-01-26,Verian,13.7,14.7,28.4,"1,269",https://en.wikipedia.org/wiki/Next_Dutch_general_election
+Netherlands,2026-02-23,Verian,14.5,14.6,29.1,"1,319",https://en.wikipedia.org/wiki/Next_Dutch_general_election
+Netherlands,2026-03-09,Ipsos I&O,15.9,13.6,29.5,"1,802",https://en.wikipedia.org/wiki/Next_Dutch_general_election
+Netherlands,2026-03-30,Verian,15.3,12.0,27.3,"1,282",https://en.wikipedia.org/wiki/Next_Dutch_general_election
+Netherlands,2026-04-13,Ipsos I&O,16.7,13.2,29.9,"1,680",https://en.wikipedia.org/wiki/Next_Dutch_general_election
+Netherlands,2026-04-27,Verian,15.9,12.9,28.8,"1,241",https://en.wikipedia.org/wiki/Next_Dutch_general_election
+Netherlands,2026-05-11,Ipsos I&O,15.4,13.5,28.9,"1,560",https://en.wikipedia.org/wiki/Next_Dutch_general_election
+Netherlands,2026-05-25,Verian,16.3,14.8,31.1,"1,232",https://en.wikipedia.org/wiki/Next_Dutch_general_election
+Netherlands,2026-06-15,Ipsos I&O,16.5,13.3,29.8,"1,529",https://en.wikipedia.org/wiki/Next_Dutch_general_election
+Netherlands,2026-06-29,Verian,17.1,13.1,30.200000000000003,"1,251",https://en.wikipedia.org/wiki/Next_Dutch_general_election
+Netherlands,2026-07-13,Ipsos I&O,15.4,12.7,28.1,"1,628",https://en.wikipedia.org/wiki/Next_Dutch_general_election
+Netherlands,2026-08-24,Verian,16.6,12.5,29.1,"1,284",https://en.wikipedia.org/wiki/Next_Dutch_general_election
+Netherlands,2026-09-02,Ipsos I&O,16.6,12.7,29.3,"1,649",https://en.wikipedia.org/wiki/Next_Dutch_general_election
+Netherlands,2026-09-28,Verian,17.8,11.5,29.3,"1,255",https://en.wikipedia.org/wiki/Next_Dutch_general_election
+New Zealand,2026-01-18,Taxpayers' Union–Curia,34.4,31.5,65.9,1000,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-01-22,RNZ–Reid Research,35.0,31.9,66.9,1000,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-01-26,Roy Morgan,30.5,34.5,65.0,881,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-01-26,Talbot Mills,35.0,31.0,66.0,1087,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-02-03,Taxpayers' Union–Curia,34.1,31.3,65.4,1000,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-02-11,1 News–Verian,32.0,34.0,66.0,1003,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-02-12,The Post/Freshwater Strategy,37.0,30.0,67.0,1039,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-02-22,Roy Morgan,30.0,31.0,61.0,870,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-03-03,Taxpayers' Union–Curia,34.4,28.4,62.8,1000,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-03-12,Talbot Mills,35.0,32.0,67.0,1059,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-03-20,RNZ–Reid Research,35.6,30.8,66.4,1000,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-03-22,Roy Morgan,34.0,26.5,60.5,872,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-04-02,Taxpayers' Union–Curia,33.4,29.8,63.2,1000,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-04-15,1 News–Verian,37.0,30.0,67.0,1010,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-04-16,Talbot Mills,36.0,29.0,65.0,1082,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-04-26,Roy Morgan,34.0,25.5,59.5,887,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-05-07,Taxpayers' Union–Curia,31.9,30.0,61.9,1000,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-05-10,Talbot Mills,36.0,29.0,65.0,,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-05-24,Roy Morgan,26.5,30.5,57.0,870,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-06-08,Taxpayers' Union–Curia,32.2,30.1,62.300000000000004,1000,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-06-10,Talbot Mills,34.0,29.0,63.0,1021,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-06-11,The Post/Freshwater Strategy,35.0,29.0,64.0,1038,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-06-17,1 News–Verian,32.0,29.0,61.0,1001,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-06-21,Roy Morgan,25.5,31.0,56.5,891,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-07-05,Taxpayers' Union–Curia,31.5,30.5,62.0,1000,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-07-09,RNZ–Reid Research,34.0,28.7,62.7,1000,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-07-19,Talbot Mills,33.0,31.0,64.0,,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-07-26,Roy Morgan,25.5,32.0,57.5,881,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-08-04,Taxpayers' Union–Curia,27.8,31.0,58.8,1000,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-08-11,1 News–Verian,30.0,29.0,59.0,847,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-08-11,Talbot Mills,34.0,29.0,63.0,,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-08-21,RNZ–Reid Research,32.2,29.1,61.300000000000004,1000,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-08-23,Roy Morgan,24.0,31.0,55.0,858,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-09-03,Taxpayers' Union–Curia,25.9,29.0,54.9,1000,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-09-10,Anacta,31.0,30.0,61.0,1701,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-09-11,RNZ–Reid Research,30.8,25.9,56.7,1000,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-09-11,The Post/Freshwater Strategy,28.0,27.0,55.0,1011,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+New Zealand,2026-09-27,1 News–Verian,28.0,28.0,56.0,1004,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_New_Zealand_general_election
+Spain,2026-01-03,EM-Analytics/Electomanía,26.8,32.2,59.0,"1,316",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-01-05,40dB/Prisa,27.1,31.5,58.6,"2,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-01-09,NC Report/La Razón,26.3,33.5,59.8,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-01-10,CIS (Logoslab),27.5,28.0,55.5,"4,006",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-01-10,EM-Analytics/Electomanía,26.9,32.3,59.199999999999996,"1,083",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-01-10,SocioMétrica/El Español,25.7,32.5,58.2,"1,300",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-01-15,GESOP/Prensa Ibérica,26.5,30.0,56.5,"1,002",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-01-15,Target Point/El Debate,26.1,30.0,56.1,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-01-16,EM-Analytics/Electomanía,26.5,32.6,59.1,"1,001",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-01-18,DYM/Henneo,27.1,33.7,60.800000000000004,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-01-22,KeyData/Público,26.5,32.2,58.7,?,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-01-23,EM-Analytics/Electomanía,26.0,32.1,58.1,"1,594",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-01-25,DYM/Henneo,27.0,34.4,61.4,"1,003",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-01-30,EM-Analytics/Electomanía,26.1,32.1,58.2,"1,289",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-01-30,Sigma Dos/El Mundo,26.1,32.4,58.5,"1,819",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-02-02,40dB/Prisa,27.7,31.2,58.9,"2,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-02-06,CIS (Logoslab),27.4,27.8,55.2,"4,027",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-02-06,EM-Analytics/Electomanía,27.0,31.8,58.8,"2,012",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-02-10,Data10/Okdiario,26.0,31.6,57.6,?,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-02-12,EM-Analytics/Electomanía,26.7,32.0,58.7,"1,635",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-02-13,NC Report/La Razón,25.9,33.1,59.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-02-13,SocioMétrica/El Español,25.0,32.1,57.1,"1,200",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-02-19,Target Point/El Debate,25.8,30.5,56.3,"1,005",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-02-20,EM-Analytics/Electomanía,26.5,31.9,58.4,"1,841",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-02-22,Ateneo del Dato/elDiario.es,27.0,29.4,56.4,"2,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-02-23,40dB/Prisa,27.7,30.2,57.9,"2,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-02-27,EM-Analytics/Electomanía,26.5,32.0,58.5,"2,307",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-02-27,Sigma Dos/El Mundo,26.4,31.9,58.3,"1,969",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-03-04,EM-Analytics/Electomanía,28.3,30.5,58.8,"1,428",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-03-06,CIS (Target Point),28.4,30.4,58.8,"4,016",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-03-06,EM-Analytics/Electomanía,28.4,31.0,59.4,"1,741",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-03-13,EM-Analytics/Electomanía,28.9,30.7,59.599999999999994,"2,541",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-03-20,EM-Analytics/Electomanía,29.0,31.1,60.1,"1,086",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-03-21,SocioMétrica/El Español,26.5,31.9,58.4,"1,100",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-03-23,DYM/Henneo,27.9,34.6,62.5,"1,002",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-03-25,40dB/Prisa,28.6,31.1,59.7,"2,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-03-25,Sumar,30.0,30.0,60.0,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-03-26,Target Point/El Debate,27.6,31.7,59.3,"1,114",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-03-27,EM-Analytics/Electomanía,28.8,31.6,60.400000000000006,"1,228",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-03-31,Sigma Dos/El Mundo,27.7,32.5,60.2,"1,958",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-04-03,EM-Analytics/Electomanía,29.3,30.8,60.1,"1,107",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-04-08,Ipsos/La Vanguardia,28.4,30.9,59.3,"1,058",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-04-09,NC Report/La Razón,26.9,32.8,59.699999999999996,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-04-10,CIS (Ateneo del Dato),28.9,30.9,59.8,"4,020",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-04-10,EM-Analytics/Electomanía,29.1,31.2,60.3,"1,597",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-04-17,EM-Analytics/Electomanía,28.7,31.5,60.2,"1,301",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-04-18,SocioMétrica/El Español,27.0,31.8,58.8,"1,712",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-04-23,KeyData/Público,27.5,32.4,59.9,?,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-04-24,EM-Analytics/Electomanía,28.5,31.9,60.4,"1,844",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-04-25,More in Common,28.0,31.1,59.1,"2,547",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-04-26,Ateneo del Dato,27.5,31.7,59.2,"2,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-04-27,40dB/Prisa,28.4,31.3,59.7,"2,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-04-29,Sigma Dos/El Mundo,28.4,32.3,60.699999999999996,"1,205",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-05-01,EM-Analytics/Electomanía,28.3,32.0,60.3,"1,542",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-05-08,EM-Analytics/Electomanía,29.0,32.0,61.0,"1,377",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-05-15,EM-Analytics/Electomanía,28.7,32.0,60.7,"1,026",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-05-18,CIS (Target Point),27.4,31.0,58.4,"4,016",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-05-22,DYM/Henneo,27.7,34.8,62.5,"1,009",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-05-22,EM-Analytics/Electomanía,29.1,32.0,61.1,"1,291",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-05-27,NC Report/La Razón,25.1,34.7,59.800000000000004,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-05-28,GAD3/ABC,26.8,33.1,59.900000000000006,"1,011",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-05-28,Target Point/El Debate,25.4,31.2,56.599999999999994,"1,007",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-05-29,EM-Analytics/Electomanía,28.8,32.2,61.0,"1,160",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-05-29,InvyMark/laSexta,27.8,33.1,60.900000000000006,"1,200",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-05-30,SocioMétrica/El Español,25.9,33.9,59.8,"1,200",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-06-01,40dB/Prisa,27.7,32.4,60.099999999999994,"2,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-06-04,CIS (Ateneo del Dato),28.1,31.2,59.3,"4,024",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-06-05,EM-Analytics/Electomanía,28.2,32.4,60.599999999999994,"1,691",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-06-11,Sigma Dos/El Mundo,26.4,32.6,59.0,"1,994",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-06-12,EM-Analytics/Electomanía,27.7,32.8,60.5,"1,297",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-06-18,Target Point/El Debate,25.6,32.0,57.6,"1,022",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-06-19,EM-Analytics/Electomanía,27.1,33.0,60.1,"1,472",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-06-26,EM-Analytics/Electomanía,26.8,33.0,59.8,"1,844",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-06-26,InvyMark/laSexta,27.3,33.5,60.8,?,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-06-28,More in Common,25.7,31.3,57.0,"2,277",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-06-29,40dB/Prisa,28.0,32.0,60.0,"2,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-06-29,Ipsos/La Vanguardia,27.1,31.2,58.3,"1,306",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-07-01,NC Report/La Razón,25.0,34.5,59.5,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-07-03,EM-Analytics/Electomanía,27.1,33.0,60.1,"2,237",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-07-04,SocioMétrica/El Español,25.7,33.6,59.3,"1,416",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-07-06,CIS (Sondaxe),27.2,28.7,55.9,"4,020",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-07-06,Hamalgama Métrica/Vozpópuli,25.9,33.8,59.699999999999996,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-07-09,GESOP/Prensa Ibérica,26.5,29.4,55.9,"1,001",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-07-09,ODEC/Mediaflows–UV,27.0,29.5,56.5,"2,005",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-07-10,EM-Analytics/Electomanía,27.1,32.8,59.9,"1,304",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-07-17,EM-Analytics/Electomanía,27.5,32.5,60.0,"1,401",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-07-17,KeyData/Público,26.3,32.5,58.8,?,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-07-17,Target Point/El Debate,26.1,32.1,58.2,"1,004",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-07-20,DYM/Henneo,27.0,34.9,61.9,"1,014",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-07-20,Sigma Dos/El Mundo,26.1,32.8,58.9,"3,690",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-07-24,EM-Analytics/Electomanía,27.0,32.5,59.5,"1,099",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-08-01,EM-Analytics/Electomanía,27.2,32.5,59.7,910,https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-08-04,NC Report/La Razón,25.2,34.2,59.400000000000006,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-08-06,SocioMétrica/El Español,26.0,33.8,59.8,"1,690",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-08-07,EM-Analytics/Electomanía,26.2,32.1,58.3,"1,227",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-08-12,EM-Analytics/Electomanía,26.2,31.8,58.0,"1,428",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-08-21,EM-Analytics/Electomanía,26.1,32.0,58.1,"1,211",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-08-25,Cluster17/Agenda Pública,28.1,30.1,58.2,"1,637",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-08-26,Sigma Dos/El Mundo,25.4,33.1,58.5,"2,173",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-08-27,Data10/Okdiario,25.4,34.3,59.699999999999996,"1,500",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-08-28,EM-Analytics/Electomanía,25.7,32.3,58.0,"1,197",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-08-28,More in Common,27.0,28.7,55.7,"2,144",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-09-02,40dB/Prisa,27.6,32.4,60.0,"2,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-09-03,EM-Analytics/Electomanía,25.6,32.0,57.6,"1,284",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-09-03,GAD3/ABC,26.1,31.1,57.2,"1,010",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-09-03,NC Report/La Razón,24.9,34.5,59.4,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-09-04,CIS (Target Point),26.8,31.9,58.7,"4,042",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-09-08,Hamalgama Métrica/Vozpópuli,25.1,33.6,58.7,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-09-10,EM-Analytics/Electomanía,25.4,32.2,57.6,"1,190",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-09-10,Target Point/El Debate,25.6,31.5,57.1,"1,012",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-09-11,InvyMark/laSexta,26.8,33.7,60.5,"1,200",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-09-18,EM-Analytics/Electomanía,25.6,32.1,57.7,"1,399",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-09-21,Celeste-Tel/Onda Cero,25.4,33.9,59.3,"1,100",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-09-21,DYM/Henneo,26.3,34.7,61.0,"1,017",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-09-25,EM-Analytics/Electomanía,25.3,32.3,57.599999999999994,"1,104",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-09-26,SocioMétrica/El Español,25.7,33.9,59.599999999999994,"1,200",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-09-28,40dB/Prisa,27.4,31.6,59.0,"2,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-10-01,Ateneo del Dato/elDiario.es,27.5,33.2,60.7,"1,500",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-10-01,Sigma Dos/El Mundo,25.6,32.6,58.2,"2,116",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-10-01,Winston/Artículo 14,24.9,31.3,56.2,"1,201",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-10-02,Data10/Okdiario,26.1,34.0,60.1,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-10-03,EM-Analytics/Electomanía,26.9,31.3,58.2,"8,171",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+Spain,2026-10-03,SocioMétrica/El Español,26.5,33.4,59.9,"1,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Spanish_general_election
+United Kingdom,2026-01-05,More in Common,19.0,23.0,42.0,"2,021",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-01-05,YouGov,17.0,19.0,36.0,"2,343",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-01-08,Find Out Now,15.0,18.0,33.0,"2,422",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-01-09,Opinium,20.0,18.0,38.0,"2,050",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-01-09,YouGov,18.0,19.0,37.0,"17,230",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-01-11,Freshwater Strategy,19.0,19.0,38.0,"1,250",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-01-12,YouGov,19.0,20.0,39.0,"2,259",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-01-13,More in Common,19.0,21.0,40.0,"2,036",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-01-14,Find Out Now,15.0,19.0,34.0,"1,592",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-01-14,Survation,21.0,19.0,40.0,"1,616",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-01-15,Techne,19.0,20.0,39.0,"1,636",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-01-19,Focaldata,21.0,20.0,41.0,"1,585",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-01-19,Lord Ashcroft Polls,18.0,21.0,39.0,"5,448",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-01-19,More in Common,20.0,21.0,41.0,"2,007",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-01-19,YouGov,19.0,18.0,37.0,"2,335",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-01-21,Find Out Now,14.0,18.0,32.0,"1,385",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-01-23,Opinium,22.0,17.0,39.0,"2,050",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-01-25,More in Common,22.0,20.0,42.0,"2,016",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-01-26,YouGov,21.0,17.0,38.0,"2,429",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-01-27,Ipsos,22.0,19.0,41.0,"1,104",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-01-28,Find Out Now,17.0,17.0,34.0,"1,799",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-01-29,BMG Research,20.0,17.0,37.0,"1,513",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-01-29,Survation,18.0,20.0,38.0,"1,016",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-02-01,Freshwater Strategy,17.0,22.0,39.0,"1,250",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-02-02,More in Common,21.0,20.0,41.0,"2,005",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-02-02,YouGov,19.0,18.0,37.0,"2,330",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-02-04,Find Out Now,16.0,18.0,34.0,"2,264",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-02-06,Opinium,23.0,16.0,39.0,"2,054",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-02-09,YouGov,19.0,18.0,37.0,"2,466",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-02-10,More in Common,23.0,21.0,44.0,"2,035",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-02-11,Find Out Now,16.0,19.0,35.0,"1,394",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-02-12,JL Partners,23.0,19.0,42.0,"2,006",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-02-12,Techne,17.0,19.0,36.0,"1,644",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-02-12,Trajectory Partnership,23.0,19.0,42.0,"1,456",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-02-16,Good Growth Foundation,21.0,20.0,41.0,"2,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-02-16,YouGov,19.0,18.0,37.0,"2,384",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-02-17,More in Common,22.0,21.0,43.0,"2,108",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-02-18,Find Out Now,16.0,16.0,32.0,"2,178",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-02-23,Lord Ashcroft Polls,17.0,20.0,37.0,"5,576",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-02-23,More in Common,22.0,20.0,42.0,"2,015",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-02-23,YouGov,18.0,18.0,36.0,"2,325",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-02-25,Find Out Now,15.0,18.0,33.0,"2,442",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-02-27,Opinium,18.0,18.0,36.0,"2,050",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-01,Convergent Opinion,20.0,17.0,37.0,"4,988",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-01,Freshwater Strategy,18.0,18.0,36.0,"1,221",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-02,More in Common,18.0,19.0,37.0,"2,010",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-02,YouGov,16.0,16.0,32.0,"2,073",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-05,BMG Research,20.0,18.0,38.0,"1,503",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-05,JL Partners,20.0,20.0,40.0,"2,573",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-05,Survation,21.0,18.0,39.0,"1,045",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-06,Convergent Opinion,19.0,19.0,38.0,"2,189",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-06,Find Out Now,15.0,17.0,32.0,"2,548",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-06,Opinium,21.0,16.0,37.0,"2,050",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-09,More in Common,22.0,19.0,41.0,"2,112",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-10,YouGov,17.0,19.0,36.0,"2,246",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-11,Find Out Now,15.0,17.0,32.0,"2,793",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-11,Ipsos,21.0,17.0,38.0,"1,062",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-11,Trajectory Partnership,27.0,19.0,46.0,"1,456",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-12,Techne,17.0,18.0,35.0,"1,639",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-16,More in Common,20.0,21.0,41.0,"2,402",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-16,YouGov,17.0,17.0,34.0,"2,329",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-18,Find Out Now,16.0,17.0,33.0,"2,549",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-20,Opinium,21.0,17.0,38.0,"2,050",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-22,More in Common,19.0,20.0,39.0,"2,408",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-23,Verian,15.0,18.0,33.0,"1,236",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-23,YouGov,19.0,17.0,36.0,"2,435",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-25,Find Out Now,16.0,16.0,32.0,"2,948",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-26,BMG Research,19.0,18.0,37.0,"1,507",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-27,Find Out Now,16.0,18.0,34.0,"3,092",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-30,Lord Ashcroft Polls,17.0,21.0,38.0,"5,447",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-30,More in Common,19.0,21.0,40.0,"2,003",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-30,More in Common (MRP),20.0,21.0,41.0,"15,482",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-03-30,YouGov,18.0,19.0,37.0,"2,368",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-04-01,Good Growth Foundation,20.0,19.0,39.0,"2,005",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-04-02,Find Out Now,15.0,18.0,33.0,"2,330",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-04-07,Find Out Now/ Electoral Calculus (MRP),17.0,21.0,38.0,"5,599",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-04-07,More in Common,20.0,19.0,39.0,"2,009",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-04-07,YouGov,16.0,19.0,35.0,"2,320",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-04-08,Find Out Now,16.0,17.0,33.0,"2,869",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-04-09,JL Partners,21.0,18.0,39.0,"3,506",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-04-12,Freshwater Strategy,22.0,19.0,41.0,"1,250",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-04-13,More in Common,21.0,22.0,43.0,"2,011",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-04-13,YouGov,17.0,19.0,36.0,"2,367",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-04-15,Find Out Now,16.0,17.0,33.0,"2,032",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-04-15,Ipsos,19.0,19.0,38.0,"1,044",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-04-16,Find Out Now,17.0,18.0,35.0,"2,284",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-04-16,Trajectory Partnership,25.0,17.0,42.0,"1,457",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-04-17,Opinium,22.0,17.0,39.0,"2,014",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-04-20,More in Common,20.0,22.0,42.0,"2,235",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-04-20,YouGov,16.0,17.0,33.0,"2,472",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-04-23,Find Out Now,15.0,16.0,31.0,"2,656",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-04-24,Opinium,19.0,17.0,36.0,"2,050",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-04-24,Techne,17.0,18.0,35.0,"1,645",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-04-27,Lord Ashcroft Polls,18.0,20.0,38.0,"5,094",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-04-27,More in Common,20.0,21.0,41.0,"2,041",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-04-27,YouGov,18.0,19.0,37.0,"2,354",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-04-29,Find Out Now,17.0,18.0,35.0,"3,005",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-04-30,BMG Research,19.0,17.0,36.0,"1,521",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-05-01,Deltapoll,21.0,19.0,40.0,"3,353",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-05-01,Opinium,19.0,18.0,37.0,"2,051",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-05-04,More in Common,21.0,20.0,41.0,"2,016",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-05-05,YouGov,18.0,17.0,35.0,"2,377",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-05-06,Find Out Now,16.0,20.0,36.0,"2,035",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-05-08,Opinium,19.0,18.0,37.0,"2,050",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-05-10,Freshwater Strategy,18.0,20.0,38.0,"1,243",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-05-11,YouGov,16.0,17.0,33.0,"2,338",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-05-12,More in Common,21.0,19.0,40.0,"3,070",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-05-13,Find Out Now,15.0,19.0,34.0,"2,922",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-05-14,Trajectory Partnership,26.0,18.0,44.0,"1,459",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-05-15,Techne,17.0,17.0,34.0,"1,639",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-05-18,Deltapoll,20.0,17.0,37.0,"1,921",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-05-18,YouGov,17.0,18.0,35.0,"2,356",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-05-19,More in Common,23.0,18.0,41.0,"2,599",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-05-20,Ipsos,20.0,19.0,39.0,"1,137",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-05-21,Find Out Now,17.0,17.0,34.0,"2,773",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-05-21,JL Partners,21.0,19.0,40.0,"1,741",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-05-22,Opinium,20.0,18.0,38.0,"1,500",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-05-25,More in Common,20.0,19.0,39.0,"2,111",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-05-26,Lord Ashcroft Polls,19.0,21.0,40.0,"5,263",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-05-26,YouGov,17.0,19.0,36.0,"2,354",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-05-27,Find Out Now,16.0,18.0,34.0,"2,111",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-05-28,BMG Research,21.0,17.0,38.0,"1,511",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-05-31,Freshwater Strategy,19.0,19.0,38.0,"1,237",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-01,More in Common,22.0,21.0,43.0,"2,211",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-01,YouGov,18.0,18.0,36.0,"2,342",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-04,Find Out Now,15.0,17.0,32.0,"2,940",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-05,Opinium,20.0,17.0,37.0,"2,050",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-07,Good Growth Foundation,20.0,19.0,39.0,"4,000",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-08,YouGov,19.0,19.0,38.0,"2,267",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-09,More in Common,20.0,20.0,40.0,"2,087",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-11,Find Out Now,16.0,18.0,34.0,"2,113",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-15,Deltapoll,20.0,17.0,37.0,"2,035",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-15,More in Common,22.0,21.0,43.0,"2,097",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-15,Survation,19.0,20.0,39.0,"1,003",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-15,YouGov,19.0,19.0,38.0,"2,308",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-18,Find Out Now,15.0,18.0,33.0,"2,113",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-19,JL Partners,21.0,21.0,42.0,"1,946",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-19,Opinium,20.0,18.0,38.0,"2,050",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-22,More in Common,22.0,20.0,42.0,"2,993",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-22,More in Common,21.0,22.0,43.0,"2,993",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-22,YouGov,18.0,20.0,38.0,"2,345",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-22,YouGov,18.0,19.0,37.0,"19,583",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-24,BMG Research,23.0,20.0,43.0,"1,508",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-25,Find Out Now,21.0,18.0,39.0,"2,140",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-26,Find Out Now,19.0,17.0,36.0,"2,240",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-26,Opinium,21.0,17.0,38.0,"2,050",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-28,More in Common,24.0,20.0,44.0,"2,852",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-28,More in Common (MRP),21.0,21.0,42.0,"14,358",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-29,Lord Ashcroft Polls,21.0,21.0,42.0,"5,064",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-29,Survation,21.0,19.0,40.0,"2,041",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-29,YouGov,20.0,20.0,40.0,"2,437",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-30,Find Out Now/Electoral Calculus (MRP),20.0,18.0,38.0,"5,545",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-06-30,Ipsos,24.0,18.0,42.0,"1,045",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-07-02,Find Out Now,21.0,19.0,40.0,"2,002",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-07-03,Opinium,20.0,19.0,39.0,"2,050",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-07-05,Freshwater Strategy,20.0,21.0,41.0,"1,240",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-07-06,More in Common,21.0,22.0,43.0,"2,119",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-07-06,YouGov,20.0,21.0,41.0,"2,285",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-07-09,Find Out Now,18.0,20.0,38.0,"2,076",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-07-10,Opinium,19.0,18.0,37.0,"2,050",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-07-13,More in Common,22.0,22.0,44.0,"2,198",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-07-13,YouGov,19.0,19.0,38.0,"2,334",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-07-14,Survation,24.0,21.0,45.0,"1,743",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-07-15,Find Out Now,19.0,20.0,39.0,"2,398",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-07-16,Trajectory Partnership,24.0,20.0,44.0,"1,458",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-07-17,Opinium,22.0,20.0,42.0,"2,050",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-07-20,Deltapoll,28.0,18.0,46.0,"2,027",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-07-20,YouGov,20.0,21.0,41.0,"2,325",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-07-22,Find Out Now,22.0,19.0,41.0,"2,385",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-07-22,More in Common,24.0,22.0,46.0,"3,118",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-07-23,YouGov,21.0,20.0,41.0,"2,262",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-07-24,Survation,25.0,19.0,44.0,"1,021",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-07-27,Deltapoll,27.0,19.0,46.0,"2,021",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-07-27,More in Common,28.0,22.0,50.0,"2,061",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-07-27,Survation,26.0,21.0,47.0,"1,012",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-07-27,YouGov,22.0,21.0,43.0,"2,328",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-07-29,Find Out Now,23.0,19.0,42.0,"2,225",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-07-30,BMG Research,28.0,20.0,48.0,974,https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-07-30,Convergent Opinion (MRP),26.0,21.0,47.0,"10,919",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-07-31,Opinium,27.0,17.0,44.0,"2,050",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-08-02,More in Common,27.0,22.0,49.0,"3,334",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-08-03,JL Partners,27.0,20.0,47.0,"2,048",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-08-03,Lord Ashcroft Polls,27.0,23.0,50.0,"5,303",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-08-03,YouGov,22.0,19.0,41.0,"2,300",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-08-04,Ipsos,28.0,18.0,46.0,"1,033",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-08-05,Find Out Now,24.0,18.0,42.0,"2,225",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-08-07,Opinium,27.0,19.0,46.0,"2,050",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-08-10,Freshwater Strategy,23.0,23.0,46.0,"1,248",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-08-10,More in Common,27.0,21.0,48.0,"2,128",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-08-10,YouGov,24.0,21.0,45.0,"2,417",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-08-11,JL Partners,28.0,21.0,49.0,"2,017",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-08-12,Find Out Now,22.0,20.0,42.0,"2,417",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-08-12,Trajectory Partnership,28.0,20.0,48.0,"1,462",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-08-13,Survation,25.0,19.0,44.0,"2,004",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-08-14,Opinium,27.0,18.0,45.0,"2,050",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-08-17,Deltapoll,29.0,21.0,50.0,"2,017",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-08-17,More in Common,27.0,22.0,49.0,"2,055",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-08-17,YouGov,22.0,19.0,41.0,"2,441",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-08-18,Survation,26.0,18.0,44.0,"2,013",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-08-19,Find Out Now,23.0,18.0,41.0,"2,287",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-08-23,More in Common,27.0,22.0,49.0,"3,140",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-08-24,Deltapoll,30.0,20.0,50.0,"2,022",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-08-24,YouGov,22.0,20.0,42.0,"2,380",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-08-26,BMG Research,27.0,18.0,45.0,"1,579",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-08-26,Find Out Now,22.0,20.0,42.0,"2,295",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-08-28,Opinium,27.0,19.0,46.0,"2,003",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-08-28,Survation,27.0,19.0,46.0,"2,149",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-08-31,More in Common,26.0,23.0,49.0,"2,522",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-01,Lord Ashcroft Polls,28.0,21.0,49.0,"5,063",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-01,YouGov,23.0,20.0,43.0,"2,244",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-02,Find Out Now,26.0,20.0,46.0,"2,280",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-04,Opinium,28.0,18.0,46.0,"2,003",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-04,Survation (MRP),28.0,20.0,48.0,"8,124",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-06,Freshwater Strategy,26.0,20.0,46.0,"1,249",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-06,More in Common,24.0,22.0,46.0,"2,130",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-07,YouGov,23.0,20.0,43.0,"2,371",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-09,Find Out Now,26.0,18.0,44.0,"2,565",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-10,Survation,28.0,21.0,49.0,"2,043",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-11,Find Out Now/Electoral Calculus (MRP),25.0,20.0,45.0,"5,500",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-11,Opinium,27.0,19.0,46.0,"2,050",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-14,Deltapoll,29.0,19.0,48.0,"2,056",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-14,YouGov,23.0,20.0,43.0,"2,149",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-15,Ipsos,27.0,21.0,48.0,"1,033",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-15,More in Common,25.0,22.0,47.0,"2,038",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-16,Find Out Now,25.0,18.0,43.0,"2,621",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-16,Trajectory Partnership,30.0,21.0,51.0,"1,460",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-18,Opinium,27.0,18.0,45.0,"2,050",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-18,YouGov (MRP),24.0,21.0,45.0,"16,758",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-21,More in Common,26.0,23.0,49.0,"2,113",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-21,More in Common (MRP),26.0,22.0,48.0,"15,765",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-21,YouGov,23.0,21.0,44.0,"2,286",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-23,Find Out Now,24.0,19.0,43.0,"2,559",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-23,Survation,27.0,21.0,48.0,"1,224",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-24,BMG Research,28.0,20.0,48.0,"1,515",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-25,Opinium,28.0,17.0,45.0,"2,050",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-28,Lord Ashcroft Polls,28.0,22.0,50.0,"5,039",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-28,YouGov,24.0,19.0,43.0,"2,310",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-29,More in Common,27.0,22.0,49.0,"2,041",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-29,Survation,29.0,19.0,48.0,"1,548",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-09-30,Find Out Now,27.0,17.0,44.0,"2,607",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election
+United Kingdom,2026-10-02,Opinium,30.0,17.0,47.0,"1,552",https://en.wikipedia.org/wiki/Opinion_polling_for_the_next_United_Kingdom_general_election

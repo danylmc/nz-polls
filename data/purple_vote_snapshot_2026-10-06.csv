@@ -1,0 +1,5 @@
+country,fieldwork_end,pollster,red_party,red_pct,blue_party,blue_pct,purple_pct,source_url
+New Zealand,2026-10-06,Local weighted poll average,Labour,28.75636887055498,National,28.06252242581274,56.81889129636772,reports/weighted_poll_average.csv
+Australia,2026-09-27,Roy Morgan,Labor,26,Liberal–National Coalition,22.5,48.5,https://www.roymorgan.com/
+United Kingdom,2026-10-02,Opinium,Labour,30,Conservative,17,47,https://www.opinium.com/resource-center/voting-intention-30-september-2026/
+Canada,2026-09-07,Léger,Liberal,49,Conservative,33,82,https://leger360.com/federal-politics-liberals-regain-ground/

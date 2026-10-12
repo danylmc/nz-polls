@@ -1,0 +1,4 @@
+year,pvda_pct,vvd_pct,cda_pct,greenleft_pvda_joint_pct,pair_or_joint_pair_pct,legacy_trio_or_joint_trio_pct,source,comparability_note
+2006,21.2,14.7,26.5,,35.9,62.4,https://www.rug.nl/research/dnpp/verkiezingen/tweede-kamer/uitslagen-tweede-kamerverkiezingen-1986-2021,Separate PvdA and GroenLinks lists; trio includes CDA
+2017,5.7,21.3,12.4,,27.0,39.4,https://www.parlement.com/tweede-kamerverkiezingen-2017,Separate PvdA and GroenLinks lists; trio includes CDA
+2025,,14.24,11.79,12.79,27.03,38.82,https://www.parlement.com/tweede-kamerverkiezingen-2025,Joint GroenLinks-PvdA list includes GreenLeft votes and cannot isolate PvdA
