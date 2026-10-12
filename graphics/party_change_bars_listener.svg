@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 806" width="1200" height="806" role="img" aria-labelledby="t d">
+<title id="t">National is down 10 points since 2023, and Labour has slumped this year</title>
+<desc id="d">Two bar charts of the change in each party&#x27;s vote, in percentage points: one since the 2023 election result, one since the 1 January 2026 poll average, both measured to the poll average at 9 October 2026. Labour (28.2% now): +1.3 since the election, −5.7 since 1 January. National (27.7% now): −10.4 since the election, −4.5 since 1 January. Green (15.1% now): +3.5 since the election, +5.5 since 1 January. NZ First (10.7% now): +4.6 since the election, +1.0 since 1 January. ACT (9.7% now): +1.1 since the election, +1.8 since 1 January. TOP (6.1% now): +3.9 since the election, +4.3 since 1 January. Te Pāti Māori (1.5% now): −1.6 since the election, −1.2 since 1 January.</desc>
+<style>text{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;fill:#1a1a1a}.h{font-size:34px;font-weight:700}.s{font-size:19px;fill:#666}.src{font-size:15px;fill:#666}.ax{font-size:17px;fill:#444}.hd{font-size:21px;font-weight:700}.hm{font-size:17px;fill:#555}.p{font-size:23px;font-weight:700}.lv{font-size:17px;fill:#555}.v{font-size:21px;font-weight:700}.g{stroke:#fff;stroke-width:1.5}</style>
+<rect width="1200" height="806" fill="#fff"/>
+<text class="h" x="40" y="54">National is down 10 points since 2023, and Labour has slumped this year</text>
+<text class="s" x="40" y="90">Change in each party's share of the vote, percentage points. Bars to the right are gains,</text>
+<text class="s" x="40" y="116">bars to the left are losses. Today's figures are the poll average at 9 October 2026.</text>
+<rect x="40" y="150" width="1120" height="576" fill="#dceaf7"/>
+<text class="hm" x="60" y="188">Party vote now</text>
+<text class="hd" x="306" y="188">Since the 2023 election</text>
+<line class="g" x1="341.0" x2="341.0" y1="210" y2="720"/>
+<text class="ax" x="341.0" y="750" text-anchor="middle">−10</text>
+<line class="g" x1="443.5" x2="443.5" y1="210" y2="720"/>
+<text class="ax" x="443.5" y="750" text-anchor="middle">−5</text>
+<text class="ax" x="546.0" y="750" text-anchor="middle">0</text>
+<line class="g" x1="648.5" x2="648.5" y1="210" y2="720"/>
+<text class="ax" x="648.5" y="750" text-anchor="middle">+5</text>
+<text class="hd" x="741" y="188">Since 1 January 2026</text>
+<line class="g" x1="776.0" x2="776.0" y1="210" y2="720"/>
+<text class="ax" x="776.0" y="750" text-anchor="middle">−10</text>
+<line class="g" x1="878.5" x2="878.5" y1="210" y2="720"/>
+<text class="ax" x="878.5" y="750" text-anchor="middle">−5</text>
+<text class="ax" x="981.0" y="750" text-anchor="middle">0</text>
+<line class="g" x1="1083.5" x2="1083.5" y1="210" y2="720"/>
+<text class="ax" x="1083.5" y="750" text-anchor="middle">+5</text>
+<line x1="722.5" x2="722.5" y1="150" y2="726" stroke="#fff" stroke-width="4"/>
+<text class="p" x="60" y="250">Labour</text>
+<text class="lv" x="60" y="274">28.2%</text>
+<rect x="546.0" y="234.0" width="26.6" height="36" fill="#d82a20"/>
+<text class="v" x="580.6" y="259.5" text-anchor="start">+1.3</text>
+<rect x="864.1" y="234.0" width="116.9" height="36" fill="#d82a20"/>
+<text class="v" x="856.1" y="259.5" text-anchor="end">−5.7</text>
+<line class="g" x1="40" x2="1160" y1="288" y2="288"/>
+<text class="p" x="60" y="322">National</text>
+<text class="lv" x="60" y="346">27.7%</text>
+<rect x="332.8" y="306.0" width="213.2" height="36" fill="#00529f"/>
+<text class="v" x="324.8" y="331.5" text-anchor="end">−10.4</text>
+<rect x="888.8" y="306.0" width="92.2" height="36" fill="#00529f"/>
+<text class="v" x="880.8" y="331.5" text-anchor="end">−4.5</text>
+<line class="g" x1="40" x2="1160" y1="360" y2="360"/>
+<text class="p" x="60" y="394">Greens</text>
+<text class="lv" x="60" y="418">15.1%</text>
+<rect x="546.0" y="378.0" width="71.8" height="36" fill="#098137"/>
+<text class="v" x="625.8" y="403.5" text-anchor="start">+3.5</text>
+<rect x="981.0" y="378.0" width="112.8" height="36" fill="#098137"/>
+<text class="v" x="1101.8" y="403.5" text-anchor="start">+5.5</text>
+<line class="g" x1="40" x2="1160" y1="432" y2="432"/>
+<text class="p" x="60" y="466">NZ First</text>
+<text class="lv" x="60" y="490">10.7%</text>
+<rect x="546.0" y="450.0" width="94.3" height="36" fill="#1a1a1a"/>
+<text class="v" x="648.3" y="475.5" text-anchor="start">+4.6</text>
+<rect x="981.0" y="450.0" width="20.5" height="36" fill="#1a1a1a"/>
+<text class="v" x="1009.5" y="475.5" text-anchor="start">+1.0</text>
+<line class="g" x1="40" x2="1160" y1="504" y2="504"/>
+<text class="p" x="60" y="538">ACT</text>
+<text class="lv" x="60" y="562">9.7%</text>
+<rect x="546.0" y="522.0" width="22.5" height="36" fill="#d4b000"/>
+<text class="v" x="576.5" y="547.5" text-anchor="start">+1.1</text>
+<rect x="981.0" y="522.0" width="36.9" height="36" fill="#d4b000"/>
+<text class="v" x="1025.9" y="547.5" text-anchor="start">+1.8</text>
+<line class="g" x1="40" x2="1160" y1="576" y2="576"/>
+<text class="p" x="60" y="610">TOP</text>
+<text class="lv" x="60" y="634">6.1%</text>
+<rect x="546.0" y="594.0" width="80.0" height="36" fill="#17a593"/>
+<text class="v" x="634.0" y="619.5" text-anchor="start">+3.9</text>
+<rect x="981.0" y="594.0" width="88.2" height="36" fill="#17a593"/>
+<text class="v" x="1077.2" y="619.5" text-anchor="start">+4.3</text>
+<line class="g" x1="40" x2="1160" y1="648" y2="648"/>
+<text class="p" x="60" y="682">Te Pāti Māori</text>
+<text class="lv" x="60" y="706">1.5%</text>
+<rect x="513.2" y="666.0" width="32.8" height="36" fill="#6e0a1e"/>
+<text class="v" x="505.2" y="691.5" text-anchor="end">−1.6</text>
+<rect x="956.4" y="666.0" width="24.6" height="36" fill="#6e0a1e"/>
+<text class="v" x="948.4" y="691.5" text-anchor="end">−1.2</text>
+<line x1="546.0" x2="546.0" y1="210" y2="720" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="981.0" x2="981.0" y1="210" y2="720" stroke="#1a1a1a" stroke-width="2"/>
+<text class="src" x="40" y="780">Source: 2023 official election result; published polls compiled on Wikipedia | Poll figures are a house-effect-adjusted, time-weighted average as at 9 October 2026</text>
+</svg>
