@@ -233,9 +233,9 @@ def newey_west_tests():
         ols, nw = newey_west_regression(m["incumbent_vote"], m["mortgage_rate"])
         r, _ = pearsonr(m["mortgage_rate"], m["incumbent_vote"])
         print(f"\n  LEVELS (r = {r:+.3f}):")
-        print(f"    OLS:       coef = {ols.params[1]:+.3f}, SE = {ols.bse[1]:.3f}, p = {ols.pvalues[1]:.4f}")
-        print(f"    Newey-West: coef = {nw.params[1]:+.3f}, SE = {nw.bse[1]:.3f}, p = {nw.pvalues[1]:.4f}")
-        results.append(("Mortgage→Inc (levels)", r, ols.pvalues[1], nw.pvalues[1], len(m)))
+        print(f"    OLS:       coef = {ols.params.iloc[1]:+.3f}, SE = {ols.bse.iloc[1]:.3f}, p = {ols.pvalues.iloc[1]:.4f}")
+        print(f"    Newey-West: coef = {nw.params.iloc[1]:+.3f}, SE = {nw.bse.iloc[1]:.3f}, p = {nw.pvalues.iloc[1]:.4f}")
+        results.append(("Mortgage→Inc (levels)", r, ols.pvalues.iloc[1], nw.pvalues.iloc[1], len(m)))
 
         # Changes
         dm = m[["mortgage_rate", "incumbent_vote"]].diff().dropna()
@@ -243,9 +243,9 @@ def newey_west_tests():
             ols_d, nw_d = newey_west_regression(dm["incumbent_vote"], dm["mortgage_rate"])
             r_d, _ = pearsonr(dm["mortgage_rate"], dm["incumbent_vote"])
             print(f"\n  FIRST-DIFFERENCES (r = {r_d:+.3f}):")
-            print(f"    OLS:       coef = {ols_d.params[1]:+.3f}, SE = {ols_d.bse[1]:.3f}, p = {ols_d.pvalues[1]:.4f}")
-            print(f"    Newey-West: coef = {nw_d.params[1]:+.3f}, SE = {nw_d.bse[1]:.3f}, p = {nw_d.pvalues[1]:.4f}")
-            results.append(("Mortgage→Inc (changes)", r_d, ols_d.pvalues[1], nw_d.pvalues[1], len(dm)))
+            print(f"    OLS:       coef = {ols_d.params.iloc[1]:+.3f}, SE = {ols_d.bse.iloc[1]:.3f}, p = {ols_d.pvalues.iloc[1]:.4f}")
+            print(f"    Newey-West: coef = {nw_d.params.iloc[1]:+.3f}, SE = {nw_d.bse.iloc[1]:.3f}, p = {nw_d.pvalues.iloc[1]:.4f}")
+            results.append(("Mortgage→Inc (changes)", r_d, ols_d.pvalues.iloc[1], nw_d.pvalues.iloc[1], len(dm)))
 
         # 1-month lagged changes
         dm["d_rate_lag1"] = dm["mortgage_rate"].shift(1)
@@ -254,9 +254,9 @@ def newey_west_tests():
             ols_l, nw_l = newey_west_regression(dm_lag["incumbent_vote"], dm_lag["d_rate_lag1"])
             r_l, _ = pearsonr(dm_lag["d_rate_lag1"], dm_lag["incumbent_vote"])
             print(f"\n  1-MONTH LAGGED CHANGES (r = {r_l:+.3f}):")
-            print(f"    OLS:       coef = {ols_l.params[1]:+.3f}, SE = {ols_l.bse[1]:.3f}, p = {ols_l.pvalues[1]:.4f}")
-            print(f"    Newey-West: coef = {nw_l.params[1]:+.3f}, SE = {nw_l.bse[1]:.3f}, p = {nw_l.pvalues[1]:.4f}")
-            results.append(("Mortgage→Inc (lag-1 Δ)", r_l, ols_l.pvalues[1], nw_l.pvalues[1], len(dm_lag)))
+            print(f"    OLS:       coef = {ols_l.params.iloc[1]:+.3f}, SE = {ols_l.bse.iloc[1]:.3f}, p = {ols_l.pvalues.iloc[1]:.4f}")
+            print(f"    Newey-West: coef = {nw_l.params.iloc[1]:+.3f}, SE = {nw_l.bse.iloc[1]:.3f}, p = {nw_l.pvalues.iloc[1]:.4f}")
+            results.append(("Mortgage→Inc (lag-1 Δ)", r_l, ols_l.pvalues.iloc[1], nw_l.pvalues.iloc[1], len(dm_lag)))
     except Exception as e:
         print(f"  Error: {e}")
 
@@ -279,9 +279,9 @@ def newey_west_tests():
         ols, nw = newey_west_regression(m["incumbent_vote"], m["petrol_price"])
         r, _ = pearsonr(m["petrol_price"], m["incumbent_vote"])
         print(f"\n  LEVELS (r = {r:+.3f}):")
-        print(f"    OLS:       coef = {ols.params[1]:+.3f}, SE = {ols.bse[1]:.3f}, p = {ols.pvalues[1]:.4f}")
-        print(f"    Newey-West: coef = {nw.params[1]:+.3f}, SE = {nw.bse[1]:.3f}, p = {nw.pvalues[1]:.4f}")
-        results.append(("Petrol→Inc (levels)", r, ols.pvalues[1], nw.pvalues[1], len(m)))
+        print(f"    OLS:       coef = {ols.params.iloc[1]:+.3f}, SE = {ols.bse.iloc[1]:.3f}, p = {ols.pvalues.iloc[1]:.4f}")
+        print(f"    Newey-West: coef = {nw.params.iloc[1]:+.3f}, SE = {nw.bse.iloc[1]:.3f}, p = {nw.pvalues.iloc[1]:.4f}")
+        results.append(("Petrol→Inc (levels)", r, ols.pvalues.iloc[1], nw.pvalues.iloc[1], len(m)))
 
         # Changes
         dm = m[["petrol_price", "incumbent_vote"]].diff().dropna()
@@ -289,9 +289,9 @@ def newey_west_tests():
             ols_d, nw_d = newey_west_regression(dm["incumbent_vote"], dm["petrol_price"])
             r_d, _ = pearsonr(dm["petrol_price"], dm["incumbent_vote"])
             print(f"\n  FIRST-DIFFERENCES (r = {r_d:+.3f}):")
-            print(f"    OLS:       coef = {ols_d.params[1]:+.3f}, SE = {ols_d.bse[1]:.3f}, p = {ols_d.pvalues[1]:.4f}")
-            print(f"    Newey-West: coef = {nw_d.params[1]:+.3f}, SE = {nw_d.bse[1]:.3f}, p = {nw_d.pvalues[1]:.4f}")
-            results.append(("Petrol→Inc (changes)", r_d, ols_d.pvalues[1], nw_d.pvalues[1], len(dm)))
+            print(f"    OLS:       coef = {ols_d.params.iloc[1]:+.3f}, SE = {ols_d.bse.iloc[1]:.3f}, p = {ols_d.pvalues.iloc[1]:.4f}")
+            print(f"    Newey-West: coef = {nw_d.params.iloc[1]:+.3f}, SE = {nw_d.bse.iloc[1]:.3f}, p = {nw_d.pvalues.iloc[1]:.4f}")
+            results.append(("Petrol→Inc (changes)", r_d, ols_d.pvalues.iloc[1], nw_d.pvalues.iloc[1], len(dm)))
     except Exception as e:
         print(f"  Error: {e}")
 
@@ -313,9 +313,9 @@ def newey_west_tests():
         ols, nw = newey_west_regression(m["incumbent_vote"], m["cci"])
         r, _ = pearsonr(m["cci"], m["incumbent_vote"])
         print(f"\n  LEVELS (r = {r:+.3f}):")
-        print(f"    OLS:       coef = {ols.params[1]:+.3f}, SE = {ols.bse[1]:.3f}, p = {ols.pvalues[1]:.4f}")
-        print(f"    Newey-West: coef = {nw.params[1]:+.3f}, SE = {nw.bse[1]:.3f}, p = {nw.pvalues[1]:.4f}")
-        results.append(("CCI→Inc (levels)", r, ols.pvalues[1], nw.pvalues[1], len(m)))
+        print(f"    OLS:       coef = {ols.params.iloc[1]:+.3f}, SE = {ols.bse.iloc[1]:.3f}, p = {ols.pvalues.iloc[1]:.4f}")
+        print(f"    Newey-West: coef = {nw.params.iloc[1]:+.3f}, SE = {nw.bse.iloc[1]:.3f}, p = {nw.pvalues.iloc[1]:.4f}")
+        results.append(("CCI→Inc (levels)", r, ols.pvalues.iloc[1], nw.pvalues.iloc[1], len(m)))
 
         # Changes
         dm = m[["cci", "incumbent_vote"]].diff().dropna()
@@ -323,9 +323,9 @@ def newey_west_tests():
             ols_d, nw_d = newey_west_regression(dm["incumbent_vote"], dm["cci"])
             r_d, _ = pearsonr(dm["cci"], dm["incumbent_vote"])
             print(f"\n  FIRST-DIFFERENCES (r = {r_d:+.3f}):")
-            print(f"    OLS:       coef = {ols_d.params[1]:+.3f}, SE = {ols_d.bse[1]:.3f}, p = {ols_d.pvalues[1]:.4f}")
-            print(f"    Newey-West: coef = {nw_d.params[1]:+.3f}, SE = {nw_d.bse[1]:.3f}, p = {nw_d.pvalues[1]:.4f}")
-            results.append(("CCI→Inc (changes)", r_d, ols_d.pvalues[1], nw_d.pvalues[1], len(dm)))
+            print(f"    OLS:       coef = {ols_d.params.iloc[1]:+.3f}, SE = {ols_d.bse.iloc[1]:.3f}, p = {ols_d.pvalues.iloc[1]:.4f}")
+            print(f"    Newey-West: coef = {nw_d.params.iloc[1]:+.3f}, SE = {nw_d.bse.iloc[1]:.3f}, p = {nw_d.pvalues.iloc[1]:.4f}")
+            results.append(("CCI→Inc (changes)", r_d, ols_d.pvalues.iloc[1], nw_d.pvalues.iloc[1], len(dm)))
     except Exception as e:
         print(f"  Error: {e}")
 
@@ -357,9 +357,9 @@ def newey_west_tests():
         ols, nw = newey_west_regression(m["incumbent_vote"], m["rental_yoy"])
         r, _ = pearsonr(m["rental_yoy"], m["incumbent_vote"])
         print(f"\n  LEVELS (r = {r:+.3f}):")
-        print(f"    OLS:       coef = {ols.params[1]:+.3f}, SE = {ols.bse[1]:.3f}, p = {ols.pvalues[1]:.4f}")
-        print(f"    Newey-West: coef = {nw.params[1]:+.3f}, SE = {nw.bse[1]:.3f}, p = {nw.pvalues[1]:.4f}")
-        results.append(("Rental→Inc (levels)", r, ols.pvalues[1], nw.pvalues[1], len(m)))
+        print(f"    OLS:       coef = {ols.params.iloc[1]:+.3f}, SE = {ols.bse.iloc[1]:.3f}, p = {ols.pvalues.iloc[1]:.4f}")
+        print(f"    Newey-West: coef = {nw.params.iloc[1]:+.3f}, SE = {nw.bse.iloc[1]:.3f}, p = {nw.pvalues.iloc[1]:.4f}")
+        results.append(("Rental→Inc (levels)", r, ols.pvalues.iloc[1], nw.pvalues.iloc[1], len(m)))
 
         # Changes
         dm = m[["rental_yoy", "incumbent_vote"]].diff().dropna()
@@ -367,9 +367,9 @@ def newey_west_tests():
             ols_d, nw_d = newey_west_regression(dm["incumbent_vote"], dm["rental_yoy"])
             r_d, _ = pearsonr(dm["rental_yoy"], dm["incumbent_vote"])
             print(f"\n  FIRST-DIFFERENCES (r = {r_d:+.3f}):")
-            print(f"    OLS:       coef = {ols_d.params[1]:+.3f}, SE = {ols_d.bse[1]:.3f}, p = {ols_d.pvalues[1]:.4f}")
-            print(f"    Newey-West: coef = {nw_d.params[1]:+.3f}, SE = {nw_d.bse[1]:.3f}, p = {nw_d.pvalues[1]:.4f}")
-            results.append(("Rental→Inc (changes)", r_d, ols_d.pvalues[1], nw_d.pvalues[1], len(dm)))
+            print(f"    OLS:       coef = {ols_d.params.iloc[1]:+.3f}, SE = {ols_d.bse.iloc[1]:.3f}, p = {ols_d.pvalues.iloc[1]:.4f}")
+            print(f"    Newey-West: coef = {nw_d.params.iloc[1]:+.3f}, SE = {nw_d.bse.iloc[1]:.3f}, p = {nw_d.pvalues.iloc[1]:.4f}")
+            results.append(("Rental→Inc (changes)", r_d, ols_d.pvalues.iloc[1], nw_d.pvalues.iloc[1], len(dm)))
     except Exception as e:
         print(f"  Error: {e}")
 
@@ -393,9 +393,9 @@ def newey_west_tests():
         ols, nw = newey_west_regression(m["incumbent_vote"], m["approval"])
         r, _ = pearsonr(m["approval"], m["incumbent_vote"])
         print(f"\n  LEVELS (r = {r:+.3f}):")
-        print(f"    OLS:       coef = {ols.params[1]:+.3f}, SE = {ols.bse[1]:.3f}, p = {ols.pvalues[1]:.4f}")
-        print(f"    Newey-West: coef = {nw.params[1]:+.3f}, SE = {nw.bse[1]:.3f}, p = {nw.pvalues[1]:.4f}")
-        results.append(("Approval→Inc (levels)", r, ols.pvalues[1], nw.pvalues[1], len(m)))
+        print(f"    OLS:       coef = {ols.params.iloc[1]:+.3f}, SE = {ols.bse.iloc[1]:.3f}, p = {ols.pvalues.iloc[1]:.4f}")
+        print(f"    Newey-West: coef = {nw.params.iloc[1]:+.3f}, SE = {nw.bse.iloc[1]:.3f}, p = {nw.pvalues.iloc[1]:.4f}")
+        results.append(("Approval→Inc (levels)", r, ols.pvalues.iloc[1], nw.pvalues.iloc[1], len(m)))
 
         # Changes
         dm = m[["approval", "incumbent_vote"]].diff().dropna()
@@ -403,9 +403,9 @@ def newey_west_tests():
             ols_d, nw_d = newey_west_regression(dm["incumbent_vote"], dm["approval"])
             r_d, _ = pearsonr(dm["approval"], dm["incumbent_vote"])
             print(f"\n  FIRST-DIFFERENCES (r = {r_d:+.3f}):")
-            print(f"    OLS:       coef = {ols_d.params[1]:+.3f}, SE = {ols_d.bse[1]:.3f}, p = {ols_d.pvalues[1]:.4f}")
-            print(f"    Newey-West: coef = {nw_d.params[1]:+.3f}, SE = {nw_d.bse[1]:.3f}, p = {nw_d.pvalues[1]:.4f}")
-            results.append(("Approval→Inc (changes)", r_d, ols_d.pvalues[1], nw_d.pvalues[1], len(dm)))
+            print(f"    OLS:       coef = {ols_d.params.iloc[1]:+.3f}, SE = {ols_d.bse.iloc[1]:.3f}, p = {ols_d.pvalues.iloc[1]:.4f}")
+            print(f"    Newey-West: coef = {nw_d.params.iloc[1]:+.3f}, SE = {nw_d.bse.iloc[1]:.3f}, p = {nw_d.pvalues.iloc[1]:.4f}")
+            results.append(("Approval→Inc (changes)", r_d, ols_d.pvalues.iloc[1], nw_d.pvalues.iloc[1], len(dm)))
     except Exception as e:
         print(f"  Error: {e}")
 

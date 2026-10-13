@@ -258,7 +258,8 @@ def main():
             "COVID", fontsize=9, color="#27ae60")
 
     ax.set_ylabel("% naming as top concern", fontsize=11)
-    ax.set_title("Top 5 Issue Salience Trends (Ipsos Issues Monitor, 2018-2025)",
+    ax.set_title(f"Top 5 Issue Salience Trends (Ipsos Issues Monitor, "
+                 f"{salience['date'].min():%Y}-{salience['date'].max():%Y})",
                  fontsize=13, fontweight="bold")
     ax.legend(fontsize=10, loc="upper left")
     ax.xaxis.set_major_locator(mdates.YearLocator())

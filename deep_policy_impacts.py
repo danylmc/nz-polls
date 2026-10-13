@@ -751,8 +751,9 @@ def generate_report(budget_df, policy_df, ownership_current, ownership_trends,
 
             # Current situation
             latest = perf_df.iloc[-1]
-            lines.append(f"Current govt rating: **{latest['govt_rating']}/10** "
-                         f"(lowest in tracking history)")
+            low = perf_df["govt_rating"].min()
+            note = "lowest in tracking history" if latest["govt_rating"] <= low else f"tracking low is {low}"
+            lines.append(f"Current govt rating: **{latest['govt_rating']}/10** ({note})")
             lines.append(f"Current incumbent ({latest['incumbent_party']}) polling: "
                          f"**{latest['incumbent_poll']:.1f}%**")
             lines.append("")

@@ -150,6 +150,8 @@ The critique is valid in principle but overstated in practice:
 
 **Measurement error would attenuate correlations, not inflate them.** Random extraction errors add noise, which biases correlations *toward zero*. The fact that we find strong correlations (r=0.827 for approval→vote) *despite* any extraction error means the true correlations are, if anything, stronger than reported.
 
+> **Update, Oct 2026: the critique was right on this point.** When the Ipsos data was rebuilt from each edition's own bar charts and Ipsos's trend tables, the chart-read salience and capability values turned out to be badly wrong, not just noisy. Some series were matched to the wrong issue, and National/Labour capability on unemployment was roughly swapped. The errors were not random, so they did not simply attenuate correlations; several findings changed sign or lost significance (healthcare salience → Labour, crime salience → National, unemployment salience → approval, the approval + petrol model). The approval data, which came from a clean table, was unaffected. See `findings.md` Analyses 10, 11, 13, 24, 25 and 27 for the corrected results.
+
 ### 3. No Out-of-Sample Validation
 
 **We performed out-of-sample validation — and it failed.** Analysis 28 used leave-one-out cross-validation, which is a legitimate out-of-sample procedure. The fact that it showed models can't beat the naïve baseline is *itself* a finding that we reported prominently. The critique treats this as a criticism, but it's actually evidence of intellectual honesty — we tested prediction and reported the failure.

@@ -496,42 +496,50 @@ This extends the earlier finding about NZ First and immigration (Rule 19). Issue
 ownership is not unique to NZ First — it is a fundamental feature of how voters
 choose between parties. The election agenda shapes the result.
 
-**Monthly Issue Salience Tracking (Ipsos 2018-2025)**
+**Monthly Issue Salience Tracking (Ipsos 2018-2026)**
+
+*Revised Oct 2026: the original table used chart-misread salience values. Figures below use the corrected series.*
 
 The NZES data above is cross-sectional — one snapshot per election. The Ipsos NZ Issues
-Monitor provides monthly tracking of issue salience (2018-2025, 28 waves), allowing
+Monitor provides tracking of issue salience (Feb 2018 – Sep 2026, 34 waves), allowing
 a test of whether *changes* in issue salience predict *changes* in party support at
 higher temporal resolution.
 
-The level correlations between issue salience and party vote share (27 matched months):
+The level correlations between issue salience and party vote share (33 matched months):
 
 | Issue | National r | Labour r | Interpretation |
 |-------|-----------|---------|----------------|
-| Inflation/Cost of Living | -0.01 | **-0.885** | Strongly hurts Labour |
-| Healthcare/Hospitals | -0.14 | **+0.670** | Helps Labour |
-| The Economy | +0.24 | **-0.701** | Hurts Labour |
-| Housing/Price | +0.23 | **-0.692** | Hurts Labour |
-| Crime/Law & Order | **+0.403** | **-0.726** | Helps National, hurts Labour |
-| Unemployment | **-0.593** | **+0.631** | Helps Labour, hurts National |
-| Climate Change | -0.22 | -0.37 | Weak (hurts both) |
+| Inflation/Cost of Living | -0.10 | **-0.882** | Strongly hurts Labour |
+| Poverty/Inequality | +0.15 | **+0.772** | Tracks Labour strength |
+| Healthcare/Hospitals | -0.27 | **-0.677** | Tracks Labour weakness |
+| The Economy | **-0.743** | -0.06 | Tracks National weakness |
+| Housing/Price | +0.09 | **+0.595** | Tracks Labour strength |
+| Crime/Law & Order | +0.33 | **-0.506** | Hurts Labour |
+| Unemployment | **-0.555** | **+0.392** | Tracks Labour strength, National weakness |
+| Climate Change | +0.17 | +0.10 | No relationship |
 
-The headline finding: **cost-of-living salience is the single strongest issue-level
-predictor of party support** (r = -0.885 with Labour). When voters rank inflation as
+The headline finding survives: **cost-of-living salience is the single strongest issue-level
+predictor of party support** (r = -0.882 with Labour). When voters rank inflation as
 a top concern, Labour's vote share collapses. This is consistent with the economic
 voting findings (Rules 5-8): cost-of-living pain hurts incumbents, and Labour was
 the incumbent for most of the 2018-2023 inflation surge.
 
+The other level correlations should be read cautiously. Over 2018–2026 they largely
+separate two eras: Labour's strong 2018–21 period, when housing and poverty dominated
+concern, and the period since 2022, when cost of living, healthcare and the economy did.
+The earlier claim that healthcare salience helps Labour does not survive the corrected
+data.
+
 First-differenced correlations (change in salience vs change in vote, to avoid
-spurious trend correlation) confirm that healthcare and housing shifts predict vote
-shifts even in period-to-period changes:
+spurious trend correlation; n = 32):
 
-- Healthcare salience increase → Labour vote increase (r = +0.66)
-- Housing salience increase → National vote increase (r = +0.51), Labour decrease (r = -0.54)
-- Unemployment salience increase → Labour vote increase (r = +0.58)
+- Unemployment salience increase → Labour vote increase (r = +0.65), National decrease (r = -0.34)
+- Economy salience increase → Labour vote increase (r = +0.58)
+- Cost-of-living salience increase → National vote increase (r = +0.42)
+- Healthcare and housing changes do not predict vote changes (|r| ≤ 0.20)
 
-The Ipsos monthly data thus confirms the NZES cross-sectional pattern with independent
-data at much higher temporal resolution. Issue ownership is not just a static feature
-of elections — it operates continuously, month by month, as the issue agenda shifts.
+Issue ownership operates continuously, wave by wave: rising economic and unemployment
+concern moves votes toward Labour, rising cost-of-living concern toward National.
 
 ---
 
@@ -865,23 +873,23 @@ realignment.
 
 **Government performance ratings are the single strongest predictor of incumbent support. Stronger than housing costs, consumer confidence, or any economic indicator.**
 
-The Ipsos NZ Issues Monitor (2017-2025) asks respondents to rate government performance
+The Ipsos NZ Issues Monitor (2017-2026) asks respondents to rate government performance
 on a 0-10 scale. This simple measure correlates with incumbent party vote share at
-r = **0.827** (p < 0.0001, n = 29 months) — by far the strongest bivariate relationship
+r = **0.857** (p < 0.0001, n = 33 months) — by far the strongest bivariate relationship
 found in this project, surpassing housing costs (r = -0.62), consumer confidence
 (r = +0.47), and every other economic indicator.
 
-A simple regression of incumbent vote share on the Ipsos mean score achieves R² = **0.684**
-— a single survey question explains more than two-thirds of the variation in incumbent
+A simple regression of incumbent vote share on the Ipsos mean score achieves R² = **0.734**
+— a single survey question explains nearly three-quarters of the variation in incumbent
 polling. Each +1 point on the government performance scale corresponds to approximately
-**+5.7 percentage points** in incumbent party vote share (p < 0.001).
+**+5.9 percentage points** in incumbent party vote share (p < 0.001).
 
 The relationship holds across both government eras in the data:
 
 | Government Era | r | p-value | n |
 |----------------|---|---------|---|
 | Labour (2017-2023) | 0.795 | < 0.001 | 19 |
-| National (2023-2025) | 0.893 | < 0.001 | 10 |
+| National (2023-2026) | 0.906 | < 0.001 | 14 |
 
 Time-lagged cross-correlation shows the strongest correlation at **lag = 0** (contemporaneous).
 Government performance ratings do not lead or lag incumbent polling — both move together,
@@ -895,14 +903,14 @@ equivalent to a US presidential approval rating. When it drops below ~5.0, the i
 is in serious trouble. The Ardern government's decline from 7.6 (May 2020, post-COVID
 lockdown) to 4.5 (August 2023) maps almost perfectly onto Labour's polling collapse
 from the mid-50s to the low-30s. The current National-led government's decline from 4.7
-(September 2023) to 3.9 (October 2025) similarly tracks the steady erosion in National's
+(September 2023) to 3.9 (October 2025), and 4.1–4.2 through 2026, similarly tracks the steady erosion in National's
 polling from the high 30s to the low 30s.
 
 Combined with Rule 9 (consumer confidence) and Rule 10 (partisan filter), the approval
 barometer completes the subjective evaluation picture: voters experience the economy
 through a partisan lens (Rule 10), this feeds into aggregate sentiment measures (Rule 9),
 and it crystallises as an overall government performance verdict (Rule 27) that tracks
-voting intention at r = 0.83.
+voting intention at r = 0.86.
 
 ---
 
@@ -910,31 +918,31 @@ voting intention at r = 0.83.
 
 **When voters think a party is "best to manage" an issue, they vote for that party. The correlation is strongest on the economy.**
 
-The Ipsos party capability question (2023-2025, 10 waves) asks which party is best placed
+The Ipsos party capability question (Feb 2023 – Sep 2026, 16 waves) asks which party is best placed
 to manage each of six issues. Across all issues and both major parties combined, the
-"best to manage" score correlates with actual party vote share at r = **0.585** (p < 0.0001,
-n = 120 issue-party-wave observations).
+"best to manage" score correlates with actual party vote share at r = **0.489** (p < 0.0001,
+n = 182 issue-party-wave observations).
 
-The strength of the competence-vote link varies dramatically by issue:
+*Revised Oct 2026: the original capability data had misread National/Labour values (for unemployment they were roughly swapped). Figures below use values from Ipsos's own trend tables.*
+
+The competence-vote link is strong on every issue, and stronger for National:
 
 | Issue | National r | Labour r | n |
 |-------|-----------|---------|---|
-| The Economy | 0.873 | 0.892 | 10 |
-| Crime/Law & Order | 0.777 | 0.885 | 10 |
-| Inflation/Cost of Living | 0.675 | 0.717 | 10 |
-| Housing | 0.515 | 0.573 | 10 |
-| Healthcare | 0.374 | 0.623 | 10 |
-| Unemployment | -0.731 | -0.787 | 10 |
+| Unemployment | 0.940 | 0.725 | 14 |
+| The Economy | 0.928 | 0.612 | 16 |
+| Inflation/Cost of Living | 0.906 | 0.649 | 16 |
+| Healthcare | 0.876 | 0.545 | 16 |
+| Crime/Law & Order | 0.826 | 0.793 | 13 |
+| Housing | 0.817 | 0.570 | 16 |
 
-The economy and crime show near-perfect tracking between capability perception and vote
-share (r = 0.87-0.89). When voters increasingly see Labour as "best to manage the economy,"
-Labour's poll numbers rise almost one-for-one. The same applies to National.
+National's vote share tracks its perceived competence almost one-for-one (r = 0.82-0.94
+on every issue). As National's rating as best to manage the economy fell from 39% (Feb 2023)
+to 28% (Sep 2026), and on cost of living from 35% to 21%, its vote fell with it. Labour now
+leads on all five of the top issues.
 
-The unemployment anomaly (negative r) deserves attention: both parties' capability scores
-on unemployment run *inversely* to their vote share. This may reflect that unemployment
-becomes salient precisely when a party is losing support for other reasons, or that voters
-attribute unemployment management capability to whichever party they do *not* currently
-support (a protest dynamic).
+The earlier "unemployment anomaly" (capability running inversely to vote share) was an
+artefact of the misread data and has disappeared.
 
 This finding complements Rule 17 (The Leader Premium). Where Rule 17 shows that overall
 leader evaluations drive vote choice more than ideology, Rule 28 shows that *issue-specific*
@@ -1011,7 +1019,7 @@ The 28 rules, taken together, describe a system where:
 1. **Subjective evaluation dominates** (Rules 5-14, 27-28). Housing costs, consumer
    confidence, and interest rates collectively explain over 60% of incumbent support
    variation. But the single strongest predictor is even simpler: the Ipsos government
-   performance rating (r = 0.83, R² = 0.68). GDP is irrelevant. The economy operates
+   performance rating (r = 0.86, R² = 0.73). GDP is irrelevant. The economy operates
    through subjective perception, not objective statistics, and perception is filtered
    through partisan identity (Rule 10). Government approval is the ultimate summary
    statistic of that perception.
@@ -1026,9 +1034,9 @@ The 28 rules, taken together, describe a system where:
    and tax, National benefits. When they care about health and housing, Labour
    benefits. The ownership effect has grown from single digits to 40+ percentage
    points since MMP began. Monthly Ipsos tracking confirms this operates continuously,
-   not just at elections: cost-of-living salience tracks Labour's decline at r = -0.89.
-   Perceived issue competence (Rule 28) tracks vote intention at r = 0.59 pooled,
-   rising to r = 0.87-0.89 on the economy specifically. Elections are partly won and
+   not just at elections: cost-of-living salience tracks Labour's decline at r = -0.88.
+   Perceived issue competence (Rule 28) tracks vote intention at r = 0.49 pooled,
+   and at r = 0.82-0.94 for National on every issue. Elections are partly won and
    lost on which party's issues are salient — and which party voters trust to manage them.
 
 4. **The electorate is centrist and self-correcting** (Rules 15, 20). NZ has not
@@ -1071,7 +1079,7 @@ The 28 rules, taken together, describe a system where:
 | 13 | The Myopic Voter | Late-term r = 0.25 vs early r = 0.24 (weak) | Low (10 elections) |
 | 14 | The 60% Model | 6 indicators + controls: R² = 0.61 | High (N = 870) |
 | 15 | The Thermostat | 7/8 shifts in predicted direction | High (8 transitions) |
-| 16 | The Issue Agenda | +27.5pp ownership gap; Ipsos cost-of-living r = -0.89 with Labour | High (7 elections + 27 months) |
+| 16 | The Issue Agenda | +27.5pp ownership gap; Ipsos cost-of-living r = -0.88 with Labour | High (7 elections + 33 months) |
 | 17 | The Leader Premium | Valence > ideology in 6/8 elections | High (8 elections) |
 | 18 | The Demographic Floor | Demo R² = 0.01-0.02; + ideology R² = 0.22-0.42 | High (9 elections) |
 | 19 | The Strategic Voter | Minor party desertion 25.8% vs major 10.0%; 30% split-ticket | High (6 elections) |
@@ -1082,8 +1090,8 @@ The 28 rules, taken together, describe a system where:
 | 24 | The Ethnic Anchor | Māori 20-40pp more Labour | High (10 elections) |
 | 25 | The Migration Backlash | NZF vs migration r = +0.39, within both govts | High (N = 924) |
 | 26 | The Mobile Voter | 25-35% switching rate | High (10 elections) |
-| 27 | The Approval Barometer | Ipsos govt rating r = 0.827 with incumbent vote (R² = 0.68) | High (N = 29 months) |
-| 28 | The Competence Signal | Capability score r = 0.585 pooled; economy r = 0.87-0.89 | Medium (10 waves) |
+| 27 | The Approval Barometer | Ipsos govt rating r = 0.857 with incumbent vote (R² = 0.73) | High (N = 33 months) |
+| 28 | The Competence Signal | Capability score r = 0.489 pooled; National r = 0.82-0.94 by issue | Medium (16 waves) |
 
 ---
 

@@ -11,9 +11,9 @@
 - **Third Party Squeeze:** Not detected
 - **Mean Reversion (National):** 67% of extreme polls revert
 - **Mean Reversion (Labour):** 64% of extreme polls revert
-- **Govt Performance → Incumbent Vote:** r = 0.827 (p = 0.0000) — subjective approval tracks voting intention
-- **Issue Ownership:** 10 issues show significant party links (e.g. inflation cost of living: Labour hurt when salient)
-- **Perceived Competence → Vote:** r = 0.585 (pooled across issues)
+- **Govt Performance → Incumbent Vote:** r = 0.857 (p = 0.0000) — subjective approval tracks voting intention
+- **Issue Ownership:** 8 issues show significant party links (e.g. inflation cost of living: Labour hurt when salient)
+- **Perceived Competence → Vote:** r = 0.489 (pooled across issues)
 
 ## Detailed Findings
 
@@ -119,87 +119,84 @@ Multiple events in succession compound. Correlation between number of successive
 
 ### 9. Government Performance vs Incumbent Polling (Ipsos)
 
-**Data:** 29 months matched (2017-09 to 2025-10)
+**Data:** 33 months matched (2017-09 to 2026-09)
 
-**Overall Correlation:** r = 0.827 (p = 0.0000, n = 29)
+**Overall Correlation:** r = 0.857 (p = 0.0000, n = 33)
 - Strong positive: higher govt ratings → higher incumbent vote
 
-**Regression:** R² = 0.684, Each +1 point in govt rating ≈ +5.7pp incumbent vote
+**Regression:** R² = 0.734, Each +1 point in govt rating ≈ +5.9pp incumbent vote
 
 **Labour (2017-2023):** r = 0.795 (p = 0.0000, n = 19)
-**National (2023-2025):** r = 0.893 (p = 0.0005, n = 10)
+**National (2023-2025):** r = 0.906 (p = 0.0000, n = 14)
 
-**Time-Lagged Cross-Correlation:** Strongest correlation at lag=0 months (contemporaneous) (r = 0.827)
+**Time-Lagged Cross-Correlation:** Strongest correlation at lag=0 months (contemporaneous) (r = 0.857)
 
 
 ### 10. Issue Salience vs Party Support (Ipsos)
 
-**Data:** 27 months matched
+**Data:** 33 months matched
 
 **Level Correlations (salience % vs party vote %):**
 
 | Issue | National r | National p | Labour r | Labour p |
 |-------|-----------|-----------|---------|---------|
-| Inflation Cost Of Living | -0.013 | 0.949 | **-0.885** | 0.000 |
-| Healthcare Hospitals | -0.140 | 0.485 | **0.670** | 0.000 |
-| The Economy | 0.241 | 0.226 | **-0.701** | 0.000 |
-| Housing Price | 0.233 | 0.241 | **-0.692** | 0.000 |
-| Crime Law Order | **0.403** | 0.037 | **-0.726** | 0.000 |
-| Poverty Inequality | 0.014 | 0.946 | 0.335 | 0.087 |
-| Unemployment | **-0.593** | 0.001 | **0.631** | 0.000 |
-| Climate Change | -0.215 | 0.281 | -0.373 | 0.055 |
-| Education | 0.085 | 0.675 | **-0.423** | 0.028 |
-| Race Relations | 0.366 | 0.061 | 0.273 | 0.168 |
+| Inflation Cost Of Living | -0.098 | 0.589 | **-0.882** | 0.000 |
+| Healthcare Hospitals | -0.269 | 0.130 | **-0.677** | 0.000 |
+| The Economy | **-0.743** | 0.000 | -0.064 | 0.721 |
+| Housing Price | 0.093 | 0.606 | **0.595** | 0.000 |
+| Crime Law Order | 0.329 | 0.061 | **-0.506** | 0.003 |
+| Poverty Inequality | 0.147 | 0.413 | **0.772** | 0.000 |
+| Unemployment | **-0.555** | 0.001 | **0.392** | 0.024 |
+| Climate Change | 0.170 | 0.345 | 0.097 | 0.590 |
+| Education | **0.583** | 0.001 | -0.032 | 0.868 |
+| Race Relations | -0.058 | 0.753 | 0.258 | 0.154 |
 
 **Issue Ownership Pattern:**
 - Inflation Cost Of Living: Labour hurt when salient
-- Healthcare Hospitals: Labour benefits when salient
-- The Economy: Labour hurt when salient
-- Housing Price: Labour hurt when salient
+- Healthcare Hospitals: Labour hurt when salient
+- The Economy: National hurt when salient
+- Housing Price: Labour benefits when salient
 - Crime Law Order: National benefits when salient
 - Poverty Inequality: Labour benefits when salient
 - Unemployment: National hurt when salient
-- Climate Change: Labour hurt when salient
-- Education: Labour hurt when salient
-- Race Relations: National benefits when salient
+- Education: National benefits when salient
 
 **First-Differenced Correlations (change in salience vs change in vote):**
 
 | Issue | National r | Labour r | n |
 |-------|-----------|---------|---|
-| Inflation Cost Of Living | 0.198 | -0.210 | 26 |
-| Healthcare Hospitals | -0.308 | 0.662 | 26 |
-| The Economy | 0.152 | -0.174 | 26 |
-| Housing Price | 0.509 | -0.536 | 26 |
-| Crime Law Order | 0.108 | -0.386 | 26 |
-| Poverty Inequality | 0.239 | -0.055 | 26 |
-| Unemployment | -0.290 | 0.579 | 26 |
-| Climate Change | -0.364 | 0.345 | 26 |
-| Education | 0.353 | -0.022 | 26 |
-| Race Relations | -0.102 | 0.342 | 26 |
+| Inflation Cost Of Living | 0.420 | -0.168 | 32 |
+| Healthcare Hospitals | -0.151 | -0.108 | 32 |
+| The Economy | -0.305 | 0.583 | 32 |
+| Housing Price | -0.008 | -0.200 | 32 |
+| Crime Law Order | -0.049 | -0.187 | 32 |
+| Poverty Inequality | -0.222 | -0.267 | 32 |
+| Unemployment | -0.342 | 0.653 | 32 |
+| Climate Change | -0.194 | 0.048 | 32 |
+| Education | 0.370 | -0.273 | 29 |
+| Race Relations | -0.147 | 0.113 | 31 |
 
 
 ### 11. Party Capability vs Party Vote (Ipsos)
 
-**Data:** 10 waves, 6 issues
+**Data:** 16 waves, 6 issues
 
-**Pooled Correlation (all issues × both parties):** r = 0.585 (p = 0.0000, n = 120)
-- Strong link: perceived competence tracks voting intention
+**Pooled Correlation (all issues × both parties):** r = 0.489 (p = 0.0000, n = 182)
+- Moderate link
 
-**National:** r = 0.355 (p = 0.0053, n = 60)
-**Labour:** r = 0.327 (p = 0.0108, n = 60)
+**National:** r = 0.676 (p = 0.0000, n = 91)
+**Labour:** r = 0.395 (p = 0.0001, n = 91)
 
 **By Issue:**
 
 | Issue | National r | Labour r | n |
 |-------|-----------|---------|---|
-| Inflation Cost Of Living | 0.675 | 0.717 | 10 |
-| Healthcare Hospitals | 0.374 | 0.623 | 10 |
-| The Economy | 0.873 | 0.892 | 10 |
-| Housing Price | 0.515 | 0.573 | 10 |
-| Crime Law Order | 0.777 | 0.885 | 10 |
-| Unemployment | -0.731 | -0.787 | 10 |
-
+| Inflation Cost Of Living | 0.906 | 0.649 | 16 |
+| Healthcare Hospitals | 0.876 | 0.545 | 16 |
+| The Economy | 0.928 | 0.612 | 16 |
+| Housing Price | 0.817 | 0.570 | 16 |
+| Crime Law Order | 0.826 | 0.793 | 13 |
+| Unemployment | 0.940 | 0.725 | 14 |
 
 ### 12. Mortgage Rates vs Polling (RBNZ hb20)
 
@@ -268,69 +265,73 @@ All 14 qualifying months occurred during Nov 2021 – Feb 2023 (Labour governmen
 
 ### 13. What Drives Government Approval? (Causal Chain Analysis)
 
-**Data:** 29 matched observations (Ipsos approval × mortgage rate × incumbent polling), 24 with issue salience
+**Script:** `approval_drivers.py`
+**Data:** 34 Ipsos approval waves (Sep 2017 – Sep 2026); 30 matched to mortgage rate and incumbent polling; 33 with issue salience
+
+*Revised Oct 2026: the original version of this analysis used chart-misread salience values (see Data Sources). The corrected numbers are below; the cost-of-living result and the mortgage mediation survive, but the unemployment-salience result does not.*
 
 #### Drivers of Approval (Level Correlations)
 
 | Predictor | r | p-value | n |
 |-----------|---|---------|---|
-| Inflation/cost-of-living salience | **-0.869** | **< 0.001** | 24 |
-| Unemployment salience | **+0.757** | **< 0.001** | 24 |
-| Mortgage rate (2yr fixed) | **-0.754** | **< 0.001** | 30 |
-| Crime/law & order salience | **-0.744** | **< 0.001** | 24 |
-| Economy salience | **-0.696** | **< 0.001** | 24 |
-| Housing price salience | **-0.577** | **0.003** | 24 |
-| Education salience | -0.482 | 0.017 | 24 |
-| Healthcare salience | +0.443 | 0.030 | 24 |
+| Inflation/cost-of-living salience | **-0.824** | **< 0.001** | 33 |
+| Healthcare salience | **-0.805** | **< 0.001** | 33 |
+| Poverty/inequality salience | **+0.752** | **< 0.001** | 33 |
+| Mortgage rate (2yr fixed) | **-0.738** | **< 0.001** | 31 |
+| Housing price salience | **+0.698** | **< 0.001** | 33 |
+| Crime/law & order salience | -0.349 | 0.047 | 33 |
+| Unemployment salience | +0.282 | 0.112 | 33 |
+| Economy salience | +0.020 | 0.913 | 33 |
 
-**Interpretation:** Government approval is overwhelmingly driven by **cost-of-living anxiety**. When voters are worried about inflation, mortgage rates, crime, or "the economy", approval drops. The top predictor is how salient cost-of-living is as an issue (r=-0.869), not any objective economic measure.
+**Interpretation:** Cost-of-living salience is still the strongest single correlate of approval (r=-0.824). But level correlations across 2017–2026 mostly separate two eras — Labour's high-approval COVID years (when housing and poverty dominated concern) and the low-approval years since 2022 (cost of living and healthcare). Healthcare, housing and poverty are best read as markers of era, not as independent drivers.
 
 #### Change Correlations (what predicts *shifts* in approval?)
 
 | Predictor | Δr | p-value |
 |-----------|-----|---------|
-| Δ Unemployment salience | **+0.783** | **< 0.001** |
-| Δ Crime salience | **-0.694** | **< 0.001** |
-| Δ Healthcare salience | **+0.565** | **0.009** |
-| Δ Housing price salience | -0.408 | 0.074 |
-| Δ Mortgage rate | -0.205 | 0.286 |
+| Δ Unemployment salience | **+0.665** | **< 0.001** |
+| Δ Housing price salience | -0.367 | 0.039 |
+| Δ Healthcare salience | -0.319 | 0.075 |
+| Δ Crime salience | -0.217 | 0.233 |
+| Δ Mortgage rate | -0.187 | 0.332 |
+| Δ Cost-of-living salience | -0.095 | 0.606 |
 
-**Key insight:** Changes in *issue salience* predict changes in approval more strongly than changes in mortgage rates themselves. The mechanism is: economic conditions → public concern about issues → government disapproval → vote shift.
+**Key insight:** Wave-to-wave, rising unemployment *salience* goes with rising approval — this is driven by the COVID rally (unemployment concern spiked in May 2020 alongside record approval), so it should not be read as a general rule. Cost-of-living salience moves approval in levels but not wave to wave.
 
-#### Stepwise Model for Approval (R² = 0.91)
+#### Stepwise Model for Approval (salience only)
 
 | Step | Variable Added | Adj R² | ΔR² |
 |------|---------------|--------|-----|
-| 1 | Inflation/cost-of-living salience | 0.744 | 0.744 |
-| 2 | Unemployment salience | 0.880 | 0.136 |
-| 3 | Education salience | 0.895 | 0.016 |
+| 1 | Inflation/cost-of-living salience | 0.669 | 0.669 |
+| 2 | Healthcare salience | 0.796 | 0.127 |
+| 3 | Economy salience | 0.897 | 0.101 |
 
-Just two issue salience variables explain 88% of the variance in government approval. Cost-of-living salience alone explains 74%.
+Cost-of-living salience alone explains 67% of the variance in government approval (previously reported as 74%). The previous claim that cost-of-living plus unemployment salience explain 88% does not survive the corrected data.
 
 #### Mediation: Mortgage Rate → Approval → Polling
 
 | Path | Coefficient | p-value |
 |------|-------------|---------|
-| Total effect (mortgage → vote) | -4.17 | < 0.001 |
-| Direct effect (mortgage → vote, controlling for approval) | -1.35 | 0.163 |
-| Indirect effect (mortgage → approval → vote) | -2.82 | — |
-| **% mediated** | **67.7%** | — |
-| Sobel test | z = -3.32 | **0.001** |
+| Total effect (mortgage → vote) | -4.18 | < 0.001 |
+| Direct effect (mortgage → vote, controlling for approval) | -1.28 | 0.166 |
+| Indirect effect (mortgage → approval → vote) | -2.91 | — |
+| **% mediated** | **69.5%** | — |
+| Sobel test | z = -3.50 | **< 0.001** |
 
-**Finding:** 68% of the mortgage rate effect on polling operates *through* government approval. The causal chain is:
+**Finding:** 70% of the mortgage rate effect on polling operates *through* government approval (unchanged by the salience correction — this path uses approval only). The causal chain is:
 
 **Mortgage rates ↑ → Cost-of-living concern ↑ → Government approval ↓ → Incumbent vote ↓**
 
-The remaining 32% direct effect (mortgage → vote, bypassing approval) is not statistically significant on its own (p=0.163), suggesting approval almost fully mediates the relationship.
+The remaining direct effect (mortgage → vote, bypassing approval) is not statistically significant on its own (p=0.166).
 
 #### Direction Reversal Under National Government
 
 | Government | Mortgage r vs approval | Interpretation |
 |------------|----------------------|----------------|
-| Labour (2017–2023) | **-0.814** | Rising rates → falling approval (cost-of-living pain) |
-| National (2023–present) | **+0.829** | Falling rates → falling approval (rates falling because economy is in recession) |
+| Labour (2017–2023) | **-0.833** (n=21) | Rising rates → falling approval (cost-of-living pain) |
+| National (2023–present) | **+0.837** (n=9) | Falling rates → falling approval (rates falling because economy is in recession) |
 
-Under National, falling mortgage rates don't *help* — they signal RBNZ emergency response to recession. The cost-of-living → approval link remains (r=-0.748 for Labour period), but the mortgage rate proxies for different things depending on the economic regime.
+Under National, falling mortgage rates don't *help* — they signal RBNZ emergency response to recession. The cost-of-living → approval link holds under Labour (r=-0.711) but is weak and non-significant under National (r=-0.348, n=12): cost-of-living concern stayed high through National's term while approval stayed low, so there is little within-term variation to correlate.
 
 
 ### 14. Petrol Prices vs Incumbent Polling (MBIE)
@@ -385,13 +386,13 @@ Under National, falling mortgage rates don't *help* — they signal RBNZ emergen
 
 | Path | Coefficient | p-value |
 |------|-------------|---------|
-| Total effect (petrol → vote) | -0.201 | < 0.001 |
-| Direct effect (controlling approval) | -0.103 | 0.008 |
-| Indirect (petrol → approval → vote) | -0.098 | — |
-| **% mediated** | **48.9%** | — |
-| Sobel test | z = -3.11 | **0.002** |
+| Total effect (petrol → vote) | -0.203 | < 0.001 |
+| Direct effect (controlling approval) | -0.100 | 0.008 |
+| Indirect (petrol → approval → vote) | -0.103 | — |
+| **% mediated** | **50.7%** | — |
+| Sobel test | z = -3.28 | **0.001** |
 
-**Finding:** 49% of the petrol price effect operates through government approval. Unlike mortgage rates (68% mediated), petrol retains a larger direct effect — possibly because petrol price pain is more immediately visible and doesn't require the cognitive step of linking it to "cost of living" as an issue.
+**Finding:** 51% of the petrol price effect operates through government approval. Unlike mortgage rates (70% mediated), petrol retains a larger direct effect — possibly because petrol price pain is more immediately visible and doesn't require the cognitive step of linking it to "cost of living" as an issue.
 
 **By government period:** National govts show stronger petrol punishment (r=-0.231, p=0.007) than Labour govts (r=-0.167, p=0.073).
 
@@ -654,9 +655,9 @@ The correlation (r=0.340) is marginally significant (p=0.057). **Hangartner et a
 | National-Labour negative correlation | Strong negative | r = -0.31 | Yes |
 | Third party squeeze near elections | Support declines | Coef = -0.0003 | No |
 | Mean reversion of outliers | Outliers regress | 67.2% revert | Yes |
-| Govt approval → incumbent vote | Positive correlation | r = 0.827 | Yes |
-| Issue ownership affects vote | Salience shifts benefit 'owning' party | 10 issues with sig. links | Yes |
-| Perceived competence → vote | Positive correlation | r = 0.585 | Yes |
+| Govt approval → incumbent vote | Positive correlation | r = 0.857 | Yes |
+| Issue ownership affects vote | Salience shifts benefit 'owning' party | 8 issues with sig. links | Yes |
+| Perceived competence → vote | Positive correlation | r = 0.489 | Yes |
 | Mortgage rates → incumbent punishment | Rate rises hurt incumbent | Granger-causal, r = -0.307 (quarterly) | Yes |
 | Mortgage rate protest vote | Rate rises help main opposition | National in opp: r = +0.370 | Partial (major parties only) |
 | Petrol prices → incumbent punishment | Price rises hurt incumbent | Granger-causal, r = -0.348 (quarterly) | Yes |
@@ -727,18 +728,20 @@ The correlation (r=0.340) is marginally significant (p=0.057). **Hangartner et a
 
 **Theory:** Does actual recorded crime drive Ipsos crime salience, or is crime salience driven by media and perception independent of reality? Extends the "perception vs reality" finding from economics.
 
-**Data:** NZ Police monthly victimisations (Dec 2017 – Dec 2023, source: Figure.NZ/NZ Police) matched to Ipsos crime salience (28 waves, 2018-2025).
+**Data:** NZ Police monthly victimisations (Dec 2017 – Dec 2023, source: Figure.NZ/NZ Police) matched to Ipsos crime salience (34 waves, 2018-2026; 23 overlap with the crime series).
+
+*Revised Oct 2026 with corrected salience data.*
 
 **Results:**
-- **Unlike economics, actual crime DOES predict crime salience** (r = 0.569, p = 0.007 for 3-month average; r = 0.577, p = 0.008 for 12-month average)
-- Crime salience → govt approval: r = -0.858, p < 0.001 (very strong)
-- Crime salience → Labour: r = -0.720, p < 0.001 (strong negative — issue ownership)
-- Crime salience → National: r = +0.469, p = 0.037 (moderate positive)
-- **Perception still beats reality** as a predictor of approval: salience R² = 73.6% vs actual crime R² = 63.0%
-- Crime salience and cost-of-living salience are correlated (r = 0.463) — issues travel together
+- **Unlike economics, actual crime DOES predict crime salience** — and more strongly than first reported (r = 0.815, p < 0.001 for 3-month average; r = 0.823 for 12-month average; previously 0.569/0.577)
+- Crime salience → govt approval: r = -0.794, p < 0.001 (2017–2023 window)
+- Crime salience → Labour: r = -0.787, p < 0.001 (strong negative)
+- Crime salience → National: r = +0.241, p = 0.280 (**not significant** — previously reported as +0.469)
+- **Perception still beats reality** as a predictor of approval: salience R² = 63.0% vs actual crime R² = 52.1%
+- Crime salience and cost-of-living salience are strongly correlated (r = 0.799) — both rose together through 2022–23, which makes their separate effects hard to disentangle
 - COVID lockdowns caused both crime and crime salience to drop sharply
 
-**Conclusion:** Crime is qualitatively different from economics. Actual crime rates *do* predict public concern, unlike GDP/CPI/unemployment which have essentially zero predictive power. But the perception layer still adds value beyond the objective indicator. Crime salience is a powerful predictor of government approval and activates the issue ownership mechanism (hurts Labour, helps National).
+**Conclusion:** Crime is qualitatively different from economics. Actual crime rates strongly predict public concern, unlike GDP/CPI/unemployment which have essentially zero predictive power. Crime salience tracks Labour's decline and lower government approval during Labour's term, but there is no significant evidence that it lifted National directly.
 
 ---
 
@@ -746,17 +749,19 @@ The correlation (r=0.340) is marginally significant (p=0.057). **Hangartner et a
 
 **Theory:** Can Google search intensity provide a high-frequency (monthly) proxy for issue salience that sits between objective conditions and survey-measured concern?
 
-**Data:** Google Trends NZ monthly index for 5 keywords (2017-2025), matched to Ipsos Issues Monitor, govt approval, and party polling.
+**Data:** Google Trends NZ monthly index for 5 keywords (2017-2025), matched to Ipsos Issues Monitor (31 waves), govt approval, and party polling.
+
+*Revised Oct 2026 with corrected salience data.*
 
 **Results:**
-- **"Cost of living" searches DO predict Ipsos salience** (r = 0.482, p = 0.009) — the best-performing proxy
+- **Searches predict Ipsos salience for three of five issues:** crime (r = 0.604, p < 0.001), housing crisis (r = 0.592, p < 0.001) and cost of living (r = 0.441, p = 0.013). Healthcare and immigration searches do not track their Ipsos issues
 - **"Crime" searches predict govt approval decline** (r = -0.421, p = 0.020)
 - **"Healthcare" searches strongly predict National decline** (r = -0.569, p < 0.001) — consistent with issue ownership
 - **"Immigration" searches correlate with National gains** (r = 0.473, p < 0.001)
-- "Housing crisis" barely registers as a search term and doesn't predict anything
+- "Housing crisis" searches track housing salience but don't predict party polling
 - **No clear lead/lag**: Google Trends don't *lead* polls — they move contemporaneously, suggesting both respond to the same underlying events
 
-**Conclusion:** Google Trends is a useful supplementary indicator but not a forecasting tool. It validates the issue ownership framework: search behaviour around healthcare favours Labour, while immigration searches coincide with National gains. The lack of lead/lag means trends can't predict future polling shifts — they're a real-time barometer, not a crystal ball.
+**Conclusion:** Google Trends is a useful supplementary indicator for crime, housing and cost-of-living concern, but not a forecasting tool. It validates the issue ownership framework: search behaviour around healthcare favours Labour, while immigration searches coincide with National gains. The lack of lead/lag means trends can't predict future polling shifts — they're a real-time barometer, not a crystal ball.
 
 ---
 
@@ -787,24 +792,26 @@ The correlation (r=0.340) is marginally significant (p=0.057). **Hangartner et a
 
 **Theory:** Across 26 analyses we identified multiple predictors of incumbent vote share. Do they provide independent explanatory power, or are they all proxies for the same underlying process?
 
-**Data:** Ipsos government performance (30 waves), issue salience (28 waves), RBNZ mortgage rates, MBIE petrol prices, OECD consumer confidence, Stats NZ rental CPI — all matched to incumbent vote share at Ipsos survey dates (n=24-30).
+**Data:** Ipsos government performance and issue salience (34 waves), RBNZ mortgage rates, MBIE petrol prices, OECD consumer confidence, Stats NZ rental CPI — all matched to incumbent vote share at Ipsos survey dates (n=29-31, to Feb 2026).
+
+*Revised Oct 2026 with corrected salience data. The original version reported a parsimonious model of approval + petrol (R² = 0.767, n = 24).*
 
 **Results:**
 
 | Model | R² | Adj R² | AIC | n |
 |-------|-----|--------|-----|---|
-| Approval only | 0.675 | 0.664 | 175.8 | 30 |
-| Approval + CoL salience | 0.745 | 0.720 | 140.6 | 24 |
-| Kitchen sink (7 predictors) | 0.806 | 0.721 | 144.0 | 24 |
-| **Parsimonious (approval + petrol)** | **0.767** | **0.745** | **138.3** | **24** |
+| Approval only | 0.687 | 0.676 | 180.5 | 31 |
+| Approval + CoL salience | 0.790 | 0.774 | 165.8 | 30 |
+| Kitchen sink (7 predictors) | 0.871 | 0.829 | 156.1 | 29 |
+| **Backward-eliminated (approval + CoL + crime salience + mortgage)** | **0.861** | **0.838** | **152.4** | **29** |
 
-- Government approval alone explains 67.5% of incumbent vote variance
-- Adding all 7 predictors raises R² to 0.806 but Adj R² *drops* to 0.721 (overfitting)
-- Massive multicollinearity: all VIFs > 30, most > 100 — predictors are all measuring the same underlying phenomenon
-- **Parsimonious model** (approval + petrol price) achieves lowest AIC with just two predictors
-- Each 1-point increase in govt approval ≈ +3.8pp incumbent vote; each 1 c/L petrol price increase ≈ -0.1pp
+- Government approval alone explains 68.7% of incumbent vote variance
+- Adding cost-of-living salience lifts Adj R² to 0.774 — with corrected data, CoL salience is now significant alongside approval (β = -0.22, p = 0.002)
+- Massive multicollinearity: all VIFs > 40, most > 100 — predictors are largely measuring the same underlying phenomenon
+- Backward elimination keeps approval, CoL salience, crime salience and mortgage rate (Adj R² = 0.838), but the mortgage coefficient has the wrong sign (+4.3pp per point), a sign of collinearity rather than a real effect. Treat it as fragile with n = 29
+- Each 1-point increase in govt approval ≈ +3.9pp incumbent vote
 
-**Conclusion:** The multivariate analysis confirms that government approval is the master variable. Economic indicators (mortgage rates, rental inflation, consumer confidence) don't add independent explanatory power because they all feed through the same causal chain: **pocketbook costs → cost-of-living concern → government disapproval → vote shift**. Approval already incorporates voters' subjective assessment of economic conditions. The one exception is petrol prices, which retain a small direct effect even controlling for approval — consistent with petrol's unique visibility as a daily-frequency price signal.
+**Conclusion:** The multivariate analysis confirms that government approval is the master variable. Economic indicators (mortgage rates, rental inflation, consumer confidence) don't add independent explanatory power because they all feed through the same causal chain: **pocketbook costs → cost-of-living concern → government disapproval → vote shift**. Approval already incorporates voters' subjective assessment of economic conditions. The one robust addition is cost-of-living salience, which explains extra variance beyond approval. The earlier finding that petrol prices retain a direct effect does not survive the corrected data (petrol drops out at p = 0.20).
 
 ---
 
@@ -904,9 +911,9 @@ Individual predictor trends:
 | Reversal effect | Prior change predicts reversal | **Confirmed** (r = -0.51) | < 0.001 |
 | Third party squeeze | Minor parties squeezed near elections | Not detected | 0.682 |
 | Economic voting (macro) | GDP/CPI/unemp predict incumbent | Not significant | > 0.05 |
-| Govt performance → vote | Subjective rating predicts vote | **Confirmed** (r = 0.827) | < 0.001 |
-| Issue ownership | Issues activate party brands | **Confirmed** (10 issues) | < 0.05 |
-| Perceived competence → vote | "Best party to manage X" | **Confirmed** (r = 0.585) | < 0.001 |
+| Govt performance → vote | Subjective rating predicts vote | **Confirmed** (r = 0.857) | < 0.001 |
+| Issue ownership | Issues activate party brands | **Confirmed** (8 issues) | < 0.05 |
+| Perceived competence → vote | "Best party to manage X" | **Confirmed** (r = 0.489) | < 0.001 |
 | Mortgage → incumbent punishment | Rate rises hurt incumbent | **Confirmed** (Granger F=13.8) | < 0.001 |
 | Petrol → incumbent punishment | Price rises hurt incumbent | **Confirmed** (Granger F=12.0) | < 0.001 |
 | Consumer confidence → incumbent | Confidence predicts vote | **Confirmed** (Granger F=9.3) | 0.003 |
@@ -919,10 +926,10 @@ Individual predictor trends:
 | Prospective voting (MacKuen) | Future expectations predict | **Partial** (loses 4/5 to retro) | varies |
 | Position > valence (Stokes) | L-R distance > competence | **Confirmed** (position wins 4/4) | < 0.001 |
 | Strategic desertion (Cox) | Minor parties squeezed by threshold | **Partial** — split-ticket instead | 0.24 |
-| Crime reality → salience | Actual crime predicts concern | **Confirmed** (r = 0.569) | 0.007 |
-| Google Trends → salience | Search predicts survey concern | **Partial** — cost-of-living only (r = 0.482) | 0.009 |
+| Crime reality → salience | Actual crime predicts concern | **Confirmed** (r = 0.815) | < 0.001 |
+| Google Trends → salience | Search predicts survey concern | **Partial** — crime, housing, cost of living (r = 0.44–0.60) | < 0.02 |
 | Rental inflation → incumbent | Rents hurt incumbent | **Associational only** (r = -0.731 levels; fails Granger, NW) | 0.112 (NW) |
-| Multivariate model adds value | Multiple predictors > approval alone | **Not confirmed** (approval dominates, VIF > 30) | N/A |
+| Multivariate model adds value | Multiple predictors > approval alone | **Partial** (CoL salience adds to approval; larger models unstable, VIF > 40) | N/A |
 | Forecasting possible | Current indicators predict next Q | **Not confirmed** (naïve baseline wins, MAE 2.64pp) | > 0.2 |
 | Myopic retrospection (Achen & Bartels) | Election-year economy > full-term | **Partial** (late r=+0.588 vs early r=-0.114) | 0.096 |
 | Dealignment (Dalton 2000) | Demographics less predictive over time | **Not confirmed** (pseudo-R² stable/increasing) | 0.114 |
@@ -933,7 +940,7 @@ Individual predictor trends:
 | Source | Coverage | Notes |
 |--------|----------|-------|
 | Wikipedia polling tables | 1990-10-27 to 2026-03-03 | 1020 party vote polls, 299 PM polls |
-| Ipsos NZ Issues Monitor | Sep 2017 – Oct 2025 | 30 waves, govt performance + issue salience + party capability |
+| Ipsos NZ Issues Monitor | Sep 2017 – Sep 2026 | 34 approval waves, 34 salience waves (Feb 2018–Sep 2026), 16 capability waves (Feb 2023–Sep 2026). Rebuilt Oct 2026 from each edition's own bar chart, per-issue trend tables, and colour-matched trend charts; earlier versions misread chart labels |
 | RBNZ hb20 | Dec 2004 – Feb 2026 | 2-year fixed mortgage rate (monthly) |
 | MBIE fuel prices | Apr 2004 – Feb 2026 | Weekly regular petrol board price |
 | OECD CLI | Jan 1990 – Dec 2025 | Composite consumer confidence (monthly) |
@@ -962,8 +969,8 @@ All key time-series regressions were re-estimated with Newey-West heteroscedasti
 | CCI → Inc (changes) | +0.147 | 0.014 | 0.014 | 278 | Yes* |
 | Rental → Inc (levels) | -0.335 | 0.001 | 0.112 | 101 | **No** |
 | Rental → Inc (changes) | +0.029 | 0.775 | 0.854 | 100 | No (was already n.s.) |
-| Approval → Inc (levels) | +0.825 | < 0.001 | < 0.001 | 29 | Yes*** |
-| Approval → Inc (changes) | +0.545 | 0.003 | 0.002 | 28 | Yes** |
+| Approval → Inc (levels) | +0.832 | < 0.001 | < 0.001 | 30 | Yes*** |
+| Approval → Inc (changes) | +0.545 | 0.002 | 0.002 | 29 | Yes** |
 
 **Key conclusion:** All core pocketbook findings (mortgage rates, petrol prices, consumer confidence) and the government approval relationship survive Newey-West correction. The only casualty is the **rental inflation level correlation**, which loses significance (OLS p=0.001 → NW p=0.112). Combined with the failed Granger test, this demotes rental inflation from a confirmed causal indicator to an associational finding.
 

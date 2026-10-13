@@ -101,14 +101,13 @@ Non-election-year bounce: **-1.0pp** (n=18)
 
 | Issue | National % | Labour % | Gap | Owner |
 |-------|-----------|---------|-----|-------|
-| Inflation Cost Of Living | 24 | 36 | -12 | **Labour** |
-| Healthcare Hospitals | 21 | 40 | -19 | **Labour** |
-| The Economy | 29 | 33 | -4 | **Labour** |
-| Housing Price | 22 | 32 | -10 | **Labour** |
-| Crime Law Order | 30 | 25 | +5 | **National** |
-| Unemployment | 39 | 19 | +20 | **National** |
+| Inflation Cost Of Living | 21 | 31 | -10 | **Labour** |
+| Healthcare Hospitals | 21 | 38 | -17 | **Labour** |
+| The Economy | 28 | 30 | -2 | **Labour** |
+| Housing Price | 23 | 31 | -8 | **Labour** |
+| Unemployment | 21 | 34 | -13 | **Labour** |
 
-Labour leads on **4/6** issues. National leads on **2/6**.
+Labour leads on **5/5** issues. National leads on **0/5**.
 
 **Finding**: Labour has captured issue ownership on almost all salient issues, including traditionally National-owned domains like the economy and inflation. National retains only crime/law & order and unemployment.
 
@@ -118,12 +117,12 @@ Labour leads on **4/6** issues. National leads on **2/6**.
 
 **Question**: Does the Ipsos government performance rating predict actual polling?
 
-Correlation: r = **0.885**, p = 0.0000
+Correlation: r = **0.890**, p = 0.0000
 Slope: 6.0pp polling per 1-point govt rating
-R² = 0.783 (government rating explains 78% of incumbent poll variance)
+R² = 0.792 (government rating explains 79% of incumbent poll variance)
 
-Current govt rating: **3.9/10** (lowest in tracking history)
-Current incumbent (National) polling: **31.5%**
+Current govt rating: **4.2/10** (tracking low is 3.9)
+Current incumbent (National) polling: **32.3%**
 
 ### Government Performance Trajectory
 
@@ -158,6 +157,7 @@ Current incumbent (National) polling: **31.5%**
 | 2025-05 | National-ACT-NZ | 4.3 | 33.0% | 39% |
 | 2025-08 | National-ACT-NZ | 4.2 | 32.0% | 41% |
 | 2025-10 | National-ACT-NZ | 3.9 | 31.5% | 45% |
+| 2026-02 | National-ACT-NZ | 4.2 | 32.3% | 39% |
 
 ![Govt vs Polls](../graphs/pol_govt_vs_polls.png)
 
