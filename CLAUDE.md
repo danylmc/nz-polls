@@ -36,6 +36,7 @@ Analyze NZ polling data to find predictors and correlates of polling shifts usin
 30. Adversarial critique and rebuttal — systematic challenge to methodology, specific rules, and data quality; rebuttal addresses each point with concessions and defences
 31. Ipsos data rebuild (Oct 2026) — added editions 9, 15, 31-34; salience and capability rebuilt from each edition's own bar chart, Ipsos trend tables and colour-matched trend charts (old values were chart-misread); Ipsos-dependent analyses rerun
 32. Household disposable income vs polling — level association (r=+0.47) is the inflation squeeze from the income side; absorbed by CPI inflation, not Granger-causal
+33. Cost of living and vote power — NZES 2023: CoL shaped where Labour defectors went (to National), not whether they left; concern ratchets on price level and pulses with food inflation (r=0.73); under National it's a constant, decline tracks economy/jobs; 2025–26 movement is within blocs
 
 ---
 
@@ -91,6 +92,8 @@ Analyze NZ polling data to find predictors and correlates of polling shifts usin
 | `household_income_fetch.py` | Stats NZ household income/CPI/GDP download (Camoufox) + extract | Complete |
 | `household_income_analysis.py` | Real household disposable income vs polling | Complete |
 | `data/household_disposable_income.csv` | Real HH net disposable income per person (2016Q2–2026Q2) + RGNDI pc (1991–) | Complete |
+| `reports/cost_of_living_vote_power.md` | Which issues decide votes; how cost of living moves them (Analysis 33) | Complete |
+| `reports/panel_deep_dive.py` | Numbers for Analysis 33 and the deep panel answers | Complete |
 | `reports/adversarial_critique.md` | Systematic critique of methodology and findings | Complete |
 | `reports/rebuttal.md` | Response to adversarial critique | Complete |
 | `reports/guide_to_nz_polling.md` | Plain-language guide (19 findings) | Complete |
