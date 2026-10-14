@@ -35,6 +35,7 @@ Analyze NZ polling data to find predictors and correlates of polling shifts usin
 29. Robustness checks — Newey-West HAC SEs for all key regressions + rental Granger test; rental inflation demoted (fails both); all other pocketbook findings survive
 30. Adversarial critique and rebuttal — systematic challenge to methodology, specific rules, and data quality; rebuttal addresses each point with concessions and defences
 31. Ipsos data rebuild (Oct 2026) — added editions 9, 15, 31-34; salience and capability rebuilt from each edition's own bar chart, Ipsos trend tables and colour-matched trend charts (old values were chart-misread); Ipsos-dependent analyses rerun
+32. Household disposable income vs polling — level association (r=+0.47) is the inflation squeeze from the income side; absorbed by CPI inflation, not Granger-causal
 
 ---
 
@@ -87,10 +88,13 @@ Analyze NZ polling data to find predictors and correlates of polling shifts usin
 | `myopic_retrospection.py` | Myopic retrospection (Achen & Bartels 2016) | Complete |
 | `dealignment_analysis.py` | Dealignment analysis (Dalton 2000) | Complete |
 | `robustness_checks.py` | Newey-West HAC SEs + rental Granger test | Complete |
+| `household_income_fetch.py` | Stats NZ household income/CPI/GDP download (Camoufox) + extract | Complete |
+| `household_income_analysis.py` | Real household disposable income vs polling | Complete |
+| `data/household_disposable_income.csv` | Real HH net disposable income per person (2016Q2–2026Q2) + RGNDI pc (1991–) | Complete |
 | `reports/adversarial_critique.md` | Systematic critique of methodology and findings | Complete |
 | `reports/rebuttal.md` | Response to adversarial critique | Complete |
 | `reports/guide_to_nz_polling.md` | Plain-language guide (19 findings) | Complete |
-| `reports/findings.md` | Analysis report (30 analyses) | Complete |
+| `reports/findings.md` | Analysis report (31 analyses) | Complete |
 
 ---
 
@@ -129,6 +133,7 @@ Analyze NZ polling data to find predictors and correlates of polling shifts usin
 | Forecasting beats naïve baseline | **Not confirmed** (naïve MAE 2.64pp beats all models) | > 0.2 |
 | Myopic retrospection (Achen & Bartels) | **Partial** (late-term r=+0.588, early r=-0.114) | 0.096 |
 | Dealignment (Dalton 2000) | **Not confirmed** (pseudo-R² stable/increasing, Maori strengthening) | 0.114 |
+| Household disposable income → incumbent | **Not independent** (levels r = +0.47, absorbed by inflation; no Granger) | 0.32 (NW) |
 
 Notable event effects:
 - **Ardern honeymoon (2017)**: +8.9% Labour boost
@@ -256,6 +261,8 @@ python multivariate_model.py          # Multivariate model & forecasting
 python ipsos_visualizations.py        # Ipsos data visualizations
 python myopic_retrospection.py        # Myopic retrospection (Achen & Bartels)
 python dealignment_analysis.py        # Dealignment analysis (Dalton 2000)
+python household_income_analysis.py   # Household disposable income vs polling
+# (household_income_fetch.py needs Camoufox: /mnt/d/data/.venv/bin/python)
 
 # Generate visualizations
 python visualize.py

@@ -902,6 +902,29 @@ Individual predictor trends:
 
 ---
 
+## Analysis 31: Household Disposable Income
+
+**Question:** Does growth in real household disposable income per person predict support for the governing party?
+
+**Data:** Stats NZ household net disposable income (national accounts, experimental series, quarterly, seasonally adjusted, 2016Q2–2026Q2), deflated by CPI and divided by population (implied from GDP per capita). As a long-run check, real gross national disposable income (RGNDI) per capita, 1999–2026, which covers the whole economy, not just households. Script: `household_income_analysis.py`; data built by `household_income_fetch.py`.
+
+**Key results (household series, 36 quarters, 2017–2026):**
+- Year-on-year income growth vs incumbent vote level: r = +0.471 (p = 0.004); survives Newey-West (p < 0.001) and government fixed effects (slope +0.63pp per 1% growth, NW p = 0.047)
+- Quarter-to-quarter changes: no relationship (lag 0 r = +0.15, p = 0.42; lag 1 r = -0.26, p = 0.15); not Granger-causal (lag 1 p = 0.17)
+- **Inflation absorbs it.** Income growth and CPI inflation are strongly inversely correlated (r = -0.71). With both in the model, income loses significance (NW p = 0.32) and inflation keeps it (slope -1.43pp per 1pp inflation, NW p = 0.03)
+- The association is a Labour-era effect: Labour in government r = +0.58 (p = 0.003, n = 24); National in government r = +0.03 (p = 0.92, n = 12)
+- Income growth vs Ipsos government rating: r = +0.38 (p = 0.04, n = 30)
+
+**Long series (RGNDI per capita, 104 quarters, 2000–2026):** no level relationship (r = -0.02, p = 0.83), no Granger effect (all p > 0.59). A lag-0 change correlation (r = -0.41) is a COVID artefact: it disappears once 2020Q2–Q4 are dropped (r = -0.14, p = 0.20).
+
+**Election level:** RGNDI per capita growth over the year before each election vs the incumbent's vote change: r = +0.67 (p = 0.07, n = 8). This rests entirely on 2023 (-1.8% income, Labour -23.1pp); without 2023, r = +0.12.
+
+**Interpretation:** Disposable income is **not an independent predictor** of incumbent support. Its level correlation in 2017–26 is the 2021–23 inflation squeeze seen from the income side: real incomes fell because prices rose, and once inflation is in the model, income adds nothing. Voters respond to the prices they see, not to the national-accounts income measure. This fits the earlier findings: macro aggregates don't move polls (Analysis 5), sociotropic perceptions beat personal finances (Analysis 21), and cost-of-living salience is the master variable (Analysis 13). The National-era null matters for 2026: real household income per person grew about 2.6% in the year to June 2026, and the incumbent's vote kept falling.
+
+**Caveats:** The household series is experimental and short (two governments, one inflation episode). Household disposable income in the national accounts includes imputed rent and self-employed income, so it is not the same as take-home pay.
+
+---
+
 ## Updated Hypothesis Comparison Table
 
 | Hypothesis | Prediction | Result | p-value |
@@ -933,6 +956,7 @@ Individual predictor trends:
 | Forecasting possible | Current indicators predict next Q | **Not confirmed** (naïve baseline wins, MAE 2.64pp) | > 0.2 |
 | Myopic retrospection (Achen & Bartels) | Election-year economy > full-term | **Partial** (late r=+0.588 vs early r=-0.114) | 0.096 |
 | Dealignment (Dalton 2000) | Demographics less predictive over time | **Not confirmed** (pseudo-R² stable/increasing) | 0.114 |
+| Household disposable income → incumbent | Real income growth helps incumbent | **Not independent** (levels r = +0.47, but absorbed by inflation, NW p = 0.32; no Granger) | 0.32 (NW) |
 | Budget bounce | Expansionary budgets boost incumbent | **Not confirmed** (mean -0.3pp across 27 budgets) | > 0.1 |
 
 ## Data Sources

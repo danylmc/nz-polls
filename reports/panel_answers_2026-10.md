@@ -73,4 +73,4 @@ A CEO intervention that sounds like one side's argument will be sorted into that
 - The minor-party comparison uses unweighted averages of published polls, not a modelled average. The project's weighted average gives a similar figure (56.8% Labour + National on 6 October).
 - The cross-country figures are descriptive: electoral systems, pollsters and timing differ.
 - Left out deliberately: the "myopic voting" result (election-year growth matters most). It's only suggestive (p≈0.10, nine elections).
-- Household disposable income hasn't been tested directly. The closest evidence, from the Election Study, is that voters' views of the national economy predict their vote better than their views of their own finances.
+- **If asked about household incomes:** real household disposable income per person doesn't independently predict government support. It moved with Labour's vote in 2021–23, but only because inflation was eating incomes; once inflation is accounted for, income adds nothing. Under National it has recovered (about +2.6% in the year to June 2026) and the government's vote kept falling. Voters react to prices they see, not to income statistics.
