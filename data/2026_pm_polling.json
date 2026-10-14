@@ -825,6 +825,123 @@
         "Seymour": 3.8,
         "Peters": 10.5
       }
+    },
+    {
+      "date": "2026-08-11",
+      "pollster": "1 News–Verian",
+      "sample_size": 847,
+      "candidates": {
+        "Luxon": 17.0,
+        "Hipkins": 15.0,
+        "Swarbrick": 6.0,
+        "Seymour": 5.0,
+        "Peters": 7.0
+      }
+    },
+    {
+      "date": "2026-08-11",
+      "pollster": "Talbot Mills",
+      "sample_size": null,
+      "candidates": {
+        "Luxon": 22.0,
+        "Hipkins": 23.0,
+        "Swarbrick": 8.0,
+        "Seymour": 7.0,
+        "Peters": 12.0
+      }
+    },
+    {
+      "date": "2026-08-21",
+      "pollster": "RNZ–Reid Research",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 19.9,
+        "Hipkins": 21.3,
+        "Swarbrick": 7.4,
+        "Seymour": 6.2,
+        "Peters": 11.1
+      }
+    },
+    {
+      "date": "2026-09-03",
+      "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 21.2,
+        "Hipkins": 16.9,
+        "Swarbrick": 7.0,
+        "Seymour": 7.8,
+        "Peters": 10.7
+      }
+    },
+    {
+      "date": "2026-09-11",
+      "pollster": "The Post/Freshwater Strategy",
+      "sample_size": 1011,
+      "candidates": {
+        "Luxon": 35.0,
+        "Hipkins": 45.0
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "pollster": "1 News–Verian",
+      "sample_size": 1004,
+      "candidates": {
+        "Luxon": 19.0,
+        "Hipkins": 14.0,
+        "Swarbrick": 8.0,
+        "Seymour": 7.0,
+        "Peters": 7.0
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "pollster": "RNZ–Reid Research",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 17.1,
+        "Hipkins": 21.9,
+        "Swarbrick": 8.7,
+        "Seymour": 7.6,
+        "Peters": 11.2
+      }
+    },
+    {
+      "date": "2026-10-05",
+      "pollster": "Taxpayers' Union–Curia",
+      "sample_size": 1000,
+      "candidates": {
+        "Luxon": 21.2,
+        "Hipkins": 21.0,
+        "Swarbrick": 4.9,
+        "Seymour": 6.0,
+        "Peters": 13.9
+      }
+    },
+    {
+      "date": "2026-10-05",
+      "pollster": "1 News–Verian",
+      "sample_size": 1001,
+      "candidates": {
+        "Luxon": 20.0,
+        "Hipkins": 18.0,
+        "Swarbrick": 7.0,
+        "Seymour": 5.0,
+        "Peters": 9.0
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "pollster": "1 News–Verian",
+      "sample_size": 1007,
+      "candidates": {
+        "Luxon": 20.0,
+        "Hipkins": 20.0,
+        "Swarbrick": 6.0,
+        "Seymour": 4.0,
+        "Peters": 7.0
+      }
     }
   ]
 }
