@@ -932,6 +932,15 @@
       }
     },
     {
+      "date": "2026-10-10",
+      "pollster": "Anacta",
+      "sample_size": 1352,
+      "candidates": {
+        "Luxon": 22.0,
+        "Hipkins": 22.0
+      }
+    },
+    {
       "date": "2026-10-12",
       "pollster": "1 News–Verian",
       "sample_size": 1007,
@@ -941,6 +950,18 @@
         "Swarbrick": 6.0,
         "Seymour": 4.0,
         "Peters": 7.0
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "pollster": "1 News–Verian",
+      "sample_size": 1003,
+      "candidates": {
+        "Luxon": 20.0,
+        "Hipkins": 17.0,
+        "Swarbrick": 7.0,
+        "Seymour": 5.0,
+        "Peters": 8.0
       }
     }
   ]
