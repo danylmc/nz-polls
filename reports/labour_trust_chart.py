@@ -141,6 +141,7 @@ def main():
     OUT.parent.mkdir(exist_ok=True)
     fig.savefig(OUT, dpi=480)
     fig.savefig(OUT.with_suffix(".svg"))
+    fig.savefig(OUT.with_name(OUT.stem + "_hires.png"), dpi=960)
     print("Saved", OUT, "| Labour peak", peak.date(), round(lab[peak], 1),
           "| end", end.date(), "Lab", round(lab.iloc[-1], 1), "Nat", round(nat.iloc[-1], 1))
 
