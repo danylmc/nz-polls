@@ -94,6 +94,15 @@ Analyze NZ polling data to find predictors and correlates of polling shifts usin
 | `data/household_disposable_income.csv` | Real HH net disposable income per person (2016Q2–2026Q2) + RGNDI pc (1991–) | Complete |
 | `reports/cost_of_living_vote_power.md` | Which issues decide votes; how cost of living moves them (Analysis 33) | Complete |
 | `reports/panel_deep_dive.py` | Numbers for Analysis 33 and the deep panel answers | Complete |
+| `reports/media_panel_numbers.py` | Business confidence vs polls/GDP, poll commissioners (Media & Politics panel) | Complete |
+| `reports/panel_answers_2026-10-21_media_politics.md` | Media & Politics panel answers (trust in news, lobbying, business) | Complete |
+| `data/business_confidence.csv` | OECD composite business confidence, NZ (monthly 1988–) | Complete |
+| `reports/first_term_comparison.py` | National/Luxon 2023–26 vs other first terms; within-term declines (vote, PM, right/wrong direction) | Complete |
+| `reports/national_first_term_brief.md` | Column data brief: Luxon vs Bolger/Clark/Key/Ardern first terms | Complete |
+| `reports/mood_leader_party_model.py` | Mood (right/wrong direction) vs PM rating vs governing-party vote, monthly 2020–26; petrol as driver | Complete |
+| `reports/national_luxon_mood_chart.py` | Listener chart: National, Luxon pref PM, right/wrong direction 2021–26 | Complete |
+| `reports/national_slumps_brief.md` | Column brief: autumn 2024, 2026 fuel shocks, mood→vote model | Complete |
+| `data/right_wrong_direction_2026.csv` | Right/wrong direction polls Nov 2023–Oct 2026 (from cached Wikipedia page) | Complete |
 | `reports/adversarial_critique.md` | Systematic critique of methodology and findings | Complete |
 | `reports/rebuttal.md` | Response to adversarial critique | Complete |
 | `reports/guide_to_nz_polling.md` | Plain-language guide (19 findings) | Complete |

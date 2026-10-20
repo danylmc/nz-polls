@@ -57,7 +57,7 @@ ELECTION_DATES = {
     2017: "2017-09-23",
     2020: "2020-10-17",
     2023: "2023-10-14",
-    2026: "2026-11-21",  # Expected
+    2026: "2026-11-07",
 }
 
 # Incumbent party by election cycle (party in power at start of cycle)

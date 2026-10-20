@@ -96,8 +96,8 @@ August coup. It's at the series end-point, where the trend is least reliable, wi
 - 23–28 Sep 2024: Willis orders public servants back to the office ("Don't make me tell you again")
 - 1 Oct: Post reports Luxon avoided tax on his Wellington apartment sale only because his
   government changed the bright-line test. He sold rental properties on 23 Sep, 11 Oct and 4 Dec.
-- Early Oct: Luxon says he is **"wealthy and sorted"**. It topped nominations for Massey's
-  Quote of the Year 2024. *Original date and context still to pin down.*
+- 1 Oct (Tue): Luxon says he is **"wealthy and sorted"** (Newstalk ZB, Heather du Plessis-Allan),
+  the same day as the Post's bright-line story. It topped nominations for Massey's Quote of the Year 2024.
 - 16 Oct: Willis: **"The era of crushing price rises is now over."**
 - Same week: Verian poll has **51% saying Luxon is out of touch**; preferred PM 25 (−3)
 - 21 Oct: Bayly "loser" incident, no action. ~1 Nov: I Am Hope / youth mental health row.
@@ -234,4 +234,4 @@ Labour first led on cost of living in May 2025 (32–31).
   Principles Bill and Luxon's gaffes all overlap.
 - Our models say approval follows cost-of-living concern more than any single decision;
   frame "went wrong" as what was in the government's control and what wasn't
-- Still to verify: the original date and context of "wealthy and sorted"; nominal house prices
+- Still to verify: nominal house prices
