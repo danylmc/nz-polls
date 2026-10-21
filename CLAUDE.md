@@ -102,6 +102,7 @@ Analyze NZ polling data to find predictors and correlates of polling shifts usin
 | `reports/mood_leader_party_model.py` | Mood (right/wrong direction) vs PM rating vs governing-party vote, monthly 2020–26; petrol as driver | Complete |
 | `reports/national_luxon_mood_chart.py` | Listener chart: National, Luxon pref PM, right/wrong direction 2021–26 | Complete |
 | `reports/national_slumps_brief.md` | Column brief: autumn 2024, 2026 fuel shocks, mood→vote model | Complete |
+| `reports/structural_flaws_brief.md` | Column brief: structural flaws (one chamber, payroll vote, urgency, coalition deals, 4-yr term, centralisation) | Complete |
 | `data/right_wrong_direction_2026.csv` | Right/wrong direction polls Nov 2023–Oct 2026 (from cached Wikipedia page) | Complete |
 | `reports/adversarial_critique.md` | Systematic critique of methodology and findings | Complete |
 | `reports/rebuttal.md` | Response to adversarial critique | Complete |
