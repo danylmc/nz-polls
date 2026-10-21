@@ -2,8 +2,9 @@
 
 Column brief, ~1,000–1,500 words. Last updated 2026-10-22.
 Sources: web research (linked inline and listed at the end), DPMC ministerial list
-(7 Apr 2026), OECD *Government at a Glance 2025*, and this repo's polling findings
-(`reports/findings.md`, Rules 3, 11, 20).
+(7 Apr 2026), OECD *Government at a Glance 2025*, this repo's polling findings
+(`reports/findings.md`, Rules 3, 11, 20), and a new count of select committee
+bypass across 2,506 Acts (`urgency_analysis.py`, `data/acts_legislative_history.csv`).
 
 ---
 
@@ -14,7 +15,8 @@ and its government an elected dictatorship. MMP in 1996 was meant to be the cure
 changed **who sits in Parliament**, but not **how much power the executive holds once
 it's there**. The country still has one chamber and no supreme constitution, so a
 simple majority can change almost anything. Nearly half the governing MPs are on the
-executive payroll. Urgency has hit MMP-era records. The rules that bind a government
+executive payroll. Almost one law in five passed this term skipped
+select committee entirely, a record, against about one in a hundred under Clark. The rules that bind a government
 for three years are written in private coalition talks, and voters blame only the
 biggest party for what results. The obvious reform, a four-year term traded for
 stronger scrutiny, lost its scrutiny half in select committee and was then shelved.
@@ -100,15 +102,67 @@ ministerial list, since there may have been a reshuffle after April.
 
 ## 3. Laws made fast
 
-- The coalition passed more bills under urgency in its first 100 days than any MMP
-  government: 13 by one count, 14 by another
-  ([Spinoff](https://thespinoff.co.nz/politics/01-10-2024/the-governments-latest-time-warp);
-  [Waikato Univ.](https://www.waikato.ac.nz/news-events/news/new-news-article-fast-track-laws-parliamentary-urgency-treaty-tension-media-retreat-warning-signs-for-nzs-brittle-democracy/)).
-- Transparency International NZ, using NZ Politics Tracker data, puts this
-  Parliament's **urgency ratio at 57%, against 29% for Labour 2020–23**
-  ([TI NZ](https://www.transparency.org.nz/blog/time-to-raise-the-bar-the-case-for-a-positive-test-for-urgency-in-new-zealand-parliament)).
-  This is an advocacy source, so verify it or rebuild it from Parliament's records
-  (see "Data still to build").
+**Our own count (new).** We parsed the legislative history of every public Act
+since 2000: 2,506 Acts from legislation.govt.nz (`urgency_fetch.py`,
+`urgency_analysis.py`). The measure: Acts that never went to a select committee, so
+the public had no chance to make submissions. Appropriation and Imprest Supply Acts,
+which skip committee by rule, are excluded.
+
+| Parliament | Government | Acts | Skipped committee | Share | Bill-level share* |
+|---|---|---|---|---|---|
+| 46th 1999–02 | Clark I (Lab–Alliance) | 209 | 8 | 3.8% | 7.5% |
+| 47th 2002–05 | Clark II | 366 | 4 | 1.1% | 1.7% |
+| 48th 2005–08 | Clark III | 312 | 4 | 1.3% | 2.1% |
+| 49th 2008–11 | Key I | 297 | 29 | 9.8% | 14.1% |
+| 50th 2011–14 | Key II | 318 | 10 | 3.1% | 5.8% |
+| 51st 2014–17 | Key/English | 266 | 16 | 6.0% | 10.7% |
+| 52nd 2017–20 | Ardern I (Lab–NZF) | 201 | 24 | 11.9% | 12.5% |
+| 53rd 2020–23 | Ardern/Hipkins (Lab majority) | 195 | 30 | 15.4% | 15.7% |
+| **54th 2023–26** | **Luxon (Nat–ACT–NZF)** | **209** | **38** | **18.2%** | **18.6%** |
+
+\*Before about 2020, omnibus bills were split into many Acts at third reading,
+which inflates the early Act counts. The bill-level column counts each original
+bill once. The 54th is the highest on both measures.
+
+- **The headline:** almost one law in five passed this term skipped select
+  committee. Under Clark it was about one in a hundred.
+- **The first 100 days** (from swearing-in): 14 of the coalition's first 16 Acts
+  skipped committee. The only precedent is Key's first government, at 8 of 9
+  (December 2008: the 90-day trial law, national standards, bail and sentencing).
+  Every other government skipped committee for two or fewer of its first-100-day
+  Acts.
+  - The 14: Reserve Bank single mandate, Fair Pay Agreements repeal, clean car
+    discount repeal, RMA replacement repeal, 90-day trials, Productivity
+    Commission, Three Waters repeal, benefit indexation, Māori Health Authority,
+    smokefree generation, legal aid, business payment practices, regional fuel tax,
+    and the taxation principles reporting repeal.
+- **After the first 100 days**: 24 more. Twelve were introduced on Budget day (2024,
+  2025, 2026). The other 12 include the Equal Pay Amendment Act 2025 (the pay
+  equity changes), the Climate Change Response (2050 Target) Amendment Act 2025, the
+  RMA consent-duration and Auckland housing changes, FamilyBoost, the greyhound
+  racing ban amendment, electronic bail monitoring and the adoption amendment.
+- **It's a trend across both parties, and that's the structural point.** It ran at
+  1–4% under Clark, spiked with Key's first government (Canterbury earthquakes,
+  Budget-night tax bills), then climbed through 12% (Ardern I, mostly Covid-19 laws)
+  and 15% (the Labour majority) to 18%. Each government treats the last one's peak
+  as normal.
+- **Cross-check:** Parliamentary Library figures reported by RNZ and The Spinoff
+  (August 2026) give 49th 10.0%, 50th 3.1%, 51st 6.1%, 54th 17.4% (first 940 days),
+  and 15.5% for the 53rd over the same span. Our figures are 9.8, 3.1, 6.0, 18.2 (full
+  term) and 15.4. The one disagreement is the 52nd (theirs 5.5%, ours 11.9%). Our 24
+  are all checkable: 11 Covid-19 laws plus Budget-night bills. It's possible the
+  Library excluded something
+  ([Spinoff, Aug 2026](https://thespinoff.co.nz/politics/03-08-2026/more-laws-rushed-through-parliament-under-urgency-than-any-term-since-2008)).
+- Media reports put the coalition's urgency in its first 100 days at 13–14 bills,
+  more than any MMP government. Those counts include bills that went to committee
+  but had other stages rushed. Transparency International NZ's "57% vs 29%" measures
+  bills with *any* stage under urgency. Our data can't see urgency on individual
+  stages, only whether committee was skipped, so don't quote the 57% as ours.
+- Leader of the House Louise Upston told RNZ that only 10 bills that skipped
+  committee weren't Budget-related or first-100-days bills. Our count is 12, to
+  September 2026.
+- Chart: `reports/urgency_select_committee_listener.png` (Listener style, bars
+  coloured by governing party).
 - Urgency can shorten or skip the select committee stage, which is the only point
   where the public gets a say on a bill.
 - There's no test for urgency. The government doesn't have to show anything is
@@ -254,8 +308,10 @@ The trade lost its scrutiny half first, then the rest was shelved.
 4. **The payroll** (~200): 30 of 68 governing MPs in the executive (44%), five of
    NZ First's eight. List rankings plus the waka-jumping law make independent
    backbenchers rare.
-5. **Speed** (~150): the 100-day urgency record and the 57% vs 29% ratio. Fast-track
-   as proof that select committee matters.
+5. **Speed** (~200): our count. Almost one law in five skipped select committee this
+   term, against about one in a hundred under Clark. 14 of the first 16 Acts. A
+   trend across both parties, which is why it's structural. Fast-track as proof
+   that select committee matters. Run the chart.
 6. **Coalition deals and blame** (~200): the Regulatory Standards Act's 98%
    opposition, and the repo finding that minor partners get power while National
    takes the economic blame.
@@ -272,10 +328,10 @@ could carry its own piece.
 
 ## Data still to build (if wanted)
 
-- **Urgency by government, 1996–2026**: bills passed under urgency, and bills that
-  skipped select committee, per parliamentary term. Parliament's records or the NZ
-  Politics Tracker. This would turn the 57%/29% claim into your own number, and it
-  is the most newsworthy addition.
+- ~~**Urgency by government**~~: done for Acts that skipped select committee,
+  2000–2026 (section 3). Still missing: urgency on individual stages (needs
+  Hansard or Journals of the House), and the Geiringer, Higbee & McLeay database
+  (*What's the Hurry?*, 2011) for 1987–99.
 - **Payroll share by term**: executive roles as a share of the governing caucus for
   each government since 1996, from DPMC ministerial lists. Tests whether MMP-era
   coalitions really have a higher payroll share.
@@ -306,6 +362,8 @@ could carry its own piece.
 - [DPMC ministerial list, 7 April 2026](https://www.dpmc.govt.nz/sites/default/files/2026-04/ministerial-list-07-apr-2026.pdf)
 - [Wikipedia — Waka jumping](https://en.wikipedia.org/wiki/Waka_jumping)
 - [1News 2024 — Seymour on the waka-jumping law](https://www.1news.co.nz/2024/07/17/dark-places-david-seymour-on-using-waka-jumping-law/)
+- [Spinoff, Aug 2026 — more laws rushed through under urgency than any term since 2008](https://thespinoff.co.nz/politics/03-08-2026/more-laws-rushed-through-parliament-under-urgency-than-any-term-since-2008)
+- [legislation.govt.nz — as-enacted Acts with legislative histories](https://www.legislation.govt.nz/)
 - [Spinoff — the government's latest time warp](https://thespinoff.co.nz/politics/01-10-2024/the-governments-latest-time-warp)
 - [Waikato University — NZ's "brittle" democracy](https://www.waikato.ac.nz/news-events/news/new-news-article-fast-track-laws-parliamentary-urgency-treaty-tension-media-retreat-warning-signs-for-nzs-brittle-democracy/)
 - [Transparency International NZ — a positive test for urgency](https://www.transparency.org.nz/blog/time-to-raise-the-bar-the-case-for-a-positive-test-for-urgency-in-new-zealand-parliament)

@@ -1,0 +1,10 @@
+parliament,government,label,election,acts,supply_acts,acts_ex_supply,skipped_sc,skipped_sc_pct,all_stages_one_go,all_stages_one_go_pct,bills_ex_supply,bills_skipped_sc,bills_skipped_sc_pct,first100_acts,first100_skipped_sc,median_sc_days,short_sc,short_sc_pct,first_act,last_act
+46,Labour–Alliance,Clark I,1999-11-27,224,15,209,8,3.8,7,3.3,107,8,7.5,4,1,117.0,14,18.2,2000-02-23,2002-06-11
+47,Labour–Progressive,Clark II,2002-07-27,382,16,366,4,1.1,4,1.1,242,4,1.7,21,0,158.0,10,8.3,2002-09-11,2005-08-02
+48,Labour–Progressive,Clark III,2005-09-17,324,12,312,4,1.3,1,0.3,194,4,2.1,36,2,126.0,11,11.7,2005-12-08,2008-09-23
+49,"National (ACT, UF, Māori)",Key I,2008-11-08,311,14,297,29,9.8,29,9.8,205,29,14.1,9,8,120.0,16,15.8,2008-12-09,2011-10-06
+50,"National (ACT, UF, Māori)",Key II,2011-11-26,333,15,318,10,3.1,9,2.8,154,9,5.8,23,0,139.0,1,1.1,2012-02-14,2014-07-30
+51,"National (ACT, UF, Māori)",Key/English,2014-09-20,281,15,266,16,6.0,16,6.0,149,16,10.7,15,0,173.0,6,5.3,2014-10-30,2017-08-16
+52,Labour–NZ First (Greens),Ardern I,2017-09-23,217,16,201,24,11.9,23,11.4,192,24,12.5,11,2,178.0,16,9.9,2017-11-29,2020-08-04
+53,Labour majority,Ardern/Hipkins,2020-10-17,210,15,195,30,15.4,30,15.4,191,30,15.7,4,3,168.0,18,11.6,2020-12-01,2023-08-30
+54,National–ACT–NZ First,Luxon,2023-10-14,224,15,209,38,18.2,33,15.8,204,38,18.6,16,14,141.0,10,6.1,2023-12-12,2026-09-22

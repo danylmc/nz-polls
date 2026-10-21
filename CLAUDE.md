@@ -37,6 +37,7 @@ Analyze NZ polling data to find predictors and correlates of polling shifts usin
 31. Ipsos data rebuild (Oct 2026) — added editions 9, 15, 31-34; salience and capability rebuilt from each edition's own bar chart, Ipsos trend tables and colour-matched trend charts (old values were chart-misread); Ipsos-dependent analyses rerun
 32. Household disposable income vs polling — level association (r=+0.47) is the inflation squeeze from the income side; absorbed by CPI inflation, not Granger-causal
 33. Cost of living and vote power — NZES 2023: CoL shaped where Labour defectors went (to National), not whether they left; concern ratchets on price level and pulses with food inflation (r=0.73); under National it's a constant, decline tracks economy/jobs; 2025–26 movement is within blocs
+34. Select committee bypass — 2,506 Acts 2000–2026: 18.2% skipped select committee in 2023–26 (record) vs 1–4% under Clark; 14 of the coalition's first 16 Acts; a rise under both parties since 2017
 
 ---
 
@@ -103,6 +104,9 @@ Analyze NZ polling data to find predictors and correlates of polling shifts usin
 | `reports/national_luxon_mood_chart.py` | Listener chart: National, Luxon pref PM, right/wrong direction 2021–26 | Complete |
 | `reports/national_slumps_brief.md` | Column brief: autumn 2024, 2026 fuel shocks, mood→vote model | Complete |
 | `reports/structural_flaws_brief.md` | Column brief: structural flaws (one chamber, payroll vote, urgency, coalition deals, 4-yr term, centralisation) | Complete |
+| `urgency_fetch.py` | legislation.govt.nz legislative history for every public Act 1999–2026 (cached in `raw_data/legislation_history/`) | Complete |
+| `urgency_analysis.py` | Acts skipping select committee by Parliament → `data/acts_legislative_history.csv`, `reports/urgency_by_parliament.csv` | Complete |
+| `reports/urgency_chart.py` | Listener chart: share of Acts skipping select committee, 2000–2026 | Complete |
 | `data/right_wrong_direction_2026.csv` | Right/wrong direction polls Nov 2023–Oct 2026 (from cached Wikipedia page) | Complete |
 | `reports/adversarial_critique.md` | Systematic critique of methodology and findings | Complete |
 | `reports/rebuttal.md` | Response to adversarial critique | Complete |
